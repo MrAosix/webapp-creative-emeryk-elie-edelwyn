@@ -114,11 +114,10 @@ Listez toutes les fins de votre histoire (minimum 3, idéal 4-6):
 
 | Nom | Rôle | Description | Apparaît dans |
 |-----|------|-------------|---------------|
-| [Ex: Dr. Sarah Chen] | Protagoniste | Scientifique brillante mais impulsive | Tous les chapitres |
-| [Ex: Marcus] | Mentor | Professeur sage et prudent | Chapitres 1, 2, 5 |
-| [Ex: L'IA CHRONOS] | Antagoniste | Intelligence artificielle de la machine | Chapitres 3+, certaines fins |
-| | | | |
-| | | | |
+| David | Protagoniste  | Père | Tous les chapitres |
+| Aurora | Personnage Pivot | Fille | Tous les chapitres |
+| Gerald | Figurant | Vieux monsieur dans la cabane | Chapitre 5 |
+
 
 ### 2.6 Système de conséquences
 
