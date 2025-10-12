@@ -11,7 +11,7 @@
 - Émeryk - Données / Système
 
 *Date de début:* 12 Octobre 2025  
-*Date de livraison finale:* 10 Décembre 2025 
+*Date de livraison finale:* 10 Décembre 2025    
 *Version du document:* 1.0
 
 
