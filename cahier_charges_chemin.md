@@ -66,7 +66,7 @@ Minimum 8 niveaux (chapitres/scènes). Listez-les avec leurs informations:
 | Acte 1 Chapitre 1 | [En Route] | Linéaire | Introduction des personnages et du contexte | Aucun (intro) | N/A |
 | Acte 1 Chapitre 2 | [Préparation] | Choix Linéaire | Choisir les objets pour la randonnée | 8 choix d'objets, mais 4 possible à choisir | Détermine 1 des fins |
 | Acte 2 Chapitre 1 | [Le Chemin] | Choix | Choisir le chemin à prendre | 2 choix: gauche ou droite | Branche A ou B |
-| Acte 2 Chapitre 2 Branche A | [La Bête] | Choix | Choisir comment réagir avec l'animal | 3 choix: L'approcher, Rien faire, Le Chasser | Branche AA ou AB ou AC |
+| Acte 2 Chapitre 2 Branche A | NOMCHAPITRE | Choix | Choisir comment réagir avec l'animal | 3 choix: L'approcher, Rien faire, Le Chasser | Branche AA ou AB ou AC |
 | Acte 2 Chapitre 3 Branche AA | [La Bête] | Choix | Choisir comment réagir avec l'animal | 3 choix: L'approcher, Rien faire, Le Chasser | Branche AA ou AB ou AC |
 | Acte 2 Chapitre 3 Branche AB | [La Bête] | Choix | Choisir comment réagir avec l'animal | 3 choix: L'approcher, Rien faire, Le Chasser | Branche AA ou AB ou AC |
 | Acte 2 Chapitre 3 Branche AC | [La Bête] | Choix | Choisir comment réagir avec l'animal | 3 choix: L'approcher, Rien faire, Le Chasser | Branche AA ou AB ou AC |
@@ -88,11 +88,9 @@ Minimum 8 niveaux (chapitres/scènes). Listez-les avec leurs informations:
 | Acte 2 Chapitre 4 Branche BCA | [La Bête] | Choix | Choisir comment réagir avec l'animal | 3 choix: L'approcher, Rien faire, Le Chasser | Branche AA ou AB ou AC |
 | Acte 2 Chapitre 4 Branche BCB | [La Bête] | Choix | Choisir comment réagir avec l'animal | 3 choix: L'approcher, Rien faire, Le Chasser | Branche AA ou AB ou AC |
 | Acte 2 Chapitre 5 | [La Bête] | Choix | Choisir comment réagir avec l'animal | 3 choix: L'approcher, Rien faire, Le Chasser | Branche AA ou AB ou AC |
-| Acte 3 Branche A | [La Bête] | Choix | Choisir comment réagir avec l'animal | 3 choix: L'approcher, Rien faire, Le Chasser | Branche AA ou AB ou AC |
-| Acte 3 Branche B | [La Bête] | Choix | Choisir comment réagir avec l'animal | 3 choix: L'approcher, Rien faire, Le Chasser | Branche AA ou AB ou AC |
-| Acte 3 Branche BA | [La Bête] | Choix | Choisir comment réagir avec l'animal | 3 choix: L'approcher, Rien faire, Le Chasser | Branche AA ou AB ou AC |
-| Acte 3 Branche BB | [La Bête] | Choix | Choisir comment réagir avec l'animal | 3 choix: L'approcher, Rien faire, Le Chasser | Branche AA ou AB ou AC |
-| Acte 3 Branche BAA | [La Bête] | Choix | Choisir comment réagir avec l'animal | 3 choix: L'approcher, Rien faire, Le Chasser | Branche AA ou AB ou AC |
+| Acte 3 | [Décision] | Choix | Choisir de grimper la montagne ou pas | 2 choix: Grimper ou retourner en arrière | Branche A (Fin 1) ou Branche B (Continuation) |
+| Acte 3 Branche B | [La montagne] | Choix | En grimpant la montagne, il y aura une inconvénience surprise dont tu auras besoin d'un objet crucial | 2 choix: Utiliser la corde ou ne pas utiliser la corde | Branche BA (Continuation), Branche BB (Fin 2) |
+| Acte 3 Branche BA | [La fin?] | Choix | Au sommet de la montagne, tu retournes pour voir...  | 4 choix progression | Branche BAA (Fin 3), Branche BAB (Fin 4), Branche BAC (Fin 5), Branche BAD (Fin 6) |
 
 
 ### 2.4 Fins possibles
