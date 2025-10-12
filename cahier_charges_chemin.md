@@ -83,7 +83,7 @@ Tout au long de la randonnée, une série de choix semi-importants s’offre au 
 | Acte 2 Chapitre 3 Branche BC | [Bête Abattue] | Choix | Choisir quoi faire avec la bête morte | 2 choix: Le laisser et partir, Rester et le manger | Branche BCA ou BCB |
 | Acte 2 Chapitre 4 Branche BCA | [Ruisseau] | Linéaire | Vous voyez un ruisseau d'eau et buvez un peu | Aucun | Chapitre 5 |
 | Acte 2 Chapitre 4 Branche BCB | [Fuite] | Choix Linéaire | Une bête vous effraient et partez rapidement | Choix entre 2 objets sur 4 à garder | Chapitre 5 |
-| Acte 2 Chapitre 5 Branche B | [Conversation] | Choix Linéaire | Choisir quoi faire avec le buisson rempli de baies | 2 choix: Prendre des baies, Ignorer le buisson | Acte 3 |
+| Acte 2 Chapitre 5 Branche B | [Le Buisson] | Choix Linéaire | Choisir quoi faire avec le buisson rempli de baies | 2 choix: Prendre des baies, Ignorer le buisson | Acte 3 |
 | Acte 3 | [Décision] | Choix | Choisir de grimper la montagne ou pas | 2 choix: Grimper ou retourner en arrière | Branche A (Fin 1) ou Branche B (Continuation) |
 | Acte 3 Branche B | [La montagne] | Choix | En grimpant la montagne, il y aura une inconvénience surprise dont tu auras besoin d'un objet crucial | 2 choix: Utiliser la corde ou ne pas utiliser la corde | Branche BA (Continuation), Branche BB (Fin 2) |
 | Acte 3 Branche BA | [La fin?] | Choix | Au sommet de la montagne, tu retournes pour voir...  | 4 choix progression | Branche BAA (Fin 3), Branche BAB (Fin 4), Branche BAC (Fin 5), Branche BAD (Fin 6) |
