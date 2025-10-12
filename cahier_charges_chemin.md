@@ -47,35 +47,14 @@ Au fur et à mesure des boucles, l’histoire révèle progressivement que David
 
 ### 2.1 Synopsis détaillé
 
-Racontez votre histoire en 1-2 paragraphes (sans spoiler les fins):
+Par un matin d’automne au début des années 2000, David, un père de 39 ans, et sa fille de 14 ans Aurora prennent la route à bord de leur vieux camion en direction d’un sentier de montagne isolé. Malgré une météo orageuse annoncée et un ciel déjà chargé de nuages menaçants, ils décident de maintenir leur sortie et de tenter l’ascension coûte que coûte, convaincus que tout ira bien. La lumière orangée filtrant à travers la brume et la radio grésillante instaurent une atmosphère à la fois familière et inquiétante. Une fois arrivés au point de départ, le joueur doit choisir quels objets emporter: lampe, corde, trousse de secours, etc.  des décisions qui paraissent anodines mais influenceront subtilement la suite du parcours. Le sentier se divise ensuite en plusieurs chemins, par exemple une piste forestière tranquille, un sentier rocailleux plus risqué, etc...
 
-[Écrivez votre synopsis ici]
+Tout au long de la randonnée, une série de choix semi-importants s’offre au joueur : aider ou ignorer une personne croisée, explorer une cabane abandonnée ou poursuivre la marche, suivre l’élan d’Aurora ou la retenir par prudence. Ces décisions façonnent la dynamique entre le père et la fille, leur préparation et l’ambiance générale jusqu’à l’arrivée au pied de la montagne. Là, malgré les conditions météorologiques de plus en plus dangereuses, le choix décisif de gravir ou non la paroi est proposé, déclenchant différentes fins influencées par le chemin parcouru et les actions passées. Et pour ceux qui atteignent une fin particulière puis décident de rejouer sur la même sauvegarde, une fin secrète se débloque, révélant une dimension supplémentaire à cette journée qui semble condamnée à se répéter.
 
 ### 2.2 Arbre narratif
 
 Dessinez ou décrivez l'arbre de décisions de votre histoire:
 
-*Structure globale:*
-
-- *Acte 1:* Introduction (1-2 chapitres linéaires)
-- *Acte 2:* Développement avec choix (4-6 chapitres avec branches)
-- *Acte 3:* Climax et résolution (2-3 fins différentes)
-
-*Exemple de structure:*
-
-```
-Chapitre 1 (Intro) → Linéaire
-    ↓
-Chapitre 2 (Premier choix)
-    ↓                    ↓
-Branche A            Branche B
-    ↓                    ↓
-Chapitre 3A          Chapitre 3B
-    ↓                    ↓
-Choix majeur         Choix majeur
-    ↓       ↓           ↓       ↓
-Fin 1    Fin 2        Fin 3    Fin 4
-```
 
 ### 2.3 Liste des chapitres/scènes
 
@@ -85,11 +64,11 @@ Minimum 8 niveaux (chapitres/scènes). Listez-les avec leurs informations:
 
 | # | Nom du chapitre | Type | Description courte | Choix proposés | Conséquences |
 |---|----------------|------|-------------------|----------------|--------------|
-| 1 | [Le Réveil] | Linéaire | Introduction du personnage et du contexte | Aucun (intro) | N/A |
-| 2 | [La Découverte] | Choix | Découverte de la machine temporelle | 2 choix: "Activer" ou "Rapporter" | Branche A ou B |
-| 3A | [Premier Voyage] | Choix | Voyage dans le passé | 3 choix d'époque | Impact sur suite |
-| 3B | [L' Enquête] | Linéaire | Investigation scientifique | Aucun | Progression histoire |
-| 4 | | | | | |
+| 1 | [En Route] | Linéaire | Introduction du personnage et du contexte | Aucun (intro) | N/A |
+| 2 | [Préparation] | Choix | Choisir les objets pour la randonnée | 8 choix d'objets, mais 4 possible à choisir | Détermine 1 des fins |
+| 3 | [Le Chemin] | Choix | Choisir le chemin à prendre | 2 choix: gauche ou droite | Chemin A ou B |
+| 4A | [L' Enquête] | Choix | Investigation scientifique | Aucun | Progression histoire |
+| 4B | | | | | |
 | 5 | | | | | |
 | 6 | | | | | |
 | 7 | | | | | |
