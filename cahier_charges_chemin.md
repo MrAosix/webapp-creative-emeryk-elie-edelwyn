@@ -29,21 +29,19 @@ Au fur et à mesure des boucles, l’histoire révèle progressivement que David
 
 ### 1.2 Public cible
 
-- *Âge:* [ex: 16-35 ans]
-- *Profil:* [ex: Amateurs de récits interactifs, fans de sci-fi]
-- *Niveau technique:* [ex: Utilisateurs grand public]
-- *Temps de lecture estimé:* [ex: 20-45 minutes pour une partie complète]
+- *Âge:* 18-40 ans
+- *Profil:* Les amateurs d'horreur psychologique, les parents
+- *Niveau technique:* Utilisateurs grand public
+- *Temps de lecture estimé:* 15-30 minutes
 
 ### 1.3 Objectifs du projet
 
-- [ ] Créer une expérience narrative immersive et émotionnelle
-- [ ] Développer un système de choix avec conséquences réelles
-- [ ] Implémenter un système de sauvegarde de progression
-- [ ] Démontrer la maîtrise de Vue.js, GSAP et Pinia
-- [ ] Créer une interface accessible et responsive
-- [ ] [Autre objectif spécifique]
-
-
+- [x] Créer une expérience narrative immersive et émotionnelle
+- [x] Développer un système de choix avec conséquences réelles
+- [x] Implémenter un système de sauvegarde de progression
+- [x] Démontrer la maîtrise de Vue.js, GSAP et Pinia
+- [x] Créer une interface accessible et responsive
+- [x] Créer une histoire qui résonne avec les parents
 
 ## 📖 2. Architecture Narrative
 
