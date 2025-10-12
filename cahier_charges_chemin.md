@@ -53,7 +53,7 @@ Tout au long de la randonnée, une série de choix semi-importants s’offre au 
 
 ### 2.2 Arbre narratif
 
-![Arbre](/img/arbres_choix.png)
+![Arbre](/medias/arbres_choix.png)
 
 ### 2.3 Liste des chapitres/scènes
 
