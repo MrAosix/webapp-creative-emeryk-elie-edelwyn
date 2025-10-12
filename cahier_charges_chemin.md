@@ -53,8 +53,7 @@ Tout au long de la randonnée, une série de choix semi-importants s’offre au 
 
 ### 2.2 Arbre narratif
 
-Dessinez ou décrivez l'arbre de décisions de votre histoire:
-
+![Arbre](/img/liste_chemins.png)
 
 ### 2.3 Liste des chapitres/scènes
 
