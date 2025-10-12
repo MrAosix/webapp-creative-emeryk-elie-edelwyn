@@ -99,16 +99,14 @@ Minimum 8 niveaux (chapitres/scènes). Listez-les avec leurs informations:
 
 Listez toutes les fins de votre histoire (minimum 3, idéal 4-6):
 
-<small>(les noms des fins énoncées ici ne sont que des exemples)</small>
-
 | # | Nom de la fin | Condition pour l'atteindre | Type (bonne/mauvaise/neutre) |
 |---|--------------|---------------------------|------------------------------|
-| 1 | [Fin Héroïque] | Avoir fait 3+ choix altruistes | Bonne |
-| 2 | [Fin Sombre] | Avoir fait 3+ choix égoïstes | Mauvaise |
-| 3 | [Fin Paradoxale] | Avoir créé un paradoxe temporel | Neutre/Spéciale |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
+| 1 | [Prudence] | Par choix (Aucun Requis) | Neutre |
+| 2 | [Chute Finale] | Monter la montagne, mais manque un objet | Mauvaise |
+| 3 | [Déni] | Monter la montagne, avoir l'objet | Neutre |
+| 4 | [Marchandage] | Monter la montagne, avoir l'objet, avoir fait la fin "Deni" | Neutre |
+| 5 | [Resignation] | Monter la montagne, avoir l'objet, avoir fait la fin "Deni" et "Marchandage" | Mauvaise |
+| 6 | [Acceptance] | Monter la montagne, avoir l'objet, avoir fait la fin "Deni" et "Marchandage" | Bonne |
 
 ### 2.5 Personnages principaux
 
@@ -123,27 +121,25 @@ Listez toutes les fins de votre histoire (minimum 3, idéal 4-6):
 
 Comment les choix influencent l'histoire?
 
+- Le choix d'objets (inventaire) force des chemins différents et peuvent éventuellement amener à être forcé d'avoir une des fins possibles
+- Les chemins et les choix en randonnées changent l'histoire durant l'acte 2, mais la majorité ne change rien de permanant
+- Les choix à l'acte 3 décident de la fin
+
 *Mécanisme choisi:*
 
 - [ ] *Système de karma/moralité* (points bons/mauvais)
 - [ ] *Stats du personnage* (courage, intelligence, empathie)
-- [ ] *Inventaire d'objets* (collecte d'items)
+- [x] *Inventaire d'objets* (collecte d'items)
 - [ ] *Relations avec personnages* (affinités)
-- [ ] *Flags de choix* (choix X débloque scène Y)
-- [ ] *Combinaison de plusieurs systèmes*
+- [x] *Flags de choix* (choix X débloque scène Y)
+- [x] *Combinaison de plusieurs systèmes*
 
 *Exemple de tracking:*
 ```javascript
 playerState: {
-  karma: 0,  // -10 à +10
-  inventory: ['clé', 'journal'],
-  relationships: {
-    marcus: 5,  // 0 à 10
-    chronos: -3
-  },
+  inventory: ['Corde', 'Lampe', 'Carabine'],
   flags: {
-    hasActivatedMachine: true,
-    knowsTheSecret: false
+    hasUnlockedSecretEnding: true,
   }
 }
 ```
