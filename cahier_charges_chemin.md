@@ -2,7 +2,7 @@
 
 ## 📌 Informations du Projet
 
-*Nom du projet:* Dernier Souvenir
+*Nom du projet:* Dernier Souvenir    
 *Nom de l'équipe:* Les Triples E  
 *Membres:*
 
