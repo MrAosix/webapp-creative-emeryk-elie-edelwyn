@@ -2,17 +2,16 @@
 
 ## 📌 Informations du Projet
 
-*Nom du projet:* [Nom de votre musée]  
-*Nom de l'équipe:* [Nom de votre équipe]  
+*Nom du projet:* Dernier Souvenir
+*Nom de l'équipe:* Les Triples E  
 *Membres:*
 
-- [Nom] - Chef de projet / [Rôle principal]
-- [Nom] - [Rôle principal]
-- [Nom] - [Rôle principal]
-- [Nom] - [Rôle principal] (si équipe de 4)
+- Elie Daher - Chef de projet / Architecture
+- Edelwyn - Design / Animations
+- Émeryk - Données / Système
 
-*Date de début:* [Date]  
-*Date de livraison finale:* [Date]  
+*Date de début:* 12 Octobre 2025  
+*Date de livraison finale:* 10 Décembre 2025 
 *Version du document:* 1.0
 
 
@@ -20,21 +19,13 @@
 
 ### 1.1 Concept général
 
-!!! tip "Phase de création"
-    (Ce paragraphe "Conseil" devra être retiré du Cahier de charge final)
-    Pour développer votre concept général, vous devez faire une session de remue-méninges (*brainstorm*) en équipe via *Figjam* avec une carte conceptuelle (*mindmap*) ou encore par la création collaborative et spontanée via des *post-it* individuels et groupés. Il est possible d'utiliser d'autres procédés de création. Vous devrez partager votre processus de création (*brainstorm*) avec votre enseignante. Si c'est virtuel, partagez le lien. Si c'est papier ou sur tableau blanc, veuillez partager une ou des photographie(s) de votre processus.
+[Lien Figjam](https://www.figma.com/board/P8qWF9ylk7jzPdJ829fRMf/Untitled?node-id=7-1918&t=iv6g1hJCntBhhBCC-0)
 
+L’histoire s’ouvre dans l’habitacle d’un vieux camion, tôt le matin, alors que David conduit avec sa fille Aurora vers une zone de randonnée isolée au cœur d’une chaîne montagneuse. La lumière dorée de l’automne filtre à travers les arbres et la radio diffuse une musique légèrement brouillée par l’électricité statique. C’est une sortie qui devait être paisible, une tradition familiale… mais quelque chose dans l’air est lourd, presque électrique. Une tempête imprévisible se profile à l’horizon, et David choisit malgré tout de continuer la route, persuadé que tout ira bien.
 
-Décrivez en 2-3 paragraphes le concept de votre histoire interactive:
+Au fil de l’exploration, le joueur devra choisir quel matériel emporter avant de quitter le camion — sans savoir que ces objets auront une importance cruciale plus tard (corde, lampe, nourriture, carte, trousse de secours, etc.). Ces choix influenceront la difficulté et la nature des événements qui se dérouleront pendant l’ascension. À mesure qu’ils progressent sur le sentier, la météo se dégrade soudainement, transformant une simple randonnée en un piège naturel et psychologique. Les repères disparaissent, les sons se déforment, et des visions troublantes commencent à hanter David.
 
-- Quel est le genre narratif? (fantastique, sci-fi, mystère, aventure, etc.)
-- Quelle est l'histoire principale?
-- Qui est le personnage principal?
-- Quel est le mécanisme de choix? (décisions morales, énigmes, actions, etc.)
-
-*Exemple (interdit de prendre l'exemple comme histoire pour votre projet):*
-> "Les Échos du Temps" est une histoire interactive de science-fiction où le joueur incarne un scientifique qui découvre une machine à voyager dans le temps. Chaque décision modifie le cours de l'histoire et peut créer des paradoxes temporels. L'utilisateur doit faire des choix difficiles qui influencent non seulement sa propre destinée, mais aussi celle de l'humanité. Le système de branches permet 6 fins différentes selon les décisions prises.
-
+Au fur et à mesure des boucles, l’histoire révèle progressivement que David n’est pas une simple victime de la montagne, mais qu’il porte en lui une culpabilité profonde liée à un accident tragique : c’est lui qui a insisté pour faire cette ascension malgré les signes évidents de danger, menant à la chute mortelle de sa fille. La montagne agit comme un espace mental surnaturel, forçant David à revivre la journée encore et encore, peu importe les choix, pour l’amener à affronter sa responsabilité. Le message est clair : on ne peut pas échapper à son destin, seulement l’accepter ou s’y perdre.
 
 ### 1.2 Public cible
 
