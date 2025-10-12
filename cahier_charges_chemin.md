@@ -81,7 +81,6 @@ Tout au long de la randonnée, une série de choix semi-importants s’offre au 
 | Acte 2 Chapitre 3 Branche BB | [Repos] | Linéaire | Les 2 décide de s'arrêter et de profiter de la nature pendant un certain temps | Aucun | Branche BBA |
 | Acte 2 Chapitre 4 Branche BBA | [Perdu] | Choix Linéaire | Si ont la carte ou pas, change le texte | Carte ou pas | Chapitre 5 |
 | Acte 2 Chapitre 3 Branche BC | [Bête Abattue] | Choix | Choisir quoi faire avec la bête morte | 2 choix: Le laisser et partir, Rester et le manger | Branche BCA ou BCB |
-| Acte 2 Chapitre 4 Branche BCA | [Mauvais Dialogue] | Linéaire | Marche avec sa fille, mais elle est faché | Aucun | Chapitre 5 |
 | Acte 2 Chapitre 4 Branche BCA | [Ruisseau] | Linéaire | Vous voyez un ruisseau d'eau et buvez un peu | Aucun | Chapitre 5 |
 | Acte 2 Chapitre 4 Branche BCB | [Fuite] | Choix Linéaire | Une bête vous effraient et partez rapidement | Choix entre 2 objets sur 4 à garder | Chapitre 5 |
 | Acte 2 Chapitre 5 Branche B | [Conversation] | Choix Linéaire | Choisir quoi faire avec le buisson rempli de baies | 2 choix: Prendre des baies, Ignorer le buisson | Acte 3 |
