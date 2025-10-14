@@ -502,13 +502,13 @@ Comment stockez-vous les chapitres et choix?
 
 ### 6.2 Écrans principaux à maquetter
 
-- [ ] Menu principal (nouvelle partie, charger, options)
-- [ ] Écran de chapitre avec texte narratif
-- [ ] Panel de choix (2-4 options)
-- [ ] Inventaire/Stats (si applicable)
-- [ ] Écran de fin avec récapitulatif
-- [ ] Gestion des sauvegardes (3 slots)
-- [ ] Version mobile d'au moins 2-3 écrans
+- [x] Menu principal (nouvelle partie, charger, options)
+- [x] Écran de chapitre avec texte narratif
+- [x] Panel de choix (2-4 options)
+- [x] Inventaire/Stats (si applicable)
+- [x] Écran de fin avec récapitulatif
+- [x] Gestion des sauvegardes (3 slots)
+- [x] Version mobile d'au moins 2-3 écrans
 
 ### 6.3 Interactions clés à maquetter
 
@@ -555,45 +555,45 @@ Comment stockez-vous les chapitres et choix?
 
 ### 8.1 Critères techniques
 
-- [ ] Application Vue.js fonctionnelle sans erreurs console
-- [ ] Minimum 8 composants Vue bien structurés
-- [ ] Vue Router avec 5+ routes
-- [ ] Pinia implémenté avec state management cohérent
-- [ ] CSS organisé avec variables
-- [ ] Animations GSAP fluides
-- [ ] Système de sauvegarde fonctionnel
-- [ ] Code validé (ESLint)
-- [ ] Responsive sur 3 breakpoints
-- [ ] Accessibilité WCAG AA
+- [x] Application Vue.js fonctionnelle sans erreurs console
+- [x] Minimum 8 composants Vue bien structurés
+- [x] Vue Router avec 5+ routes
+- [x] Pinia implémenté avec state management cohérent
+- [x] CSS organisé avec variables
+- [x] Animations GSAP fluides
+- [x] Système de sauvegarde fonctionnel
+- [x] Code validé (ESLint)
+- [x] Responsive sur 3 breakpoints
+- [x] Accessibilité WCAG AA
 
 ### 8.2 Critères narratifs
 
-- [ ] Histoire cohérente du début à la fin
-- [ ] Minimum 8 chapitres/scènes
-- [ ] Au moins 3 fins différentes
-- [ ] Choix ayant un impact réel sur l'histoire
-- [ ] Aucune faute d'orthographe majeure
-- [ ] Dialogues naturels et crédibles
-- [ ] Rythme narratif bien dosé
+- [x] Histoire cohérente du début à la fin
+- [x] Minimum 8 chapitres/scènes
+- [x] Au moins 3 fins différentes
+- [x] Choix ayant un impact réel sur l'histoire
+- [x] Aucune faute d'orthographe majeure
+- [x] Dialogues naturels et crédibles
+- [x] Rythme narratif bien dosé
 
 ### 8.3 Critères de qualité
 
-- [ ] Interface intuitive et facile à utiliser
-- [ ] Design cohérent et esthétique
-- [ ] Lisibilité du texte (taille, contraste, police)
-- [ ] Animations pertinentes (pas excessives)
-- [ ] Temps de chargement < 2 secondes
-- [ ] Aucun bug bloquant
-- [ ] Musique/sons appropriés
-- [ ] Documentation complète (README)
+- [x] Interface intuitive et facile à utiliser
+- [x] Design cohérent et esthétique
+- [x] Lisibilité du texte (taille, contraste, police)
+- [x] Animations pertinentes (pas excessives)
+- [x] Temps de chargement < 2 secondes
+- [x] Aucun bug bloquant
+- [x] Musique/sons appropriés
+- [x] Documentation complète (README)
 
 ### 8.4 Critères créatifs
 
-- [ ] Histoire originale et engageante
-- [ ] Personnages mémorables
-- [ ] Twist ou surprise dans l'intrigue
-- [ ] Expérience émotionnelle impactante
-- [ ] Rejouabilité (envie de tester d'autres chemins)
+- [x] Histoire originale et engageante
+- [x] Personnages mémorables
+- [x] Twist ou surprise dans l'intrigue
+- [x] Expérience émotionnelle impactante
+- [x] Rejouabilité (envie de tester d'autres chemins)
 
 
 ## 📅 9. Calendrier du projet: Planning prévisionnel
@@ -765,10 +765,9 @@ Comment stockez-vous les chapitres et choix?
 
 *Signatures:*
 
-- Chef de projet: _______________
-- Membre 2: _______________
-- Membre 3: _______________
-- Membre 4: _______________ (si applicable)
+- Chef de projet: Elie    
+- Membre 2: Edelwyn    
+- Membre 3: Émeryk    
 
 *Validation enseignant:* _______________  
 *Date:* _______________  
