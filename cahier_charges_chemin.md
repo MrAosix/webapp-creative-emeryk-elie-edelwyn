@@ -3,7 +3,7 @@
 ## 📌 Informations du Projet
 
 *Nom du projet:* Dernier Souvenir    
-*Nom de l'équipe:* Les Triples E  
+*Nom de l'équipe:* Les Triples E    
 *Membres:*
 
 - Elie Daher - Chef de projet / Architecture
@@ -142,35 +142,18 @@ playerState: {
 
 Insérez ici 3-5 images d'inspiration (ou liens):
 
-- [Image 1: Ambiance générale]
-- [Image 2: Style visuel des personnages]
-- [Image 3: Palette de couleurs]
-- [Image 4: Typographie inspirante]
-- [Image 5: Animations de référence]
+![Moodboard](/medias/moodboard_dernier_souvenir.png)
 
 ### 3.2 Palette de couleurs
 
 *Couleurs par ambiance/chapitre:*
-
-- *Chapitres introduction:* [#F19256] - Tons neutres
-- *Chapitres tension:* [#F7853D] - Tons sombres/dramatiques
-- *Chapitres espoir:* [#FFF599]- Tons clairs/lumineux
-- *Chapitres danger:* [#F06D61] - Rouge/orange
-
 *Couleurs système:*
 
-- Primaire (actions principales): [#F19256]
-- Secondaire (choix): [#FFC973]
-- Succès: [#789867]
-- Danger: [#F06D61]
-- Neutre: [#FFF599]
+![Moodboard](/medias/palette_couleur_type_dernier_souvenir.png)
 
 ### 3.3 Typographie
 
-- *Titres narratifs:* VIPER NORA - [Lien Google Fonts]
-- *Texte de narration:* f25 Executive - Lisible, serif ou sans-serif
-- *Dialogues:* Averia serif - Différencié du texte narratif
-- *Boutons de choix:* Sebastien Slab Round - Bold, impactant
+![Moodboard](/medias/palette_couleur_type_dernier_souvenir.png)
 
 ### 3.4 Style visuel
 
@@ -186,34 +169,34 @@ Choisissez un ou plusieurs styles:
 
 | Chapitre | Image de fond | Effets visuels | Sons/musique |
 |----------|---------------|----------------|--------------|
-| Acte 1 Chapitre 1 | Les 2 personnages dans l'auto | Fade in progressif | Musique douce, intro |
-| Acte 1 Chapitre 2 | le coffre de l'auto avec les items | Fade in progressif | Musique douce |
-| Acte 2 Chapitre 1 | 2 chemins : 1 à gauche, 1 à droite, dans la forêt aux couleurs d'automne | Fade in progressif  | Musique douce |
-| Acte 2 Chapitre 2 Branche A | Un arbre massif bloque complètement le sentier | Fade in progressif  | Musique douce |
-| Acte 2 Chapitre 3 Branche AA | Vieux pont suspendu au dessus d'un ravin | Fade in progressif  | Musique douce |
-| Acte 2 Chapitre 4 Branche AAA | continuité du sentier | Fade in progressif  | Musique douce |
-| Acte 2 Chapitre 4 Branche AAB | continuité du sentier | Fade in progressif  | Musique douce |
-| Acte 2 Chapitre 3 Branche AB | clarière un peu romanesque avec les couleurs d'autonmes | Fade in progressif  | Musique douce |
-| Acte 2 Chapitre 4 Branche ABA | Sentier boueux | Fade in progressif  | Musique douce |
-| Acte 2 Chapitre 3 Branche AC | Sentier brumeux | Fade in progressif  | Musique légèrement mystérieuse |
-| Acte 2 Chapitre 4 Branche ACA | Sentier irrégulier/rocheux | Fade in progressif  | Musique douce |
-| Acte 2 Chapitre 4 Branche ACB | Sentier brumeux | Fade in progressif  | Musique légèrement tendue |
-| Acte 2 Chapitre 5 Branche A |  Sentier avec une cabine pas très loin | Fade in progressif  | Musique douce |
-| Acte 2 Chapitre 6 Branche AA | Sentier avec une pente qui monte | Fade in progressif  | Musique douce |
-| Acte 2 Chapitre 6 Branche AB | Sentier avec des grands arbres | Fade in progressif  | Musique douce |
-| Acte 2 Chapitre 2 Branche B | Sentier avec une bête | Fade in progressif  | Musique légèrement intense/sur nos gardes |
-| Acte 2 Chapitre 3 Branche BA | Continuité du sentier | Fade in progressif  | Ambiance un peu sérieuse |
-| Acte 2 Chapitre 4 Branche BAA | Continuité du sentier | Fade in progressif  | Ambiance un peu sérieuse |
-| Acte 2 Chapitre 4 Branche BAB | Continuité du sentier | Fade in progressif  | Ambiance joyeuse |
-| Acte 2 Chapitre 3 Branche BB | Fond de forêt | Fade in progressif  | Ambiance douce |
-| Acte 2 Chapitre 4 Branche BBA | Continuité du sentier |   Fade in progressif  | Ambiance douce |
-| Acte 2 Chapitre 3 Branche BC | fond avec la bête abbatue |  Fade in progressif  | Ambiance un peu sérieuse |
-| Acte 2 Chapitre 4 Branche BCA | Fond de la forêt avec un ruisseau | Fade in progressif  | Ambiance douce |
-| Acte 2 Chapitre 4 Branche BCB | fond qui bouge rapidement | Fade in rapide  | Ambiance intense |
-| Acte 2 Chapitre 5 Branche B | sentier avec un buisson de baies | Fade in progressif  | Ambiance douce |
-| Acte 3 |  fond avec un mur de roche (la montagne) | Fade in progressif  | Ambiance douce |
-| Acte 3 Branche B | fond avec un mur d'escalade (la montagne) | Fade in progressif  | Ambiance un peu sérieuse |
-| Acte 3 Branche BA | fond vue du sommet de la montagne | Fade in progressif  | Ambiance douce puis sérieuse |
+| Acte 1 Chapitre 1 | Les 2 personnages dans l'auto | Fade in progressif | Musique douce, intro, bruit moteur |
+| Acte 1 Chapitre 2 | le coffre de l'auto avec les items | Fade in progressif | Musique douce, bruits de l'item sélectionné |
+| Acte 2 Chapitre 1 | 2 chemins : 1 à gauche, 1 à droite, dans la forêt aux couleurs d'automne | Fade in progressif  | Musique douce, bruit foret |
+| Acte 2 Chapitre 2 Branche A | Un arbre massif bloque complètement le sentier | Fade in progressif  | Musique douce, bruit foret, arbre qui tombe |
+| Acte 2 Chapitre 3 Branche AA | Vieux pont suspendu au dessus d'un ravin | Fade in progressif  | Musique douce, bruit de vent |
+| Acte 2 Chapitre 4 Branche AAA | continuité du sentier | Fade in progressif  | Musique douce, bruit foret |
+| Acte 2 Chapitre 4 Branche AAB | continuité du sentier | Fade in progressif  | Musique douce, bruit foret |
+| Acte 2 Chapitre 3 Branche AB | clarière un peu romanesque avec les couleurs d'automnes | Fade in progressif  | Musique douce, bruits de vent |
+| Acte 2 Chapitre 4 Branche ABA | Sentier boueux | Fade in progressif  | Musique douce, bruit foret, bruits de boue |
+| Acte 2 Chapitre 3 Branche AC | Sentier brumeux | Fade in progressif  | Musique légèrement mystérieuse, bruit foret étouffé |
+| Acte 2 Chapitre 4 Branche ACA | Sentier irrégulier/rocheux | Fade in progressif  | Musique douce, bruit ambiants |
+| Acte 2 Chapitre 4 Branche ACB | Sentier brumeux | Fade in progressif  | Musique légèrement tendue, bruit ambiants étouffé |
+| Acte 2 Chapitre 5 Branche A | Sentier avec une cabine pas très loin | Fade in progressif  | Musique douce, bruits foret |
+| Acte 2 Chapitre 6 Branche AA | Sentier avec une pente qui monte | Fade in progressif  | Musique douce, bruits foret |
+| Acte 2 Chapitre 6 Branche AB | Sentier avec des grands arbres | Fade in progressif  | Musique douce, bruits foret |
+| Acte 2 Chapitre 2 Branche B | Sentier avec une bête | Fade in progressif  | Musique légèrement intense/sur nos gardes, bruits foret, bruits d'animal/pas |
+| Acte 2 Chapitre 3 Branche BA | Continuité du sentier | Fade in progressif  | Ambiance un peu sérieuse, bruits foret |
+| Acte 2 Chapitre 4 Branche BAA | Continuité du sentier | Fade in progressif  | Ambiance un peu sérieuse, bruits foret |
+| Acte 2 Chapitre 4 Branche BAB | Continuité du sentier | Fade in progressif  | Ambiance joyeuse, bruits foret |
+| Acte 2 Chapitre 3 Branche BB | Fond de forêt | Fade in progressif  | Ambiance douce, bruits foret |
+| Acte 2 Chapitre 4 Branche BBA | Continuité du sentier |   Fade in progressif  | Ambiance douce, bruits foret |
+| Acte 2 Chapitre 3 Branche BC | fond avec la bête abbatue |  Fade in progressif  | Ambiance un peu sérieuse, bruits foret |
+| Acte 2 Chapitre 4 Branche BCA | Fond de la forêt avec un ruisseau | Fade in progressif  | Ambiance douce, bruits foret, bruits eau |
+| Acte 2 Chapitre 4 Branche BCB | fond qui bouge rapidement | Fade in rapide  | Ambiance intense, bruits foret, bruits de pas de course |
+| Acte 2 Chapitre 5 Branche B | sentier avec un buisson de baies | Fade in progressif  | Ambiance douce, bruits foret |
+| Acte 3 | fond avec un mur de roche (la montagne) | Fade in progressif  | Ambiance sérieuse, orage, tonnere, pluie |
+| Acte 3 Branche B | fond avec un mur d'escalade (la montagne) | Fade in progressif  | Ambiance sérieuse, orage, tonnere, pluie |
+| Acte 3 Branche BA | fond vue du sommet de la montagne | Fade in progressif  | musique stop, acouphene |
 
 
 ## 💻 4. Spécifications Techniques
@@ -559,11 +542,11 @@ Comment stockez-vous les chapitres et choix?
 
 *À répartir entre tous:*
 
-- Tests de l'histoire (lecture complète)
-- Correction de fautes et relecture
-- Tests et debugging
-- Documentation du code
-- Présentation finale
+- Tests de l'histoire (lecture complète) - Émeryk, Elie, Edelwyn
+- Correction de fautes et relecture - Edelwyn
+- Tests et debugging - Émeryk
+- Documentation du code - Elie
+- Présentation finale - Émeryk, Elie, Edelwyn
 
 ### 7.3 Outils de collaboration
 
@@ -800,4 +783,4 @@ Comment stockez-vous les chapitres et choix?
 ---
 
 *Version du document cahier de charge:* 1.0  
-*Dernière mise à jour:* [Écrire ici la date]
+*Dernière mise à jour:* 14 Octobre 2025
