@@ -198,8 +198,8 @@ Choisissez un ou plusieurs styles:
 | Acte 2 Chapitre 3 Branche AC | Sentier brumeux | Fade in progressif  | Musique légèrement mystérieuse |
 | Acte 2 Chapitre 4 Branche ACA | Sentier irrégulier/rocheux | Fade in progressif  | Musique douce |
 | Acte 2 Chapitre 4 Branche ACB | Sentier brumeux | Fade in progressif  | Musique légèrement tendue |
-| Acte 2 Chapitre 5 Branche A | [ Sentier avec une cabine pas très loin | Fade in progressif  | Musique douce |
-| Acte 2 Chapitre 6 Branche AA | [Sentier avec une pente | Fade in progressif  | Musique douce |
+| Acte 2 Chapitre 5 Branche A |  Sentier avec une cabine pas très loin | Fade in progressif  | Musique douce |
+| Acte 2 Chapitre 6 Branche AA | Sentier avec une pente qui monte | Fade in progressif  | Musique douce |
 | Acte 2 Chapitre 6 Branche AB | Sentier avec des grands arbres | Fade in progressif  | Musique douce |
 | Acte 2 Chapitre 2 Branche B | Sentier avec une bête | Fade in progressif  | Musique légèrement intense/sur nos gardes |
 | Acte 2 Chapitre 3 Branche BA | Continuité du sentier | Fade in progressif  | Ambiance un peu sérieuse |
@@ -213,31 +213,7 @@ Choisissez un ou plusieurs styles:
 | Acte 2 Chapitre 5 Branche B | sentier avec un buisson de baies | Fade in progressif  | Ambiance douce |
 | Acte 3 |  fond avec un mur de roche (la montagne) | Fade in progressif  | Ambiance douce |
 | Acte 3 Branche B | fond avec un mur d'escalade (la montagne) | Fade in progressif  | Ambiance un peu sérieuse |
-| Acte 3 Branche BA | [La fin?] | Choix | Au sommet de la montagne, tu retournes pour voir...  | 4 choix progression | Branche BAA (Fin 3), Branche BAB (Fin 4), Branche BAC (Fin 5), Branche BAD (Fin 6) || Acte 2 Chapitre 2 Branche A | [L’Arbre Tombé] | Choix | Un arbre massif bloque complètement le sentier | 3 choix : Le contourner par la pente abrupte, Le franchir avec précaution, Chercher un autre passage | Branche AA ou AB ou AC |
-| Acte 2 Chapitre 3 Branche AA | [Le Pont de Bois] | Choix | Vous arrivez devant un vieux pont suspendu au-dessus d’un ravin. Aurora hésite à le traverser | 2 choix: La rassurer et traverser calmement, La presser sans l’écouter | Branche AAA ou AAB |
-| Acte 2 Chapitre 4 Branche AAA | [Pas Légers] | Linéaire | La marche reprend dans une ambiance détendue, Aurora vous sourit. | Aucun | Chapitre 5 |
-| Acte 2 Chapitre 4 Branche AAB | [Silence Tendu] | Linéaire | Vous continuez la marche dans une ambiance froide et tendue. | Aucun | Chapitre 5 |
-| Acte 2 Chapitre 3 Branche AB | [Clairière Étrange] | Linéaire | Vous arrivez dans une clairière silencieuse, recouverte de feuilles orangées. L’air est immobile. | Aucun | Branche ABA |
-| Acte 2 Chapitre 4 Branche ABA | [Terrain Glissant] | Choix Linéaire | Le sentier devient boueux et difficile à distinguer. Si vous avez les bottes, vous trouvez un chemin sûr. Sinon, plus difficle. | Bottes ou pas | Chapitre 5 |
-| Acte 2 Chapitre 3 Branche AC | [Le Brouillard] | Choix | Une épaisse brume s’installe rapidement. Vous perdez un peu vos repères. | 2 choix : Avancer prudemment, Se dépêcher pour la traverser | Branche ACA ou ACB |
-| Acte 2 Chapitre 4 Branche ACA | [Terrain Accidenté] | Linéaire | Le sentier devient de plus en plus irrégulier. Aurora à de la misère à se déplacer. vous avancez jusqu’à retrouver un chemin plus praticable. | Aucun | Chapitre 5 |
-| Acte 2 Chapitre 4 Branche ACB | [Remise en Question] | Linéaire | Alors que vous sortez du brouillard, Aurora brise le silence et remet en question vos décisions depuis le départ. L’atmosphère devient lourde et tendue, mais vous continuez d’avancer côte à côte. | Aucun | Chapitre 5 |
-| Acte 2 Chapitre 5 Branche A | [La Cabane du Vieil Homme] | Choix | Vous rencontrez Gérald, un vieux monsieur vivant seul dans une cabane isolée. Il vous demande de l’aide | 2 choix: l’aider avec une corde (si disponible), l’ignorer | Chapitre 6 Branche AA ou AB |
-| Acte 2 Chapitre 6 Branche AA | [La Pente Difficile] | Linéaire | Après avoir quitté la cabane de Gérald, vous vous engagez sur une longue montée, vous continuez lentement jusqu’à atteindre un plateau surélevé. | Aucun | Acte 3 |
-| Acte 2 Chapitre 6 Branche AB | [La Forêt Silencieuse] | Linéaire | Après avoir quitté la cabane, vous avancez sur un long sentier entouré d’arbres immenses. Le vent fait craquer les branches au-dessus de vous. Aurora se rapproche instinctivement de vous alors que vous vous enfoncez dans la forêt vers la montagne. | Aucun | Acte 3 |
-| Acte 2 Chapitre 2 Branche B | [La Bête] | Choix | Choisir comment réagir avec l'animal | 3 choix: L'approcher, Ignorer et continuer le chemin, Le Chasser (si fusil dans l'inventaire) | Branche BA ou BB ou BC |
-| Acte 2 Chapitre 3 Branche BA | [Conversation Importante] | Choix | Choisir le bon dialogue avec sa fille | 2 choix: Réponse A, Réponse B | Branche BAA ou BAB |
-| Acte 2 Chapitre 4 Branche BAA | [Mauvais Dialogue] | Linéaire | Marche avec sa fille, mais elle est faché | Aucun | Chapitre 5 |
-| Acte 2 Chapitre 4 Branche BAB | [Bon Dialogue] | Linéaire | Marche avec sa fille, mais elle est heureuse | Aucun | Chapitre 5 |
-| Acte 2 Chapitre 3 Branche BB | [Repos] | Linéaire | Les 2 décide de s'arrêter et de profiter de la nature pendant un certain temps | Aucun | Branche BBA |
-| Acte 2 Chapitre 4 Branche BBA | [Perdu] | Choix Linéaire | Si ont la carte ou pas, change le texte | Carte ou pas | Chapitre 5 |
-| Acte 2 Chapitre 3 Branche BC | [Bête Abattue] | Choix | Choisir quoi faire avec la bête morte | 2 choix: Le laisser et partir, Rester et le manger | Branche BCA ou BCB |
-| Acte 2 Chapitre 4 Branche BCA | [Ruisseau] | Linéaire | Vous voyez un ruisseau d'eau et buvez un peu | Aucun | Chapitre 5 |
-| Acte 2 Chapitre 4 Branche BCB | [Fuite] | Choix Linéaire | Une bête vous effraient et partez rapidement | Choix entre 2 objets sur 4 à garder | Chapitre 5 |
-| Acte 2 Chapitre 5 Branche B | [Le Buisson] | Choix Linéaire | Choisir quoi faire avec le buisson rempli de baies | 2 choix: Prendre des baies, Ignorer le buisson | Acte 3 |
-| Acte 3 | [Décision] | Choix | Choisir de grimper la montagne ou pas | 2 choix: Grimper ou retourner en arrière | Branche A (Fin 1) ou Branche B (Continuation) |
-| Acte 3 Branche B | [La montagne] | Choix | En grimpant la montagne, il y aura une inconvénience surprise dont tu auras besoin d'un objet crucial | 2 choix: Utiliser la corde ou ne pas utiliser la corde | Branche BA (Continuation), Branche BB (Fin 2) |
-| Acte 3 Branche BA | [La fin?] | Choix | Au sommet de la montagne, tu retournes pour voir...  | 4 choix progression | Branche BAA (Fin 3), Branche BAB (Fin 4), Branche BAC (Fin 5), Branche BAD (Fin 6) |
+| Acte 3 Branche BA | fond vue du sommet de la montagne | Fade in progressif  | Ambiance douce puis sérieuse |
 
 
 ## 💻 4. Spécifications Techniques
