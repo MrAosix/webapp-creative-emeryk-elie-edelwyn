@@ -384,63 +384,63 @@ Comment stockez-vous les chapitres et choix?
 
 *Obligatoires pour la livraison:*
 
-- [ ] *F1 - Lecture de l'histoire*
+- [x] *F1 - Lecture de l'histoire*
   - Affichage du texte narratif chapitre par chapitre
   - Navigation linéaire dans l'intro
   - Transitions fluides entre chapitres
 
-- [ ] *F2 - Système de choix*
+- [x] *F2 - Système de choix*
   - Affichage de 2-4 choix par chapitre décisionnel
   - Sélection d'un choix
   - Redirection vers le chapitre suivant approprié
   - Minimum 8 chapitres avec au moins 3 fins
 
-- [ ] *F3 - Tracking des conséquences*
+- [x] *F3 - Tracking des conséquences*
   - État du joueur (karma/stats/flags)
   - Mise à jour après chaque choix
   - Conditions pour débloquer fins
 
-- [ ] *F4 - Système de sauvegarde*
+- [x] *F4 - Système de sauvegarde*
   - 3 slots de sauvegarde
   - Sauvegarde manuelle
   - Chargement d'une sauvegarde
   - Affichage des infos de sauvegarde (date, progression)
 
-- [ ] *F5 - Historique des choix*
+- [x] *F5 - Historique des choix*
   - Garder trace des décisions prises
   - Affichage dans un menu (optionnel mais recommandé)
 
-- [ ] *F6 - Écrans de fin*
+- [x] *F6 - Écrans de fin*
   - Affichage de la fin atteinte
   - Récapitulatif des choix faits
   - Option de recommencer ou charger
 
-- [ ] *F7 - Interface responsive*
+- [x] *F7 - Interface responsive*
   - Mobile (320px+)
   - Tablette (768px+)
   - Desktop (1024px+)
 
-- [ ] *F8 - Animations de texte*
+- [x] *F8 - Animations de texte*
   - Apparition progressive du texte (optionnel: effet typewriter)
   - Transitions entre chapitres avec GSAP
 
-- [ ] *F9 - Accessibilité*
+- [x] *F9 - Accessibilité*
   - Navigation au clavier
   - ARIA labels
   - Contraste WCAG AA
   - Option skip animations
 
-- [ ] *F10 - Médias intégrés*
+- [x] *F10 - Médias intégrés*
   - Images de fond par chapitre
   - Musique d'ambiance (avec contrôle volume)
 
 ### 5.2 Fonctionnalités bonus (optionnelles)
 
-- [ ] *B1 - Auto-save*
+- [x] *B1 - Auto-save*
   - Sauvegarde automatique à chaque chapitre
   - Indication visuelle de la sauvegarde
 
-- [ ] *B2 - Inventaire visuel*
+- [x] *B2 - Inventaire visuel*
   - Affichage graphique des items
   - Description des objets au survol
 
@@ -460,7 +460,7 @@ Comment stockez-vous les chapitres et choix?
   - Fast-forward pour texte déjà lu
   - Skip to choice (sauter au prochain choix)
 
-- [ ] *B7 - Effets sonores contextuels*
+- [x] *B7 - Effets sonores contextuels*
   - Sons lors de choix importants
   - Ambiances sonores par scène
 
@@ -494,9 +494,6 @@ Comment stockez-vous les chapitres et choix?
 
 9. *US-09:* En tant qu'utilisateur, je veux contrôler le volume sonore afin d'adapter l'expérience à mon environnement.
 
-10. [Ajoutez vos user stories]
-
-
 ## 📊 6. Maquettes et Wireframes
 
 ### 6.1 Lien vers les maquettes Figma
@@ -528,10 +525,9 @@ Comment stockez-vous les chapitres et choix?
 
 | Membre | Rôle principal | Responsabilités |
 |--------|----------------|-----------------|
-| [Nom] | Chef de projet + Architecture Vue | Coordination, Vue Router, stores Pinia, structure de l'histoire |
-| [Nom] | Design + Animations | CSS, design visuel, animations GSAP, transitions |
-| [Nom] | Contenu + Narration | Écriture des chapitres, création de l'arbre narratif, dialogues |
-| [Nom] | Données + Système | Gestion des sauvegardes, LocalStorage, logique de choix, stats |
+| Elie | Chef de projet + Architecture Vue | Coordination, Vue Router, stores Pinia, structure de l'histoire |
+| Edelwyn | Design + Animations | CSS, design visuel, animations GSAP, transitions |
+| Émeryk | Données + Système | Gestion des sauvegardes, LocalStorage, logique de choix, stats |
 
 *Note:* Tous participent au développement, mais chacun a sa spécialité.
 
@@ -547,12 +543,12 @@ Comment stockez-vous les chapitres et choix?
 
 ### 7.3 Outils de collaboration
 
-- *Git/GitHub:* [Lien du repo]
-- *Gestion de projet:* [Trello / Word / GitHub Projects]
-- *Communication:* [Teams]
-- *Design:* [Figma]
-- *Documentation:* [Word / Google Docs / README.md]
-- *Écriture collaborative:* [Google Docs / Word]
+- *Git/GitHub:* [Github](https://github.com/MrAosix/webapp-creative-emeryk-elie-edelwyn)
+- *Gestion de projet:* [Trello](https://trello.com/b/uGDAfMVg/gestion-emeryk-elie-edelwyn)
+- *Communication:* Discord / Teams
+- *Design:* [Figma](https://www.figma.com/design/qL9aUMeQmhgm7Y2vDvnoxW/design-maquette-emeryk-elie-edelwyn?node-id=0-1&t=He5MZlVk8qPwtgYD-1)
+- *Documentation:* README.md
+- *Écriture collaborative:* Word
 
 
 ## 🚀 8. Critères de Succès
