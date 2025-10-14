@@ -498,7 +498,7 @@ Comment stockez-vous les chapitres et choix?
 
 ### 6.1 Lien vers les maquettes Figma
 
-*Lien:* [Insérez votre lien Figma]
+*Lien:* [Figma](https://www.figma.com/design/qL9aUMeQmhgm7Y2vDvnoxW/design-maquette-emeryk-elie-edelwyn?node-id=0-1&t=He5MZlVk8qPwtgYD-1)
 
 ### 6.2 Écrans principaux à maquetter
 
