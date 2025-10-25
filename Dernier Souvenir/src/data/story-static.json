@@ -1,38 +1,96 @@
 {
-  "ch-1": {
-    "id": "ch-1",
-    "title": "Le Réveil",
-    "text": "Vous vous réveillez dans votre laboratoire...",
-    "backgroundImage": "/images/bg-lab.jpg",
-    "music": "intro-theme.mp3",
-    "choices": null,
-    "nextChapter": "ch-2"
-  },
-  "ch-2": {
-    "id": "ch-2",
-    "title": "La Découverte",
-    "text": "Face à la machine, vous devez décider...",
-    "backgroundImage": "/images/bg-machine.jpg",
-    "music": "tension-theme.mp3",
-    "choices": [
-      {
-        "id": "activate",
-        "text": "Activer la machine",
-        "consequence": "Vous entrez dans l'inconnu...",
-        "nextChapter": "ch-3a",
-        "effects": {
-          "flags": { "hasActivatedMachine": true }
-        }
-      },
-      {
-        "id": "report",
-        "text": "Rapporter la découverte",
-        "consequence": "La prudence avant tout...",
-        "nextChapter": "ch-3b",
-        "effects": {
-          "flags": { "hasReported": true }
-        }
-      }
-    ]
-  }
+    "ch-1": {
+        "id": "ch-1",
+        "title": "En route",
+        "text": "Introduction à l'histoire...",
+        "backgroundImage": "@/assets/images/backgrounds/ch-1.jpg",
+        "music": "@/assets/audio/musics/intro-theme.mp3",
+        "choices": null,
+        "nextChapter": "ch-2"
+    },
+    "ch-2": {
+        "id": "ch-2",
+        "title": "Préparation",
+        "text": "Choisir les objets nécessaires...",
+        "backgroundImage": "@/assets/images/backgrounds/ch-2.jpg",
+        "music": "@/assets/audio/musics/intro-theme.mp3",
+        "imageChoices": [
+            {
+                "name": "Carte",
+                "buttonImage": "@/assets/images/items/map.png"
+            },
+            {
+                "name": "Lampe de poche",
+                "buttonImage": "@/assets/images/items/flashlight.png"
+            },
+            {
+                "name": "Fusil de chasse",
+                "buttonImage": "@/assets/images/items/rifle.png"
+            },
+            {
+                "name": "Trousse de premiers secours",
+                "buttonImage": "@/assets/images/items/first-aid-kit.png"
+            },
+            {
+                "name": "Boussole",
+                "buttonImage": "@/assets/images/items/compass.png"
+            },
+            {
+                "name": "Couteau",
+                "buttonImage": "@/assets/images/items/knife.png"
+            },
+            {
+                "name": "Corde",
+                "buttonImage": "@/assets/images/items/rope.png"
+            },
+            {
+                "name": "Bottes de randonnée",
+                "buttonImage": "@/assets/images/items/hiking-boots.png"
+            }
+        ],
+        "nextChapter": "ch-3"
+    },
+    "ch-3": {
+        "id": "ch-3",
+        "title": "Le Chemin",
+        "text": "Quel est le prochain pas?",
+        "backgroundImage": "@/assets/images/backgrounds/ch-3.jpg",
+        "music": "@/assets/audio/musics/adventure-theme.mp3",
+        "choices": [
+            {
+                "text": "Aller à gauche",
+                "consequence": "Vous allez à gauche.",
+                "nextChapter": "ch-4a"
+            },
+            {
+                "text": "Aller à droite",
+                "consequence": "Vous allez à droite.",
+                "nextChapter": "ch-4b"
+            }
+        ]
+    },
+    "ch-4b": {
+        "id": "ch-4b",
+        "title": "La bête",
+        "text": "Vous rencontrez une bête féroce!",
+        "backgroundImage": "@/assets/images/backgrounds/ch-4b.jpg",
+        "music": "@/assets/audio/musics/adventure-theme.mp3",
+        "choices": [
+            {
+                "text": "Approcher calmement",
+                "consequence": "Vous vous approchez calmement de la bête.",
+                "nextChapter": "ch-5ba"
+            },
+            {
+                "text": "Ignorer et continuer",
+                "consequence": "Vous ignorez la bête et continuez votre chemin.",
+                "nextChapter": "ch-5bb"
+            },
+            {
+                "text": "Chasser l'animal (Nécessite: Fusil de chasse)",
+                "consequence": "Vous utilisez le fusil de chasse pour la chasser.",
+                "nextChapter": "ch-5bc"
+            }
+        ]
+    }
 }

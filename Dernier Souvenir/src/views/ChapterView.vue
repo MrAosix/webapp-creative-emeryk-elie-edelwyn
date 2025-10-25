@@ -1,8 +1,10 @@
 <template>
-    <h1>Welcome to Chapter View</h1>
+    <h1>Chapitre</h1>
+    <MoveViewButton label="Retour" page=""/>
 </template>
 
 <script setup>
+    import MoveViewButton from '@/components/MoveViewButton.vue'
 </script>
 
 <style scoped>
