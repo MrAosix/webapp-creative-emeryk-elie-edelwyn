@@ -53,7 +53,7 @@ Tout au long de la randonnée, une série de choix semi-importants s’offre au 
 
 ### 2.2 Arbre narratif
 
-![Arbre](/medias/arbres_choix.png)
+![Arbre](/medias_md/arbres_choix.png)
 
 ### 2.3 Liste des chapitres/scènes
 
@@ -142,18 +142,18 @@ playerState: {
 
 Insérez ici 3-5 images d'inspiration (ou liens):
 
-![Moodboard](/medias/moodboard_dernier_souvenir.png)
+![Moodboard](/medias_md/moodboard_dernier_souvenir.png)
 
 ### 3.2 Palette de couleurs
 
 *Couleurs par ambiance/chapitre:*
 *Couleurs système:*
 
-![Moodboard](/medias/palette_couleur_type_dernier_souvenir.png)
+![Moodboard](/medias_md/palette_couleur_type_dernier_souvenir.png)
 
 ### 3.3 Typographie
 
-![Moodboard](/medias/palette_couleur_type_dernier_souvenir.png)
+![Moodboard](/medias_md/palette_couleur_type_dernier_souvenir.png)
 
 ### 3.4 Style visuel
 
