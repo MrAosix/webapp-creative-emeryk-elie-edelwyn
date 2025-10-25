@@ -1,0 +1,38 @@
+{
+  "ch-1": {
+    "id": "ch-1",
+    "title": "Le Réveil",
+    "text": "Vous vous réveillez dans votre laboratoire...",
+    "backgroundImage": "/images/bg-lab.jpg",
+    "music": "intro-theme.mp3",
+    "choices": null,
+    "nextChapter": "ch-2"
+  },
+  "ch-2": {
+    "id": "ch-2",
+    "title": "La Découverte",
+    "text": "Face à la machine, vous devez décider...",
+    "backgroundImage": "/images/bg-machine.jpg",
+    "music": "tension-theme.mp3",
+    "choices": [
+      {
+        "id": "activate",
+        "text": "Activer la machine",
+        "consequence": "Vous entrez dans l'inconnu...",
+        "nextChapter": "ch-3a",
+        "effects": {
+          "flags": { "hasActivatedMachine": true }
+        }
+      },
+      {
+        "id": "report",
+        "text": "Rapporter la découverte",
+        "consequence": "La prudence avant tout...",
+        "nextChapter": "ch-3b",
+        "effects": {
+          "flags": { "hasReported": true }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "saveSlot": {
+      "savedAt": null,
+      "currentChapterId": null,
+      "playerState": {
+        "inventory": [],
+        "flags": {}
+      },
+      "visitedChapters": [],
+      "choiceHistory": []
+    }
+}
