@@ -2,8 +2,7 @@
     <div class="home-view-wrapper">
         <h1>DERNIER SOUVENIR</h1>
         <div class="button-wrapper">
-            <MoveViewButton label="Charger Partie" page="sauvegardes"/>
-            <MoveViewButton label="Nouvelle Partie" page="chapitre/:ch-1"/>
+            <MoveViewButton label="Jouer" page="sauvegardes"/>
             <MoveViewButton label="Options" page="options"/>
             <MoveViewButton label="Crédits" page="credits"/>
         </div>

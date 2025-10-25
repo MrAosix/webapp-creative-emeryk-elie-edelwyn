@@ -8,7 +8,10 @@ export const useSaveStore = defineStore('SaveStore', {
     }),
 
     getters: {
-        latestSave: (state) => state.saveSlots.currentSaveSlot,
+        latestSave: (state) => {
+            const currentSlot = state.saveSlots.currentSaveSlot
+            return state.saveSlots[currentSlot]
+        },
         hasSaves: () => localStorage.getItem('save-slots') !== null
     },
 
@@ -18,6 +21,10 @@ export const useSaveStore = defineStore('SaveStore', {
         },
 
         saveGame() {
+            if (this.saveSlots.currentSaveSlot) {
+                const currentSlot = this.saveSlots.currentSaveSlot
+                this.saveSlots[currentSlot].savedAt = new Date().toISOString()
+            }
             localStorage.setItem('save-slots', JSON.stringify(this.saveSlots))
         },
 

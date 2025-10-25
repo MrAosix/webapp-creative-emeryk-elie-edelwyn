@@ -1,10 +1,9 @@
 <template>
-    <h1>Chapitre</h1>
-    <MoveViewButton label="Retour" page=""/>
+    <ChapterScreen/>
 </template>
 
 <script setup>
-    import MoveViewButton from '@/components/MoveViewButton.vue'
+    import ChapterScreen from '@/components/ChapterScreen.vue'
 </script>
 
 <style scoped>

@@ -1,20 +1,36 @@
-import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
-
+import router from '@/router'
 import story from '@/data/story-static.json'
-import playerSettings from '@/data/player-settings-static.json'
-import playerData from '@/data/player-data-static.json'
+import { useSaveStore } from '@/stores/SaveStore'
 
-export const useStoryStore = defineStore('StoryStore', () => {
-    const currentChapterId = null
-    const doubleCount = computed(() => count.value * 2)
-    function increment() {
-        count.value++
-    }
+export const useStoryStore = defineStore('StoryStore', {
+    state: () => ({
+        storyData: story,
+        currentChapterId: null,
+        visitedChapters: [],
+        availableChoices: []
+    }),
 
-    return {
-        count,
-        doubleCount,
-        increment
+    getters: {
+       currentChapter: (state) => { return state.storyData[state.currentChapterId] },
+    },
+
+    actions: {
+        initialize() {
+            const saveStore = useSaveStore()
+            
+            if (saveStore.latestSave) {
+                this.currentChapterId = saveStore.latestSave.currentChapterId
+            }
+        },
+
+        goToChapter(nextChapterId) {
+            const saveStore = useSaveStore()
+
+            this.currentChapterId = nextChapterId
+            saveStore.latestSave.currentChapterId = this.currentChapterId
+            saveStore.saveGame()
+            router.push(`/chapitre/${nextChapterId}`)
+        }
     }
 })
