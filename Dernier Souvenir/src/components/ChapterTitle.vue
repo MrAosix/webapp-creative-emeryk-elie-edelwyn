@@ -9,7 +9,7 @@
     import { useStoryStore } from '@/stores/StoryStore'
 
     const storyStore = useStoryStore()
-    const currentTitle = computed(() => storyStore.currentChapter.title )
+    const currentTitle = computed(() => storyStore.currentChapter?.title )
 </script>
 
 <style scoped>

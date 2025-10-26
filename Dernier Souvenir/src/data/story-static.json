@@ -6,35 +6,50 @@
         "texts": [
             {
                 "text": "Vous êtes en route...",
-                "talking": "narrator"
+                "talking": "Narrator"
             },
             {
                 "text": "Il fait pas beau dehors...",
-                "talking": "aurora"
+                "talking": "Aurora"
             },
             {
                 "text": "Oui, mais ça ne nous arrêtera pas...",
-                "talking": "david"
+                "talking": "David"
             }
         ],
         "backgroundImage": "/src/assets/images/backgrounds/ch-1.jpg",
         "music": "/src/assets/audio/musics/intro-theme.mp3",
         "choices": null,
+        "consequence": "Est-ce vraiment une bonne idée?...",
         "nextChapter": "ch-2"
     },
     "ch-2": {
         "id": "ch-2",
         "act": "Acte 1",
         "title": "Préparation",
-        "text": [
+        "texts": [
             {
-                "text": "Avant de partir, choisissez les objets à emporter...",
-                "talking": "narrator"
+                "text": "Vous arrivez au campement...",
+                "talking": "Narrator"
+            },
+            {
+                "text": "Nous devons nous préparer pour la randonnée...",
+                "talking": "Aurora"
+            },
+            {
+                "text": "D'accord, choisissons notre équipement, on peux seulement en prendre 4...",
+                "talking": "David"
+            },
+            {
+                "text": "Faites bien attention à ce que vous choisissez...",
+                "talking": "Narrator"
             }
         ],
         "backgroundImage": "/src/assets/images/backgrounds/ch-2.jpg",
         "music": "/src/assets/audio/musics/intro-theme.mp3",
-        "imageChoices": [
+        "multipleChoiceNeeded": 4,
+        "choiceDescription": "Choisissez 4 éléments parmi les suivants :",
+        "choices": [
             {
                 "name": "Carte",
                 "buttonImage": "/src/assets/images/items/map.png"
@@ -68,28 +83,30 @@
                 "buttonImage": "/src/assets/images/items/hiking-boots.png"
             }
         ],
+        "consequence": "J'espère que cela suffira.",
         "nextChapter": "ch-3"
     },
     "ch-3": {
         "id": "ch-3",
         "act": "Acte 2",
         "title": "Le Chemin",
-        "text": [
+        "texts": [
             {
                 "text": "Vous arrivez à une bifurcation dans le sentier...",
-                "talking": "narrator"
+                "talking": "Narrator"
             },
             {
                 "text": "Le chemin de gauche semble plus sombre et plus effrayant...",
-                "talking": "aurora"
+                "talking": "Aurora"
             },
             {
                 "text": "Oui, mais le chemin de droite semble plus long...",
-                "talking": "david"
+                "talking": "David"
             }
         ],
         "backgroundImage": "/src/assets/images/backgrounds/ch-3.jpg",
         "music": "/src/assets/audio/musics/adventure-theme.mp3",
+        "choiceDescription": "Choisissez un chemin:",
         "choices": [
             {
                 "text": "Aller à gauche",
@@ -107,22 +124,23 @@
         "id": "ch-4b",
         "act": "Acte 2",
         "title": "La bête",
-        "text": [
+        "texts": [
             {
                 "text": "Vous rencontrez une bête féroce!...",
-                "talking": "narrator"
+                "talking": "Narrator"
             },
             {
                 "text": "Oh non! Que faisons-nous?...",
-                "talking": "aurora"
+                "talking": "Aurora"
             },
             {
-                "text": "Restez calme, nous devons réfléchir...",
-                "talking": "david"
+                "text": "Calme-toi, nous devons réfléchir...",
+                "talking": "David"
             }
         ],
         "backgroundImage": "/src/assets/images/backgrounds/ch-4b.jpg",
         "music": "/src/assets/audio/musics/adventure-theme.mp3",
+        "choiceDescription": "Comment réagissez-vous à la bête?",
         "choices": [
             {
                 "text": "Approcher calmement",
@@ -135,10 +153,23 @@
                 "nextChapter": "ch-5bb"
             },
             {
-                "text": "Chasser l'animal (Nécessite: Fusil de chasse)",
+                "text": "Chasser l'animal",
+                "condition": "Fusil de chasse",
                 "consequence": "Vous utilisez le fusil de chasse pour la chasser.",
                 "nextChapter": "ch-5bc"
             }
         ]
+    },
+    "ch-4a": {
+
+    },
+    "ch-5ba": {
+
+    },
+    "ch-5bb": {
+
+    },
+    "ch-5bc": {
+
     }
 }
