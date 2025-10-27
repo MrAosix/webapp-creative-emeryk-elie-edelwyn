@@ -1,175 +1,397 @@
 {
-    "ch-1": {
-        "id": "ch-1",
-        "act": "Acte 1",
-        "title": "En route",
-        "texts": [
-            {
-                "text": "Vous êtes en route...",
-                "talking": "Narrator"
-            },
-            {
-                "text": "Il fait pas beau dehors...",
-                "talking": "Aurora"
-            },
-            {
-                "text": "Oui, mais ça ne nous arrêtera pas...",
-                "talking": "David"
-            }
-        ],
-        "backgroundImage": "/src/assets/images/backgrounds/ch-1.jpg",
-        "music": "/src/assets/audio/musics/intro-theme.mp3",
-        "choices": null,
-        "consequence": "Est-ce vraiment une bonne idée?...",
-        "nextChapter": "ch-2"
-    },
-    "ch-2": {
-        "id": "ch-2",
-        "act": "Acte 1",
-        "title": "Préparation",
-        "texts": [
-            {
-                "text": "Vous arrivez au campement...",
-                "talking": "Narrator"
-            },
-            {
-                "text": "Nous devons nous préparer pour la randonnée...",
-                "talking": "Aurora"
-            },
-            {
-                "text": "D'accord, choisissons notre équipement, on peux seulement en prendre 4...",
-                "talking": "David"
-            },
-            {
-                "text": "Faites bien attention à ce que vous choisissez...",
-                "talking": "Narrator"
-            }
-        ],
-        "backgroundImage": "/src/assets/images/backgrounds/ch-2.jpg",
-        "music": "/src/assets/audio/musics/intro-theme.mp3",
-        "multipleChoiceNeeded": 4,
-        "choiceDescription": "Choisissez 4 éléments parmi les suivants :",
-        "choices": [
-            {
-                "name": "Carte",
-                "buttonImage": "/src/assets/images/items/map.png"
-            },
-            {
-                "name": "Lampe de poche",
-                "buttonImage": "/src/assets/images/items/flashlight.png"
-            },
-            {
-                "name": "Fusil de chasse",
-                "buttonImage": "/src/assets/images/items/rifle.png"
-            },
-            {
-                "name": "Trousse de premiers secours",
-                "buttonImage": "/src/assets/images/items/first-aid-kit.png"
-            },
-            {
-                "name": "Boussole",
-                "buttonImage": "/src/assets/images/items/compass.png"
-            },
-            {
-                "name": "Couteau",
-                "buttonImage": "/src/assets/images/items/knife.png"
-            },
-            {
-                "name": "Corde",
-                "buttonImage": "/src/assets/images/items/rope.png"
-            },
-            {
-                "name": "Bottes de randonnée",
-                "buttonImage": "/src/assets/images/items/hiking-boots.png"
-            }
-        ],
-        "consequence": "J'espère que cela suffira.",
-        "nextChapter": "ch-3"
-    },
-    "ch-3": {
-        "id": "ch-3",
-        "act": "Acte 2",
-        "title": "Le Chemin",
-        "texts": [
-            {
-                "text": "Vous arrivez à une bifurcation dans le sentier...",
-                "talking": "Narrator"
-            },
-            {
-                "text": "Le chemin de gauche semble plus sombre et plus effrayant...",
-                "talking": "Aurora"
-            },
-            {
-                "text": "Oui, mais le chemin de droite semble plus long...",
-                "talking": "David"
-            }
-        ],
-        "backgroundImage": "/src/assets/images/backgrounds/ch-3.jpg",
-        "music": "/src/assets/audio/musics/adventure-theme.mp3",
-        "choiceDescription": "Choisissez un chemin:",
-        "choices": [
-            {
-                "text": "Aller à gauche",
-                "consequence": "Vous allez à gauche.",
-                "nextChapter": "ch-4a"
-            },
-            {
-                "text": "Aller à droite",
-                "consequence": "Vous allez à droite.",
-                "nextChapter": "ch-4b"
-            }
-        ]
-    },
-    "ch-4b": {
-        "id": "ch-4b",
-        "act": "Acte 2",
-        "title": "La bête",
-        "texts": [
-            {
-                "text": "Vous rencontrez une bête féroce!...",
-                "talking": "Narrator"
-            },
-            {
-                "text": "Oh non! Que faisons-nous?...",
-                "talking": "Aurora"
-            },
-            {
-                "text": "Calme-toi, nous devons réfléchir...",
-                "talking": "David"
-            }
-        ],
-        "backgroundImage": "/src/assets/images/backgrounds/ch-4b.jpg",
-        "music": "/src/assets/audio/musics/adventure-theme.mp3",
-        "choiceDescription": "Comment réagissez-vous à la bête?",
-        "choices": [
-            {
-                "text": "Approcher calmement",
-                "consequence": "Vous vous approchez calmement de la bête.",
-                "nextChapter": "ch-5ba"
-            },
-            {
-                "text": "Ignorer et continuer",
-                "consequence": "Vous ignorez la bête et continuez votre chemin.",
-                "nextChapter": "ch-5bb"
-            },
-            {
-                "text": "Chasser l'animal",
-                "condition": "Fusil de chasse",
-                "consequence": "Vous utilisez le fusil de chasse pour la chasser.",
-                "nextChapter": "ch-5bc"
-            }
-        ]
-    },
-    "ch-4a": {
-
-    },
-    "ch-5ba": {
-
-    },
-    "ch-5bb": {
-
-    },
-    "ch-5bc": {
-
-    }
+  "ch-1": {
+    "id": "ch-1",
+    "act": "Acte 1",
+    "title": "En route",
+    "texts": [
+      {
+        "text": "Le Harvey roule depuis une vingtaine de minutes. Odeur de café et de tissu chaud. Dehors, l'automne colle des feuilles aux bas-côtés; le ciel est couvert, lourd sans être noir. La radio accroche un bout de chanson, puis du souffle.",
+        "talking": "Narrator"
+      },
+      {
+        "text": "Tu as vérifié la météo ce matin ?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Oui. Ils annoncent des nuages, peut-être de la pluie en fin d'avant-midi.",
+        "talking": "David"
+      },
+      {
+        "text": "Et on y va quand même ?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "On reste sur le sentier principal. Si ça se gâte, on fait demi-tour.",
+        "talking": "David"
+      },
+      {
+        "text": "Le ruban orange au crochet du coffre balance à chaque virage. David le remet droit d'un geste machinal. Le tableau de bord affiche 8:06, l'aiguille d'essence bouge d'un millimètre. La route commence à grimper.",
+        "talking": "Narrator"
+      },
+      {
+        "text": "On fait ça pour quoi, exactement ?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Pour prendre l'air… et parce que ça fait longtemps.",
+        "talking": "David"
+      },
+      {
+        "text": "Tu veux dire depuis la fois où on n'est pas allés jusqu'en haut.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Oui. Depuis ça.",
+        "talking": "David"
+      },
+      {
+        "text": "Le gravier vibre sous les pneus. Une pancarte en bois annonce l'aire de stationnement à deux kilomètres. La radio crache, se tait, puis revient. Dehors, trois coups secs résonnent — peut-être un pic — puis plus rien.",
+        "talking": "Narrator"
+      },
+      {
+        "text": "Tu as pris la carte papier ?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Oui. Dans la pochette plastique.",
+        "talking": "David"
+      },
+      {
+        "text": "Et la trousse ?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Aussi. On choisira le reste quand on y arrive.",
+        "talking": "David"
+      },
+      {
+        "text": "D'accord… mais on fait attention, je veux pas que ça tombe comme la dernière fois, ok ?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "D'accord.",
+        "talking": "David"
+      },
+      {
+        "text": "Le Harvey débouche sur une petite clairière. On devine la barrière du sentier. Le ciel est plus lourd au-dessus des cimes; l'air est frais. David met le clignotant par réflexe, même s'il n'y a personne.",
+        "talking": "Narrator"
+      },
+      {
+        "text": "Tu stresses ?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Un peu. C'est normal.",
+        "talking": "David"
+      },
+      {
+        "text": "Ne t'en fait pas, ça va bien aller.",
+        "talking": "David"
+      },
+      {
+        "text": "...",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Le pick-up se range sur la terre battue. Le moteur tourne encore deux secondes; le ventilateur souffle tiède. David coupe le contact. L'horloge reste sur 8:06, clignote, puis revient nette à 8:00.",
+        "talking": "Narrator"
+      },
+      {
+        "text": "On descend ici ?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Oui.",
+        "talking": "David"
+      }
+    ],
+    "backgroundImage": "/src/assets/images/backgrounds/ch-1.jpg",
+    "music": "/src/assets/audio/musics/intro-theme.mp3",
+    "choices": null,
+    "consequence": "En ouvrant la porte, l'air du matin pique le nez. Des feuilles roulent sous leurs chaussures jusqu'à la barrière du sentier.",
+    "nextChapter": "ch-2"
+  },
+  "ch-2": {
+    "id": "ch-2",
+    "act": "Acte 1",
+    "title": "Préparation",
+    "texts": [
+      {
+        "text": "Au pied de la barrière du sentier, ils posent leurs sacs. Le Harvey est garé juste derrière. David ouvre le coffre; l’équipement attend, rangé.",
+        "talking": "Narrator"
+      },
+      {
+        "text": "Si la météo tourne plus vite que prévu, on fait quoi?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "On s'arrête. On ajuste. Et si c'est mauvais, on rentre. Pas de bravade.",
+        "talking": "David"
+      },
+      {
+        "text": "Un souffle passe. Deux feuilles glissent contre leurs chaussures. Au loin, trois coups espacés résonnent, puis plus rien.",
+        "talking": "Narrator"
+      },
+      {
+        "text": "Promets-moi un truc: si je dis stop, on s'arrête là.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Promis.",
+        "talking": "David"
+      },
+      {
+        "text": "Ils posent les sacs au sol, ouvrent les poches, vérifient les sangles. Il faudra choisir quatre choses, pas une de plus. Le reste restera ici. ",
+        "talking": "Narrator"
+      },
+      {
+        "text": "Ils étalent l’équipement sur le bord du coffre. Vos choix auront des conséquences...",
+        "talking": "Narrator"
+      }
+    ],
+    "backgroundImage": "/src/assets/images/backgrounds/ch-2.jpg",
+    "music": "/src/assets/audio/musics/intro-theme.mp3",
+    "multipleChoiceNeeded": 4,
+    "choiceDescription": "Choisissez 4 éléments parmi les suivants :",
+    "choices": [
+      {
+        "name": "Carte",
+        "buttonImage": "/src/assets/images/items/map.png"
+      },
+      {
+        "name": "Lampe de poche",
+        "buttonImage": "/src/assets/images/items/flashlight.png"
+      },
+      {
+        "name": "Fusil de chasse",
+        "buttonImage": "/src/assets/images/items/rifle.png"
+      },
+      {
+        "name": "Trousse de premiers secours",
+        "buttonImage": "/src/assets/images/items/first-aid-kit.png"
+      },
+      {
+        "name": "Boussole",
+        "buttonImage": "/src/assets/images/items/compass.png"
+      },
+      {
+        "name": "Couteau",
+        "buttonImage": "/src/assets/images/items/knife.png"
+      },
+      {
+        "name": "Corde",
+        "buttonImage": "/src/assets/images/items/rope.png"
+      },
+      {
+        "name": "Bottes de randonnée",
+        "buttonImage": "/src/assets/images/items/hiking-boots.png"
+      }
+    ],
+    "consequence": "Les quatre objets choisis prennent place dans les sacs et vous avancez vers la barrière du sentier, prêts à partir.",
+    "nextChapter": "ch-3"
+  },
+  "ch-3": {
+    "id": "ch-3",
+    "act": "Acte 2",
+    "title": "Le Chemin",
+    "texts": [
+      {
+        "text": "Le sentier part droit puis se divise en deux devant vous. La terre est froide, l'air sent l'humus. Les marques de peinture sont rares, presque effacées.",
+        "talking": "Narrator"
+      },
+      {
+        "text": "On dirait que ça coupe ici.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Oui. Il faut choisir maintenant.",
+        "talking": "David"
+      },
+      {
+        "text": "A gauche, la trace est plus brute: racines, pierres humides, peu de balises. A droite, le passage est plus net, mais les troncs se resserrent et la lumière baisse.",
+        "talking": "Narrator"
+      },
+      {
+        "text": "Si on file à gauche, on gagne du temps, mais c'est plus technique.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "A droite, c'est plus long et plus calme. On peut tenir ce rythme si la météo tourne.",
+        "talking": "David"
+      },
+      {
+        "text": "Une rafale passe. Trois coups espacés résonnent dans le bois, puis plus rien.",
+        "talking": "Narrator"
+      },
+      {
+        "text": "Tu l'as encore entendu, hein?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Oui. Restons concentrés.",
+        "talking": "David"
+      },
+      {
+        "text": "La carte pèse dans le sac. Un bout de ruban orange dépasse d'une poche sans raison. La bifurcation attend.",
+        "talking": "Narrator"
+      },
+      {
+        "text": "A vous de trancher.",
+        "talking": "Narrator"
+      }
+    ],
+    "backgroundImage": "/src/assets/images/backgrounds/ch-3.jpg",
+    "music": "/src/assets/audio/musics/adventure-theme.mp3",
+    "choiceDescription": "Choisissez un chemin:",
+    "choices": [
+      {
+        "text": "Aller à gauche",
+        "consequence": "Vous vous engagez sur la branche gauche. Le sol devient irrégulier, les racines forcent à lever haut le pied. L'air est plus humide. Aurora souffle: 'Je te suis.' David répond: 'Reste près.' Vos pas s'enfoncent entre les troncs.",
+        "nextChapter": "ch-4a"
+      },
+      {
+        "text": "Aller à droite",
+        "consequence": "Vous prenez la branche droite. Le sentier est net, presque trop calme. Les arbres se resserrent, la lumière baisse d'un cran. Aurora chuchote: 'C'est étrange, on dirait que tout écoute.' David dit: 'On garde le rythme.' Vous remontez le couloir d'arbres.",
+        "nextChapter": "ch-4b"
+      }
+    ]
+  },
+  "ch-4a": {
+    "id": "ch-4a",
+    "act": "Acte 2",
+    "title": "L'Arbre tombé",
+    "texts": [
+      {
+        "text": "Le sentier de gauche se serre, puis s'ouvre sur un tronc couché en travers. L'écorce est sombre, crevassée, encore humide.",
+        "talking": "Narrator"
+      },
+      {
+        "text": "On ne passera pas tout droit.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "On a plusieurs options.",
+        "talking": "David"
+      },
+      {
+        "text": "Des traces de pas s'arrêtent net devant le tronc et reprennent plus haut sur la pente. Un bout de ruban orange pend d'une branche cassée.",
+        "talking": "Narrator"
+      },
+      {
+        "text": "Je veux éviter un faux pas.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "On peut contourner par la pente, passer par-dessus doucement, ou revenir chercher une coupe en arrière.",
+        "talking": "David"
+      },
+      {
+        "text": "Aurora resserre une sangle. Sa main vérifie le laçage, son regard cherche des appuis stables. La forêt semble retenir son souffle.",
+        "talking": "Narrator"
+      },
+      {
+        "text": "Si on passe par-dessus, montre-moi les appuis.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Je te guide. Tu gardes ton rythme.",
+        "talking": "David"
+      },
+      {
+        "text": "Le sol est ferme sous les feuilles. Une odeur de bois mouillé remonte. L'obstacle attend votre décision.",
+        "talking": "Narrator"
+      }
+    ],
+    "backgroundImage": "/src/assets/images/backgrounds/ch-4a.jpg",
+    "music": "/src/assets/audio/musics/forest-tension.mp3",
+    "choiceDescription": "Comment franchir l'obstacle ?",
+    "choices": [
+      {
+        "text": "Contourner par la pente abrupte",
+        "consequence": "Le duo part en biais sur la gauche. Les pas restent courts, les mains effleurent les branches basses pour garder l'équilibre. Un caillou roule puis s'immobilise vite. La trace réapparaît au-dessus du tronc.",
+        "nextChapter": "ch-5aa"
+      },
+      {
+        "text": "Passer par-dessus, doucement",
+        "consequence": "Les appuis se posent l'un après l'autre: paume, genou, transfert. Le bois gémit une seconde puis se tait. Vous basculez de l'autre côté et retrouvez le ruban du sentier.",
+        "nextChapter": "ch-5ab"
+      },
+      {
+        "text": "Revenir et chercher un autre passage",
+        "consequence": "Quelques mètres en arrière, une trouée dans les fougères s'ouvre sur une sente discrète. Elle coupe le sous-bois et rejoint le sentier après un coude serré.",
+        "nextChapter": "ch-5ac"
+      }
+    ]
+  },
+  "ch-4b": {
+    "id": "ch-4b",
+    "act": "Acte 2",
+    "title": "La bête",
+    "texts": [
+      {
+        "text": "Sur la branche droite, les troncs se rapprochent et la lumière baisse. Entre deux pins, un animal immobile vous observe, sans bruit.",
+        "talking": "Narrator"
+      },
+      {
+        "text": "Ne bouge pas.",
+        "talking": "David"
+      },
+      {
+        "text": "...",
+        "talking": "Aurora"
+      },
+      {
+        "text": "La bête respire lentement. Le sol, couvert d'aiguilles, étouffe les sons. Aurora serre la sangle du sac, ses yeux mesurent la distance et les issues possibles.",
+        "talking": "Narrator"
+      },
+      {
+        "text": "Si on lui laisse de l'espace, elle va s'ecarter.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "On bouge lentement. On lui laisse une sortie.",
+        "talking": "David"
+      },
+      {
+        "text": "Un claquement lointain traverse les arbres, comme trois coups etouffés, puis plus rien...",
+        "talking": "Narrator"
+      },
+      {
+        "text": "(Encore ce bruit...)",
+        "talking": "David"
+      },
+      {
+        "text": "Reste calme. Pas de gestes brusques.",
+        "talking": "David"
+      },
+      {
+        "text": "Le passage existe, mais il faut choisir comment l'ouvrir.",
+        "talking": "Narrator"
+      }
+    ],
+    "backgroundImage": "/src/assets/images/backgrounds/ch-4b.jpg",
+    "music": "/src/assets/audio/musics/adventure-theme.mp3",
+    "choiceDescription": "Comment réagissez-vous à la bête ?",
+    "choices": [
+      {
+        "text": "Approcher calmement",
+        "consequence": "Le duo se decale de biais, gestes lents et lisibles. L'animal cede un pas, puis un autre. Le corridor entre les troncs s'eclaircit et le sentier s'ouvre a nouveau.",
+        "nextChapter": "ch-5ba"
+      },
+      {
+        "text": "Ignorer et continuer",
+        "consequence": "Vous longez la zone en gardant une distance sure. Une branche accroche une manche puis glisse. La bête reste en retrait et disparaît dans les ombres. Le rythme de marche reprend.",
+        "nextChapter": "ch-5bb"
+      },
+      {
+        "text": "Chasser l'animal",
+        "condition": "Fusil de chasse",
+        "consequence": "Le fusil est epaulee et une detonation seche fend le couvert. L'animal s'eloigne d'un bond et s'efface entre les troncs. L'air demeure tendu, mais la voie est libre.",
+        "nextChapter": "ch-5bc"
+      }
+    ]
+  },
+  "ch-5ba": {},
+  "ch-5bb": {},
+  "ch-5bc": {}
 }
