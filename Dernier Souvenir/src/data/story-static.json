@@ -21,11 +21,11 @@
         "talking": "Aurora"
       },
       {
-        "text": "On reste sur le sentier principal. Si ça se gâte, on fait demi-tour.",
+        "text": "Ne t'inquiète pas, on reste sur le sentier principal. Si ça se gâte, on fait demi-tour.",
         "talking": "David"
       },
       {
-        "text": "Le ruban orange au crochet du coffre balance à chaque virage. David le remet droit d'un geste machinal. Le tableau de bord affiche 8:06, l'aiguille d'essence bouge d'un millimètre. La route commence à grimper.",
+        "text": "Le ruban orange au crochet du coffre balance à chaque virage. David le remet droit d'un geste automatique. Le tableau de bord affiche 8:06, l'aiguille d'essence bouge d'un millimètre. La route commence à grimper.",
         "talking": "Narrator"
       },
       {
@@ -33,15 +33,15 @@
         "talking": "Aurora"
       },
       {
-        "text": "Pour prendre l'air… et parce que ça fait longtemps.",
+        "text": "Pour prendre l'air… et parce que ça fait longtemps. Je suis sur que tu as plein de choses à raconter de ton camp",
         "talking": "David"
       },
       {
-        "text": "Tu veux dire depuis la fois où on n'est pas allés jusqu'en haut.",
+        "text": "AH c'est vrai ! Il faut que je te dise TOUT.",
         "talking": "Aurora"
       },
       {
-        "text": "Oui. Depuis ça.",
+        "text": "Hahaha, on est presque arrivé. On aura plein de temps pour ça.",
         "talking": "David"
       },
       {
@@ -53,7 +53,7 @@
         "talking": "Aurora"
       },
       {
-        "text": "Oui. Dans la pochette plastique.",
+        "text": "Oui. Elle est dans la pochette plastique.",
         "talking": "David"
       },
       {
@@ -69,11 +69,11 @@
         "talking": "Aurora"
       },
       {
-        "text": "D'accord.",
+        "text": "Mais non! Je la garderais en lieu sûr.",
         "talking": "David"
       },
       {
-        "text": "Le Harvey débouche sur une petite clairière. On devine la barrière du sentier. Le ciel est plus lourd au-dessus des cimes; l'air est frais. David met le clignotant par réflexe, même s'il n'y a personne.",
+        "text": "Le Harvey débouche sur une petite clairière. On devine la barrière du sentier. Le ciel est plus lourd au-dessus des cimes; l'air est frais et l'automne se fait sentir. David met le clignotant par réflexe, même s'il n'y a personne.",
         "talking": "Narrator"
       },
       {
@@ -81,11 +81,11 @@
         "talking": "Aurora"
       },
       {
-        "text": "Un peu. C'est normal.",
+        "text": "Non, je peux escalader l'Everest si je pourrais !",
         "talking": "David"
       },
       {
-        "text": "Ne t'en fait pas, ça va bien aller.",
+        "text": "Ne t'en fait pas, ça va bien aller et je crois en toi.",
         "talking": "David"
       },
       {
@@ -101,14 +101,14 @@
         "talking": "Aurora"
       },
       {
-        "text": "Oui.",
+        "text": "Oui. Le début du sentier commence plus loin.",
         "talking": "David"
       }
     ],
     "backgroundImage": "/src/assets/images/backgrounds/ch-1.jpg",
     "music": "/src/assets/audio/musics/intro-theme.mp3",
     "choices": null,
-    "consequence": "En ouvrant la porte, l'air du matin pique le nez. Des feuilles roulent sous leurs chaussures jusqu'à la barrière du sentier.",
+    "consequence": "En ouvrant la porte, l'air du matin pique le nez. Des feuilles craquent sous leurs chaussures jusqu'à la barrière du sentier.",
     "nextChapter": "ch-2"
   },
   "ch-2": {
@@ -121,38 +121,38 @@
         "talking": "Narrator"
       },
       {
-        "text": "Si la météo tourne plus vite que prévu, on fait quoi?",
+        "text": "Si la météo tourne plus vite que prévu, on fait quoi? Je ne veux pas finir trempée et avoir froid.",
         "talking": "Aurora"
       },
       {
-        "text": "On s'arrête. On ajuste. Et si c'est mauvais, on rentre. Pas de bravade.",
+        "text": "On s'arrête et on ajuste. Et si c'est aussi pire que ça, on rentre. Tu n'es pas faite en chocolat, quand même!",
         "talking": "David"
       },
       {
-        "text": "Un souffle passe. Deux feuilles glissent contre leurs chaussures. Au loin, trois coups espacés résonnent, puis plus rien.",
+        "text": "Un souffle passe. Les feuilles glissent contre leurs chaussures. Au loin, trois coups espacés résonnent, puis plus rien.",
         "talking": "Narrator"
       },
       {
-        "text": "Promets-moi un truc: si je dis stop, on s'arrête là.",
+        "text": "Promets-moi un truc: si je dis stop, on s'arrête là?",
         "talking": "Aurora"
       },
       {
-        "text": "Promis.",
+        "text": "Je te le promets, Aurora. Tu sais que je tiens toujours mes promesses. C'est toi qui décides.",
         "talking": "David"
       },
       {
-        "text": "Ils posent les sacs au sol, ouvrent les poches, vérifient les sangles. Il faudra choisir quatre choses, pas une de plus. Le reste restera ici. ",
+        "text": "David lui sourit, puis ils posent les sacs au sol, ouvrent les poches et vérifient les sangles. Il faudra choisir quatres choses, pas une de plus. Le reste restera ici. ",
         "talking": "Narrator"
       },
       {
-        "text": "Ils étalent l’équipement sur le bord du coffre. Vos choix auront des conséquences...",
+        "text": "Ils étalent l’équipement sur le coffre. Vos choix auront des conséquences...",
         "talking": "Narrator"
       }
     ],
     "backgroundImage": "/src/assets/images/backgrounds/ch-2.jpg",
     "music": "/src/assets/audio/musics/intro-theme.mp3",
     "multipleChoiceNeeded": 4,
-    "choiceDescription": "Choisissez 4 éléments parmi les suivants :",
+    "choiceDescription": "Qu'apportez-vous à la randonnée?:",
     "choices": [
       {
         "name": "Carte",
@@ -200,11 +200,11 @@
         "talking": "Narrator"
       },
       {
-        "text": "On dirait que ça coupe ici.",
+        "text": "On dirait que ça coupe ici. On dirait qu'ils entretiennent moins les sentiers...",
         "talking": "Aurora"
       },
       {
-        "text": "Oui. Il faut choisir maintenant.",
+        "text": "Oui. les gens doivent rester pas mal chez eux.",
         "talking": "David"
       },
       {
@@ -212,11 +212,11 @@
         "talking": "Narrator"
       },
       {
-        "text": "Si on file à gauche, on gagne du temps, mais c'est plus technique.",
+        "text": "Voyons voir... Si on file à gauche, on gagne du temps, mais c'est plus technique.",
         "talking": "Aurora"
       },
       {
-        "text": "A droite, c'est plus long et plus calme. On peut tenir ce rythme si la météo tourne.",
+        "text": "A droite, c'est plus long et plus calme. On peut tenir ce rythme si la météo tourne mal, il y aurait moins de risques.",
         "talking": "David"
       },
       {
@@ -224,11 +224,11 @@
         "talking": "Narrator"
       },
       {
-        "text": "Tu l'as encore entendu, hein?",
+        "text": "Dis moi que t'as entendu ça?!",
         "talking": "Aurora"
       },
       {
-        "text": "Oui. Restons concentrés.",
+        "text": "Oui. Restons concentrés, c'est surement un marteau piqueur. Rien de grave.",
         "talking": "David"
       },
       {
@@ -266,11 +266,11 @@
         "talking": "Narrator"
       },
       {
-        "text": "On ne passera pas tout droit.",
+        "text": "On ne passera pas tout droit. La tempête a vraiment été intense...",
         "talking": "Aurora"
       },
       {
-        "text": "On a plusieurs options.",
+        "text": "Oui, je vois des traces de pas encore récentes. On a plusieurs options.",
         "talking": "David"
       },
       {
@@ -294,7 +294,7 @@
         "talking": "Aurora"
       },
       {
-        "text": "Je te guide. Tu gardes ton rythme.",
+        "text": "D'accord, je te guide. Gardes ton rythme et ça sera du gateau! ",
         "talking": "David"
       },
       {
@@ -313,7 +313,7 @@
       },
       {
         "text": "Passer par-dessus, doucement",
-        "consequence": "Les appuis se posent l'un après l'autre: paume, genou, transfert. Le bois gémit une seconde puis se tait. Vous basculez de l'autre côté et retrouvez le ruban du sentier.",
+        "consequence": "Les appuis se posent l'un après l'autre: paume, genou, transfert. Le bois gémit= une seconde puis se tait. Vous basculez de l'autre côté et retrouvez le ruban du sentier.",
         "nextChapter": "ch-5ab"
       },
       {
@@ -333,7 +333,7 @@
         "talking": "Narrator"
       },
       {
-        "text": "Ne bouge pas.",
+        "text": "Ne bouge surtout pas.",
         "talking": "David"
       },
       {
@@ -349,7 +349,7 @@
         "talking": "Aurora"
       },
       {
-        "text": "On bouge lentement. On lui laisse une sortie.",
+        "text": "On bouge lentement. Reste basse.",
         "talking": "David"
       },
       {
@@ -357,7 +357,7 @@
         "talking": "Narrator"
       },
       {
-        "text": "(Encore ce bruit...)",
+        "text": "(Encore ce bruit... Cette forêt n'est plus autant calme qu'elle était...)",
         "talking": "David"
       },
       {
@@ -375,18 +375,18 @@
     "choices": [
       {
         "text": "Approcher calmement",
-        "consequence": "Le duo se decale de biais, gestes lents et lisibles. L'animal cede un pas, puis un autre. Le corridor entre les troncs s'eclaircit et le sentier s'ouvre a nouveau.",
+        "consequence": "Le duo se decale en biais, gestes lents et lisibles. L'animal cede un pas, puis un autre. Le corridor entre les troncs s'eclaircit et le sentier s'ouvre a nouveau.",
         "nextChapter": "ch-5ba"
       },
       {
         "text": "Ignorer et continuer",
-        "consequence": "Vous longez la zone en gardant une distance sure. Une branche accroche une manche puis glisse. La bête reste en retrait et disparaît dans les ombres. Le rythme de marche reprend.",
+        "consequence": "Vous longez la zone en gardant une distance sure. Une branche accroche une manche puis glisse. La bête reste en retrait et disparaît dans les ombres. un soupir de soulagement se fait entendre et rythme de marche reprend.",
         "nextChapter": "ch-5bb"
       },
       {
         "text": "Chasser l'animal",
         "condition": "Fusil de chasse",
-        "consequence": "Le fusil est epaulee et une detonation seche fend le couvert. L'animal s'eloigne d'un bond et s'efface entre les troncs. L'air demeure tendu, mais la voie est libre.",
+        "consequence": "Le fusil est epaulé et une detonation sèche fend le couvert. L'animal s'eloigne d'un bond et s'efface entre les troncs. L'air demeure tendu, mais la voie est libre.",
         "nextChapter": "ch-5bc"
       }
     ]
