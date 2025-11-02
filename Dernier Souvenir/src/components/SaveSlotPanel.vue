@@ -34,7 +34,6 @@ import { useStoryStore } from "@/stores/StoryStore";
 const saveStore = useSaveStore();
 const storyStore = useStoryStore();
 
-// Make these reactive using computed
 const saveSlot1 = computed(() => saveStore.saveSlots.saveSlot1);
 const saveSlot2 = computed(() => saveStore.saveSlots.saveSlot2);
 const saveSlot3 = computed(() => saveStore.saveSlots.saveSlot3);

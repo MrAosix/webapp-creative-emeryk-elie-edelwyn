@@ -49,7 +49,17 @@ export const useSaveStore = defineStore("SaveStore", {
     },
 
     deleteSave(slotName) {
-      this.saveSlots[slotName] = { ...playerDataStatic.saveSlot1 };
+      // Create a fresh empty save slot structure
+      this.saveSlots[slotName] = {
+        savedAt: null,
+        currentChapterId: null,
+        playerState: {
+          inventory: [],
+          flags: {},
+        },
+        visitedChapters: [],
+        choiceHistory: [],
+      };
       this.setCurrentSaveSlot(null);
       this.saveGame();
     },

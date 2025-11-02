@@ -48,14 +48,29 @@ const props = defineProps({
 });
 
 const loadSaveSlot = () => {
+  // Reset StoryStore state to prevent cross-contamination between save slots
+  storyStore.resetStoryState();
+
+  // Load the save slot first
   const chapterToLoad = saveStore.loadGame(props.slotName);
   const saveSlotData = saveStore.getSaveInfo(props.slotName);
   const targetChapter = saveSlotData.currentChapterId || chapterToLoad;
+
+  // Force a complete reset of visited chapters before loading
+  storyStore.visitedChapters = [];
+
   storyStore.goToChapter(targetChapter);
 };
 
 const startNewGame = () => {
+  // Reset StoryStore state for new games too
+  storyStore.resetStoryState();
+
   saveStore.loadGame(props.slotName);
+
+  // Force a complete reset of visited chapters before loading
+  storyStore.visitedChapters = [];
+
   storyStore.goToChapter("ch-1");
 };
 </script>

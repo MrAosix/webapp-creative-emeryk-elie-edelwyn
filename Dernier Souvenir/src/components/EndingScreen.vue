@@ -29,25 +29,19 @@ const endingConsequence = computed(() => {
 const goToMainMenu = () => {
   const endingId = storyStore.currentChapterId;
 
-  // For endings 5 and 6, completely reset the save (important choice)
   if (endingId === "end-5" || endingId === "end-6") {
-    // Set the ending flag before complete reset
     playerStore.setFlag(endingId);
 
-    // Complete save reset - delete and recreate the save slot
     const currentSlot = saveStore.saveSlots.currentSaveSlot;
     if (currentSlot) {
       saveStore.deleteSave(currentSlot);
-      saveStore.setCurrentSaveSlot(currentSlot); // Set it as current again but empty
+      saveStore.setCurrentSaveSlot(currentSlot);
     }
   } else {
-    // For other endings, just reset to chapter 1 (keeping flags and some progress)
     playerStore.setFlag(endingId);
     playerStore.clearInventory();
     saveStore.resetToChapterOne();
   }
-
-  // Reset StoryStore state
   storyStore.visitedChapters = [];
   storyStore.multipleChoiceSelection = [];
   storyStore.currentChoice = null;

@@ -29,35 +29,27 @@ const props = defineProps({
   },
 });
 
-// Check if the choice should be visible at all
 const isChoiceVisible = computed(() => {
-  // If there's no condition, always show the choice
   if (!props.choice.condition) {
     return true;
   }
 
-  // Check if it's an ending condition (starts with "end-")
   if (props.choice.condition.startsWith("end-")) {
-    // For ending conditions, only show if the player has that flag
     return playerStore.hasFlag(props.choice.condition);
   }
 
-  // For item conditions, always show the choice (but may be disabled)
   return true;
 });
 
-// Check if the condition is not met
 const isConditionNotMet = computed(() => {
   if (!props.choice.condition) {
     return false;
   }
 
-  // Check if it's an ending condition
   if (props.choice.condition.startsWith("end-")) {
     return !playerStore.hasFlag(props.choice.condition);
   }
 
-  // For item conditions
   return !playerStore.hasItem(props.choice.condition);
 });
 
@@ -65,7 +57,6 @@ const isDisabled = computed(() => {
   return isConditionNotMet.value;
 });
 
-// Get a display name for the condition
 const getConditionDisplayName = (condition) => {
   const endingNames = {
     "end-1": "Fin 1",

@@ -17,7 +17,7 @@
 </template>
 
 <script setup>
-import { computed, watchEffect } from "vue";
+import { computed } from "vue";
 import { useStoryStore } from "@/stores/StoryStore";
 
 const storyStore = useStoryStore();

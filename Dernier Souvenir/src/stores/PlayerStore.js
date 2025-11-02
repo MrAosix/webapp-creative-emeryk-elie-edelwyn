@@ -40,7 +40,6 @@ export const usePlayerStore = defineStore("PlayerStore", {
       const saveStore = useSaveStore();
       const currentSaveSlot = saveStore.saveSlots.currentSaveSlot;
       if (currentSaveSlot && saveStore.saveSlots[currentSaveSlot]) {
-        // Add to the save slot inventory directly, not the local state
         saveStore.saveSlots[currentSaveSlot].playerState.inventory.push(item);
         saveStore.saveGame();
       }
@@ -64,8 +63,6 @@ export const usePlayerStore = defineStore("PlayerStore", {
       if (currentSaveSlot && saveStore.saveSlots[currentSaveSlot]) {
         const inventory =
           saveStore.saveSlots[currentSaveSlot].playerState.inventory;
-
-        // Remove random items up to the count or available items
         const itemsToRemove = Math.min(count, inventory.length);
 
         for (let i = 0; i < itemsToRemove; i++) {
