@@ -30,7 +30,7 @@ const storyStore = useStoryStore();
 
 const handleContinue = (nextChapter) => {
   if (nextChapter === null) {
-    router.push("/fin/" + storyStore.currentChapter.endingId);
+    router.push(`/fin/${storyStore.currentChapter.id}`);
   } else {
     storyStore.goToChapter(nextChapter);
   }

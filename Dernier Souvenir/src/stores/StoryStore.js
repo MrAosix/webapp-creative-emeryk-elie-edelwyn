@@ -51,7 +51,6 @@ export const useStoryStore = defineStore("StoryStore", {
       );
     },
 
-    // Panel display logic
     shouldShowSingleChoicePanel: (state) => {
       return (
         state.showChoicePanel &&
@@ -79,10 +78,24 @@ export const useStoryStore = defineStore("StoryStore", {
     },
 
     loadChapter(chapterId) {
+      const saveStore = useSaveStore();
+
       this.currentChapterId = chapterId;
       this.currentChoice = null;
       this.currentTextIndex = 0;
       this.currentText = this.currentChapter.texts[this.currentTextIndex];
+
+      const currentSlot = saveStore.saveSlots.currentSaveSlot;
+      if (
+        currentSlot &&
+        saveStore.saveSlots[currentSlot] &&
+        saveStore.saveSlots[currentSlot].visitedChapters
+      ) {
+        this.visitedChapters = [
+          ...saveStore.saveSlots[currentSlot].visitedChapters,
+        ];
+      }
+
       this.resetPanels();
     },
 
@@ -93,8 +106,6 @@ export const useStoryStore = defineStore("StoryStore", {
         this.currentTextIndex++;
         this.currentText = Texts[this.currentTextIndex];
       } else {
-        // Don't mutate the original story data
-        // Instead, let the component handle hiding the character name when text is finished
         this.loadChoiceOptions();
         if (this.hasNoChoices) {
           this.showConsequencePanel = true;
@@ -108,7 +119,30 @@ export const useStoryStore = defineStore("StoryStore", {
 
     goToChapter(nextChapterId) {
       const saveStore = useSaveStore();
-      this.visitedChapters.push(this.currentChapterId);
+
+      // Add current chapter to visited chapters only if not already visited AND not an ending
+      if (
+        this.currentChapterId &&
+        !this.visitedChapters.includes(this.currentChapterId) &&
+        !this.currentChapterId.startsWith("end-")
+      ) {
+        this.visitedChapters.push(this.currentChapterId);
+
+        // Also save to the save slot
+        const currentSlot = saveStore.saveSlots.currentSaveSlot;
+        if (currentSlot && saveStore.saveSlots[currentSlot]) {
+          if (
+            !saveStore.saveSlots[currentSlot].visitedChapters.includes(
+              this.currentChapterId
+            )
+          ) {
+            saveStore.saveSlots[currentSlot].visitedChapters.push(
+              this.currentChapterId
+            );
+          }
+        }
+      }
+
       this.currentChapterId = nextChapterId;
       saveStore.latestSave.currentChapterId = this.currentChapterId;
       saveStore.saveGame();
@@ -162,6 +196,29 @@ export const useStoryStore = defineStore("StoryStore", {
     },
 
     selectSingleChoice(choice) {
+      const playerStore = usePlayerStore();
+
+      // Handle special inventory actions based on choice text and current chapter
+      if (
+        this.currentChapterId === "ch-7a" &&
+        choice.text.includes("Aider Gerald (donner la corde)")
+      ) {
+        // Remove "Corde" from inventory when giving it to Gerald
+        playerStore.removeFromInventory("Corde");
+      } else if (
+        this.currentChapterId === "ch-7b" &&
+        choice.text.includes("Prendre des baies")
+      ) {
+        // Add "Baies" to inventory when taking berries
+        playerStore.addToInventory("Baies");
+      } else if (
+        this.currentChapterId === "ch-6bcb" &&
+        choice.text.includes("Alléger le sac (laisser deux objets aléatoires)")
+      ) {
+        // Remove 2 random items from inventory when lightening the bag
+        playerStore.removeRandomItemsFromInventory(2);
+      }
+
       this.currentChoice = choice;
       this.showChoicePanel = false;
       this.showConsequencePanel = true;

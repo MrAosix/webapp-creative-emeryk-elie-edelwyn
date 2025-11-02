@@ -57,5 +57,15 @@ export const useSaveStore = defineStore("SaveStore", {
     getSaveInfo(slotName) {
       return this.saveSlots[slotName];
     },
+
+    resetToChapterOne() {
+      const currentSlot = this.saveSlots.currentSaveSlot;
+      if (currentSlot && this.saveSlots[currentSlot]) {
+        this.saveSlots[currentSlot].currentChapterId = "ch-1";
+        this.saveSlots[currentSlot].visitedChapters = [];
+        this.saveSlots[currentSlot].choiceHistory = [];
+        this.saveGame();
+      }
+    },
   },
 });

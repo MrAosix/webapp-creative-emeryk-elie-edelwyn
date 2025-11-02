@@ -1307,7 +1307,7 @@
     "choiceDescription": "Que faites-vous de l'équipement ?",
     "choices": [
       {
-        "text": "Alléger le sac (laisser deux objets)",
+        "text": "Alléger le sac (laisser deux objets aléatoires)",
         "consequence": "Vous lâchez deux objets au sol pour gagner de la vitesse. La course se stabilise, puis ralentit. Au sortir d'un virage, un buisson couvert de baies occupe le bord du sentier.",
         "nextChapter": "ch-7b"
       },

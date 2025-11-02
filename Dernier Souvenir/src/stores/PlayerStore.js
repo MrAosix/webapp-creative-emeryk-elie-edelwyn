@@ -12,9 +12,23 @@ export const usePlayerStore = defineStore("PlayerStore", {
     hasItem: (state) => (itemName) => {
       const saveStore = useSaveStore();
       const currentSaveSlot = saveStore.saveSlots.currentSaveSlot;
+      if (!currentSaveSlot || !saveStore.saveSlots[currentSaveSlot]) {
+        return false;
+      }
       return saveStore.saveSlots[
         currentSaveSlot
       ].playerState.inventory.includes(itemName);
+    },
+    hasFlag: (state) => (flagName) => {
+      const saveStore = useSaveStore();
+      const currentSaveSlot = saveStore.saveSlots.currentSaveSlot;
+      if (!currentSaveSlot || !saveStore.saveSlots[currentSaveSlot]) {
+        return false;
+      }
+      return (
+        saveStore.saveSlots[currentSaveSlot].playerState.flags[flagName] ===
+        true
+      );
     },
     canAccessEnding: (state) => (ending) => {
       return state.flags.includes(`has_${ending}_ending`);
@@ -25,24 +39,60 @@ export const usePlayerStore = defineStore("PlayerStore", {
     addToInventory(item) {
       const saveStore = useSaveStore();
       const currentSaveSlot = saveStore.saveSlots.currentSaveSlot;
-      this.inventory.push(item);
-      saveStore.saveSlots[currentSaveSlot].playerState.inventory =
-        this.inventory;
-      saveStore.saveGame();
+      if (currentSaveSlot && saveStore.saveSlots[currentSaveSlot]) {
+        // Add to the save slot inventory directly, not the local state
+        saveStore.saveSlots[currentSaveSlot].playerState.inventory.push(item);
+        saveStore.saveGame();
+      }
     },
     removeFromInventory(item) {
       const saveStore = useSaveStore();
-      const index = this.inventory.indexOf(item);
-      this.inventory.splice(index, 1);
-      saveStore.saveGame();
+      const currentSaveSlot = saveStore.saveSlots.currentSaveSlot;
+      if (currentSaveSlot && saveStore.saveSlots[currentSaveSlot]) {
+        const inventory =
+          saveStore.saveSlots[currentSaveSlot].playerState.inventory;
+        const index = inventory.indexOf(item);
+        if (index > -1) {
+          inventory.splice(index, 1);
+          saveStore.saveGame();
+        }
+      }
     },
-    setFlag(flagName, value) {
+    removeRandomItemsFromInventory(count) {
       const saveStore = useSaveStore();
       const currentSaveSlot = saveStore.saveSlots.currentSaveSlot;
-      this.flags[flagName] = value;
-      saveStore.saveSlots[currentSaveSlot].playerState.flags[flagName] = value;
-      this.flags = {};
-      saveStore.saveGame();
+      if (currentSaveSlot && saveStore.saveSlots[currentSaveSlot]) {
+        const inventory =
+          saveStore.saveSlots[currentSaveSlot].playerState.inventory;
+
+        // Remove random items up to the count or available items
+        const itemsToRemove = Math.min(count, inventory.length);
+
+        for (let i = 0; i < itemsToRemove; i++) {
+          const randomIndex = Math.floor(Math.random() * inventory.length);
+          inventory.splice(randomIndex, 1);
+        }
+
+        saveStore.saveGame();
+      }
+    },
+    setFlag(flagName, value = true) {
+      const saveStore = useSaveStore();
+      const currentSaveSlot = saveStore.saveSlots.currentSaveSlot;
+      if (currentSaveSlot && saveStore.saveSlots[currentSaveSlot]) {
+        saveStore.saveSlots[currentSaveSlot].playerState.flags[flagName] =
+          value;
+        saveStore.saveGame();
+      }
+    },
+    clearInventory() {
+      const saveStore = useSaveStore();
+      const currentSaveSlot = saveStore.saveSlots.currentSaveSlot;
+      if (currentSaveSlot && saveStore.saveSlots[currentSaveSlot]) {
+        this.inventory = [];
+        saveStore.saveSlots[currentSaveSlot].playerState.inventory = [];
+        saveStore.saveGame();
+      }
     },
   },
 });
