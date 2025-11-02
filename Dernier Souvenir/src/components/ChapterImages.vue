@@ -4,13 +4,13 @@
     <img
       class="character"
       :class="{ talking: isTalking === 'Aurora' }"
-      src="@/assets/images/characters/aurora.jpg"
+      src="@/assets/images/characters/aurora.png"
       alt="image d'Aurora"
     />
     <img
       class="character"
       :class="{ talking: isTalking === 'David' }"
-      src="@/assets/images/characters/david.jpg"
+      src="@/assets/images/characters/david.png"
       alt="image de David"
     />
   </div>
