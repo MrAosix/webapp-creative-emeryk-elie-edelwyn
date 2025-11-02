@@ -1645,7 +1645,7 @@
         "talking": "David"
       },
       {
-        "text": "Vous relâchez la prise et acceptez l'idée que rien ne changera. Le replat devient très large, trop large. Les mots n'arrivent plus.",
+        "text": "Vous relâchez la prise et acceptez l'idée que rien ne changera. Le mal est fait. Le replat devient très large, trop large. Les mots n'arrivent plus.",
         "talking": "Narrator"
       },
       {
@@ -1660,7 +1660,7 @@
     "backgroundImage": "/src/assets/images/backgrounds/end-5.jpg",
     "music": "/src/assets/audio/musics/loop-closed-dark.mp3",
     "choices": null,
-    "consequence": "La boucle se termine ici, vide, sans début ni fin. Ce n'est pas une fin heureuse: la boucle se referme mais il n'y a ni paix ni résolution.",
+    "consequence": "La boucle se termine ici, vide, sans début ni fin. Ce n'est pas une fin heureuse: la boucle se referme mais il n'y a ni paix ni résolution. David devait faire face à un évènement traumatique et accepter le destin de sa fille.",
     "nextChapter": null
   },
 
@@ -1678,7 +1678,7 @@
         "talking": "David"
       },
       {
-        "text": "Le vent baisse d'un cran. La montagne n'argumente plus. Elle garde ce qu'elle a pris et vous laisse redescendre sans presser le pas.",
+        "text": "Le vent baisse d'un cran. La montagne n'argumente plus, comme si Aurora était témoins. Elle garde ce qu'elle a pris et vous laisse redescendre sans presser le pas.",
         "talking": "Narrator"
       }
     ],
