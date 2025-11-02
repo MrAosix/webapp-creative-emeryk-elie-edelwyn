@@ -1,56 +1,61 @@
-import { defineStore } from 'pinia'
+import { defineStore } from "pinia";
 
-import playerDataStatic from '@/data/player-data-static.json'
+import playerDataStatic from "@/data/player-data-static.json";
 
-export const useSaveStore = defineStore('SaveStore', {
-    state: () => ({
-        saveSlots: {}
-    }),
+export const useSaveStore = defineStore("SaveStore", {
+  state: () => ({
+    saveSlots: {},
+  }),
 
-    getters: {
-        latestSave: (state) => {
-            const currentSlot = state.saveSlots.currentSaveSlot
-            return state.saveSlots[currentSlot]
-        },
-        hasSaves: () => localStorage.getItem('save-slots') !== null
+  getters: {
+    latestSave: (state) => {
+      const currentSlot = state.saveSlots.currentSaveSlot;
+      return state.saveSlots[currentSlot];
+    },
+    hasSaves: () => localStorage.getItem("save-slots") !== null,
+  },
+
+  actions: {
+    setCurrentSaveSlot(slotName) {
+      this.saveSlots.currentSaveSlot = slotName;
     },
 
-    actions: {
-        setCurrentSaveSlot(slotName) {
-            this.saveSlots.currentSaveSlot = slotName
-        },
+    saveGame() {
+      if (this.saveSlots.currentSaveSlot) {
+        const currentSlot = this.saveSlots.currentSaveSlot;
+        this.saveSlots[currentSlot].savedAt = new Date().toISOString();
+      }
+      localStorage.setItem("save-slots", JSON.stringify(this.saveSlots));
+    },
 
-        saveGame() {
-            if (this.saveSlots.currentSaveSlot) {
-                const currentSlot = this.saveSlots.currentSaveSlot
-                this.saveSlots[currentSlot].savedAt = new Date().toISOString()
-            }
-            localStorage.setItem('save-slots', JSON.stringify(this.saveSlots))
-        },
+    loadGame(slotName) {
+      this.setCurrentSaveSlot(slotName);
 
-        loadGame(slotName) {
-            this.setCurrentSaveSlot(slotName)
-            this.saveGame()
-        },
+      const slotData = this.saveSlots[slotName];
+      if (slotData && slotData.currentChapterId) {
+        return slotData.currentChapterId;
+      }
 
-        initialize() {
-            if (this.hasSaves) {
-                this.saveSlots = JSON.parse(localStorage.getItem('save-slots'))
-            } else {
-                this.saveSlots = { ...playerDataStatic }
-            }
-            this.saveGame()
-        },
+      return "ch-1";
+    },
 
-        deleteSave(slotName) {
-            this.saveSlots[slotName] = { ...playerDataStatic.saveSlot1 }
-            this.setCurrentSaveSlot(null)
-            this.saveGame()
-        },
+    initialize() {
+      if (this.hasSaves) {
+        this.saveSlots = JSON.parse(localStorage.getItem("save-slots"));
+      } else {
+        this.saveSlots = { ...playerDataStatic };
+      }
+      this.saveGame();
+    },
 
-        getSaveInfo(slotName) {
-            return this.saveSlots[slotName]
-        }
+    deleteSave(slotName) {
+      this.saveSlots[slotName] = { ...playerDataStatic.saveSlot1 };
+      this.setCurrentSaveSlot(null);
+      this.saveGame();
+    },
 
-    }
-})
+    getSaveInfo(slotName) {
+      return this.saveSlots[slotName];
+    },
+  },
+});

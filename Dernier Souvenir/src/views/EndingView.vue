@@ -1,9 +1,9 @@
 <template>
-    <h1>Welcome to Ending View</h1>
+  <EndingScreen />
 </template>
 
 <script setup>
+import EndingScreen from "@/components/EndingScreen.vue";
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

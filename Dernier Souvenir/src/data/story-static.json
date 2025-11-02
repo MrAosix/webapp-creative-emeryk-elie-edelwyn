@@ -1541,7 +1541,7 @@
     "music": "/src/assets/audio/musics/soft-reset.mp3",
     "choices": null,
     "consequence": "La journée reprend du début comme une musique qu'on recommence",
-    "nextChapter": "ch-1"
+    "nextChapter": null
   },
 
   "end-2": {
@@ -1562,7 +1562,7 @@
     "music": "/src/assets/audio/musics/fall-reset.mp3",
     "choices": null,
     "consequence": "La boucle se referme sans explication et vous ramène au départ.",
-    "nextChapter": "ch-1"
+    "nextChapter": null
   },
 
   "end-3": {
@@ -1607,7 +1607,7 @@
     "music": "/src/assets/audio/musics/denial-reset.mp3",
     "choices": null,
     "consequence": "Une voie intérieure s'obstine à ne pas nommer ce qui s'est passé. La journée s'enroule et repart au début.",
-    "nextChapter": "ch-1"
+    "nextChapter": null
   },
 
   "end-4": {
@@ -1632,7 +1632,7 @@
     "music": "/src/assets/audio/musics/bargain-reset.mp3",
     "choices": null,
     "consequence": "Les hypothèses se dissipent au retour du 8:00 fixe. La boucle reprend.",
-    "nextChapter": "ch-1"
+    "nextChapter": null
   },
 
   "end-5": {
