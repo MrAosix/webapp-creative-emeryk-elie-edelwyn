@@ -325,7 +325,7 @@
       },
       {
         "text": "Passer par-dessus, doucement",
-        "consequence": "Les appuis se posent l'un après l'autre: paume, genou, transfert. Le bois gémit= une seconde puis se tait. Vous basculez de l'autre côté et retrouvez le ruban du sentier.",
+        "consequence": "Les appuis se posent l'un après l'autre: paume, genou, transfert. Le bois gémit une seconde puis se tait. Vous basculez de l'autre côté et retrouvez le ruban du sentier.",
         "nextChapter": "ch-5ab"
       },
       {
@@ -342,7 +342,7 @@
     "title": "Le Pont de Bois",
     "texts": [
       {
-        "text": "Le sentier s'arrête net devant un ravin maigre. Un vieux pont de bois le traverse, cordes usées, planches marquées par le temps.",
+        "text": "Le sentier s'arrête net devant un ravin maigre. Un vieux pont de bois le traverse, cordes usées, planches abimées par le temps.",
         "talking": "Narrator"
       },
       {
@@ -354,7 +354,7 @@
         "talking": "David"
       },
       {
-        "text": "Sur une poutre, des initiales gravées: D + A. Le trait est ancien, raclé par la pluie.",
+        "text": "Sur une poutre, des initiales gravées: D + A : les chasseurs de sentiers. Le trait est ancien, raclé par la pluie.",
         "talking": "Narrator"
       },
       {
@@ -370,7 +370,7 @@
         "talking": "Narrator"
       },
       {
-        "text": "Aurora va lentement poser un pied sur la première planche mais elle semble hésiter.",
+        "text": "Aurora va doucement poser un pied sur la première planche mais elle semble hésiter.",
         "talking": "Narrator"
       }
     ],
@@ -385,7 +385,7 @@
       },
       {
         "text": "La presser pour aller plus vite",
-        "consequence": "Aurora accélère le pas, le bois grince plus fort. Un craquement sec retentit: une planche cède sous son pied. Elle vacille, mais David la rattrape de justesse. Après un moment tendu, ils reprennent leur marche et quittent le pont.",
+        "consequence": "Aurora accélère le pas, le bois grince plus fort. Un craquement sec retentit: une planche cède sous son pied. Elle vacille, mais David la rattrape de justesse. Après un moment tendu, ils reprennent leur marche avec double précaution et quittent le pont.",
         "nextChapter": "ch-6aab"
       }
     ]
@@ -396,7 +396,7 @@
     "title": "Clairière Étrange",
     "texts": [
       {
-        "text": "La forêt s'ouvre d'un seul coup. Une clairière ronde, posée comme un bol. L'air y semble plus épais, presque immobile.",
+        "text": "La forêt s'ouvre d'un seul coup pour faire placce à une clairière ronde. L'air y semble plus épais, presque immobile.",
         "talking": "Narrator"
       },
       {
@@ -404,11 +404,11 @@
         "talking": "Aurora"
       },
       {
-        "text": "Oui, on dirait que tout s'est arrêté ici.",
+        "text": "Oui, on dirait que le temps s'arrête ici.",
         "talking": "David"
       },
       {
-        "text": "Au centre de la clairière, un vieux chêne déploie ses branches noueuses. Des racines épaisses s'enfoncent dans le sol, formant des creux et des bosses.",
+        "text": "Au centre de la clairière, un vieux chêne déploie ses branches noueuses. Des racines épaisses dépassent du sol, formant des creux et des bosses.",
         "talking": "Narrator"
       },
       {
@@ -448,7 +448,7 @@
           "talking": "David"
         },
         {
-          "text": "Sur une poutre, des initiales gravées: D + A. Le trait est ancien, raclé par la pluie.",
+          "text": "Sur une poutre, des initiales gravées: D + A : les chasseurs de sentiers. Le trait est ancien, raclé par la pluie.",
           "talking": "Narrator"
         },
         {
@@ -490,7 +490,7 @@
       "title": "Clairière Étrange",
       "texts": [
         {
-          "text": "La forêt s'ouvre d'un seul coup. Une clairière ronde, posée comme un bol. L'air y semble plus épais, presque immobile.",
+          "text": "La forêt s'ouvre d'un seul coup pour faire placce à une clairière ronde. L'air y semble plus épais, presque immobile.",
           "talking": "Narrator"
         },
         {
@@ -498,7 +498,7 @@
           "talking": "Aurora"
         },
         {
-          "text": "Oui, on dirait que tout s'est arrêté ici.",
+          "text": "Oui, on dirait que le temps s'arrête ici.",
           "talking": "David"
         },
         {
@@ -554,11 +554,11 @@
           "talking": "Narrator"
         },
         {
-          "text": "Tu as encore entendu ça ?!",
+          "text": "Tu as encore entendu ça ?! Je ne me souviens pas entendre ça avant...",
           "talking": "Aurora"
         },
         {
-          "text": "Oui... Reste concentrée sur ma voix.",
+          "text": "Oui, c'est vrai... Reste concentrée sur ma voix.",
           "talking": "David"
         },
         {
@@ -612,7 +612,7 @@
         "talking": "Narrator"
       },
       {
-        "text": "Tu as encore entendu ça ?!",
+        "text": "Tu as encore entendu ça ?! Je ne me souviens pas entendre ça avant...",
         "talking": "Aurora"
       },
       {
@@ -654,11 +654,11 @@
         "talking": "Aurora"
       },
       {
-        "text": "Tu l'as fait toute seule. J'ai juste suivi.",
+        "text": "Tu l'as fait toute seule! J'ai juste suivi.",
         "talking": "David"
       },
       {
-        "text": "Les troncs s'écartent et laissent entrer une lumière laiteuse. Une ficelle orange, coincée dans une branche, bouge sans bruit.",
+        "text": "Aurora sourit et semble prendre confiance. Les troncs s'écartent et laissent entrer une lumière laiteuse. Une ficelle orange, coincée dans une branche, bouge sans bruit.",
         "talking": "Narrator"
       },
       {
@@ -666,7 +666,7 @@
         "talking": "Aurora"
       },
       {
-        "text": "Oui, c'est bien. On avance sans se presser.",
+        "text": "Oui, c'est bien. On avance sans se presser. Les chasseurs de sentiers sont de retour !",
         "talking": "David"
       },
       {
@@ -694,7 +694,7 @@
         "talking": "Narrator"
       },
       {
-        "text": "Désolée. J'ai accéléré sans réfléchir.",
+        "text": "Désolée. J'ai accéléré a cause de la peur.",
         "talking": "Aurora"
       },
       {
@@ -702,7 +702,7 @@
         "talking": "David"
       },
       {
-        "text": "Le vent plie les feuilles. On marche côte à côte, sans chercher les mots. Les lacets crissent à chaque appui.",
+        "text": "Le vent soulève les feuilles. On marche côte à côte, sans chercher les mots. Les lacets crissent à chaque appui.",
         "talking": "Narrator"
       },
       {
@@ -730,7 +730,7 @@
     "title": "Terrain Glissant",
     "texts": [
       {
-        "text": "Après la clairière, la terre devient grasse. Les feuilles collent aux semelles et masquent les pierres plates.",
+        "text": "Après la clairière, la terre devient grasse. Les feuilles collent aux semelles et forment un tapis sur les pierres plates.",
         "talking": "Narrator"
       },
       {
@@ -770,11 +770,11 @@
         "talking": "Narrator"
       },
       {
-        "text": "Pose bien le talon, puis roule le pied. Doucement.",
+        "text": "Pose bien le talon, puis roule le pied. Doucement. Il ne faudrait pas trop forcer ta jambe.",
         "talking": "David"
       },
       {
-        "text": "Ça va. Je prends le temps.",
+        "text": "Ça va. Je prends mon temps.",
         "talking": "Aurora"
       },
       {
@@ -786,7 +786,7 @@
         "talking": "David"
       },
       {
-        "text": "Au loin, trois coups très faibles, presque avalés par la pente. Rien ne bouge, mais on garde l'oreille tendue.",
+        "text": "Au loin, trois coups très faibles, presque avalés par la forêt. Rien ne bouge, mais ils gardent l'oreille tendue.",
         "talking": "Narrator"
       }
     ],
@@ -822,7 +822,7 @@
         "talking": "Aurora"
       },
       {
-        "text": "Trois coups s'égrènent quelque part derrière, comme un rappel. Personne ne répond.",
+        "text": "Trois coups reviennent quelque part derrière, comme un rappel. Personne ne répond.",
         "talking": "Narrator"
       }
     ],
@@ -858,7 +858,7 @@
         "talking": "Aurora"
       },
       {
-        "text": "Deux noeuds, pas plus. Faites comme vous le sentez. Je ne voudrais pas vous retenir.",
+        "text": "Deux noeuds, pas plus. Faites comme vous le sentez. Je ne voudrais pas vous retenir mais j'aurais vraiment besoin de l'abris ce soir.",
         "talking": "Gerald"
       },
       {
@@ -866,7 +866,7 @@
         "talking": "Narrator"
       },
       {
-        "text": "On peut aider un peu… ou reprendre la trace tout de suite.",
+        "text": "...(On peut aider un peu… ou reprendre la trace tout de suite.)",
         "talking": "David"
       }
     ],
@@ -877,7 +877,7 @@
       {
         "text": "Aider Gerald (donner la corde)",
         "condition": "Corde",
-        "consequence": "La corde est passée, nouée solidement. Gerald sourit et vous remercie chaleureusement. Il vous conseille de rester prudents sur le chemin et vous souhaite bonne route. La cabane s'éloigne doucement derrière vous. ",
+        "consequence": "La corde est passée, nouée solidement. Gerald sourit et vous remercie chaleureusement. Il vous conseille de rester prudents sur le chemin puis vous souhaite bonne route. La cabane s'éloigne doucement derrière vous. ",
         "nextChapter": "ch-8a"
       },
       {
@@ -986,11 +986,11 @@
         "talking": "David"
       },
       {
-        "text": "Je… Je ne sais pas. J'ai peur de ce qu'on va trouver là-haut. Et si on n'y arrivait pas?",
+        "text": "Je… Je ne sais pas. J'ai peur de ce qu'on va trouver là-haut. J'ai peur de me blesser... Et si on n'y arrivait pas?",
         "talking": "Aurora"
       },
       {
-        "text": "De loin, trois coups espacés résonnent, puis s'éteignent. Par contre, votre cœur battait plus fort pour y remarquer.",
+        "text": "De loin, trois coups espacés résonnent, puis s'éteignent. Par contre, votre cœur battait plus fort pour les remarquer.",
         "talking": "Narrator"
       },
       {
@@ -1008,7 +1008,7 @@
     "choices": [
       {
         "text": "L'écouter et la rassurer",
-        "consequence": "Vous ralentissez d'un demi-pas et laissez Aurora parler. Les épaules se détendent, la cadence devient régulière. Les décisions à venir se feront à deux, sans forcer.",
+        "consequence": "Vous ralentissez d'un demi-pas et laissez Aurora parler Elle vous avoue que depuis l'évènement, la randonnée la rend anxieuse. Les épaules se détendent, vous l'aider à lui faire comprendre que l'incident est seulement le résultat d'une erreur et qu'elle a appris. La cadence devient régulière et les décisions à venir se feront à deux, sans forcer.",
         "nextChapter": "ch-6baa"
       },
       {
@@ -1048,7 +1048,7 @@
         "talking": "Aurora"
       },
       {
-        "text": "Très loin, trois coups espacés. Pas d'écho. Le temps reste suspendu une seconde, puis reprend.",
+        "text": "David acquièse. Très loin, trois coups espacés. Pas d'écho. Le temps reste suspendu une seconde, puis reprend.",
         "talking": "Narrator"
       }
     ],
@@ -1072,7 +1072,7 @@
         "talking": "David"
       },
       {
-        "text": "Oui. Je tremble un peu, c'est tout.",
+        "text": "Oui. Je tremble un peu à cause de l'adrénaline, c'est tout.",
         "talking": "Aurora"
       },
       {
@@ -1100,7 +1100,7 @@
       {
         "text": "La préparer et récupérer un peu de viande",
         "condition": "Couteau",
-        "consequence": "Vous travaillez vite, proprement. Un petit sac gagne du poids; l'odeur reste sur les gants. Trois coups brefs, lointains, traversent les pins, puis la forêt se referme.",
+        "consequence": "Vous travaillez vite, proprement.Aurora tousse un peu à cause de l'odeur. Un petit sac gagne du poids; l'odeur reste sur les gants. Trois coups brefs, lointains, traversent les pins, puis la forêt se referme.",
         "nextChapter": "ch-6bcb"
       }
     ]
@@ -1135,7 +1135,7 @@
         "talking": "Aurora"
       },
       {
-        "text": "On n'a pas à y aller si tu ne te sens pas prête.",
+        "text": "On n'a pas besoin d'y aller si tu ne te sens pas prête.",
         "talking": "David"
       },
       {
@@ -1147,11 +1147,11 @@
         "talking": "David"
       },
       {
-        "text": "Mais je pense qu'on devrait continuer un peu plus loin. Juste pour voir.",
+        "text": "Mais je pense qu'on devrait continuer un peu plus loin. Juste pour voir. Tu reprenais les bonne habitudes tout le long. Je sais que tu en ai capable.",
         "talking": "David"
       },
       {
-        "text": "...juste un peu plus....",
+        "text": "...juste un peu plus alors...",
         "talking": "Aurora"
       }
     ],
@@ -1167,7 +1167,7 @@
     "title": "Sujet évité",
     "texts": [
       {
-        "text": "Vous avancez sans un mot pendant quelques minutes. Les pas frappent plus sec que d'habitude.",
+        "text": "Vous avancez sans un mot pendant plusieurs minutes. Les pas frappent plus sec que d'habitude.",
         "talking": "Narrator"
       },
       {
@@ -1203,7 +1203,7 @@
         "talking": "David"
       },
       {
-        "text": "...d'accord, juste pour quelques mètres.",
+        "text": "...d'accord, juste pour quelques dizaines de mètres.",
         "talking": "Aurora"
       }
     ],
@@ -1281,7 +1281,7 @@
     "backgroundImage": "/src/assets/images/backgrounds/ch-6bca.jpg",
     "music": "/src/assets/audio/musics/stream-quiet.mp3",
     "choices": null,
-    "consequence": "Le sentier remonte en pente douce et l'air prend une odeur sucrée. À quelques mètres, un buisson plein de baies sombres accroche les vêtements qui passent trop près.",
+    "consequence": "Le sentier remonte en pente douce et l'air prend une odeur fruitée. À quelques mètres, un buisson plein de baies sombres accroche les vêtements qui passent trop près.",
     "nextChapter": "ch-7b"
   },
   "ch-6bcb": {
@@ -1324,7 +1324,7 @@
     "title": "Le Buisson",
     "texts": [
       {
-        "text": "Un buisson gonflé de baies sombres déborde sur la trace. Odeur sucrée, feuilles luisantes, quelques grappes touchent presque les sacs.",
+        "text": "Un buisson rempli de baies sombres déborde sur la trace. Odeur sucrée, feuilles luisantes, quelques grappes touchent presque les sacs.",
         "talking": "Narrator"
       },
       {
@@ -1336,7 +1336,7 @@
         "talking": "David"
       },
       {
-        "text": "De près, les fruits sont ovales, la peau est mate. Des traces d'oiseaux piquent la terre au pied du buisson.",
+        "text": "De près, les fruits sont ovales, la peau est mate. Des taches d'un mauve profond sont visibles sur certaines branches qui indique que certaines baie ont été mangées par des oiseaux.",
         "talking": "Narrator"
       },
       {
@@ -1348,7 +1348,7 @@
         "talking": "David"
       },
       {
-        "text": "Très loin, trois coups espacés traversent les pins puis s'éteignent. Le buisson absorbe le son comme un coussin.",
+        "text": "Très loin, trois coups espacés traversent les pins puis s'éteignent. Les arbres absorbent le son comme un coussin.",
         "talking": "Narrator"
       },
       {
@@ -1356,7 +1356,7 @@
         "talking": "Aurora"
       },
       {
-        "text": "Oui. On choisit et on avance.",
+        "text": "Oui, c'est rien. On choisit et on avance.",
         "talking": "David"
       }
     ],
@@ -1366,7 +1366,7 @@
     "choices": [
       {
         "text": "Prendre des baies",
-        "consequence": "Vous cueillez une petite poignée en visant les grappes les plus saines. Les fruits glissent dans un sachet fermé, rangé profond dans le sac. Le feuillage se referme derrière vous et le sentier s'ouvre vers la montée.",
+        "consequence": "Vous cueillez les grappes les plus saines. Les fruits glissent dans un sachet fermé, rangé profond dans le sac. Le feuillage se referme derrière vous et le sentier s'ouvre vers la montée.",
         "nextChapter": "ch-8a"
       },
       {
@@ -1394,7 +1394,7 @@
         "talking": "Aurora"
       },
       {
-        "text": "Un frottement métallique très loin. Puis ces trois coups espacés, comme un rappel que personne ne comprendra pour vous.",
+        "text": "Un frottement métallique très loin. Puis ces trois coups espacés, comme un rappel que personne d'autre ne comprendra à part vous.",
         "talking": "Narrator"
       },
       {
@@ -1453,7 +1453,7 @@
       },
       {
         "text": "Ne pas utiliser la corde",
-        "consequence": "Vous tentez l'équilibre sans assurage. La dalle demande plus que ce que les pieds peuvent donner. Un appui glisse, le corps bascule en arrière. Le vide répond avant que votre voix ne puisse s'élever.",
+        "consequence": "Vous tentez l'équilibre sans assurage. La dalle demande plus que ce que les pieds peuvent donner. Un appui glisse, le corps bascule en arrière. Le vide et la noirceur répond avant que votre voix ne puisse s'élever.",
         "nextChapter": "end-2"
       }
     ]
@@ -1465,7 +1465,7 @@
     "title": "Le Replat",
     "texts": [
       {
-        "text": "Un replat étroit domine la vallée. L'air sent la pierre froide. Le vent force et apporte des grains de grésil.",
+        "text": "Un replat étroit domine la vallée. L'air est plus frais. Le vent force et apporte des grains de grésil.",
         "talking": "Narrator"
       },
       {
@@ -1481,11 +1481,11 @@
         "talking": "Narrator"
       },
       {
-        "text": "Je suis désolé.",
+        "text": "Je suis désolé...",
         "talking": "David"
       },
       {
-        "text": "La montagne ne négocie pas. Le vent garde les mots et laisse les trois coups résonner comme un rappel du jour de l'accident.",
+        "text": "La montagne ne négocie pas. Le vent se souvient des mots et laisse les trois coups résonner comme un rappel du jour de l'accident.",
         "talking": "Narrator"
       }
     ],
@@ -1495,25 +1495,25 @@
     "choices": [
       {
         "text": "Refuser de regarder (Déni)",
-        "consequence": "Vous restez face à la paroi, le regard collé aux prises. Le monde derrière n'existe plus. Les trois coups résonnent, mais vous ne voulez pas les entendre.",
+        "consequence": "Vous restez face à la paroi, le regard suspendus aux prises. Le monde derrière n'existe plus. Les trois coups résonnent, mais vous les reniez et ne voulez pas les entendre.",
         "nextChapter": "end-3"
       },
       {
         "text": "Chercher une autre explication (Marchandage)",
         "condition": "end-3",
-        "consequence": "Vous revisitez la scène cent fois dans votre tête: autre corde, autre heure, autre itinéraire. Les trois coups, eux, ne changent pas.",
+        "consequence": "Vous revisitez la scène cent fois dans votre tête: autre corde, autre heure, autre itinéraire. Et si? Les trois coups, eux, ne changent pas.",
         "nextChapter": "end-4"
       },
       {
         "text": "Laisser tomber (Résignation)",
         "condition": "end-4",
-        "consequence": "Vous relâchez la tension. Le replat devient trop large d'un coup. Les mains quittent la roche avant les idées.",
+        "consequence": "Vous relâchez la tension. Le replat devient trop large d'un coup. Les mains quittent la roche avant la pensée.",
         "nextChapter": "end-5"
       },
       {
         "text": "Regarder en face (Acceptance)",
         "condition": "end-4",
-        "consequence": "Vous laissez les trois coups finir leur cycle. Plus de mensonges possibles. Il ne reste qu'un pas: nommer ce que vous savez.",
+        "consequence": "Vous laissez les trois coups finir leur cycle. Plus de mensonges possibles. Il ne reste qu'un pas: nommer ce que vous savez et y faire face. Elle est morte. Ici. Par votre faute.",
         "nextChapter": "end-6"
       }
     ]
@@ -1529,7 +1529,7 @@
         "talking": "Narrator"
       },
       {
-        "text": "On reviendra un autre jour.",
+        "text": "On reviendra un autre jour. Il faudrait ne pas prendre trop de risques.",
         "talking": "David"
       },
       {
@@ -1540,7 +1540,7 @@
     "backgroundImage": "/src/assets/images/backgrounds/end-1.jpg",
     "music": "/src/assets/audio/musics/soft-reset.mp3",
     "choices": null,
-    "consequence": "La journée se replie sur elle-même comme une page qu'on remet au début.",
+    "consequence": "La journée reprend du début comme une musique qu'on recommence",
     "nextChapter": "ch-1"
   },
 
@@ -1550,7 +1550,7 @@
     "title": "Fin 2 — Chute Finale",
     "texts": [
       {
-        "text": "La dalle rejette votre appui. Le vide répond avant la voix. Les sons se brisent, coupés par des rafales. Il n'y a pas de rappel, seulement un silence lourd.",
+        "text": "La dalle rejette votre appui. Le vide répond avant la voix. Les sons se brisent, coupés par des rafales. Il n'y a pas de rappel, seulement un silence lourd et moralisateur.",
         "talking": "Narrator"
       },
       {
@@ -1575,7 +1575,7 @@
         "talking": "Narrator"
       },
       {
-        "text": "Non... ce n'est pas possible... Je n'y crois pas...",
+        "text": "Non... ce n'est pas possible... Je n'y crois pas... Elle ne serais pas...",
         "talking": "David"
       },
       {
@@ -1595,11 +1595,11 @@
         "talking": "David"
       },
       {
-        "text": "...Aurora?....Tu es là ?......",
+        "text": "...Aurora?....Tu es là ?...... Aurora !",
         "talking": "David"
       },
       {
-        "text": "Le vent garde les trois coups pour lui. La montagne ne dit rien. Le replat s'efface derrière vous, comme un rêve qu'on oublie.",
+        "text": "Le vent garde les trois coups pour lui. La montagne ne dit rien, vous juge. Le replat s'efface derrière vous, comme un rêve qu'on oublie.",
         "talking": "Narrator"
       }
     ],
