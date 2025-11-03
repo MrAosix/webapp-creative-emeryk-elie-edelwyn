@@ -396,7 +396,7 @@
     "title": "Clairière Étrange",
     "texts": [
       {
-        "text": "La forêt s'ouvre d'un seul coup pour faire placce à une clairière ronde. L'air y semble plus épais, presque immobile.",
+        "text": "La forêt s'ouvre d'un seul coup pour faire place à une clairière ronde. L'air y semble plus épais, presque immobile.",
         "talking": "Narrator"
       },
       {
@@ -490,7 +490,7 @@
       "title": "Clairière Étrange",
       "texts": [
         {
-          "text": "La forêt s'ouvre d'un seul coup pour faire placce à une clairière ronde. L'air y semble plus épais, presque immobile.",
+          "text": "La forêt s'ouvre d'un seul coup pour faire place à une clairière ronde. L'air y semble plus épais, presque immobile.",
           "talking": "Narrator"
         },
         {
@@ -1495,7 +1495,7 @@
     "choices": [
       {
         "text": "Refuser de regarder (Déni)",
-        "consequence": "Vous restez face à la paroi, le regard suspendus aux prises. Le monde derrière n'existe plus. Les trois coups résonnent, mais vous les reniez et ne voulez pas les entendre.",
+        "consequence": "Vous restez face à la paroi, le regard suspendu aux prises. Le monde derrière n'existe plus. Les trois coups résonnent, mais vous les reniez et ne voulez pas les entendre.",
         "nextChapter": "end-3"
       },
       {
@@ -1575,7 +1575,7 @@
         "talking": "Narrator"
       },
       {
-        "text": "Non... ce n'est pas possible... Je n'y crois pas... Elle ne serais pas...",
+        "text": "Non... ce n'est pas possible... Je n'y crois pas... Elle ne serait pas...",
         "talking": "David"
       },
       {
