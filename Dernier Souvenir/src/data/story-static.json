@@ -208,7 +208,7 @@
     "title": "Le Chemin",
     "texts": [
       {
-        "text": "Le sentier part droit puis se divise en deux devant vous. La terre est froide, l'air sent l'humus. Les marques de peinture sont rares, presque effacées.",
+        "text": "Le sentier part droit puis se divise en deux devant vous. La terre est froide, l'air est frais. Les marques de peinture sont rares, presque effacées.",
         "talking": "Narrator"
       },
       {
@@ -240,7 +240,7 @@
         "talking": "Aurora"
       },
       {
-        "text": "Oui. Restons concentrés, c'est surement un marteau piqueur. Rien de grave.",
+        "text": "Oui. Restons concentrés, c'est surement un pic-bois. Rien de grave.",
         "talking": "David"
       },
       {
@@ -258,12 +258,13 @@
     "choices": [
       {
         "text": "Aller à gauche",
-        "consequence": "Vous vous engagez sur la branche gauche. Le sol devient irrégulier, les racines forcent à lever haut le pied. L'air est plus humide. Aurora souffle: 'Je te suis.' David répond: 'Reste près.' Vos pas s'enfoncent entre les troncs.",
+        "consequence": "Vous vous engagez sur la branche gauche. Le sol devient irrégulier, les racines forcent à lever haut le pied. L'air est plus humide.",
         "nextChapter": "ch-4a"
       },
+
       {
         "text": "Aller à droite",
-        "consequence": "Vous prenez la branche droite. Le sentier est net, presque trop calme. Les arbres se resserrent, la lumière baisse d'un cran. Aurora chuchote: 'C'est étrange, on dirait que tout écoute.' David dit: 'On garde le rythme.' Vous remontez le couloir d'arbres.",
+        "consequence": "Vous prenez la branche droite. Le sentier est net, presque trop calme. Les arbres se resserrent, la lumière baisse d'un cran.",
         "nextChapter": "ch-4b"
       }
     ]
