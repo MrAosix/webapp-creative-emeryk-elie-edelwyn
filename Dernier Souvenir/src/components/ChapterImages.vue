@@ -1,17 +1,17 @@
 <template>
   <div>
+    <img
+      class="character"
+      :class="{ talking: isTalking === 'David' }"
+      src="@/assets/images/characters/david.png"
+      alt="image de David"
+    />
     <img class="background" :src="chapterImage" alt="" />
     <img
       class="character"
       :class="{ talking: isTalking === 'Aurora' }"
       src="@/assets/images/characters/aurora.png"
       alt="image d'Aurora"
-    />
-    <img
-      class="character"
-      :class="{ talking: isTalking === 'David' }"
-      src="@/assets/images/characters/david.png"
-      alt="image de David"
     />
   </div>
 </template>
@@ -31,9 +31,8 @@ const isTalking = computed(() => storyStore.currentText.talking);
   height: 300px;
 }
 .character {
-  width: 150px;
-  height: 300px;
-  filter: grayscale(100%) brightness(30%);
+  width: 250px;
+  filter: grayscale(100%) brightness(50%);
 }
 .talking {
   filter: none;
