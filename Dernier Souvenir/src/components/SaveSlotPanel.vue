@@ -1,28 +1,31 @@
 <template>
-  <save-slot
-    slotNumber="1"
-    :act="saveSlot1Chapter?.act"
-    :chapterName="saveSlot1Chapter?.title"
-    :imageSrc="saveSlot1Chapter?.backgroundImage"
-    :lastSaveTime="saveSlot1?.savedAt"
-    slotName="saveSlot1"
-  ></save-slot>
-  <save-slot
-    slotNumber="2"
-    :act="saveSlot2Chapter?.act"
-    :chapterName="saveSlot2Chapter?.title"
-    :imageSrc="saveSlot2Chapter?.backgroundImage"
-    :lastSaveTime="saveSlot2?.savedAt"
-    slotName="saveSlot2"
-  ></save-slot>
-  <save-slot
-    slotNumber="3"
-    :act="saveSlot3Chapter?.act"
-    :chapterName="saveSlot3Chapter?.title"
-    :imageSrc="saveSlot3Chapter?.backgroundImage"
-    :lastSaveTime="saveSlot3?.savedAt"
-    slotName="saveSlot3"
-  ></save-slot>
+  <div class="save-panel">
+    <save-slot
+      slotNumber="1"
+      :act="saveSlot1Chapter?.act"
+      :chapterName="saveSlot1Chapter?.title"
+      :imageSrc="saveSlot1Chapter?.backgroundImage"
+      :lastSaveTime="saveSlot1?.savedAt"
+      slotName="saveSlot1"
+    ></save-slot>
+    <save-slot
+      slotNumber="2"
+      :act="saveSlot2Chapter?.act"
+      :chapterName="saveSlot2Chapter?.title"
+      :imageSrc="saveSlot2Chapter?.backgroundImage"
+      :lastSaveTime="saveSlot2?.savedAt"
+      slotName="saveSlot2"
+    ></save-slot>
+    <save-slot
+      slotNumber="3"
+      :act="saveSlot3Chapter?.act"
+      :chapterName="saveSlot3Chapter?.title"
+      :imageSrc="saveSlot3Chapter?.backgroundImage"
+      :lastSaveTime="saveSlot3?.savedAt"
+      slotName="saveSlot3"
+    ></save-slot>
+  </div>
+  
 </template>
 
 <script setup>
@@ -49,4 +52,9 @@ const saveSlot3Chapter = computed(
 );
 </script>
 
-<style scoped></style>
+<style scoped>
+.save-panel {
+  display: flex;
+  gap: 50px;
+}
+</style>
