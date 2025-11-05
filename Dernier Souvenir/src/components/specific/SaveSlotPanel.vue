@@ -30,7 +30,7 @@
 
 <script setup>
 import { computed } from "vue";
-import SaveSlot from "@/components/SaveSlot.vue";
+import SaveSlot from "@/components/common/SaveSlot.vue";
 import { useSaveStore } from "@/stores/SaveStore";
 import { useStoryStore } from "@/stores/StoryStore";
 
@@ -57,4 +57,6 @@ const saveSlot3Chapter = computed(
   display: flex;
   gap: 50px;
 }
+
+
 </style>

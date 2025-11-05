@@ -80,4 +80,8 @@ img {
   width: 200px;
   height: 200px;
 }
+
+.save-slot {
+  background-color: grey;
+}
 </style>

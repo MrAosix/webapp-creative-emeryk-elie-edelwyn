@@ -1,16 +1,22 @@
 <template>
   <div>
     <p>{{ storyStore.currentChapter.choiceDescription }}</p>
-    <SingleChoiceButton
+    <MultipleChoicesButton
       v-for="choice in storyStore.availableChoices"
       :choice="choice"
     />
+    <button
+      :disabled="!storyStore.multipleChoiceButtonAvailable"
+      @click="storyStore.confirmMultipleChoices()"
+    >
+      Confirmer
+    </button>
   </div>
 </template>
 
 <script setup>
 import { useStoryStore } from "@/stores/StoryStore";
-import SingleChoiceButton from "@/components/SingleChoiceButton.vue";
+import MultipleChoicesButton from "@/components/specific/MultipleChoicesButton.vue";
 
 const storyStore = useStoryStore();
 </script>

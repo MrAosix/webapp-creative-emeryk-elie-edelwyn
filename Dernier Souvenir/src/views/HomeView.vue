@@ -10,7 +10,7 @@
 </template>
 
 <script setup>
-import MoveViewButton from "@/components/MoveViewButton.vue";
+import MoveViewButton from "@/components/common/MoveViewButton.vue";
 </script>
 
 <style scoped></style>

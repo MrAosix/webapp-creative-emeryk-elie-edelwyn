@@ -5,8 +5,8 @@
 </template>
 
 <script setup>
-import SaveSlotPanel from "@/components/SaveSlotPanel.vue";
-import MoveViewButton from "@/components/MoveViewButton.vue";
+import SaveSlotPanel from "@/components/specific/SaveSlotPanel.vue";
+import MoveViewButton from "@/components/common/MoveViewButton.vue";
 </script>
 
 <style scoped></style>
