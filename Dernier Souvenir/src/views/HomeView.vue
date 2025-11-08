@@ -13,4 +13,15 @@
 import MoveViewButton from "@/components/common/MoveViewButton.vue";
 </script>
 
-<style scoped></style>
+<style scoped>
+h1 {
+  font-size : 120px;
+  text-align: center;
+  font-family: "Viper";
+  font-weight: 550;
+}
+.button-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+</style>

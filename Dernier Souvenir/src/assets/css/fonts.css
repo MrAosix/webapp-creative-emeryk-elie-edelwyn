@@ -1,0 +1,8 @@
+@font-face {
+  src: url("@/assets/font/viper_nora.otf") format("opentype");
+  font-family: "Viper";
+}
+@font-face {
+  src: url("@/assets/font/sebastien_slab.ttf") format("opentype");
+  font-family: "Sebastien";
+}
