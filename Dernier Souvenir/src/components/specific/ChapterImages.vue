@@ -27,8 +27,7 @@ const isTalking = computed(() => storyStore.currentText.talking);
 
 <style scoped>
 .background {
-  width: 300px;
-  height: 300px;
+  width: 1000px;
 }
 .character {
   width: 250px;

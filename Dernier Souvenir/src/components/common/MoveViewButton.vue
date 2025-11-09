@@ -17,23 +17,20 @@ const props = defineProps({
 
 <style scoped>
 a {
-  background-color: #625149;
+  background-color: #503c20;
   padding: 15px;
   border-radius: 5px;
-  color: #FFC973;
+  color: #ffc973;
   text-decoration: none;
   font-size: 30px;
   font-family: "Sebastien";
   margin: 30px;
-  letter-spacing : 3px;
+  letter-spacing: 3px;
+  transition: all 0.7s ease;
+  text-shadow: 2px 2px 4px #000000;
+  box-shadow: 0px 0px 8px #000000;
 }
 a:hover {
-  background-color: #422B26;
-  transition: 0.5s;
-  transform: translateY(5px);
-  box-shadow: 0 5px 10px #625149;
-}
-a:active {
-  color: #a87c60ff;
+  background-color: #382a17;
 }
 </style>
