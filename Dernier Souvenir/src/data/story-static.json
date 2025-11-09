@@ -117,7 +117,7 @@
         "talking": "David"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-1.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/ch-1.png",
     "music": "/src/assets/audio/musics/intro-theme.mp3",
     "choices": null,
     "consequence": "En ouvrant la porte, l'air du matin pique le nez. Des feuilles craquent sous leurs chaussures jusqu'à la barrière du sentier.",
@@ -161,7 +161,7 @@
         "talking": "Narrator"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-2.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/ch-2.png",
     "music": "/src/assets/audio/musics/intro-theme.mp3",
     "multipleChoiceNeeded": 4,
     "choiceDescription": "Qu'apportez-vous à la randonnée?:",
@@ -252,7 +252,7 @@
         "talking": "Narrator"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-3.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/ch-3.png",
     "music": "/src/assets/audio/musics/adventure-theme.mp3",
     "choiceDescription": "Choisissez un chemin:",
     "choices": [
@@ -315,7 +315,7 @@
         "talking": "Narrator"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-4a.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/ch-4a.png",
     "music": "/src/assets/audio/musics/forest-tension.mp3",
     "choiceDescription": "Comment franchir l'obstacle ?",
     "choices": [
@@ -325,7 +325,7 @@
         "nextChapter": "ch-5aa"
       },
       {
-        "text": "Passer par-dessus, doucement",
+        "text": "Passer par-dessous le tronc",
         "consequence": "Les appuis se posent l'un après l'autre: paume, genou, transfert. Le bois gémit une seconde puis se tait. Vous basculez de l'autre côté et retrouvez le ruban du sentier.",
         "nextChapter": "ch-5ab"
       },
@@ -375,7 +375,7 @@
         "talking": "Narrator"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-5aa.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/ch-5aa.png",
     "music": "/src/assets/audio/musics/suspense-quiet.mp3",
     "choiceDescription": "Comment traverser le pont ?",
     "choices": [
@@ -421,7 +421,7 @@
         "talking": "Narrator"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-5ab.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/ch-5ab.png",
     "music": "/src/assets/audio/musics/low-wind.mp3",
     "choices": null,
     "consequence": "La trace se graisse et devient moins lisible en bordure de clairière. Plus loin, le relief oblige à mieux choisir les appuis. Le sentier glisse doucement vers un terrain instable.",
@@ -469,7 +469,7 @@
           "talking": "Narrator"
         }
       ],
-      "backgroundImage": "/src/assets/images/backgrounds/ch-5aa.jpg",
+      "backgroundImage": "/src/assets/images/backgrounds/ch-5ac.png",
       "music": "/src/assets/audio/musics/suspense-quiet.mp3",
       "choiceDescription": "Comment traverser le pont ?",
       "choices": [
@@ -484,162 +484,7 @@
           "nextChapter": "ch-6aab"
         }
       ]
-    },
-    "ch-5ab": {
-      "id": "ch-5ab",
-      "act": "Acte 2",
-      "title": "Clairière Étrange",
-      "texts": [
-        {
-          "text": "La forêt s'ouvre d'un seul coup pour faire place à une clairière ronde. L'air y semble plus épais, presque immobile.",
-          "talking": "Narrator"
-        },
-        {
-          "text": "C'est calme d'un coup.",
-          "talking": "Aurora"
-        },
-        {
-          "text": "Oui, on dirait que le temps s'arrête ici.",
-          "talking": "David"
-        },
-        {
-          "text": "Au centre de la clairière, un vieux chêne déploie ses branches noueuses. Des racines épaisses s'enfoncent dans le sol, formant des creux et des bosses.",
-          "talking": "Narrator"
-        },
-        {
-          "text": "On dirait un arbre sacré...",
-          "talking": "Aurora"
-        },
-        {
-          "text": "À la sortie de la clairière, les bruits reviennent par couches fines: feuilles, pas, souffle. Rien d'hostile, mais rien de chaleureux non plus.",
-          "talking": "Narrator"
-        }
-      ],
-      "backgroundImage": "/src/assets/images/backgrounds/ch-5ab.jpg",
-      "music": "/src/assets/audio/musics/low-wind.mp3",
-      "choices": null,
-      "consequence": "La trace se graisse et devient moins lisible en bordure de clairière. Plus loin, le relief oblige à mieux choisir les appuis. Le sentier glisse doucement vers un terrain instable.",
-      "nextChapter": "ch-6aba"
-    },
-    "ch-5ac": {
-      "id": "ch-5ac",
-      "act": "Acte 2",
-      "title": "Le Brouillard",
-      "texts": [
-        {
-          "text": "Une brume monte depuis le sol et efface la profondeur. Les troncs tiennent à dix mètres, puis disparaissent.",
-          "talking": "Narrator"
-        },
-        {
-          "text": "Reste proche. Parle-moi pour que je sache où tu es.",
-          "talking": "David"
-        },
-        {
-          "text": "Je suis là....J'arrive à peine a te voir.",
-          "talking": "Aurora"
-        },
-        {
-          "text": "Le monde se resserre sur la respiration et le crissement des sacs. Par moments, une balise pâle apparaît puis s'éteint dans le blanc.",
-          "talking": "Narrator"
-        },
-        {
-          "text": "Je n'aime pas ça... On dirait que ça bouge autour de nous.",
-          "talking": "Aurora"
-        },
-        {
-          "text": "Reste calme. Je suis juste là. On va traverser ça ensemble.",
-          "talking": "David"
-        },
-        {
-          "text": "Une rafale humide passe. Trois coups espacés résonnent dans la brume, puis plus rien.",
-          "talking": "Narrator"
-        },
-        {
-          "text": "Tu as encore entendu ça ?! Je ne me souviens pas entendre ça avant...",
-          "talking": "Aurora"
-        },
-        {
-          "text": "Oui, c'est vrai... Reste concentrée sur ma voix.",
-          "talking": "David"
-        },
-        {
-          "text": "Le sol est mouillé sous les feuilles. L'odeur de la terre humide remonte. Votre inquiétude grandit.",
-          "talking": "Narrator"
-        }
-      ],
-      "backgroundImage": "/src/assets/images/backgrounds/ch-5ac.jpg",
-      "music": "/src/assets/audio/musics/fog-bed.mp3",
-      "choiceDescription": "Comment traverser la brume ?",
-      "choices": [
-        {
-          "text": "Avancer prudemment",
-          "consequence": "Chaque pas est testé avant de charger. La brume tolère la lenteur et laisse réapparaître, par fragments, la ligne du sentier.",
-          "nextChapter": "ch-6aca"
-        },
-        {
-          "text": "Se dépêcher pour la traverser",
-          "consequence": "La vitesse augmente, le souffle cogne. Deux fois la trace se perd puis revient. La brume se déchire d'un coup et rend la forêt d'un seul bloc.",
-          "nextChapter": "ch-6acb"
-        }
-      ]
-    },
-    "texts": [
-      {
-        "text": "Une brume monte depuis le sol et efface la profondeur. Les troncs tiennent à dix mètres, puis disparaissent.",
-        "talking": "Narrator"
-      },
-      {
-        "text": "Reste proche. Parle-moi pour que je sache où tu es.",
-        "talking": "David"
-      },
-      {
-        "text": "Je suis là....J'arrive à peine a te voir.",
-        "talking": "Aurora"
-      },
-      {
-        "text": "Le monde se resserre sur la respiration et le crissement des sacs. Par moments, une balise pâle apparaît puis s'éteint dans le blanc.",
-        "talking": "Narrator"
-      },
-      {
-        "text": "Je n'aime pas ça... On dirait que ça bouge autour de nous.",
-        "talking": "Aurora"
-      },
-      {
-        "text": "Reste calme. Je suis juste là. On va traverser ça ensemble.",
-        "talking": "David"
-      },
-      {
-        "text": "Une rafale humide passe. Trois coups espacés résonnent dans la brume, puis plus rien.",
-        "talking": "Narrator"
-      },
-      {
-        "text": "Tu as encore entendu ça ?! Je ne me souviens pas entendre ça avant...",
-        "talking": "Aurora"
-      },
-      {
-        "text": "Oui... Reste concentrée sur ma voix.",
-        "talking": "David"
-      },
-      {
-        "text": "Le sol est mouillé sous les feuilles. L'odeur de la terre humide remonte. Votre inquiétude grandit.",
-        "talking": "Narrator"
-      }
-    ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-5ac.jpg",
-    "music": "/src/assets/audio/musics/fog-bed.mp3",
-    "choiceDescription": "Comment traverser la brume ?",
-    "choices": [
-      {
-        "text": "Avancer prudemment",
-        "consequence": "Chaque pas est testé avant de charger. La brume tolère la lenteur et laisse réapparaître, par fragments, la ligne du sentier.",
-        "nextChapter": "ch-6aca"
-      },
-      {
-        "text": "Se dépêcher pour la traverser",
-        "consequence": "La vitesse augmente, le souffle cogne. Deux fois la trace se perd puis revient. La brume se déchire d'un coup et rend la forêt d'un seul bloc.",
-        "nextChapter": "ch-6acb"
-      }
-    ]
+    }
   },
   "ch-6aaa": {
     "id": "ch-6aaa",
@@ -679,7 +524,7 @@
         "talking": "David"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-6aaa.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/ch-6aaa.png",
     "music": "/src/assets/audio/musics/calm-walk.mp3",
     "choices": null,
     "consequence": "Le sentier remonte en pente douce. Une odeur fine de fumée arrive par rafales. Entre les arbres, on devine la silhouette d'une petite cabane au bord du chemin.",
@@ -719,7 +564,7 @@
         "talking": "Narrator"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-6aab.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/ch-6aab.png",
     "music": "/src/assets/audio/musics/tension-walk.mp3",
     "choices": null,
     "consequence": "La pente se relève et un pan de fumée grise glisse entre les branches. Une cabane apparaît, basse et grise, posée juste au bord du sentier.",
@@ -755,7 +600,7 @@
         "talking": "Narrator"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-6aba.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/ch-6aba.png",
     "music": "/src/assets/audio/musics/muddy-trail.mp3",
     "choices": null,
     "consequence": "Le sol se raffermit peu à peu et le sentier se hisse sur un replat. Une petite construction de bois, sombre et calme, se détache entre les troncs: une cabane, porte tournée vers la trace.",
@@ -791,7 +636,7 @@
         "talking": "Narrator"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-6aca.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/ch-6aca.png",
     "music": "/src/assets/audio/musics/stones-and-breath.mp3",
     "choices": null,
     "consequence": "Le relief se calme et la forêt s'éclaircit. Une cabane apparaît contre le sentier, avec une mince fumée qui sort du toit.",
@@ -827,7 +672,7 @@
         "talking": "Narrator"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-6acb.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/ch-6acb.png",
     "music": "/src/assets/audio/musics/quiet-dispute.mp3",
     "choices": null,
     "consequence": "Le sentier se redresse et rejoint une zone plus claire. Une cabane en bois gris se dessine à quelques mètres, posée contre la lisière.",
@@ -871,7 +716,7 @@
         "talking": "David"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-7a.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/ch-7a.png",
     "music": "/src/assets/audio/musics/cabin-theme.mp3",
     "choiceDescription": "Aidez-vous Gerald ?",
     "choices": [
@@ -935,7 +780,7 @@
         "talking": "Narrator"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-4b.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/ch-4b.png",
     "music": "/src/assets/audio/musics/adventure-theme.mp3",
     "choiceDescription": "Comment réagissez-vous à la bête ?",
     "choices": [
@@ -1003,7 +848,7 @@
         "talking": "David"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-5ba.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/ch-5ba.png",
     "music": "/src/assets/audio/musics/forest-breath.mp3",
     "choiceDescription": "Que lui répondez-vous ?",
     "choices": [
@@ -1053,7 +898,7 @@
         "talking": "Narrator"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-5bb.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/ch-5bb.png",
     "music": "/src/assets/audio/musics/rest-stop.mp3",
     "choices": null,
     "consequence": "Les sacs remontent sur les épaules. Le sentier repart, un peu moins clair; la trace se brouille par endroits et demande plus d'attention.",
@@ -1089,7 +934,7 @@
         "talking": "Aurora"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-5bc.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/ch-5bc.png",
     "music": "/src/assets/audio/musics/after-shot.mp3",
     "choiceDescription": "Que faites-vous de la bête ?",
     "choices": [
@@ -1156,7 +1001,7 @@
         "talking": "Aurora"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-6baa.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/ch-6baa.png",
     "music": "/src/assets/audio/musics/forest-breath.mp3",
     "choices": null,
     "consequence": "La pente s'adoucit. Une odeur de fruits sauvages arrive par bouffées. Devant, un gros buisson couvert de baies sombres empiète sur la trace.",
@@ -1208,7 +1053,7 @@
         "talking": "Aurora"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-6bab.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/ch-6bab.png",
     "music": "/src/assets/audio/musics/tension-walk.mp3",
     "choices": null,
     "consequence": "La trace vire à gauche et remonte vers une zone claire. À hauteur du sentier, un buisson hérissé, lourd de baies mûres, barre presque le passage.",
@@ -1232,7 +1077,7 @@
         "talking": "Narrator"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-6bba.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/ch-6bba.png",
     "music": "/src/assets/audio/musics/wayfinding.mp3",
     "choiceDescription": "Comment retrouvez-vous la trace ?",
     "choices": [
@@ -1279,7 +1124,7 @@
         "talking": "Narrator"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-6bca.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/ch-6bca.png",
     "music": "/src/assets/audio/musics/stream-quiet.mp3",
     "choices": null,
     "consequence": "Le sentier remonte en pente douce et l'air prend une odeur fruitée. À quelques mètres, un buisson plein de baies sombres accroche les vêtements qui passent trop près.",
@@ -1303,7 +1148,7 @@
         "talking": "Narrator"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-6bcb.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/ch-6bcb.png",
     "music": "/src/assets/audio/musics/sprint-woods.mp3",
     "choiceDescription": "Que faites-vous de l'équipement ?",
     "choices": [
@@ -1361,7 +1206,7 @@
         "talking": "David"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-7b.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/ch-7b.png",
     "music": "/src/assets/audio/musics/bush-choice.mp3",
     "choiceDescription": "Que faites-vous avec les baies ?",
     "choices": [
