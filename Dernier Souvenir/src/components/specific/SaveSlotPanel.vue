@@ -25,7 +25,6 @@
       slotName="saveSlot3"
     ></save-slot>
   </div>
-  
 </template>
 
 <script setup>
@@ -56,7 +55,6 @@ const saveSlot3Chapter = computed(
 .save-panel {
   display: flex;
   gap: 50px;
+  font-family: "Sebastien";
 }
-
-
 </style>
