@@ -16,7 +16,7 @@
     <p>Nom, lien vers sa page (ou sa directive si demandé)</p>
     <p>Nom, lien vers sa page (ou sa directive si demandé)</p>
     <h3>Images</h3>
-    <p>Images générés avec l'intelligence artificielle</p>
+    <p>Images générés avec l'aide de ChatGPT v5</p>
     <move-view-button label="Retour" page="" />
   </div>
 </template>

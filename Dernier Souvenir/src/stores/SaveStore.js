@@ -23,7 +23,7 @@ export const useSaveStore = defineStore("SaveStore", {
     saveGame() {
       if (this.saveSlots.currentSaveSlot) {
         const currentSlot = this.saveSlots.currentSaveSlot;
-        this.saveSlots[currentSlot].savedAt = new Date().toISOString();
+        this.saveSlots[currentSlot].savedAt = new Date().toLocaleString();
       }
       localStorage.setItem("save-slots", JSON.stringify(this.saveSlots));
     },
