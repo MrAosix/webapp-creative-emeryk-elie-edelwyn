@@ -1,18 +1,20 @@
 <template>
-  <div>
-    <img
-      class="character"
-      :class="{ talking: isTalking === 'David' }"
-      src="@/assets/images/characters/david.png"
-      alt="image de David"
-    />
-    <img class="background" :src="chapterImage" alt="" />
-    <img
-      class="character"
-      :class="{ talking: isTalking === 'Aurora' }"
-      src="@/assets/images/characters/aurora.png"
-      alt="image d'Aurora"
-    />
+  <div class="image-wrapper">
+    <div class="background">
+      <img class="background-image" :src="chapterImage" alt="" />
+      <img
+        class="character"
+        :class="{ talking: isTalking === 'David' }"
+        src="@/assets/images/characters/david.png"
+        alt="image de David"
+      />
+      <img
+        class="character"
+        :class="{ talking: isTalking === 'Aurora' }"
+        src="@/assets/images/characters/aurora.png"
+        alt="image d'Aurora"
+      />
+    </div>
   </div>
 </template>
 
@@ -27,13 +29,41 @@ const isTalking = computed(() => storyStore.currentText.talking);
 
 <style scoped>
 .background {
-  width: 1000px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
 }
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.characters {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+}
+
 .character {
-  width: 250px;
+  width: 260px;
+  height: auto;
   filter: grayscale(100%) brightness(50%);
+  position: absolute;
+  bottom: 0;
 }
+
 .talking {
-  filter: none;
+  filter: drop-shadow(0px 0px 1px#ffc973);
+}
+.character:nth-child(2) {
+  left: 0;
+  width: 350px;
+}
+
+.character:last-child {
+  right: 0;
 }
 </style>

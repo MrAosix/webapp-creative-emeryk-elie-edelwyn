@@ -16,6 +16,7 @@
 
 <script setup>
 import { useStoryStore } from "@/stores/StoryStore";
+
 import MultipleChoicesButton from "@/components/specific/MultipleChoicesButton.vue";
 
 const storyStore = useStoryStore();

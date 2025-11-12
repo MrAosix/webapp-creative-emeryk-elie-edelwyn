@@ -6,7 +6,7 @@
     "texts": [
       {
         "text": "Le Harvey roule depuis une vingtaine de minutes. Odeur de café et de tissu chaud. Dehors, l'automne colle des feuilles aux bas-côtés; le ciel est couvert, lourd sans être noir. La radio accroche un bout de chanson, puis du souffle.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "(...)",
@@ -38,7 +38,7 @@
       },
       {
         "text": "Le ruban orange au crochet du coffre balance à chaque virage. David le remet droit d'un geste automatique. Le tableau de bord affiche 8:06, l'aiguille d'essence bouge d'un millimètre. La route commence à grimper.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "On fait ça pour quoi, exactement ?",
@@ -58,7 +58,7 @@
       },
       {
         "text": "Le gravier vibre sous les pneus. Une pancarte en bois annonce l'aire de stationnement à deux kilomètres. La radio crache, se tait, puis revient. Dehors, trois coups secs résonnent — peut-être un pic — puis plus rien.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Tu as pris la carte papier ?",
@@ -86,7 +86,7 @@
       },
       {
         "text": "Le Harvey débouche sur une petite clairière. On devine la barrière du sentier. Le ciel est plus lourd au-dessus des cimes; l'air est frais et l'automne se fait sentir. David met le clignotant par réflexe, même s'il n'y a personne.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Tu stresses ?",
@@ -106,7 +106,7 @@
       },
       {
         "text": "Le pick-up se range sur la terre battue. Le moteur tourne encore deux secondes; le ventilateur souffle tiède. David coupe le contact. L'horloge reste sur 8:06, clignote, puis revient nette à 8:00.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "On descend ici ?",
@@ -130,7 +130,7 @@
     "texts": [
       {
         "text": "Au pied de la barrière du sentier, ils posent leurs sacs. Le Harvey est garé juste derrière. David ouvre le coffre; l’équipement attend, rangé.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Si la météo tourne plus vite que prévu, on fait quoi? Je ne veux pas finir trempée et avoir froid.",
@@ -142,7 +142,7 @@
       },
       {
         "text": "Un souffle passe. Les feuilles glissent contre leurs chaussures. Au loin, trois coups espacés résonnent, puis plus rien.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Promets-moi un truc: si je dis stop, on s'arrête là?",
@@ -154,11 +154,11 @@
       },
       {
         "text": "David lui sourit, puis ils posent les sacs au sol, ouvrent les poches et vérifient les sangles. Il faudra choisir quatres choses, pas une de plus. Le reste restera ici. ",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Ils étalent l’équipement sur le coffre. Vos choix auront des conséquences...",
-        "talking": "Narrator"
+        "talking": ""
       }
     ],
     "backgroundImage": "/src/assets/images/backgrounds/ch-2.png",
@@ -209,7 +209,7 @@
     "texts": [
       {
         "text": "Le sentier part droit puis se divise en deux devant vous. La terre est froide, l'air est frais. Les marques de peinture sont rares, presque effacées.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "On dirait que ça coupe ici. On dirait qu'ils entretiennent moins les sentiers...",
@@ -221,7 +221,7 @@
       },
       {
         "text": "A gauche, la trace est plus brute: racines, pierres humides, peu de balises. A droite, le passage est plus net, mais les troncs se resserrent et la lumière baisse.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Voyons voir... Si on file à gauche, on gagne du temps, mais c'est plus technique.",
@@ -233,7 +233,7 @@
       },
       {
         "text": "Une rafale passe. Trois coups espacés résonnent dans le bois, puis plus rien.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Dis moi que t'as entendu ça?!",
@@ -245,11 +245,11 @@
       },
       {
         "text": "La carte pèse dans le sac. Un bout de ruban orange dépasse d'une poche sans raison. La bifurcation attend.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "A vous de trancher.",
-        "talking": "Narrator"
+        "talking": ""
       }
     ],
     "backgroundImage": "/src/assets/images/backgrounds/ch-3.png",
@@ -276,7 +276,7 @@
     "texts": [
       {
         "text": "Le sentier de gauche se serre, puis s'ouvre sur un tronc couché en travers. L'écorce est sombre, crevassée, encore humide.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "On ne passera pas tout droit. La tempête a vraiment été intense...",
@@ -288,7 +288,7 @@
       },
       {
         "text": "Des traces de pas s'arrêtent net devant le tronc et reprennent plus haut sur la pente. Un bout de ruban orange pend d'une branche cassée.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Je veux éviter un faux pas.",
@@ -300,7 +300,7 @@
       },
       {
         "text": "Aurora resserre une sangle. Sa main vérifie le laçage, son regard cherche des appuis stables. La forêt semble retenir son souffle.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Si on passe par-dessus, montre-moi les appuis.",
@@ -312,7 +312,7 @@
       },
       {
         "text": "Le sol est ferme sous les feuilles. Une odeur de bois mouillé remonte. L'obstacle attend votre décision.",
-        "talking": "Narrator"
+        "talking": ""
       }
     ],
     "backgroundImage": "/src/assets/images/backgrounds/ch-4a.png",
@@ -344,7 +344,7 @@
     "texts": [
       {
         "text": "Le sentier s'arrête net devant un ravin maigre. Un vieux pont de bois le traverse, cordes usées, planches abimées par le temps.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Tu crois qu'il tient encore?",
@@ -356,7 +356,7 @@
       },
       {
         "text": "Sur une poutre, des initiales gravées: D + A : les chasseurs de sentiers. Le trait est ancien, raclé par la pluie.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Si je stresse, dis juste que tu es là.",
@@ -368,11 +368,11 @@
       },
       {
         "text": "Un souffle traverse le ravin. Quelque part dans la forêt, trois coups brefs, puis le silence retombe.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Aurora va doucement poser un pied sur la première planche mais elle semble hésiter.",
-        "talking": "Narrator"
+        "talking": ""
       }
     ],
     "backgroundImage": "/src/assets/images/backgrounds/ch-5aa.png",
@@ -398,7 +398,7 @@
     "texts": [
       {
         "text": "La forêt s'ouvre d'un seul coup pour faire place à une clairière ronde. L'air y semble plus épais, presque immobile.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "C'est calme d'un coup.",
@@ -410,7 +410,7 @@
       },
       {
         "text": "Au centre de la clairière, un vieux chêne déploie ses branches noueuses. Des racines épaisses dépassent du sol, formant des creux et des bosses.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "On dirait un arbre sacré...",
@@ -418,7 +418,7 @@
       },
       {
         "text": "À la sortie de la clairière, les bruits reviennent par couches fines: feuilles, pas, souffle. Rien d'hostile, mais rien de chaleureux non plus.",
-        "talking": "Narrator"
+        "talking": ""
       }
     ],
     "backgroundImage": "/src/assets/images/backgrounds/ch-5ab.png",
@@ -438,7 +438,7 @@
       "texts": [
         {
           "text": "Le sentier s'arrête net devant un ravin maigre. Un vieux pont de bois le traverse, cordes usées, planches marquées par le temps.",
-          "talking": "Narrator"
+          "talking": ""
         },
         {
           "text": "Tu crois qu'il tient encore?",
@@ -450,7 +450,7 @@
         },
         {
           "text": "Sur une poutre, des initiales gravées: D + A : les chasseurs de sentiers. Le trait est ancien, raclé par la pluie.",
-          "talking": "Narrator"
+          "talking": ""
         },
         {
           "text": "Si je stresse, dis juste que tu es là.",
@@ -462,11 +462,11 @@
         },
         {
           "text": "Un souffle traverse le ravin. Quelque part dans la forêt, trois coups brefs, puis le silence retombe.",
-          "talking": "Narrator"
+          "talking": ""
         },
         {
           "text": "Aurora va lentement poser un pied sur la première planche mais elle semble hésiter.",
-          "talking": "Narrator"
+          "talking": ""
         }
       ],
       "backgroundImage": "/src/assets/images/backgrounds/ch-5ac.png",
@@ -493,7 +493,7 @@
     "texts": [
       {
         "text": "Le pont est derrière vous. Le sentier s'élargit un peu, l'air paraît plus clair. Les pas se calent naturellement, sans forcer.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Ça allait. Merci d'avoir gardé le rythme.",
@@ -505,7 +505,7 @@
       },
       {
         "text": "Aurora sourit et semble prendre confiance. Les troncs s'écartent et laissent entrer une lumière laiteuse. Une ficelle orange, coincée dans une branche, bouge sans bruit.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "J'aime quand on marche comme ça, tranquille.",
@@ -517,7 +517,7 @@
       },
       {
         "text": "Très loin, trois coups maigres se noient dans la forêt. Ni menace, ni message. Juste quelque chose qui insiste.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "(...j'aime pas ce que je ressens...j'ai l'impression que ça m'observe...)",
@@ -537,7 +537,7 @@
     "texts": [
       {
         "text": "La traversée a laissé une trace dans les épaules. Les pas repartent, un peu trop rapides, comme pour effacer le bruit du bois qui a cédé.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Désolée. J'ai accéléré a cause de la peur.",
@@ -549,7 +549,7 @@
       },
       {
         "text": "Le vent soulève les feuilles. On marche côte à côte, sans chercher les mots. Les lacets crissent à chaque appui.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Tu me dis si je vais trop vite.",
@@ -561,7 +561,7 @@
       },
       {
         "text": "Au fond du bois, trois coups espacés, puis un blanc. Le chemin ne réagit pas, mais la peau du dos se tend un peu.",
-        "talking": "Narrator"
+        "talking": ""
       }
     ],
     "backgroundImage": "/src/assets/images/backgrounds/ch-6aab.png",
@@ -577,7 +577,7 @@
     "texts": [
       {
         "text": "Après la clairière, la terre devient grasse. Les feuilles collent aux semelles et forment un tapis sur les pierres plates.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "On reste centrés. Pas courts.",
@@ -585,7 +585,7 @@
       },
       {
         "text": "Si vous avez les bottes, l'appui tient et la marche garde son souffle. Sans elles, chaque pas demande un test, et la cadence se casse en petits morceaux.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Ça va, je gère. Dis-moi si tu veux passer devant.",
@@ -597,7 +597,7 @@
       },
       {
         "text": "Un craquement sec se perd plus loin. Puis reviennent ces trois coups, étouffés, comme si la forêt répétait une phrase oubliée.",
-        "talking": "Narrator"
+        "talking": ""
       }
     ],
     "backgroundImage": "/src/assets/images/backgrounds/ch-6aba.png",
@@ -613,7 +613,7 @@
     "texts": [
       {
         "text": "La brume s'effiloche par nappes. Les pierres affleurent, irrégulières, et guident les pieds comme un pas japonais mal rangé.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Pose bien le talon, puis roule le pied. Doucement. Il ne faudrait pas trop forcer ta jambe.",
@@ -625,7 +625,7 @@
       },
       {
         "text": "Le souffle s'installe plus bas, régulier. Les mains touchent parfois l'écorce pour garder l'axe. Un fil orange pend à une souche, sale et décoloré.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "On avance propre. Pas besoin d'aller vite.",
@@ -633,7 +633,7 @@
       },
       {
         "text": "Au loin, trois coups très faibles, presque avalés par la forêt. Rien ne bouge, mais ils gardent l'oreille tendue.",
-        "talking": "Narrator"
+        "talking": ""
       }
     ],
     "backgroundImage": "/src/assets/images/backgrounds/ch-6aca.png",
@@ -649,7 +649,7 @@
     "texts": [
       {
         "text": "La brume s'est déchirée, mais le pas est resté trop haut, trop nerveux. Le sentier, lui, demande de la patience.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Pourquoi on a forcé là-dedans? On aurait pu attendre dix minutes.",
@@ -661,7 +661,7 @@
       },
       {
         "text": "Le bois sent l'humidité et la sève. Des gouttes pendent aux aiguilles et tombent sans bruit. La marche se met à parler à la place des gens.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Ok. On repart propre. Je préfère ça.",
@@ -669,7 +669,7 @@
       },
       {
         "text": "Trois coups reviennent quelque part derrière, comme un rappel. Personne ne répond.",
-        "talking": "Narrator"
+        "talking": ""
       }
     ],
     "backgroundImage": "/src/assets/images/backgrounds/ch-6acb.png",
@@ -685,7 +685,7 @@
     "texts": [
       {
         "text": "Au bord du sentier, une petite cabane grise. Une planche du toit claque par moments, puis se fige. Un filet de fumée sort lentement.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Bonjour vous deux.",
@@ -709,7 +709,7 @@
       },
       {
         "text": "L’air est plus lourd ici. Très loin, trois coups espacés résonnent et s’éteignent net. Les arbres ne bougent presque pas.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "...(On peut aider un peu… ou reprendre la trace tout de suite.)",
@@ -741,7 +741,7 @@
     "texts": [
       {
         "text": "Sur la branche droite, les troncs se rapprochent et la lumière baisse. Entre deux pins, un animal immobile vous observe, sans bruit.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Ne bouge surtout pas.",
@@ -753,7 +753,7 @@
       },
       {
         "text": "La bête respire lentement. Le sol, couvert d'aiguilles, étouffe les sons. Aurora serre la sangle du sac, ses yeux mesurent la distance et les issues possibles.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Si on lui laisse de l'espace, elle va s'ecarter.",
@@ -765,7 +765,7 @@
       },
       {
         "text": "Un claquement lointain traverse les arbres, comme trois coups etouffés, puis plus rien...",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "(Encore ce bruit... Cette forêt n'est plus autant calme qu'elle était...)",
@@ -777,7 +777,7 @@
       },
       {
         "text": "Le passage existe, mais il faut choisir comment l'ouvrir.",
-        "talking": "Narrator"
+        "talking": ""
       }
     ],
     "backgroundImage": "/src/assets/images/backgrounds/ch-4b.png",
@@ -809,7 +809,7 @@
     "texts": [
       {
         "text": "L'animal s'écarte et disparaît entre deux troncs. Le sentier reprend, plus étroit, comme si la forêt voulait refermer la scène.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "J'ai cru qu'il allait nous charger.",
@@ -821,7 +821,7 @@
       },
       {
         "text": "La marche se remet en place, pas trop vite. Entre les branches, une ficelle orange pend, usée, et balance doucement.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Dis… on monte quand même jusqu'à la paroi, avec ce temps-là?",
@@ -837,7 +837,7 @@
       },
       {
         "text": "De loin, trois coups espacés résonnent, puis s'éteignent. Par contre, votre cœur battait plus fort pour les remarquer.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Je ne veux pas te ralentir. Si tu préfères y aller seul…",
@@ -871,7 +871,7 @@
     "texts": [
       {
         "text": "Vous passez au large et la bête s'efface dans l'ombre. Plus loin, un renflement de terrain offre un coin stable pour souffler.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "On prend deux minutes. Eau, souffle, puis on repart.",
@@ -883,7 +883,7 @@
       },
       {
         "text": "Le vent glisse dans les pins. On entend les sangles craquer doucement quand les sacs se reposent au sol. Deux feuilles tournent puis se posent l'une sur l'autre.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Tu me dis si tu veux passer devant. Comme tu le sens.",
@@ -895,7 +895,7 @@
       },
       {
         "text": "David acquièse. Très loin, trois coups espacés. Pas d'écho. Le temps reste suspendu une seconde, puis reprend.",
-        "talking": "Narrator"
+        "talking": ""
       }
     ],
     "backgroundImage": "/src/assets/images/backgrounds/ch-5bb.png",
@@ -911,7 +911,7 @@
     "texts": [
       {
         "text": "La détonation claque et s'écrase contre les troncs. Les oiseaux s'envolent plus loin. L'animal gît sur le flanc, la forêt retient son souffle.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Ça va?",
@@ -923,7 +923,7 @@
       },
       {
         "text": "L'air sent le bois et le fer. Le silence revient, plus dense que tout à l'heure.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "On ne reste pas longtemps ici.",
@@ -970,7 +970,7 @@
       },
       {
         "text": "Apres un moment de silence, la marche reprend, calme et posée.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "...je sais pas si je peux faire ça.",
@@ -986,7 +986,7 @@
       },
       {
         "text": "Très loin, trois coups espacés se perdent et s'éteignent sans écho. Le chemin, lui, grimpe en douceur.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "...",
@@ -1014,7 +1014,7 @@
     "texts": [
       {
         "text": "Vous avancez sans un mot pendant plusieurs minutes. Les pas frappent plus sec que d'habitude.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Laisse tomber, c'était rien.",
@@ -1026,7 +1026,7 @@
       },
       {
         "text": "Le vent passe dans les cimes. Un ruban orange accroché à un tronc se tord, puis retombe.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Je veux juste… ne pas me sentir forcée.",
@@ -1038,7 +1038,7 @@
       },
       {
         "text": "Loin derrière, trois coups étouffés. Une seconde de blanc, puis la forêt reprend ses bruits habituels.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "(n̷o̷NONn̷.̷.̷.̷ ̷i̷ILl̷ ̷f̷aFAUTu̷t̷ ̷c̷o̷n̷t̷i̷CONTINUERn̷u̷e̷r̷)",
@@ -1066,7 +1066,7 @@
     "texts": [
       {
         "text": "Après la pause, le sentier se brouille. Les marques de peinture sont rares et un tapis de feuilles masque les traces.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "On ne force pas. On remet la ligne et on repart propre.",
@@ -1074,7 +1074,7 @@
       },
       {
         "text": "Deux troncs couchés dessinent un faux passage vers la droite. L'odeur de sève fraîche flotte dans l'air.",
-        "talking": "Narrator"
+        "talking": ""
       }
     ],
     "backgroundImage": "/src/assets/images/backgrounds/ch-6bba.png",
@@ -1101,7 +1101,7 @@
     "texts": [
       {
         "text": "Vous laissez la clairière derrière vous. Un filet d'eau traverse la trace et disparaît sous un amas de pierres plates.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "On passe par les dalles, une à la fois.",
@@ -1109,7 +1109,7 @@
       },
       {
         "text": "Le courant est faible, mais le bruit couvre tout le reste, comme un rideau. De l'autre côté, le sol redevient ferme.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Ça va. J'aime mieux quand on retrouve un sol dur.",
@@ -1121,7 +1121,7 @@
       },
       {
         "text": "Très loin, trois coups brefs se mélangent au clapotis, puis s'effacent.",
-        "talking": "Narrator"
+        "talking": ""
       }
     ],
     "backgroundImage": "/src/assets/images/backgrounds/ch-6bca.png",
@@ -1137,7 +1137,7 @@
     "texts": [
       {
         "text": "Un craquement brutal derrière vous. Quelque chose démarre dans les broussailles. Vos sacs heurtent vos épaules quand vous vous mettez à courir.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Allège un peu si tu dois. Je t'ouvre le passage.",
@@ -1145,7 +1145,7 @@
       },
       {
         "text": "Les branches fouettent les manches. Le sentier réapparaît par endroits, assez pour garder la direction.",
-        "talking": "Narrator"
+        "talking": ""
       }
     ],
     "backgroundImage": "/src/assets/images/backgrounds/ch-6bcb.png",
@@ -1171,7 +1171,7 @@
     "texts": [
       {
         "text": "Un buisson rempli de baies sombres déborde sur la trace. Odeur sucrée, feuilles luisantes, quelques grappes touchent presque les sacs.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Elles ont l'air bonnes.",
@@ -1183,7 +1183,7 @@
       },
       {
         "text": "De près, les fruits sont ovales, la peau est mate. Des taches d'un mauve profond sont visibles sur certaines branches qui indique que certaines baie ont été mangées par des oiseaux.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "On pourrait en prendre juste quelques-unes… pas pour manger maintenant. Pour au cas où.",
@@ -1195,7 +1195,7 @@
       },
       {
         "text": "Très loin, trois coups espacés traversent les pins puis s'éteignent. Les arbres absorbent le son comme un coussin.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Tu l'as entendu?",
@@ -1229,7 +1229,7 @@
     "texts": [
       {
         "text": "La base de la montagne coupe l'horizon. La paroi grise prend la lumière par plaques. Le vent annonce l'orage, sans se presser.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "On est rendus. Si on grimpe, c'est maintenant ou jamais.",
@@ -1241,7 +1241,7 @@
       },
       {
         "text": "Un frottement métallique très loin. Puis ces trois coups espacés, comme un rappel que personne d'autre ne comprendra à part vous.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "On décide maintenant.",
@@ -1272,7 +1272,7 @@
     "texts": [
       {
         "text": "Une dalle lisse barre le passage. Le vent arrive en rafales courtes. Des gouttes froides piquent la peau; plus haut, la paroi brille déjà.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "On s'encorde ici. Sans corde, la dalle est traître.",
@@ -1284,7 +1284,7 @@
       },
       {
         "text": "Le ciel se ferme d'un cran. Le vent pousse par à-coups, comme s'il voulait creuser l'équilibre.",
-        "talking": "Narrator"
+        "talking": ""
       }
     ],
     "backgroundImage": "/src/assets/images/backgrounds/ch-8b.jpg",
@@ -1312,7 +1312,7 @@
     "texts": [
       {
         "text": "Un replat étroit domine la vallée. L'air est plus frais. Le vent force et apporte des grains de grésil.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "On y est presque. Après ce bombé, c'est la crête.",
@@ -1320,11 +1320,11 @@
       },
       {
         "text": "Un clic sec, comme une boucle qui se ferme. David parle, n'attend pas la réponse et se retourne.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Le replat est vide. La corde file vers le bas; au piton suivant, une longe pend et tape contre la roche: toc... toc... toc. C'était ce bruit-là, partout, depuis le matin.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Je suis désolé...",
@@ -1332,7 +1332,7 @@
       },
       {
         "text": "La montagne ne négocie pas. Le vent se souvient des mots et laisse les trois coups résonner comme un rappel du jour de l'accident.",
-        "talking": "Narrator"
+        "talking": ""
       }
     ],
     "backgroundImage": "/src/assets/images/backgrounds/ch-8ba.jpg",
@@ -1372,7 +1372,7 @@
     "texts": [
       {
         "text": "Vous choisissez de ne pas grimper. La montagne garde ses réponses. La forêt vous reprend sans insister.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "On reviendra un autre jour. Il faudrait ne pas prendre trop de risques.",
@@ -1380,7 +1380,7 @@
       },
       {
         "text": "Au parking, l'horloge du tableau de bord clignote 8:00. Trois coups ternes battent quelque part et s'arrêtent net comme une horloge qu'on remonte.",
-        "talking": "Narrator"
+        "talking": ""
       }
     ],
     "backgroundImage": "/src/assets/images/backgrounds/end-1.jpg",
@@ -1397,11 +1397,11 @@
     "texts": [
       {
         "text": "La dalle rejette votre appui. Le vide répond avant la voix. Les sons se brisent, coupés par des rafales. Il n'y a pas de rappel, seulement un silence lourd et moralisateur.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Quelque part, très loin, trois coups. Puis le calme d'une horloge qui revient au même endroit.",
-        "talking": "Narrator"
+        "talking": ""
       }
     ],
     "backgroundImage": "/src/assets/images/backgrounds/end-2.jpg",
@@ -1418,7 +1418,7 @@
     "texts": [
       {
         "text": "Vous refusez de voir ce qui est là. Le replat se resserre, devient plus haut. Le vent emporte les mots avant qu'ils ne puissent sortir.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Non... ce n'est pas possible... Je n'y crois pas... Elle ne serait pas...",
@@ -1426,7 +1426,7 @@
       },
       {
         "text": "Vous touchez la crête sans vous retourner. Vous tentez de parler d'autre chose...",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Oui, oui, bien sûr... On continue, d'accord... On y est presque...",
@@ -1446,7 +1446,7 @@
       },
       {
         "text": "Le vent garde les trois coups pour lui. La montagne ne dit rien, vous juge. Le replat s'efface derrière vous, comme un rêve qu'on oublie.",
-        "talking": "Narrator"
+        "talking": ""
       }
     ],
     "backgroundImage": "/src/assets/images/backgrounds/end-3.jpg",
@@ -1463,7 +1463,7 @@
     "texts": [
       {
         "text": "Vous passez le replat à chercher un arrangement: si on revient avec plus de matériel, si on change l'heure, si on prend par l'autre arête...",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "On aurait pu éviter le vent si on était partis plus tôt.",
@@ -1471,7 +1471,7 @@
       },
       {
         "text": "La montagne ne signe aucun contrat. Trois coups secs répondent, comme un tampon sans encre. Puis tout recommence.",
-        "talking": "Narrator"
+        "talking": ""
       }
     ],
     "backgroundImage": "/src/assets/images/backgrounds/end-4.jpg",
@@ -1492,7 +1492,7 @@
       },
       {
         "text": "Vous relâchez la prise et acceptez l'idée que rien ne changera. Le mal est fait. Le replat devient très large, trop large. Les mots n'arrivent plus.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "J'en peux plus...",
@@ -1500,7 +1500,7 @@
       },
       {
         "text": "Le vent garde les trois coups pour lui. David tombe à genoux. Le vide avale le son et le temps.",
-        "talking": "Narrator"
+        "talking": ""
       }
     ],
     "backgroundImage": "/src/assets/images/backgrounds/end-5.jpg",
@@ -1517,7 +1517,7 @@
     "texts": [
       {
         "text": "Les trois coups deviennent clairs: la longe qui frappait la roche, ce jour-là. Le bruit revient exactement, sans se déguiser.",
-        "talking": "Narrator"
+        "talking": ""
       },
       {
         "text": "Je… Je sais ce qui s'est passé. C'est moi qui ai mal. C'est de ma faute. Je n'aurais pas dû nous laisser grimper ce jour-là...",
@@ -1525,7 +1525,7 @@
       },
       {
         "text": "Le vent baisse d'un cran. La montagne n'argumente plus, comme si Aurora était témoins. Elle garde ce qu'elle a pris et vous laisse redescendre sans presser le pas.",
-        "talking": "Narrator"
+        "talking": ""
       }
     ],
     "backgroundImage": "/src/assets/images/backgrounds/end-6.jpg",

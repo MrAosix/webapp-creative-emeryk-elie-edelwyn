@@ -24,6 +24,8 @@
 <script setup>
 import { useRouter } from "vue-router";
 import { useStoryStore } from "@/stores/StoryStore";
+import { onMounted, watch } from "vue";
+import Typed from "typed.js";
 
 const router = useRouter();
 const storyStore = useStoryStore();
