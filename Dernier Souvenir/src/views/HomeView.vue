@@ -1,9 +1,4 @@
 <template>
-  <img
-    class="background"
-    src="@/assets/images/backgrounds/ch-6aaa.png"
-    alt="background image"
-  />
   <div class="home-view-wrapper">
     <h1>DERNIER SOUVENIR</h1>
     <div class="button-wrapper">
@@ -23,17 +18,6 @@ import MoveViewButton from "@/components/common/MoveViewButton.vue";
 </script>
 
 <style scoped>
-.background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
-  animation: backgroundFadeIn 10s ease-in-out infinite alternate;
-}
-
 .home-view-wrapper {
   display: flex;
   flex-direction: column;
@@ -58,26 +42,6 @@ import MoveViewButton from "@/components/common/MoveViewButton.vue";
   animation-delay: 1.5s;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes backgroundFadeIn {
-  from {
-    filter: brightness(80%);
-    transform: scale(1.1);
-  }
-  to {
-    filter: brightness(100%);
-    transform: scale(1);
-  }
-}
-
 h1 {
   font-size: 8vw;
   text-align: center;
@@ -88,17 +52,6 @@ h1 {
   text-shadow: 5px 5px 4px #000000, 0 0 10px rgba(255, 201, 115, 0.3);
   animation: fadeIn 1.5s ease-in-out forwards,
     pulse 8s ease-in-out 1.5s infinite;
-}
-
-@keyframes pulse {
-  0%,
-  100% {
-    text-shadow: 5px 5px 4px #000000, 0 0 10px rgba(255, 201, 115, 0.3);
-  }
-  50% {
-    text-shadow: 5px 5px 4px #000000, 0 0 20px rgba(255, 201, 115, 0.6),
-      0 0 30px rgba(255, 201, 115, 0.4);
-  }
 }
 
 .button-wrapper {
