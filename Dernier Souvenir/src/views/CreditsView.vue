@@ -1,19 +1,66 @@
 <template>
-  <h1>Crédits</h1>
-  <p>
-    Site entièrement dévoloppé par: <br />
-    Émeryk Bélisle <br />
-    Elie Daher <br />
-    Edelwyn Ledru
-  </p>
-  <p>Musiques par: Nom, lien vers sa page (ou sa directive si demandé)</p>
-  <p>Sons par: Nom, lien vers sa page (ou sa directive si demandé)</p>
-  <p>Images générés avec l'intelligence artificielle</p>
-  <move-view-button label="Retour" page="" />
+  <div class="credits-view-wrapper">
+    <h1>Credits</h1>
+    <h3>Créateurs</h3>
+    <p>
+      Émeryk Bélisle <br />
+      Elie Daher <br />
+      Edelwyn Ledru
+    </p>
+    <h3>Musiques</h3>
+    <p>Nom, lien vers sa page (ou sa directive si demandé)</p>
+    <p>Nom, lien vers sa page (ou sa directive si demandé)</p>
+    <p>Nom, lien vers sa page (ou sa directive si demandé)</p>
+    <h3>Sons</h3>
+    <p>Nom, lien vers sa page (ou sa directive si demandé)</p>
+    <p>Nom, lien vers sa page (ou sa directive si demandé)</p>
+    <p>Nom, lien vers sa page (ou sa directive si demandé)</p>
+    <h3>Images</h3>
+    <p>Images générés avec l'intelligence artificielle</p>
+    <move-view-button label="Retour" page="" />
+  </div>
 </template>
 
 <script setup>
 import MoveViewButton from "@/components/common/MoveViewButton.vue";
 </script>
 
-<style scoped></style>
+<style scoped>
+.credits-view-wrapper {
+  color: white;
+  font-family: "Sebastien";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+h1 {
+  font-size: 8vw;
+  text-align: center;
+  font-family: "Viper";
+  font-weight: 550;
+  margin: 0;
+  color: #ffc973;
+  text-shadow: 5px 5px 4px #000000, 0 0 10px rgba(255, 201, 115, 0.3);
+  animation: pulse 8s ease-in-out 1.5s infinite;
+}
+
+h3 {
+  font-size: 2vw;
+  color: #ffc973;
+  text-shadow: 2px 2px 4px #000000, 0 0 10px rgba(255, 201, 115, 0.3);
+  margin-bottom: 0;
+  margin-top: 1vw;
+}
+
+p {
+  font-size: 1.3vw;
+  text-align: center;
+  margin-top: 0.2vw;
+  margin-bottom: 0.2vw;
+  text-shadow: 2px 2px 4px #000000, 0 0 10px rgba(255, 201, 115, 0.3);
+}
+</style>

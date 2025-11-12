@@ -14,7 +14,7 @@ import MoveViewButton from "@/components/common/MoveViewButton.vue";
 import { ref } from "vue";
 
 const volume = ref(50);
-const textSpeed = ref(50);
+const textSpeed = ref(5);
 </script>
 
 <style scoped>
