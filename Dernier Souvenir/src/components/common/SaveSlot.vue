@@ -153,7 +153,9 @@ h2 {
 .last-save-text {
   color: #cccccc;
   font-size: 20px;
+  letter-spacing: 2px;
   margin: 0;
+  align-self: center;
 }
 
 .empty-save-wrapper {
