@@ -47,6 +47,7 @@ h1 {
   color: #ffc973;
   text-shadow: 5px 5px 4px #000000, 0 0 10px rgba(255, 201, 115, 0.3);
   animation: fadeIn 1.5s ease-in-out forwards, pulse 8s ease-in-out 1.5s infinite;
+  user-select: none;
 }
 
 .button-wrapper {
