@@ -15,9 +15,7 @@ export const usePlayerStore = defineStore("PlayerStore", {
       if (!currentSaveSlot || !saveStore.saveSlots[currentSaveSlot]) {
         return false;
       }
-      return saveStore.saveSlots[
-        currentSaveSlot
-      ].playerState.inventory.includes(itemName);
+      return saveStore.saveSlots[currentSaveSlot].playerState.inventory.includes(itemName);
     },
     hasFlag: (state) => (flagName) => {
       const saveStore = useSaveStore();
@@ -25,10 +23,7 @@ export const usePlayerStore = defineStore("PlayerStore", {
       if (!currentSaveSlot || !saveStore.saveSlots[currentSaveSlot]) {
         return false;
       }
-      return (
-        saveStore.saveSlots[currentSaveSlot].playerState.flags[flagName] ===
-        true
-      );
+      return saveStore.saveSlots[currentSaveSlot].playerState.flags[flagName] === true;
     },
     canAccessEnding: (state) => (ending) => {
       return state.flags.includes(`has_${ending}_ending`);
@@ -48,8 +43,7 @@ export const usePlayerStore = defineStore("PlayerStore", {
       const saveStore = useSaveStore();
       const currentSaveSlot = saveStore.saveSlots.currentSaveSlot;
       if (currentSaveSlot && saveStore.saveSlots[currentSaveSlot]) {
-        const inventory =
-          saveStore.saveSlots[currentSaveSlot].playerState.inventory;
+        const inventory = saveStore.saveSlots[currentSaveSlot].playerState.inventory;
         const index = inventory.indexOf(item);
         if (index > -1) {
           inventory.splice(index, 1);
@@ -61,8 +55,7 @@ export const usePlayerStore = defineStore("PlayerStore", {
       const saveStore = useSaveStore();
       const currentSaveSlot = saveStore.saveSlots.currentSaveSlot;
       if (currentSaveSlot && saveStore.saveSlots[currentSaveSlot]) {
-        const inventory =
-          saveStore.saveSlots[currentSaveSlot].playerState.inventory;
+        const inventory = saveStore.saveSlots[currentSaveSlot].playerState.inventory;
         const itemsToRemove = Math.min(count, inventory.length);
 
         for (let i = 0; i < itemsToRemove; i++) {
@@ -77,8 +70,7 @@ export const usePlayerStore = defineStore("PlayerStore", {
       const saveStore = useSaveStore();
       const currentSaveSlot = saveStore.saveSlots.currentSaveSlot;
       if (currentSaveSlot && saveStore.saveSlots[currentSaveSlot]) {
-        saveStore.saveSlots[currentSaveSlot].playerState.flags[flagName] =
-          value;
+        saveStore.saveSlots[currentSaveSlot].playerState.flags[flagName] = value;
         saveStore.saveGame();
       }
     },

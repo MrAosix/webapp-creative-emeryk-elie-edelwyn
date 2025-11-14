@@ -9,9 +9,7 @@
     }"
   >
     {{ choice.text }}
-    <span v-if="choice.condition && isConditionNotMet" class="requirement">
-      (Nécessite: {{ getConditionDisplayName(choice.condition) }})
-    </span>
+    <span v-if="choice.condition && isConditionNotMet" class="requirement"> (Nécessite: {{ getConditionDisplayName(choice.condition) }}) </span>
   </button>
 </template>
 

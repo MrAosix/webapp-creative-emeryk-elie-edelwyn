@@ -1,16 +1,8 @@
 <template>
   <div>
     <p>{{ storyStore.currentChapter.choiceDescription }}</p>
-    <MultipleChoicesButton
-      v-for="choice in storyStore.availableChoices"
-      :choice="choice"
-    />
-    <button
-      :disabled="!storyStore.multipleChoiceButtonAvailable"
-      @click="storyStore.confirmMultipleChoices()"
-    >
-      Confirmer
-    </button>
+    <MultipleChoicesButton v-for="choice in storyStore.availableChoices" :choice="choice" />
+    <button :disabled="!storyStore.multipleChoiceButtonAvailable" @click="storyStore.confirmMultipleChoices()">Confirmer</button>
   </div>
 </template>
 

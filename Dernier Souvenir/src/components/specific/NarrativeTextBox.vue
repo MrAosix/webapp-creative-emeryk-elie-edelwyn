@@ -1,13 +1,8 @@
 <template>
   <div class="narrative-text-box">
-    <p cl>{{ storyStore.currentText.talking }}</p>
+    <p class="speaker">{{ storyStore.currentText.talking }}</p>
     <p id="typed-element" class="hidden"></p>
-    <button
-      @click="storyStore.goToNextText()"
-      v-if="!storyStore.isTextFinished"
-    >
-      Suivant
-    </button>
+    <button @click="storyStore.goToNextText()" v-if="!storyStore.isTextFinished">Suivant</button>
   </div>
 </template>
 
@@ -52,7 +47,12 @@ watch(
 
 <style scoped>
 #typed-element {
+  position: relative;
   display: inline;
+  font-size: 25px;
+  color: white;
+  letter-spacing: 1.5px;
+  bottom: 15px;
 }
 
 .typed-cursor {
@@ -63,6 +63,8 @@ watch(
 
 .narrative-text-box {
   position: relative;
+  bottom: 20px;
+  left: 5px;
   height: 90%;
 }
 
@@ -76,10 +78,17 @@ button {
   transition: background-color 0.3s ease;
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: 10px;
 }
 
 button:hover {
   background-color: #a78e6b;
+}
+
+.speaker {
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: wheat;
 }
 </style>

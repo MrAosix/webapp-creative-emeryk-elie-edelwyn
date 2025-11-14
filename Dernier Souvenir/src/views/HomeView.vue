@@ -3,11 +3,7 @@
     <h1>DERNIER SOUVENIR</h1>
     <div class="button-wrapper">
       <MoveViewButton label="Options" page="options" class="fade-in delay-2" />
-      <MoveViewButton
-        label="Jouer"
-        page="sauvegardes"
-        class="fade-in delay-1"
-      />
+      <MoveViewButton label="Jouer" page="sauvegardes" class="fade-in delay-1" />
       <MoveViewButton label="Crédits" page="credits" class="fade-in delay-3" />
     </div>
   </div>
@@ -50,8 +46,7 @@ h1 {
   margin: 0;
   color: #ffc973;
   text-shadow: 5px 5px 4px #000000, 0 0 10px rgba(255, 201, 115, 0.3);
-  animation: fadeIn 1.5s ease-in-out forwards,
-    pulse 8s ease-in-out 1.5s infinite;
+  animation: fadeIn 1.5s ease-in-out forwards, pulse 8s ease-in-out 1.5s infinite;
 }
 
 .button-wrapper {

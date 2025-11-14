@@ -29,10 +29,7 @@ export const useStoryStore = defineStore("StoryStore", {
       return state.currentTextIndex >= Texts?.length;
     },
     isMultipleChoiceActive: (state) => {
-      return (
-        state.availableChoices.length > 0 &&
-        state.availableChoices[0]?.buttonImage
-      );
+      return state.availableChoices.length > 0 && state.availableChoices[0]?.buttonImage;
     },
     hasNoChoices: (state) => {
       return state.availableChoices.length === 0;
@@ -45,18 +42,11 @@ export const useStoryStore = defineStore("StoryStore", {
     },
     isChoiceDisabled: (state) => (choiceName) => {
       if (!state.multipleChoiceNeeded) return false;
-      return (
-        state.multipleChoiceSelection.length >= state.multipleChoiceNeeded &&
-        !state.multipleChoiceSelection.includes(choiceName)
-      );
+      return state.multipleChoiceSelection.length >= state.multipleChoiceNeeded && !state.multipleChoiceSelection.includes(choiceName);
     },
 
     shouldShowSingleChoicePanel: (state) => {
-      return (
-        state.showChoicePanel &&
-        !state.isMultipleChoiceActive &&
-        !state.hasNoChoices
-      );
+      return state.showChoicePanel && !state.isMultipleChoiceActive && !state.hasNoChoices;
     },
 
     shouldShowMultipleChoicePanel: (state) => {
@@ -88,14 +78,8 @@ export const useStoryStore = defineStore("StoryStore", {
       // Always reset and reload visited chapters from the current save slot
       this.visitedChapters = [];
       const currentSlot = saveStore.saveSlots.currentSaveSlot;
-      if (
-        currentSlot &&
-        saveStore.saveSlots[currentSlot] &&
-        saveStore.saveSlots[currentSlot].visitedChapters
-      ) {
-        this.visitedChapters = [
-          ...saveStore.saveSlots[currentSlot].visitedChapters,
-        ];
+      if (currentSlot && saveStore.saveSlots[currentSlot] && saveStore.saveSlots[currentSlot].visitedChapters) {
+        this.visitedChapters = [...saveStore.saveSlots[currentSlot].visitedChapters];
       }
 
       this.resetPanels();
@@ -133,23 +117,13 @@ export const useStoryStore = defineStore("StoryStore", {
 
     goToChapter(nextChapterId) {
       const saveStore = useSaveStore();
-      if (
-        this.currentChapterId &&
-        !this.visitedChapters.includes(this.currentChapterId) &&
-        !this.currentChapterId.startsWith("end-")
-      ) {
+      if (this.currentChapterId && !this.visitedChapters.includes(this.currentChapterId) && !this.currentChapterId.startsWith("end-")) {
         this.visitedChapters.push(this.currentChapterId);
 
         const currentSlot = saveStore.saveSlots.currentSaveSlot;
         if (currentSlot && saveStore.saveSlots[currentSlot]) {
-          if (
-            !saveStore.saveSlots[currentSlot].visitedChapters.includes(
-              this.currentChapterId
-            )
-          ) {
-            saveStore.saveSlots[currentSlot].visitedChapters.push(
-              this.currentChapterId
-            );
+          if (!saveStore.saveSlots[currentSlot].visitedChapters.includes(this.currentChapterId)) {
+            saveStore.saveSlots[currentSlot].visitedChapters.push(this.currentChapterId);
           }
         }
       }
@@ -188,9 +162,7 @@ export const useStoryStore = defineStore("StoryStore", {
     makeChoice(choice) {
       if (this.isMultipleChoiceActive) {
         this.multipleChoiceNeeded = this.currentChapter.multipleChoiceNeeded;
-        const isAlreadySelected = this.multipleChoiceSelection.includes(
-          choice.name
-        );
+        const isAlreadySelected = this.multipleChoiceSelection.includes(choice.name);
         if (isAlreadySelected) {
           const index = this.multipleChoiceSelection.indexOf(choice.name);
           this.multipleChoiceSelection.splice(index, 1);
@@ -199,8 +171,7 @@ export const useStoryStore = defineStore("StoryStore", {
             this.multipleChoiceSelection.push(choice.name);
           }
         }
-        this.multipleChoiceButtonAvailable =
-          this.multipleChoiceSelection.length === this.multipleChoiceNeeded;
+        this.multipleChoiceButtonAvailable = this.multipleChoiceSelection.length === this.multipleChoiceNeeded;
       }
 
       this.currentChoice = choice;
@@ -209,20 +180,11 @@ export const useStoryStore = defineStore("StoryStore", {
     selectSingleChoice(choice) {
       const playerStore = usePlayerStore();
 
-      if (
-        this.currentChapterId === "ch-7a" &&
-        choice.text.includes("Aider Gerald (donner la corde)")
-      ) {
+      if (this.currentChapterId === "ch-7a" && choice.text.includes("Aider Gerald (donner la corde)")) {
         playerStore.removeFromInventory("Corde");
-      } else if (
-        this.currentChapterId === "ch-7b" &&
-        choice.text.includes("Prendre des baies")
-      ) {
+      } else if (this.currentChapterId === "ch-7b" && choice.text.includes("Prendre des baies")) {
         playerStore.addToInventory("Baies");
-      } else if (
-        this.currentChapterId === "ch-6bcb" &&
-        choice.text.includes("Alléger le sac (laisser deux objets aléatoires)")
-      ) {
+      } else if (this.currentChapterId === "ch-6bcb" && choice.text.includes("Alléger le sac (laisser deux objets aléatoires)")) {
         playerStore.removeRandomItemsFromInventory(2);
       }
 

@@ -2,18 +2,8 @@
   <div class="image-wrapper">
     <div class="background">
       <img class="background-image" :src="chapterImage" alt="" />
-      <img
-        class="character"
-        :class="{ talking: isTalking === 'David' }"
-        src="@/assets/images/characters/david.png"
-        alt="image de David"
-      />
-      <img
-        class="character"
-        :class="{ talking: isTalking === 'Aurora' }"
-        src="@/assets/images/characters/aurora.png"
-        alt="image d'Aurora"
-      />
+      <img class="character" :class="{ talking: isTalking === 'David' }" src="@/assets/images/characters/david.png" alt="image de David" />
+      <img class="character" :class="{ talking: isTalking === 'Aurora' }" src="@/assets/images/characters/aurora.png" alt="image d'Aurora" />
     </div>
   </div>
 </template>

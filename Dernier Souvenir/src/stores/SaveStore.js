@@ -23,18 +23,15 @@ export const useSaveStore = defineStore("SaveStore", {
     saveGame() {
       if (this.saveSlots.currentSaveSlot) {
         const currentSlot = this.saveSlots.currentSaveSlot;
-        this.saveSlots[currentSlot].savedAt = new Date().toLocaleString(
-          "en-CA",
-          {
-            year: "numeric",
-            month: "2-digit",
-            day: "2-digit",
-            hour: "2-digit",
-            minute: "2-digit",
-            second: "2-digit",
-            hour12: false, // 24-hour format
-          }
-        );
+        this.saveSlots[currentSlot].savedAt = new Date().toLocaleString("en-CA", {
+          year: "numeric",
+          month: "2-digit",
+          day: "2-digit",
+          hour: "2-digit",
+          minute: "2-digit",
+          second: "2-digit",
+          hour12: false, // 24-hour format
+        });
       }
       localStorage.setItem("save-slots", JSON.stringify(this.saveSlots));
     },

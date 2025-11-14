@@ -6,11 +6,7 @@
       <p class="chapter-text">{{ chapterName }}</p>
     </div>
 
-    <img
-      v-if="lastSaveTime"
-      :src="imageSrc"
-      :alt="`Image de chapitre pour ${chapterName}`"
-    />
+    <img v-if="lastSaveTime" :src="imageSrc" :alt="`Image de chapitre pour ${chapterName}`" />
 
     <p class="last-save-text" v-if="lastSaveTime">{{ lastSaveTime }}</p>
 
@@ -21,9 +17,7 @@
 
     <div v-if="!lastSaveTime" class="empty-save-wrapper">
       <p class="empty-text">VIDE</p>
-      <button class="new-game-button" @click="startNewGame()">
-        Nouvelle partie
-      </button>
+      <button class="new-game-button" @click="startNewGame()">Nouvelle partie</button>
     </div>
   </div>
 </template>

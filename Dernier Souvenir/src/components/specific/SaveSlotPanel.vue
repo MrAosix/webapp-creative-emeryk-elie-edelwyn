@@ -40,15 +40,9 @@ const saveSlot1 = computed(() => saveStore.saveSlots.saveSlot1);
 const saveSlot2 = computed(() => saveStore.saveSlots.saveSlot2);
 const saveSlot3 = computed(() => saveStore.saveSlots.saveSlot3);
 
-const saveSlot1Chapter = computed(
-  () => storyStore.storyData[saveSlot1.value?.currentChapterId]
-);
-const saveSlot2Chapter = computed(
-  () => storyStore.storyData[saveSlot2.value?.currentChapterId]
-);
-const saveSlot3Chapter = computed(
-  () => storyStore.storyData[saveSlot3.value?.currentChapterId]
-);
+const saveSlot1Chapter = computed(() => storyStore.storyData[saveSlot1.value?.currentChapterId]);
+const saveSlot2Chapter = computed(() => storyStore.storyData[saveSlot2.value?.currentChapterId]);
+const saveSlot3Chapter = computed(() => storyStore.storyData[saveSlot3.value?.currentChapterId]);
 </script>
 
 <style scoped>

@@ -1,10 +1,7 @@
 <template>
   <div>
     <p>{{ storyStore.currentChapter.choiceDescription }}</p>
-    <SingleChoiceButton
-      v-for="choice in storyStore.availableChoices"
-      :choice="choice"
-    />
+    <SingleChoiceButton v-for="choice in storyStore.availableChoices" :choice="choice" />
   </div>
 </template>
 

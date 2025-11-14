@@ -1,7 +1,5 @@
 <template>
-  <router-link class="move-view-button" :to="`/${page}`">{{
-    label
-  }}</router-link>
+  <router-link class="move-view-button" :to="`/${page}`">{{ label }}</router-link>
 </template>
 
 <script setup>

@@ -7,16 +7,8 @@
     <HistoryPanel class="history" />
     <chapter-images class="images" />
     <div class="text-wrapper">
-      <narrative-text-box
-        v-if="
-          !storyStore.isTextFinished &&
-          !storyStore.showChoicePanel &&
-          !storyStore.showConsequencePanel
-        "
-      />
-      <consequence-panel
-        v-if="storyStore.shouldShowConsequencePanel"
-      ></consequence-panel>
+      <narrative-text-box v-if="!storyStore.isTextFinished && !storyStore.showChoicePanel && !storyStore.showConsequencePanel" />
+      <consequence-panel v-if="storyStore.shouldShowConsequencePanel"></consequence-panel>
       <single-choice-panel v-if="storyStore.shouldShowSingleChoicePanel" />
       <multiple-choices-panel v-if="storyStore.shouldShowMultipleChoicePanel" />
     </div>
