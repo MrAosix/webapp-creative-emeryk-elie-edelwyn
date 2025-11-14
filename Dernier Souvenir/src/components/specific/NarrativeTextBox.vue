@@ -74,7 +74,7 @@ button {
   background-color: #f3eadcc8;
   border: 2px solid #503c20;
   cursor: pointer;
-  font-family: "Sebastien";
+  font-family: "F25";
   transition: background-color 0.3s ease;
   position: absolute;
   bottom: 0;
