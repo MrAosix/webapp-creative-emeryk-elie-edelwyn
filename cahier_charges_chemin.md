@@ -2,18 +2,17 @@
 
 ## 📌 Informations du Projet
 
-*Nom du projet:* Dernier Souvenir    
-*Nom de l'équipe:* Les Triples E    
-*Membres:*
+_Nom du projet:_ Dernier Souvenir  
+_Nom de l'équipe:_ Les Triples E  
+_Membres:_
 
 - Elie Daher - Chef de projet / Architecture
 - Edelwyn - Design / Animations
 - Émeryk - Données / Système
 
-*Date de début:* 12 Octobre 2025  
-*Date de livraison finale:* 10 Décembre 2025    
-*Version du document:* 1.0
-
+_Date de début:_ 12 Octobre 2025  
+_Date de livraison finale:_ 10 Décembre 2025  
+_Version du document:_ 1.0
 
 ## 🎯 1. Présentation du Projet
 
@@ -29,10 +28,10 @@ Au fur et à mesure des boucles, l’histoire révèle progressivement que David
 
 ### 1.2 Public cible
 
-- *Âge:* 18-40 ans
-- *Profil:* Les amateurs d'horreur psychologique, les parents
-- *Niveau technique:* Utilisateurs grand public
-- *Temps de lecture estimé:* 15-30 minutes
+- _Âge:_ 18-40 ans
+- _Profil:_ Les amateurs d'horreur psychologique, les parents
+- _Niveau technique:_ Utilisateurs grand public
+- _Temps de lecture estimé:_ 15-30 minutes
 
 ### 1.3 Objectifs du projet
 
@@ -47,7 +46,7 @@ Au fur et à mesure des boucles, l’histoire révèle progressivement que David
 
 ### 2.1 Synopsis détaillé
 
-Par un matin d’automne au début des années 2000, David, un père de 39 ans, et sa fille de 14 ans Aurora prennent la route à bord de leur vieux camion en direction d’un sentier de montagne isolé. Malgré une météo orageuse annoncée et un ciel déjà chargé de nuages menaçants, ils décident de maintenir leur sortie et de tenter l’ascension coûte que coûte, convaincus que tout ira bien. La lumière orangée filtrant à travers la brume et la radio grésillante instaurent une atmosphère à la fois familière et inquiétante. Une fois arrivés au point de départ, le joueur doit choisir quels objets emporter: lampe, corde, trousse de secours, etc.  des décisions qui paraissent anodines mais influenceront subtilement la suite du parcours. Le sentier se divise ensuite en plusieurs chemins, par exemple une piste forestière tranquille, un sentier rocailleux plus risqué, etc...
+Par un matin d’automne au début des années 2000, David, un père de 39 ans, et sa fille de 14 ans Aurora prennent la route à bord de leur vieux camion en direction d’un sentier de montagne isolé. Malgré une météo orageuse annoncée et un ciel déjà chargé de nuages menaçants, ils décident de maintenir leur sortie et de tenter l’ascension coûte que coûte, convaincus que tout ira bien. La lumière orangée filtrant à travers la brume et la radio grésillante instaurent une atmosphère à la fois familière et inquiétante. Une fois arrivés au point de départ, le joueur doit choisir quels objets emporter: lampe, corde, trousse de secours, etc. des décisions qui paraissent anodines mais influenceront subtilement la suite du parcours. Le sentier se divise ensuite en plusieurs chemins, par exemple une piste forestière tranquille, un sentier rocailleux plus risqué, etc...
 
 Tout au long de la randonnée, une série de choix semi-importants s’offre au joueur : aider ou ignorer une personne croisée, explorer une cabane abandonnée ou poursuivre la marche, suivre l’élan d’Aurora ou la retenir par prudence. Ces décisions façonnent la dynamique entre le père et la fille, leur préparation et l’ambiance générale jusqu’à l’arrivée au pied de la montagne. Là, malgré les conditions météorologiques de plus en plus dangereuses, le choix décisif de gravir ou non la paroi est proposé, déclenchant différentes fins influencées par le chemin parcouru et les actions passées. Et pour ceux qui atteignent une fin particulière puis décident de rejouer sur la même sauvegarde, une fin secrète se débloque, révélant une dimension supplémentaire à cette journée qui semble condamnée à se répéter.
 
@@ -57,75 +56,75 @@ Tout au long de la randonnée, une série de choix semi-importants s’offre au 
 
 ### 2.3 Liste des chapitres/scènes
 
-| # | Nom du chapitre | Type | Description courte | Choix proposés | Conséquences |
-|---|----------------|------|-------------------|----------------|--------------|
-| Acte 1 Chapitre 1 | [En Route] | Linéaire | Introduction des personnages et du contexte | Aucun (intro) | N/A |
-| Acte 1 Chapitre 2 | [Préparation] | Choix Linéaire | Choisir les objets pour la randonnée | 8 choix d'objets, mais 4 possible à choisir | Détermine 1 des fins |
-| Acte 2 Chapitre 1 | [Le Chemin] | Choix | Choisir le chemin à prendre | 2 choix: gauche ou droite |
-| Acte 2 Chapitre 2 Branche A | [L’Arbre Tombé] | Choix | Un arbre massif bloque complètement le sentier | 3 choix : Le contourner par la pente abrupte, Le franchir avec précaution, Chercher un autre passage |
-| Acte 2 Chapitre 3 Branche AA | [Le Pont de Bois] | Choix | Vous arrivez devant un vieux pont suspendu au-dessus d’un ravin. Aurora hésite à le traverser | 2 choix: La rassurer et traverser calmement, La presser sans l’écouter | Branche AAA ou AAB |
-| Acte 2 Chapitre 4 Branche AAA | [Pas Légers] | Linéaire | La marche reprend dans une ambiance détendue, Aurora vous sourit. | Aucun | Chapitre 5 |
-| Acte 2 Chapitre 4 Branche AAB | [Silence Tendu] | Linéaire | Vous continuez la marche dans une ambiance froide et tendue. | Aucun | Chapitre 5 |
-| Acte 2 Chapitre 3 Branche AB | [Clairière Étrange] | Linéaire | Vous arrivez dans une clairière silencieuse, recouverte de feuilles orangées. L’air est immobile. | Aucun | Branche ABA |
-| Acte 2 Chapitre 4 Branche ABA | [Terrain Glissant] | Choix Linéaire | Le sentier devient boueux et difficile à distinguer. Si vous avez les bottes, vous trouvez un chemin sûr. Sinon, plus difficle. | Bottes ou pas | Chapitre 5 |
-| Acte 2 Chapitre 3 Branche AC | [Le Brouillard] | Choix | Une épaisse brume s’installe rapidement. Vous perdez un peu vos repères. | 2 choix : Avancer prudemment, Se dépêcher pour la traverser | Branche ACA ou ACB |
-| Acte 2 Chapitre 4 Branche ACA | [Terrain Accidenté] | Linéaire | Le sentier devient de plus en plus irrégulier. Aurora à de la misère à se déplacer. vous avancez jusqu’à retrouver un chemin plus praticable. | Aucun | Chapitre 5 |
-| Acte 2 Chapitre 4 Branche ACB | [Remise en Question] | Linéaire | Alors que vous sortez du brouillard, Aurora brise le silence et remet en question vos décisions depuis le départ. L’atmosphère devient lourde et tendue, mais vous continuez d’avancer côte à côte. | Aucun | Chapitre 5 |
-| Acte 2 Chapitre 5 Branche A | [La Cabane du Vieil Homme] | Choix | Vous rencontrez Gérald, un vieux monsieur vivant seul dans une cabane isolée. Il vous demande de l’aide | 2 choix: l’aider avec une corde (si disponible), l’ignorer | Chapitre 6 Branche AA ou AB |
-| Acte 2 Chapitre 6 Branche AA | [La Pente Difficile] | Linéaire | Après avoir quitté la cabane de Gérald, vous vous engagez sur une longue montée, vous continuez lentement jusqu’à atteindre un plateau surélevé. | Aucun | Acte 3 |
-| Acte 2 Chapitre 6 Branche AB | [La Forêt Silencieuse] | Linéaire | Après avoir quitté la cabane, vous avancez sur un long sentier entouré d’arbres immenses. Le vent fait craquer les branches au-dessus de vous. Aurora se rapproche instinctivement de vous alors que vous vous enfoncez dans la forêt vers la montagne. | Aucun | Acte 3 |
-| Acte 2 Chapitre 2 Branche B | [La Bête] | Choix | Choisir comment réagir avec l'animal | 3 choix: L'approcher, Ignorer et continuer le chemin, Le Chasser (si fusil dans l'inventaire) | Branche BA ou BB ou BC |
-| Acte 2 Chapitre 3 Branche BA | [Conversation Importante] | Choix | Choisir le bon dialogue avec sa fille | 2 choix: Réponse A, Réponse B | Branche BAA ou BAB |
-| Acte 2 Chapitre 4 Branche BAA | [Mauvais Dialogue] | Linéaire | Marche avec sa fille, mais elle est faché | Aucun | Chapitre 5 |
-| Acte 2 Chapitre 4 Branche BAB | [Bon Dialogue] | Linéaire | Marche avec sa fille, mais elle est heureuse | Aucun | Chapitre 5 |
-| Acte 2 Chapitre 3 Branche BB | [Repos] | Linéaire | Les 2 décide de s'arrêter et de profiter de la nature pendant un certain temps | Aucun | Branche BBA |
-| Acte 2 Chapitre 4 Branche BBA | [Perdu] | Choix Linéaire | Si ont la carte ou pas, change le texte | Carte ou pas | Chapitre 5 |
-| Acte 2 Chapitre 3 Branche BC | [Bête Abattue] | Choix | Choisir quoi faire avec la bête morte | 2 choix: Le laisser et partir, Rester et le manger | Branche BCA ou BCB |
-| Acte 2 Chapitre 4 Branche BCA | [Ruisseau] | Linéaire | Vous voyez un ruisseau d'eau et buvez un peu | Aucun | Chapitre 5 |
-| Acte 2 Chapitre 4 Branche BCB | [Fuite] | Choix Linéaire | Une bête vous effraient et partez rapidement | Choix entre 2 objets sur 4 à garder | Chapitre 5 |
-| Acte 2 Chapitre 5 Branche B | [Le Buisson] | Choix Linéaire | Choisir quoi faire avec le buisson rempli de baies | 2 choix: Prendre des baies, Ignorer le buisson | Acte 3 |
-| Acte 3 | [Décision] | Choix | Choisir de grimper la montagne ou pas | 2 choix: Grimper ou retourner en arrière | Branche A (Fin 1) ou Branche B (Continuation) |
-| Acte 3 Branche B | [La montagne] | Choix | En grimpant la montagne, il y aura une inconvénience surprise dont tu auras besoin d'un objet crucial | 2 choix: Utiliser la corde ou ne pas utiliser la corde | Branche BA (Continuation), Branche BB (Fin 2) |
-| Acte 3 Branche BA | [La fin?] | Choix | Au sommet de la montagne, tu retournes pour voir...  | 4 choix progression | Branche BAA (Fin 3), Branche BAB (Fin 4), Branche BAC (Fin 5), Branche BAD (Fin 6) |
-
+| #                             | Nom du chapitre            | Type           | Description courte                                                                                                                                                                                                                                      | Choix proposés                                                                                       | Conséquences                                                                       |
+| ----------------------------- | -------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| Acte 1 Chapitre 1             | [En Route]                 | Linéaire       | Introduction des personnages et du contexte                                                                                                                                                                                                             | Aucun (intro)                                                                                        | N/A                                                                                |
+| Acte 1 Chapitre 2             | [Préparation]              | Choix Linéaire | Choisir les objets pour la randonnée                                                                                                                                                                                                                    | 8 choix d'objets, mais 4 possible à choisir                                                          | Détermine 1 des fins                                                               |
+| Acte 2 Chapitre 1             | [Le Chemin]                | Choix          | Choisir le chemin à prendre                                                                                                                                                                                                                             | 2 choix: gauche ou droite                                                                            |
+| Acte 2 Chapitre 2 Branche A   | [L’Arbre Tombé]            | Choix          | Un arbre massif bloque complètement le sentier                                                                                                                                                                                                          | 3 choix : Le contourner par la pente abrupte, Le franchir avec précaution, Chercher un autre passage |
+| Acte 2 Chapitre 3 Branche AA  | [Le Pont de Bois]          | Choix          | Vous arrivez devant un vieux pont suspendu au-dessus d’un ravin. Aurora hésite à le traverser                                                                                                                                                           | 2 choix: La rassurer et traverser calmement, La presser sans l’écouter                               | Branche AAA ou AAB                                                                 |
+| Acte 2 Chapitre 4 Branche AAA | [Pas Légers]               | Linéaire       | La marche reprend dans une ambiance détendue, Aurora vous sourit.                                                                                                                                                                                       | Aucun                                                                                                | Chapitre 5                                                                         |
+| Acte 2 Chapitre 4 Branche AAB | [Silence Tendu]            | Linéaire       | Vous continuez la marche dans une ambiance froide et tendue.                                                                                                                                                                                            | Aucun                                                                                                | Chapitre 5                                                                         |
+| Acte 2 Chapitre 3 Branche AB  | [Clairière Étrange]        | Linéaire       | Vous arrivez dans une clairière silencieuse, recouverte de feuilles orangées. L’air est immobile.                                                                                                                                                       | Aucun                                                                                                | Branche ABA                                                                        |
+| Acte 2 Chapitre 4 Branche ABA | [Terrain Glissant]         | Choix Linéaire | Le sentier devient boueux et difficile à distinguer. Si vous avez les bottes, vous trouvez un chemin sûr. Sinon, plus difficle.                                                                                                                         | Bottes ou pas                                                                                        | Chapitre 5                                                                         |
+| Acte 2 Chapitre 3 Branche AC  | [Le Brouillard]            | Choix          | Une épaisse brume s’installe rapidement. Vous perdez un peu vos repères.                                                                                                                                                                                | 2 choix : Avancer prudemment, Se dépêcher pour la traverser                                          | Branche ACA ou ACB                                                                 |
+| Acte 2 Chapitre 4 Branche ACA | [Terrain Accidenté]        | Linéaire       | Le sentier devient de plus en plus irrégulier. Aurora à de la misère à se déplacer. vous avancez jusqu’à retrouver un chemin plus praticable.                                                                                                           | Aucun                                                                                                | Chapitre 5                                                                         |
+| Acte 2 Chapitre 4 Branche ACB | [Remise en Question]       | Linéaire       | Alors que vous sortez du brouillard, Aurora brise le silence et remet en question vos décisions depuis le départ. L’atmosphère devient lourde et tendue, mais vous continuez d’avancer côte à côte.                                                     | Aucun                                                                                                | Chapitre 5                                                                         |
+| Acte 2 Chapitre 5 Branche A   | [La Cabane du Vieil Homme] | Choix          | Vous rencontrez Gérald, un vieux monsieur vivant seul dans une cabane isolée. Il vous demande de l’aide                                                                                                                                                 | 2 choix: l’aider avec une corde (si disponible), l’ignorer                                           | Chapitre 6 Branche AA ou AB                                                        |
+| Acte 2 Chapitre 6 Branche AA  | [La Pente Difficile]       | Linéaire       | Après avoir quitté la cabane de Gérald, vous vous engagez sur une longue montée, vous continuez lentement jusqu’à atteindre un plateau surélevé.                                                                                                        | Aucun                                                                                                | Acte 3                                                                             |
+| Acte 2 Chapitre 6 Branche AB  | [La Forêt Silencieuse]     | Linéaire       | Après avoir quitté la cabane, vous avancez sur un long sentier entouré d’arbres immenses. Le vent fait craquer les branches au-dessus de vous. Aurora se rapproche instinctivement de vous alors que vous vous enfoncez dans la forêt vers la montagne. | Aucun                                                                                                | Acte 3                                                                             |
+| Acte 2 Chapitre 2 Branche B   | [La Bête]                  | Choix          | Choisir comment réagir avec l'animal                                                                                                                                                                                                                    | 3 choix: L'approcher, Ignorer et continuer le chemin, Le Chasser (si fusil dans l'inventaire)        | Branche BA ou BB ou BC                                                             |
+| Acte 2 Chapitre 3 Branche BA  | [Conversation Importante]  | Choix          | Choisir le bon dialogue avec sa fille                                                                                                                                                                                                                   | 2 choix: Réponse A, Réponse B                                                                        | Branche BAA ou BAB                                                                 |
+| Acte 2 Chapitre 4 Branche BAA | [Mauvais Dialogue]         | Linéaire       | Marche avec sa fille, mais elle est faché                                                                                                                                                                                                               | Aucun                                                                                                | Chapitre 5                                                                         |
+| Acte 2 Chapitre 4 Branche BAB | [Bon Dialogue]             | Linéaire       | Marche avec sa fille, mais elle est heureuse                                                                                                                                                                                                            | Aucun                                                                                                | Chapitre 5                                                                         |
+| Acte 2 Chapitre 3 Branche BB  | [Repos]                    | Linéaire       | Les 2 décide de s'arrêter et de profiter de la nature pendant un certain temps                                                                                                                                                                          | Aucun                                                                                                | Branche BBA                                                                        |
+| Acte 2 Chapitre 4 Branche BBA | [Perdu]                    | Choix Linéaire | Si ont la carte ou pas, change le texte                                                                                                                                                                                                                 | Carte ou pas                                                                                         | Chapitre 5                                                                         |
+| Acte 2 Chapitre 3 Branche BC  | [Bête Abattue]             | Choix          | Choisir quoi faire avec la bête morte                                                                                                                                                                                                                   | 2 choix: Le laisser et partir, Rester et le manger                                                   | Branche BCA ou BCB                                                                 |
+| Acte 2 Chapitre 4 Branche BCA | [Ruisseau]                 | Linéaire       | Vous voyez un ruisseau d'eau et buvez un peu                                                                                                                                                                                                            | Aucun                                                                                                | Chapitre 5                                                                         |
+| Acte 2 Chapitre 4 Branche BCB | [Fuite]                    | Choix Linéaire | Une bête vous effraient et partez rapidement                                                                                                                                                                                                            | Choix entre 2 objets sur 4 à garder                                                                  | Chapitre 5                                                                         |
+| Acte 2 Chapitre 5 Branche B   | [Le Buisson]               | Choix Linéaire | Choisir quoi faire avec le buisson rempli de baies                                                                                                                                                                                                      | 2 choix: Prendre des baies, Ignorer le buisson                                                       | Acte 3                                                                             |
+| Acte 3                        | [Décision]                 | Choix          | Choisir de grimper la montagne ou pas                                                                                                                                                                                                                   | 2 choix: Grimper ou retourner en arrière                                                             | Branche A (Fin 1) ou Branche B (Continuation)                                      |
+| Acte 3 Branche B              | [La montagne]              | Choix          | En grimpant la montagne, il y aura une inconvénience surprise dont tu auras besoin d'un objet crucial                                                                                                                                                   | 2 choix: Utiliser la corde ou ne pas utiliser la corde                                               | Branche BA (Continuation), Branche BB (Fin 2)                                      |
+| Acte 3 Branche BA             | [La fin?]                  | Choix          | Au sommet de la montagne, tu retournes pour voir...                                                                                                                                                                                                     | 4 choix progression                                                                                  | Branche BAA (Fin 3), Branche BAB (Fin 4), Branche BAC (Fin 5), Branche BAD (Fin 6) |
 
 ### 2.4 Fins possibles
 
-| # | Nom de la fin | Condition pour l'atteindre | Type (bonne/mauvaise/neutre) |
-|---|--------------|---------------------------|------------------------------|
-| 1 | [Prudence] | Par choix (Aucun Requis) | Neutre |
-| 2 | [Chute Finale] | Monter la montagne, mais manque un objet | Mauvaise |
-| 3 | [Déni] | Monter la montagne, avoir l'objet | Neutre |
-| 4 | [Marchandage] | Monter la montagne, avoir l'objet, avoir fait la fin "Deni" | Neutre |
-| 5 | [Resignation] | Monter la montagne, avoir l'objet, avoir fait la fin "Deni" et "Marchandage" | Mauvaise |
-| 6 | [Acceptance] | Monter la montagne, avoir l'objet, avoir fait la fin "Deni" et "Marchandage" | Bonne |
+| #   | Nom de la fin  | Condition pour l'atteindre                                                   | Type (bonne/mauvaise/neutre) |
+| --- | -------------- | ---------------------------------------------------------------------------- | ---------------------------- |
+| 1   | [Prudence]     | Par choix (Aucun Requis)                                                     | Neutre                       |
+| 2   | [Chute Finale] | Monter la montagne, mais manque un objet                                     | Mauvaise                     |
+| 3   | [Déni]         | Monter la montagne, avoir l'objet                                            | Neutre                       |
+| 4   | [Marchandage]  | Monter la montagne, avoir l'objet, avoir fait la fin "Deni"                  | Neutre                       |
+| 5   | [Resignation]  | Monter la montagne, avoir l'objet, avoir fait la fin "Deni" et "Marchandage" | Mauvaise                     |
+| 6   | [Acceptance]   | Monter la montagne, avoir l'objet, avoir fait la fin "Deni" et "Marchandage" | Bonne                        |
 
 ### 2.5 Personnages principaux
 
-| Nom | Rôle | Description | Apparaît dans |
-|-----|------|-------------|---------------|
-| David | Protagoniste  | Père | Tous les chapitres |
-| Aurora | Personnage Pivot | Fille | Tous les chapitres |
-| Gerald | Figurant | Vieux monsieur dans la cabane | Chapitre 5 |
-
+| Nom    | Rôle             | Description                   | Apparaît dans      |
+| ------ | ---------------- | ----------------------------- | ------------------ |
+| David  | Protagoniste     | Père                          | Tous les chapitres |
+| Aurora | Personnage Pivot | Fille                         | Tous les chapitres |
+| Gerald | Figurant         | Vieux monsieur dans la cabane | Chapitre 5         |
 
 ### 2.6 Système de conséquences
 
 Comment les choix influencent l'histoire?
+
 - Le choix d'objets (inventaire) force des chemins différents et peuvent éventuellement amener à être forcé d'avoir une des fins possibles
 - Les chemins et les choix en randonnées changent l'histoire durant l'acte 2, mais la majorité ne change rien de permanant
 - Les choix à l'acte 3 décident de la fin
 
-*Mécanisme choisi:*
+_Mécanisme choisi:_
 
-- [ ] *Système de karma/moralité* (points bons/mauvais)
-- [ ] *Stats du personnage* (courage, intelligence, empathie)
-- [x] *Inventaire d'objets* (collecte d'items)
-- [ ] *Relations avec personnages* (affinités)
-- [x] *Flags de choix* (choix X débloque scène Y)
-- [x] *Combinaison de plusieurs systèmes*
+- [ ] _Système de karma/moralité_ (points bons/mauvais)
+- [ ] _Stats du personnage_ (courage, intelligence, empathie)
+- [x] _Inventaire d'objets_ (collecte d'items)
+- [ ] _Relations avec personnages_ (affinités)
+- [x] _Flags de choix_ (choix X débloque scène Y)
+- [x] _Combinaison de plusieurs systèmes_
 
-*Exemple de tracking:*
+_Exemple de tracking:_
+
 ```javascript
 playerState: {
   inventory: ['Corde', 'Lampe', 'Carabine'],
@@ -134,7 +133,6 @@ playerState: {
   }
 }
 ```
-
 
 ## 🎨 3. Design et Identité Visuelle
 
@@ -146,8 +144,8 @@ Insérez ici 3-5 images d'inspiration (ou liens):
 
 ### 3.2 Palette de couleurs
 
-*Couleurs par ambiance/chapitre:*
-*Couleurs système:*
+_Couleurs par ambiance/chapitre:_
+_Couleurs système:_
 
 ![Moodboard](/medias_md/palette_couleur_type_dernier_souvenir.png)
 
@@ -162,48 +160,47 @@ Choisissez un ou plusieurs styles:
 - [ ] Cinématique (film noir, thriller)
 - [ ] Illustratif (dessins, concept art)
 - [ ] Minimaliste (focus sur le texte)
-- [X] Immersif (photos, ambiances réalistes)
+- [x] Immersif (photos, ambiances réalistes)
 - [ ] Stylisé (flat design, géométrique)
 
 ### 3.5 Éléments visuels par chapitre
 
-| Chapitre | Image de fond | Effets visuels | Sons/musique |
-|----------|---------------|----------------|--------------|
-| Acte 1 Chapitre 1 | Les 2 personnages dans l'auto | Fade in progressif | Musique douce, intro, bruit moteur |
-| Acte 1 Chapitre 2 | le coffre de l'auto avec les items | Fade in progressif | Musique douce, bruits de l'item sélectionné |
-| Acte 2 Chapitre 1 | 2 chemins : 1 à gauche, 1 à droite, dans la forêt aux couleurs d'automne | Fade in progressif  | Musique douce, bruit foret |
-| Acte 2 Chapitre 2 Branche A | Un arbre massif bloque complètement le sentier | Fade in progressif  | Musique douce, bruit foret, arbre qui tombe |
-| Acte 2 Chapitre 3 Branche AA | Vieux pont suspendu au dessus d'un ravin | Fade in progressif  | Musique douce, bruit de vent |
-| Acte 2 Chapitre 4 Branche AAA | continuité du sentier | Fade in progressif  | Musique douce, bruit foret |
-| Acte 2 Chapitre 4 Branche AAB | continuité du sentier | Fade in progressif  | Musique douce, bruit foret |
-| Acte 2 Chapitre 3 Branche AB | clarière un peu romanesque avec les couleurs d'automnes | Fade in progressif  | Musique douce, bruits de vent |
-| Acte 2 Chapitre 4 Branche ABA | Sentier boueux | Fade in progressif  | Musique douce, bruit foret, bruits de boue |
-| Acte 2 Chapitre 3 Branche AC | Sentier brumeux | Fade in progressif  | Musique légèrement mystérieuse, bruit foret étouffé |
-| Acte 2 Chapitre 4 Branche ACA | Sentier irrégulier/rocheux | Fade in progressif  | Musique douce, bruit ambiants |
-| Acte 2 Chapitre 4 Branche ACB | Sentier brumeux | Fade in progressif  | Musique légèrement tendue, bruit ambiants étouffé |
-| Acte 2 Chapitre 5 Branche A | Sentier avec une cabine pas très loin | Fade in progressif  | Musique douce, bruits foret |
-| Acte 2 Chapitre 6 Branche AA | Sentier avec une pente qui monte | Fade in progressif  | Musique douce, bruits foret |
-| Acte 2 Chapitre 6 Branche AB | Sentier avec des grands arbres | Fade in progressif  | Musique douce, bruits foret |
-| Acte 2 Chapitre 2 Branche B | Sentier avec une bête | Fade in progressif  | Musique légèrement intense/sur nos gardes, bruits foret, bruits d'animal/pas |
-| Acte 2 Chapitre 3 Branche BA | Continuité du sentier | Fade in progressif  | Ambiance un peu sérieuse, bruits foret |
-| Acte 2 Chapitre 4 Branche BAA | Continuité du sentier | Fade in progressif  | Ambiance un peu sérieuse, bruits foret |
-| Acte 2 Chapitre 4 Branche BAB | Continuité du sentier | Fade in progressif  | Ambiance joyeuse, bruits foret |
-| Acte 2 Chapitre 3 Branche BB | Fond de forêt | Fade in progressif  | Ambiance douce, bruits foret |
-| Acte 2 Chapitre 4 Branche BBA | Continuité du sentier |   Fade in progressif  | Ambiance douce, bruits foret |
-| Acte 2 Chapitre 3 Branche BC | fond avec la bête abbatue |  Fade in progressif  | Ambiance un peu sérieuse, bruits foret |
-| Acte 2 Chapitre 4 Branche BCA | Fond de la forêt avec un ruisseau | Fade in progressif  | Ambiance douce, bruits foret, bruits eau |
-| Acte 2 Chapitre 4 Branche BCB | fond qui bouge rapidement | Fade in rapide  | Ambiance intense, bruits foret, bruits de pas de course |
-| Acte 2 Chapitre 5 Branche B | sentier avec un buisson de baies | Fade in progressif  | Ambiance douce, bruits foret |
-| Acte 3 | fond avec un mur de roche (la montagne) | Fade in progressif  | Ambiance sérieuse, orage, tonnere, pluie |
-| Acte 3 Branche B | fond avec un mur d'escalade (la montagne) | Fade in progressif  | Ambiance sérieuse, orage, tonnere, pluie |
-| Acte 3 Branche BA | fond vue du sommet de la montagne | Fade in progressif  | musique stop, acouphene |
-
+| Chapitre                      | Image de fond                                                            | Effets visuels     | Sons/musique                                                                 |
+| ----------------------------- | ------------------------------------------------------------------------ | ------------------ | ---------------------------------------------------------------------------- |
+| Acte 1 Chapitre 1             | Les 2 personnages dans l'auto                                            | Fade in progressif | Musique douce, intro, bruit moteur                                           |
+| Acte 1 Chapitre 2             | le coffre de l'auto avec les items                                       | Fade in progressif | Musique douce, bruits de l'item sélectionné                                  |
+| Acte 2 Chapitre 1             | 2 chemins : 1 à gauche, 1 à droite, dans la forêt aux couleurs d'automne | Fade in progressif | Musique douce, bruit foret                                                   |
+| Acte 2 Chapitre 2 Branche A   | Un arbre massif bloque complètement le sentier                           | Fade in progressif | Musique douce, bruit foret, arbre qui tombe                                  |
+| Acte 2 Chapitre 3 Branche AA  | Vieux pont suspendu au dessus d'un ravin                                 | Fade in progressif | Musique douce, bruit de vent                                                 |
+| Acte 2 Chapitre 4 Branche AAA | continuité du sentier                                                    | Fade in progressif | Musique douce, bruit foret                                                   |
+| Acte 2 Chapitre 4 Branche AAB | continuité du sentier                                                    | Fade in progressif | Musique douce, bruit foret                                                   |
+| Acte 2 Chapitre 3 Branche AB  | clarière un peu romanesque avec les couleurs d'automnes                  | Fade in progressif | Musique douce, bruits de vent                                                |
+| Acte 2 Chapitre 4 Branche ABA | Sentier boueux                                                           | Fade in progressif | Musique douce, bruit foret, bruits de boue                                   |
+| Acte 2 Chapitre 3 Branche AC  | Sentier brumeux                                                          | Fade in progressif | Musique légèrement mystérieuse, bruit foret étouffé                          |
+| Acte 2 Chapitre 4 Branche ACA | Sentier irrégulier/rocheux                                               | Fade in progressif | Musique douce, bruit ambiants                                                |
+| Acte 2 Chapitre 4 Branche ACB | Sentier brumeux                                                          | Fade in progressif | Musique légèrement tendue, bruit ambiants étouffé                            |
+| Acte 2 Chapitre 5 Branche A   | Sentier avec une cabine pas très loin                                    | Fade in progressif | Musique douce, bruits foret                                                  |
+| Acte 2 Chapitre 6 Branche AA  | Sentier avec une pente qui monte                                         | Fade in progressif | Musique douce, bruits foret                                                  |
+| Acte 2 Chapitre 6 Branche AB  | Sentier avec des grands arbres                                           | Fade in progressif | Musique douce, bruits foret                                                  |
+| Acte 2 Chapitre 2 Branche B   | Sentier avec une bête                                                    | Fade in progressif | Musique légèrement intense/sur nos gardes, bruits foret, bruits d'animal/pas |
+| Acte 2 Chapitre 3 Branche BA  | Continuité du sentier                                                    | Fade in progressif | Ambiance un peu sérieuse, bruits foret                                       |
+| Acte 2 Chapitre 4 Branche BAA | Continuité du sentier                                                    | Fade in progressif | Ambiance un peu sérieuse, bruits foret                                       |
+| Acte 2 Chapitre 4 Branche BAB | Continuité du sentier                                                    | Fade in progressif | Ambiance joyeuse, bruits foret                                               |
+| Acte 2 Chapitre 3 Branche BB  | Fond de forêt                                                            | Fade in progressif | Ambiance douce, bruits foret                                                 |
+| Acte 2 Chapitre 4 Branche BBA | Continuité du sentier                                                    | Fade in progressif | Ambiance douce, bruits foret                                                 |
+| Acte 2 Chapitre 3 Branche BC  | fond avec la bête abbatue                                                | Fade in progressif | Ambiance un peu sérieuse, bruits foret                                       |
+| Acte 2 Chapitre 4 Branche BCA | Fond de la forêt avec un ruisseau                                        | Fade in progressif | Ambiance douce, bruits foret, bruits eau                                     |
+| Acte 2 Chapitre 4 Branche BCB | fond qui bouge rapidement                                                | Fade in rapide     | Ambiance intense, bruits foret, bruits de pas de course                      |
+| Acte 2 Chapitre 5 Branche B   | sentier avec un buisson de baies                                         | Fade in progressif | Ambiance douce, bruits foret                                                 |
+| Acte 3                        | fond avec un mur de roche (la montagne)                                  | Fade in progressif | Ambiance sérieuse, orage, tonnere, pluie                                     |
+| Acte 3 Branche B              | fond avec un mur d'escalade (la montagne)                                | Fade in progressif | Ambiance sérieuse, orage, tonnere, pluie                                     |
+| Acte 3 Branche BA             | fond vue du sommet de la montagne                                        | Fade in progressif | musique stop, acouphene                                                      |
 
 ## 💻 4. Spécifications Techniques
 
 ### 4.1 Stack technologique
 
-*Frontend obligatoire:*
+_Frontend obligatoire:_
 
 - ✅ Vue.js 3 (Composition API ☐ / Options API ☐)
 - ✅ Vite
@@ -212,7 +209,7 @@ Choisissez un ou plusieurs styles:
 - ✅ CSS
 - ✅ GSAP + ScrollTrigger (optionnel selon style)
 
-*Librairies additionnelles envisagées:*
+_Librairies additionnelles envisagées:_
 
 - [ ] VueUse (composables utilitaires)
 - [ ] Typed.js (effet de machine à écrire)
@@ -223,13 +220,13 @@ Choisissez un ou plusieurs styles:
 
 Listez vos composants Vue principaux:
 
-*Composants de layout:*
+_Composants de layout:_
 
 - `AppHeader.vue` - Navigation et menu
 - `SaveSlotManager.vue` - Gestion des sauvegardes
 - `ProgressBar.vue` - Barre de progression dans l'histoire
 
-*Composants de contenu:*
+_Composants de contenu:_
 
 - `ChapterView.vue` - Vue d'un chapitre/scène
 - `NarrativeText.vue` - Affichage du texte narratif
@@ -237,14 +234,14 @@ Listez vos composants Vue principaux:
 - `ChoiceButton.vue` - Bouton de choix interactif
 - `ChoicePanel.vue` - Panel contenant tous les choix
 
-*Composants système:*
+_Composants système:_
 
 - `InventoryDisplay.vue` - Affichage de l'inventaire
 - `StatsPanel.vue` - Affichage des stats du joueur
 - `EndingScreen.vue` - Écran de fin avec récapitulatif
 - `Modal.vue` - Fenêtre modale (sauvegarde, options)
 
-*Composants UI:*
+_Composants UI:_
 
 - `ButtonPrimary.vue` - Bouton principal
 - `LoadingSpinner.vue` - Indicateur de chargement
@@ -252,46 +249,49 @@ Listez vos composants Vue principaux:
 
 ### 4.3 Routes (Vue Router)
 
-| Route | Composant | Description | Params |
-|-------|-----------|-------------|--------|
-| `/` | `HomeView.vue` | Menu principal | - |
-| `/nouvelle-partie` | `CharacterSetupView.vue` | Config initiale (nom, etc.) | - |
-| `/chapitre/:id` | `ChapterView.vue` | Vue d'un chapitre | id du chapitre |
-| `/fin/:endingId` | `EndingView.vue` | Écran de fin | id de la fin |
-| `/sauvegardes` | `SavesView.vue` | Gestion des sauvegardes | - |
-| `/credits` | `CreditsView.vue` | Crédits | - |
+| Route              | Composant                | Description                 | Params         |
+| ------------------ | ------------------------ | --------------------------- | -------------- |
+| `/`                | `HomeView.vue`           | Menu principal              | -              |
+| `/nouvelle-partie` | `CharacterSetupView.vue` | Config initiale (nom, etc.) | -              |
+| `/chapitre/:id`    | `ChapterView.vue`        | Vue d'un chapitre           | id du chapitre |
+| `/fin/:endingId`   | `EndingView.vue`         | Écran de fin                | id de la fin   |
+| `/sauvegardes`     | `SavesView.vue`          | Gestion des sauvegardes     | -              |
+| `/credits`         | `CreditsView.vue`        | Crédits                     | -              |
 
 ### 4.4 Gestion de l'état (Pinia)
 
-*Stores prévus:*
+_Stores prévus:_
 
-1. *`useStoryStore`*
+1. _`useStoryStore`_
+
    - State: `currentChapterId`, `visitedChapters`, `storyData`, `availableChoices`
    - Actions: `loadChapter()`, `makeChoice()`, `goToChapter()`
    - Getters: `currentChapter`, `isChapterUnlocked()`
 
-2. *`usePlayerStore`*
+2. _`usePlayerStore`_
+
    - State: `playerName`, `karma`, `stats`, `inventory`, `flags`, `relationships`
    - Actions: `addToInventory()`, `updateStat()`, `setFlag()`, `updateRelationship()`
    - Getters: `hasItem()`, `getRelationship()`, `canAccessEnding()`
 
-3. *`useSaveStore`*
+3. _`useSaveStore`_
+
    - State: `saveSlots` (array de 3 slots)
    - Actions: `saveGame()`, `loadGame()`, `deleteSave()`, `getSaveInfo()`
    - Getters: `hasSaves`, `latestSave`
 
-4. *`useAudioStore`* (optionnel)
+4. _`useAudioStore`_ (optionnel)
    - State: `currentMusic`, `soundEffects`, `volume`, `isMuted`
    - Actions: `playMusic()`, `playSound()`, `toggleMute()`, `setVolume()`
 
 ### 4.5 Persistance des données
 
-*Méthode choisie:*
+_Méthode choisie:_
 
 - [x] LocalStorage (obligatoire pour sauvegardes)
 - [ ] Firebase Firestore (bonus optionnel pour galerie publique)
 
-*Structure de données LocalStorage:*
+_Structure de données LocalStorage:_
 
 ```json
 {
@@ -337,7 +337,8 @@ Listez vos composants Vue principaux:
 
 Comment stockez-vous les chapitres et choix?
 
-*Option A: JSON statique* (recommandé)
+_Option A: JSON statique_ (recommandé)
+
 ```javascript
 // data/chapters.json
 {
@@ -384,128 +385,144 @@ Comment stockez-vous les chapitres et choix?
 }
 ```
 
-
 ## 🎬 5. Fonctionnalités et User Stories
 
 ### 5.1 Fonctionnalités MVP (Minimum Viable Product)
 
-*Obligatoires pour la livraison:*
+_Obligatoires pour la livraison:_
 
-- [x] *F1 - Lecture de l'histoire*
+- [x] _F1 - Lecture de l'histoire_
+
   - Affichage du texte narratif chapitre par chapitre
   - Navigation linéaire dans l'intro
   - Transitions fluides entre chapitres
 
-- [x] *F2 - Système de choix*
+- [x] _F2 - Système de choix_
+
   - Affichage de 2-4 choix par chapitre décisionnel
   - Sélection d'un choix
   - Redirection vers le chapitre suivant approprié
   - Minimum 8 chapitres avec au moins 3 fins
 
-- [x] *F3 - Tracking des conséquences*
+- [x] _F3 - Tracking des conséquences_
+
   - État du joueur (karma/stats/flags)
   - Mise à jour après chaque choix
   - Conditions pour débloquer fins
 
-- [x] *F4 - Système de sauvegarde*
+- [x] _F4 - Système de sauvegarde_
+
   - 3 slots de sauvegarde
   - Sauvegarde manuelle
   - Chargement d'une sauvegarde
   - Affichage des infos de sauvegarde (date, progression)
 
-- [x] *F5 - Historique des choix*
+- [x] _F5 - Historique des choix_
+
   - Garder trace des décisions prises
   - Affichage dans un menu (optionnel mais recommandé)
 
-- [x] *F6 - Écrans de fin*
+- [x] _F6 - Écrans de fin_
+
   - Affichage de la fin atteinte
   - Récapitulatif des choix faits
   - Option de recommencer ou charger
 
-- [x] *F7 - Interface responsive*
+- [x] _F7 - Interface responsive_
+
   - Mobile (320px+)
   - Tablette (768px+)
   - Desktop (1024px+)
 
-- [x] *F8 - Animations de texte*
+- [x] _F8 - Animations de texte_
+
   - Apparition progressive du texte (optionnel: effet typewriter)
   - Transitions entre chapitres avec GSAP
 
-- [x] *F9 - Accessibilité*
+- [x] _F9 - Accessibilité_
+
   - Navigation au clavier
   - ARIA labels
   - Contraste WCAG AA
   - Option skip animations
 
-- [x] *F10 - Médias intégrés*
+- [x] _F10 - Médias intégrés_
   - Images de fond par chapitre
   - Musique d'ambiance (avec contrôle volume)
 
 ### 5.2 Fonctionnalités bonus (optionnelles)
 
-- [x] *B1 - Auto-save*
+- [x] _B1 - Auto-save_
+
   - Sauvegarde automatique à chaque chapitre
   - Indication visuelle de la sauvegarde
 
-- [x] *B2 - Inventaire visuel*
+- [x] _B2 - Inventaire visuel_
+
   - Affichage graphique des items
   - Description des objets au survol
 
-- [ ] *B3 - Stats visuelles*
+- [ ] _B3 - Stats visuelles_
+
   - Barres de progression pour stats
   - Graphique radar des caractéristiques
 
-- [ ] *B4 - Arbre de choix visualisé*
+- [ ] _B4 - Arbre de choix visualisé_
+
   - Carte interactive des chemins possibles
   - Indication des chapitres visités/non-visités
 
-- [ ] *B5 - Galerie des fins*
+- [ ] _B5 - Galerie des fins_
+
   - Collection de toutes les fins débloquées
   - Pourcentage de complétion
 
-- [ ] *B6 - Mode rejouabilité*
+- [ ] _B6 - Mode rejouabilité_
+
   - Fast-forward pour texte déjà lu
   - Skip to choice (sauter au prochain choix)
 
-- [x] *B7 - Effets sonores contextuels*
+- [x] _B7 - Effets sonores contextuels_
+
   - Sons lors de choix importants
   - Ambiances sonores par scène
 
-- [ ] *B8 - Animations avancées GSAP*
+- [ ] _B8 - Animations avancées GSAP_
+
   - Parallax sur les backgrounds
   - Animations de transition complexes
 
-- [ ] *B9 - Firebase (équipes avancées)*
+- [ ] _B9 - Firebase (équipes avancées)_
   - Partage de fins débloquées
   - Galerie publique d'histoires
 
 ### 5.3 User Stories
 
-*Format:* En tant que [rôle], je veux [action] afin de [bénéfice]
+_Format:_ En tant que [rôle], je veux [action] afin de [bénéfice]
 
-1. *US-01:* En tant que lecteur, je veux lire une histoire interactive afin de vivre une expérience narrative immersive.
+1. _US-01:_ En tant que lecteur, je veux lire une histoire interactive afin de vivre une expérience narrative immersive.
 
-2. *US-02:* En tant que joueur, je veux faire des choix qui ont des conséquences afin de sentir que mes décisions comptent.
+2. _US-02:_ En tant que joueur, je veux faire des choix qui ont des conséquences afin de sentir que mes décisions comptent.
 
-3. *US-03:* En tant qu'utilisateur, je veux sauvegarder ma progression afin de reprendre plus tard sans perdre mon avancement.
+3. _US-03:_ En tant qu'utilisateur, je veux sauvegarder ma progression afin de reprendre plus tard sans perdre mon avancement.
 
-4. *US-04:* En tant que lecteur, je veux voir l'impact de mes choix afin de comprendre comment ils influencent l'histoire.
+4. _US-04:_ En tant que lecteur, je veux voir l'impact de mes choix afin de comprendre comment ils influencent l'histoire.
 
-5. *US-05:* En tant que joueur, je veux atteindre différentes fins afin de découvrir toutes les possibilités de l'histoire.
+5. _US-05:_ En tant que joueur, je veux atteindre différentes fins afin de découvrir toutes les possibilités de l'histoire.
 
-6. *US-06:* En tant qu'utilisateur mobile, je veux lire l'histoire sur mon téléphone afin d'en profiter partout.
+6. _US-06:_ En tant qu'utilisateur mobile, je veux lire l'histoire sur mon téléphone afin d'en profiter partout.
 
-7. *US-07:* En tant que lecteur, je veux consulter l'historique de mes choix afin de me rappeler mes décisions passées.
+7. _US-07:_ En tant que lecteur, je veux consulter l'historique de mes choix afin de me rappeler mes décisions passées.
 
-8. *US-08:* En tant que joueur, je veux collecter des objets/débloquer des stats afin de me sentir progresser dans l'aventure.
+8. _US-08:_ En tant que joueur, je veux collecter des objets/débloquer des stats afin de me sentir progresser dans l'aventure.
 
-9. *US-09:* En tant qu'utilisateur, je veux contrôler le volume sonore afin d'adapter l'expérience à mon environnement.
+9. _US-09:_ En tant qu'utilisateur, je veux contrôler le volume sonore afin d'adapter l'expérience à mon environnement.
 
 ## 📊 6. Maquettes et Wireframes
 
 ### 6.1 Lien vers les maquettes Figma
 
-*Lien:* [Figma](https://www.figma.com/design/qL9aUMeQmhgm7Y2vDvnoxW/design-maquette-emeryk-elie-edelwyn?node-id=0-1&t=He5MZlVk8qPwtgYD-1)
+_Lien:_ [Figma](https://www.figma.com/design/qL9aUMeQmhgm7Y2vDvnoxW/design-maquette-emeryk-elie-edelwyn?node-id=0-1&t=He5MZlVk8qPwtgYD-1)
 
 ### 6.2 Écrans principaux à maquetter
 
@@ -525,22 +542,21 @@ Comment stockez-vous les chapitres et choix?
 - Ouverture de l'inventaire/stats
 - États des boutons (hover, actif, disabled)
 
-
 ## 📊 7. Plan de Réalisation
 
 ### 7.1 Répartition des rôles
 
-| Membre | Rôle principal | Responsabilités |
-|--------|----------------|-----------------|
-| Elie | Chef de projet + Architecture Vue | Coordination, Vue Router, stores Pinia, structure de l'histoire |
-| Edelwyn | Design + Animations | CSS, design visuel, animations GSAP, transitions |
-| Émeryk | Données + Système | Gestion des sauvegardes, LocalStorage, logique de choix, stats |
+| Membre  | Rôle principal                    | Responsabilités                                                 |
+| ------- | --------------------------------- | --------------------------------------------------------------- |
+| Elie    | Chef de projet + Architecture Vue | Coordination, Vue Router, stores Pinia, structure de l'histoire |
+| Edelwyn | Design + Animations               | CSS, design visuel, animations GSAP, transitions                |
+| Émeryk  | Données + Système                 | Gestion des sauvegardes, LocalStorage, logique de choix, stats  |
 
-*Note:* Tous participent au développement, mais chacun a sa spécialité.
+_Note:_ Tous participent au développement, mais chacun a sa spécialité.
 
 ### 7.2 Tâches transversales
 
-*À répartir entre tous:*
+_À répartir entre tous:_
 
 - Tests de l'histoire (lecture complète) - Émeryk, Elie, Edelwyn
 - Correction de fautes et relecture - Edelwyn
@@ -550,13 +566,12 @@ Comment stockez-vous les chapitres et choix?
 
 ### 7.3 Outils de collaboration
 
-- *Git/GitHub:* [Github](https://github.com/MrAosix/webapp-creative-emeryk-elie-edelwyn)
-- *Gestion de projet:* [Trello](https://trello.com/b/uGDAfMVg/gestion-emeryk-elie-edelwyn)
-- *Communication:* Discord / Teams
-- *Design:* [Figma](https://www.figma.com/design/qL9aUMeQmhgm7Y2vDvnoxW/design-maquette-emeryk-elie-edelwyn?node-id=0-1&t=He5MZlVk8qPwtgYD-1)
-- *Documentation:* README.md
-- *Écriture collaborative:* Word
-
+- _Git/GitHub:_ [Github](https://github.com/MrAosix/webapp-creative-emeryk-elie-edelwyn)
+- _Gestion de projet:_ [Trello](https://trello.com/b/uGDAfMVg/gestion-emeryk-elie-edelwyn)
+- _Communication:_ Discord / Teams
+- _Design:_ [Figma](https://www.figma.com/design/qL9aUMeQmhgm7Y2vDvnoxW/design-maquette-emeryk-elie-edelwyn?node-id=0-1&t=He5MZlVk8qPwtgYD-1)
+- _Documentation:_ README.md
+- _Écriture collaborative:_ Word
 
 ## 🚀 8. Critères de Succès
 
@@ -602,15 +617,15 @@ Comment stockez-vous les chapitres et choix?
 - [x] Expérience émotionnelle impactante
 - [x] Rejouabilité (envie de tester d'autres chemins)
 
-
 ## 📅 9. Calendrier du projet: Planning prévisionnel
 
-### 9.1 *PHASE 1: PLANIFICATION ET DESIGN*
+### 9.1 _PHASE 1: PLANIFICATION ET DESIGN_
+
 <!--Semaine 1-2 (la 2 étant la semaine de rattrapage)-->
 
 **Du 8 au 22 octobre**
 
-*Remise 22 octobre | 15%*
+_Remise 22 octobre | 15%_
 
 - Rédaction du cahier de charges
 - Écriture de l'arbre narratif complet
@@ -618,67 +633,68 @@ Comment stockez-vous les chapitres et choix?
 - Définition de l'architecture technique
 - Setup du projet (Vite + Vue + dépendances)
 
-### 9.2 *PHASE 2: FONDATION*
+### 9.2 _PHASE 2: FONDATION_
+
 <!--Semaine 3-4-->
 
 **Du 22 octobre au 2 novembre environ**
 
-*Remise Phases 2 FONDATION et 3 INTERACTIVITÉ : vendredi 14 novembre | 15%*
+_Remise Phases 2 FONDATION et 3 INTERACTIVITÉ : vendredi 14 novembre | 15%_
 
 !!! tip "Le projet portfolio en parallèle"
-    Notez que mercredi le 29 octobre c'est la remise et présentation de votre portfolio donc nous laissons un peu plus qu'une semaine pour cette phase car vous allez probablement finaliser votre portfolio en même temps.
+Notez que mercredi le 29 octobre c'est la remise et présentation de votre portfolio donc nous laissons un peu plus qu'une semaine pour cette phase car vous allez probablement finaliser votre portfolio en même temps.
 
 - Structure des composants de base
 - Vue Router configuré
 - Pinia stores créés
 - Premiers chapitres (texte + affichage)
 
-### 9.3 *PHASE 3: INTERACTIVITÉ - Système de Choix*
+### 9.3 _PHASE 3: INTERACTIVITÉ - Système de Choix_
+
 <!-- Semaine 4-5-->
 
 **Environ du 2 novembre au 12 novembre**
 
-*Remise Phases 2 FONDATION et 3 INTERACTIVITÉ : vendredi 14 novembre | 15%*
+_Remise Phases 2 FONDATION et 3 INTERACTIVITÉ : vendredi 14 novembre | 15%_
 
 - Logique de branches narratives
 - Système de tracking des conséquences
 - Composants de choix interactifs
 - Plus de chapitres écrits et intégrés
 
+### 9.4 _PHASE 4: ANIMATIONS ET MÉDIAS_
 
-### 9.4 *PHASE 4: ANIMATIONS ET MÉDIAS*
 <!-- Semaine 6 -->
 
 **Du 12 au 19 novembre**
 
-*Remise Phases 4 ANIMATIONS+MÉDIAS et 5 PERSISTANCE : 26 novembre | Formatif*
+_Remise Phases 4 ANIMATIONS+MÉDIAS et 5 PERSISTANCE : 26 novembre | Formatif_
 
 - Intégration GSAP (transitions)
 - Images de fond par chapitre
 - Musiques/sons d'ambiance
 - Animations de texte
 
-
-### 9.x *ÉVALUATION PAR LES PAIRS ET AUTO-ÉVALUATION DE MI PARCOURS*
+### 9.x _ÉVALUATION PAR LES PAIRS ET AUTO-ÉVALUATION DE MI PARCOURS_
 
 **Sera fait en classe le 19 novembre**
 
-*Remise de l'évaluation par les pairs et auto-évaluation de mi parcours: 19 novembre | 5%*
+_Remise de l'évaluation par les pairs et auto-évaluation de mi parcours: 19 novembre | 5%_
 
+### 9.5 _PHASE 5: PERSISTANCE ET SAUVEGARDE DES DONNÉES + Fin de l'histoire_
 
-### 9.5 *PHASE 5: PERSISTANCE ET SAUVEGARDE DES DONNÉES + Fin de l'histoire*
 <!-- Semaine 7 -->
 
 **Du 19 au 26 novembre**
 
-*Remise Phases 4 ANIMATIONS+MÉDIAS et 5 PERSISTANCE : 26 novembre | Formatif*
+_Remise Phases 4 ANIMATIONS+MÉDIAS et 5 PERSISTANCE : 26 novembre | Formatif_
 
 - Système de sauvegarde (3 slots)
 - LocalStorage complet
 - Toutes les fins écrites et intégrées
 - Écrans de fin avec récapitulatif
 
-### 9.6 *PHASE 6: AFFINAGE ET ACCESSIBLITÉ* pour la version *BETA*
+### 9.6 _PHASE 6: AFFINAGE ET ACCESSIBLITÉ_ pour la version _BETA_
 
 **Du 26 novembre au 3 décembre**
 
@@ -687,11 +703,13 @@ Comment stockez-vous les chapitres et choix?
 - Responsive final
 - Accessibilité (ARIA, keyboard)
 
-### 9.7 *PHASE 7:  CONTRÔLE QUALITÉ ET CORRECTIONS*
+### 9.7 _PHASE 7: CONTRÔLE QUALITÉ ET CORRECTIONS_
+
 <!-- Semaine 8 -->
+
 **Du 3 au 8 décembre**
 
-*Remise Phase 7 RAPPORT DU CONTRÔLE DE LA QUALITÉ : 8 décembre | 10%*
+_Remise Phase 7 RAPPORT DU CONTRÔLE DE LA QUALITÉ : 8 décembre | 10%_
 
 - Tests de toutes les branches de l'histoire
 - Tests fonctionnels
@@ -700,42 +718,41 @@ Comment stockez-vous les chapitres et choix?
 - Optimisation de la performance
 - Gestion des bogues
 
-### 9.8 *PHASE 8:  FINALISATION*
+### 9.8 _PHASE 8: FINALISATION_
+
 <!-- Semaine 8 + 2 jours-->
 
 **Du 3 au 10 décembre** (peut-être fait en parallèle avec la phase 7)
 
-*Remise et présentation finale : 10 décembre | 50%*
+_Remise et présentation finale : 10 décembre | 50%_
 
 - Documentation (README complet)
 - Déploiement - Mise en ligne (GitHub/Netlify/Vercel)
 - Vidéo de présentation
 - Préparation de la démo en classe
 
-### 9.9 *PHASE 9: POST-MORTEM*
+### 9.9 _PHASE 9: POST-MORTEM_
 
 **Du 10 au 12 décembre**
 
-*Remise de l'analyse réflexive et suivi de l'évaluation de mi-parcours: 12 décembre | 5%*
-
+_Remise de l'analyse réflexive et suivi de l'évaluation de mi-parcours: 12 décembre | 5%_
 
 ## 🎯 10. Risques et Solutions
 
-| Risque | Probabilité | Impact | Solution préventive |
-|--------|-------------|--------|---------------------|
-| Scope creep narratif (trop d'histoire) | Élevée | Élevé | Limiter à 8-10 chapitres max, garder histoires simples |
-| Manque de temps pour écrire | Élevée | Élevé | Écrire les chapitres AVANT de coder, paralléliser |
-| Bugs dans la logique de branches | Moyenne | Élevé | Tester chaque branche manuellement, diagramme clair |
-| Incohérences narratives | Moyenne | Moyen | Relecture croisée, document de tracking des flags |
-| Fautes d'orthographe | Élevée | Faible | Utiliser correcteur, relecture collective |
-| Sauvegardes corrompues | Faible | Élevé | Validation JSON, gestion d'erreurs, tests intensifs |
-
+| Risque                                 | Probabilité | Impact | Solution préventive                                    |
+| -------------------------------------- | ----------- | ------ | ------------------------------------------------------ |
+| Scope creep narratif (trop d'histoire) | Élevée      | Élevé  | Limiter à 8-10 chapitres max, garder histoires simples |
+| Manque de temps pour écrire            | Élevée      | Élevé  | Écrire les chapitres AVANT de coder, paralléliser      |
+| Bugs dans la logique de branches       | Moyenne     | Élevé  | Tester chaque branche manuellement, diagramme clair    |
+| Incohérences narratives                | Moyenne     | Moyen  | Relecture croisée, document de tracking des flags      |
+| Fautes d'orthographe                   | Élevée      | Faible | Utiliser correcteur, relecture collective              |
+| Sauvegardes corrompues                 | Faible      | Élevé  | Validation JSON, gestion d'erreurs, tests intensifs    |
 
 ## 📝 11. Annexes
 
 ### 11.1 Ressources et références
 
-*Documentation officielle:*
+_Documentation officielle:_
 
 - Contenu du cours Web 5 https://tim-montmorency.com/compendium/582-511-web5/
 - Guide étudiant du projet appli web créative: https://tim-montmorency.com/compendium/582-511-web5/projets/appweb-creative/syllabus_guide_etudiant.html
@@ -743,44 +760,42 @@ Comment stockez-vous les chapitres et choix?
 - Pinia: https://pinia.vuejs.org
 - GSAP: https://greensock.com/docs/
 
-*Inspiration narrative:*
+_Inspiration narrative:_
 
 - Bandersnatch (Black Mirror)
 - Life is Strange
 - Detroit: Become Human
 - Twine games
 
-*Tutoriels utiles:*
+_Tutoriels utiles:_
 
 - [Lien vers tuto 1]
 - [Lien vers tuto 2]
 
 ### 11.2 Glossaire
 
-- *Branche:* Chemin narratif distinct selon les choix
-- *Flag:* Variable booléenne qui track un événement
-- *Ending:* Fin possible de l'histoire
-- *Karma:* Système de moralité basé sur les choix
-- *Node:* Point de décision dans l'arbre narratif
-- *Save slot:* Emplacement de sauvegarde
-
-
+- _Branche:_ Chemin narratif distinct selon les choix
+- _Flag:_ Variable booléenne qui track un événement
+- _Ending:_ Fin possible de l'histoire
+- _Karma:_ Système de moralité basé sur les choix
+- _Node:_ Point de décision dans l'arbre narratif
+- _Save slot:_ Emplacement de sauvegarde
 
 ## ✅ Validation du Cahier de Charges
 
-*Date de validation:* [Date]
+_Date de validation:_ [Date]
 
-*Signatures:*
+_Signatures:_
 
-- Chef de projet: Elie    
-- Membre 2: Edelwyn    
-- Membre 3: Émeryk    
+- Chef de projet: Elie
+- Membre 2: Edelwyn
+- Membre 3: Émeryk
 
-*Validation enseignant:* _______________  
-*Date:* _______________  
-*Commentaires:*
+_Validation enseignant:_ ******\_\_\_******  
+_Date:_ ******\_\_\_******  
+_Commentaires:_
 
 ---
 
-*Version du document cahier de charge:* 1.0  
-*Dernière mise à jour:* 14 Octobre 2025
+_Version du document cahier de charge:_ 1.0  
+_Dernière mise à jour:_ 14 Octobre 2025

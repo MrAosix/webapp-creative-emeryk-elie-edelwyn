@@ -1,38 +1,38 @@
 {
-    "currentSaveSlot": null,
-    "saveSlot1": {
-        "savedAt": null,
-        "currentChapterId": null,
-        "playerState": {
-            "inventory": [],
-            "flags": {}
-        },
-        "visitedChapters": [],
-        "choiceHistory": []
+  "currentSaveSlot": null,
+  "saveSlot1": {
+    "savedAt": null,
+    "currentChapterId": null,
+    "playerState": {
+      "inventory": [],
+      "flags": {}
     },
-    "saveSlot2": {
-        "savedAt": null,
-        "currentChapterId": null,
-        "playerState": {
-            "inventory": [],
-            "flags": {}
-        },
-        "visitedChapters": [],
-        "choiceHistory": []
+    "visitedChapters": [],
+    "choiceHistory": []
+  },
+  "saveSlot2": {
+    "savedAt": null,
+    "currentChapterId": null,
+    "playerState": {
+      "inventory": [],
+      "flags": {}
     },
-    "saveSlot3": {
-        "savedAt": null,
-        "currentChapterId": null,
-        "playerState": {
-            "inventory": [],
-            "flags": {}
-        },
-        "visitedChapters": [],
-        "choiceHistory": []
+    "visitedChapters": [],
+    "choiceHistory": []
+  },
+  "saveSlot3": {
+    "savedAt": null,
+    "currentChapterId": null,
+    "playerState": {
+      "inventory": [],
+      "flags": {}
     },
-    "settings": {
-        "volume": null,
-        "textSpeed": null,
-        "autoSave": null
-    }
+    "visitedChapters": [],
+    "choiceHistory": []
+  },
+  "settings": {
+    "volume": null,
+    "textSpeed": null,
+    "autoSave": null
+  }
 }

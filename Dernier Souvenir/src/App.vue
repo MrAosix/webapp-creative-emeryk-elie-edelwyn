@@ -10,11 +10,7 @@ storyStore.initialize();
 </script>
 
 <template>
-  <img
-    class="background"
-    src="@/assets/images/backgrounds/ch-6aaa.png"
-    alt="background image"
-  />
+  <img class="background" src="@/assets/images/backgrounds/ch-6aaa.png" alt="background image" />
   <router-view> </router-view>
 </template>
 

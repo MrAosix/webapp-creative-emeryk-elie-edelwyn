@@ -1,13 +1,10 @@
-
-
 - MoveViewButton.vue : Bouton pour changer de page dépendant de la page spécifié dans le props. (Props: label, page)
 - SaveSlot.vue : Composante qui contient toutes les données du joueur. (Props: slotNumber, act, chapterName, imageSrc, lastSaveTime, slotName )
 - SingleChoiceButton.vue : Bouton qui fait le choix et ensuite montre la conséquence. (Props: choice)
-- SingleChoicePanel.vue : Composante qui montre les choix possibles simples. (Aucun props) 
+- SingleChoicePanel.vue : Composante qui montre les choix possibles simples. (Aucun props)
 - InventoryItem.vue: Composante qui montre un item et son image. (Aucun props)
 - HistoryItem.vue : Composante qui montre le chapitre et le choix. (Aucun props)
 - AlertConfirmation.vue : Composante qui affiche pour le SavePanel pour demander à l'utilisateur si il est sûr de supprimer sa sauvegarde. (Aucun props)
-
 
 - ChapterImages.vue : Montre le background du chapitre et les personnages qui parlent. (Aucun props)
 - ChapterScreen.vue : Le wrapper
@@ -21,11 +18,9 @@
 - NarrativeTextBox.vue : Boîte qui affiche la narration et les dialogues et un bouton pour changer le text. (Aucun props)
 - SaveSlotPanel.vue : Wrapper qui contient les 3 composantes de SaveSlot. (Aucun props)
 
-
 - HomeView.vue: Page d'accueil qui dirige vers les autres pages. (Aucun props)
 - ChapterView.vue: Page qui montre le chapitre. (Aucun props)
 - SavesView.vue: Page qui permet d'accéder aux sauvegardes du joueur. (Aucun props)
 - OptionsView.vue: Page d'option où l'utilisateur peut modifier le son et vitesse de texte. (Aucun props)
 - CreditsView.vue: Page qui montre les crédits. (Aucun props)
 - EndingView.vue: Page qui montre la fin. (Aucun props)
-
