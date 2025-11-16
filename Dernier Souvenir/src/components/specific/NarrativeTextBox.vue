@@ -56,7 +56,7 @@ watch(
 }
 
 .typed-cursor {
-  display: inline;
+  display: block;
   font-weight: bold;
   color: inherit;
 }
@@ -67,14 +67,17 @@ watch(
   left: 5px;
   height: 90%;
 }
-
+p {
+  font-family: "F25";
+  font-size: clamp(30px, 35px, 40px)
+}
 button {
   margin-top: 10px;
   padding: 5px 10px;
   background-color: #f3eadcc8;
   border: 2px solid #503c20;
   cursor: pointer;
-  font-family: "F25";
+  font-family: "Sebastien";
   transition: background-color 0.3s ease;
   position: absolute;
   bottom: 0;

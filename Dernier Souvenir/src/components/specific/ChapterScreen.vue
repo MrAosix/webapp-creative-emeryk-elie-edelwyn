@@ -40,6 +40,8 @@ storyStore.loadChapter(storyStore.currentChapterId);
   grid-template-rows: 0.04fr minmax(300px, 1fr) 0.3fr;
   gap: 30px;
   height: 100vh;
+  max-width: 2000px;
+  margin: auto;
 }
 
 .menu-buttons {
