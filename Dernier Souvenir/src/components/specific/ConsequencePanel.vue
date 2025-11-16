@@ -33,4 +33,15 @@ const handleContinue = (nextChapter) => {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+div {
+  position: relative;
+  display: inline;
+  font-size: 25px;
+  color: white;
+  letter-spacing: 1.5px;
+  bottom: 15px;
+  font-family: "F25";
+  font-size: clamp(15px, 25px, 30px);
+}
+</style>

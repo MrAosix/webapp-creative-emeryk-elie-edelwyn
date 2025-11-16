@@ -31,6 +31,13 @@ button.selected {
 button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
+    margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #89746A;
+  border: 2px solid #503c20;
+  cursor: pointer;
+  font-family: "Sebastien";
+  transition: background-color 0.3s ease;
 }
 
 button img {

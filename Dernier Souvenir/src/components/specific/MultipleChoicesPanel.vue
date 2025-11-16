@@ -14,4 +14,20 @@ import MultipleChoicesButton from "@/components/specific/MultipleChoicesButton.v
 const storyStore = useStoryStore();
 </script>
 
-<style scoped></style>
+<style scoped>
+p {
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: white;
+}
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #f3eadcc8;
+  border: 2px solid #503c20;
+  cursor: pointer;
+  font-family: "Sebastien";
+  transition: background-color 0.3s ease;
+}
+</style>

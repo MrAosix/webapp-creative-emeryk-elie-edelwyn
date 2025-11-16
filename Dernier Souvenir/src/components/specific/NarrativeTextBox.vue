@@ -69,7 +69,6 @@ watch(
 }
 p {
   font-family: "F25";
-  font-size: clamp(30px, 35px, 40px)
 }
 button {
   margin-top: 10px;
