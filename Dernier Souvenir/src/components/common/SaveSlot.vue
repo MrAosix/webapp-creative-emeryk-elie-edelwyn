@@ -25,14 +25,17 @@
 </template>
 
 <script setup>
+// Script setup pour gérer les actions de chargement et de réinitialisation des slots de sauvegarde
 import { ref } from "vue";
 import { useSaveStore } from "@/stores/SaveStore";
 import { useStoryStore } from "@/stores/StoryStore";
 import AlertConfirmation from "@/components/common/AlertConfirmation.vue";
 
+// Accès aux magasins de sauvegarde et d'histoire
 const saveStore = useSaveStore();
 const storyStore = useStoryStore();
 
+// Définition des props du composant
 const props = defineProps({
   slotNumber: {
     type: String,
@@ -54,35 +57,39 @@ const props = defineProps({
   },
 });
 
+// Gestion de l'état du modal de confirmation
 const modalIsOpen = ref(false);
 const openModal = () => {
   modalIsOpen.value = true;
 };
 
+// Fonction pour charger un slot de sauvegarde
 const loadSaveSlot = () => {
-  // Reset StoryStore state to prevent cross-contamination between save slots
+  // Réinitialiser l'état de l'histoire avant de charger
   storyStore.resetStoryState();
 
-  // Load the save slot first
+  // Charger la partie depuis le slot spécifié
   const chapterToLoad = saveStore.loadGame(props.slotName);
   const saveSlotData = saveStore.getSaveInfo(props.slotName);
   const targetChapter = saveSlotData.currentChapterId || chapterToLoad;
 
-  // Force a complete reset of visited chapters before loading
+  // Réinitialiser les chapitres visités avant de naviguer
   storyStore.visitedChapters = [];
 
+  // Naviguer vers le chapitre chargé
   storyStore.goToChapter(targetChapter);
 };
 
+// Fonction pour démarrer une nouvelle partie
 const startNewGame = () => {
-  // Reset StoryStore state for new games too
   storyStore.resetStoryState();
 
+  // Charger une nouvelle partie (réinitialiser le slot)
   saveStore.loadGame(props.slotName);
 
-  // Force a complete reset of visited chapters before loading
   storyStore.visitedChapters = [];
 
+  // Aller au premier chapitre
   storyStore.goToChapter("ch-1");
 };
 </script>

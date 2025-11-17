@@ -1,8 +1,10 @@
 <template>
+  <!-- Composant de bouton pour naviguer entre les vues -->
   <router-link class="move-view-button" :to="`/${page}`">{{ label }}</router-link>
 </template>
 
 <script setup>
+// Script setup pour définir les propriétés du composant comme le label et la page
 const props = defineProps({
   label: {
     type: String,

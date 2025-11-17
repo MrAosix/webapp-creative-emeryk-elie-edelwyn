@@ -4,6 +4,7 @@ import story from "@/data/story-static.json";
 import { useSaveStore } from "@/stores/SaveStore";
 import { usePlayerStore } from "./PlayerStore";
 
+// Store pour gérer l'état de l'histoire interactive
 export const useStoryStore = defineStore("StoryStore", {
   state: () => ({
     storyData: story,
@@ -20,6 +21,7 @@ export const useStoryStore = defineStore("StoryStore", {
     showConsequencePanel: false,
   }),
 
+  // Getters pour accéder aux données dérivées de l'état
   getters: {
     currentChapter: (state) => {
       return state.storyData[state.currentChapterId];
@@ -58,6 +60,7 @@ export const useStoryStore = defineStore("StoryStore", {
     },
   },
 
+  // Actions pour modifier l'état
   actions: {
     initialize() {
       const saveStore = useSaveStore();
@@ -67,6 +70,7 @@ export const useStoryStore = defineStore("StoryStore", {
       }
     },
 
+    // Charge un chapitre spécifique et réinitialise l'état
     loadChapter(chapterId) {
       const saveStore = useSaveStore();
 
@@ -86,7 +90,7 @@ export const useStoryStore = defineStore("StoryStore", {
     },
 
     resetStoryState() {
-      // Reset all story-related state
+      // Réinitialise l'état de l'histoire
       this.currentChapterId = null;
       this.visitedChapters = [];
       this.multipleChoiceSelection = [];
@@ -97,6 +101,7 @@ export const useStoryStore = defineStore("StoryStore", {
       this.currentTextIndex = 0;
     },
 
+    // Avance au texte suivant ou affiche les choix/consequences si la fin du texte est atteinte
     goToNextText() {
       const Texts = this.currentChapter.texts;
 
@@ -115,6 +120,7 @@ export const useStoryStore = defineStore("StoryStore", {
       }
     },
 
+    // Navigue vers le chapitre suivant en enregistrant l'état actuel
     goToChapter(nextChapterId) {
       const saveStore = useSaveStore();
       if (this.currentChapterId && !this.visitedChapters.includes(this.currentChapterId) && !this.currentChapterId.startsWith("end-")) {
@@ -145,6 +151,7 @@ export const useStoryStore = defineStore("StoryStore", {
       router.push(`/chapitre/${nextChapterId}`);
     },
 
+    // Charge les options de choix disponibles pour le chapitre actuel
     loadChoiceOptions() {
       const chapter = this.currentChapter;
       this.availableChoices = chapter.choices;
@@ -159,6 +166,7 @@ export const useStoryStore = defineStore("StoryStore", {
       }
     },
 
+    // Gère la sélection d'un choix
     makeChoice(choice) {
       if (this.isMultipleChoiceActive) {
         this.multipleChoiceNeeded = this.currentChapter.multipleChoiceNeeded;
@@ -177,6 +185,7 @@ export const useStoryStore = defineStore("StoryStore", {
       this.currentChoice = choice;
     },
 
+    // Gère la sélection d'un choix unique
     selectSingleChoice(choice) {
       const playerStore = usePlayerStore();
 
@@ -193,6 +202,7 @@ export const useStoryStore = defineStore("StoryStore", {
       this.showConsequencePanel = true;
     },
 
+    // Confirme les choix multiples sélectionnés
     confirmMultipleChoices() {
       const playerStore = usePlayerStore();
       if (this.multipleChoiceButtonAvailable) {
@@ -205,6 +215,7 @@ export const useStoryStore = defineStore("StoryStore", {
       }
     },
 
+    // Réinitialise les panneaux de choix et de conséquences
     resetPanels() {
       this.showChoicePanel = false;
       this.showConsequencePanel = false;
