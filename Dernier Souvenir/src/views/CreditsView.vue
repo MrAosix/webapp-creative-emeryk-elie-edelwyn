@@ -7,14 +7,6 @@
       Elie Daher <br />
       Edelwyn Ledru
     </p>
-    <h3>Musiques</h3>
-    <p>Nom, lien vers sa page (ou sa directive si demandé)</p>
-    <p>Nom, lien vers sa page (ou sa directive si demandé)</p>
-    <p>Nom, lien vers sa page (ou sa directive si demandé)</p>
-    <h3>Sons</h3>
-    <p>Nom, lien vers sa page (ou sa directive si demandé)</p>
-    <p>Nom, lien vers sa page (ou sa directive si demandé)</p>
-    <p>Nom, lien vers sa page (ou sa directive si demandé)</p>
     <h3>Images</h3>
     <p>Images générés avec l'aide de ChatGPT v5</p>
     <move-view-button label="Retour" page="" />

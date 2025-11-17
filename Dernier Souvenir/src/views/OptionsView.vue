@@ -1,8 +1,6 @@
 <template>
   <div class="options-view-wrapper">
     <h1>Options</h1>
-    <h3>Volume - {{ volume }}</h3>
-    <input type="range" min="0" max="100" v-model="volume" />
     <h3>Vitesse des textes - {{ textSpeed }}</h3>
     <input type="range" min="0" max="10" v-model="textSpeed" /> <br />
     <move-view-button label="Retour" page="" />

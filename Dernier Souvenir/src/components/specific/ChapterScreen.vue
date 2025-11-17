@@ -1,8 +1,6 @@
 <template>
   <div class="chapter-screen-wrapper">
-    <div class="menu-buttons">
-      <move-view-button label="Retour" page="" />
-    </div>
+    <move-view-button label="Retour" page="" />
     <chapter-title class="title" />
     <HistoryPanel class="history" />
     <chapter-images class="images" />
@@ -44,11 +42,14 @@ storyStore.loadChapter(storyStore.currentChapterId);
   margin: auto;
 }
 
-.menu-buttons {
-  grid-row: span 2 / span 2;
+.move-view-button {
+  position: relative;
+  margin-right: 0;
+  align-self: center;
 }
 
 .title {
+  grid-column: 2;
   background-color: #b68f50c8;
   margin: 0;
   padding: 0 10px;
@@ -58,13 +59,23 @@ storyStore.loadChapter(storyStore.currentChapterId);
 }
 
 .history {
-  grid-column-start: 1;
-  grid-row-start: 1;
+  grid-column-start: 3;
+  grid-row: 1 / span 2;
+  border: 5px solid #503c20;
+  background-color: #b68f50c8;
+  height: 68%;
+  margin: 0;
+  margin-left: -12px;
 }
 .inventory {
   grid-column-start: 3;
-  grid-row-start: 3;
+  grid-row: 2 / span 2;
   border: 5px solid #503c20;
+  background-color: #b68f50c8;
+  align-self: self-end;
+  height: 50%;
+  margin: 0;
+  margin-left: -12px;
 }
 
 .images {
@@ -74,7 +85,7 @@ storyStore.loadChapter(storyStore.currentChapterId);
   background-color: #b68f50c8;
   align-self: center;
   border: 5px solid #503c20;
-  height: 100%; /* Added height for consistency */
+  height: 100%;
 }
 
 .text-wrapper {
