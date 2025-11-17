@@ -79,6 +79,7 @@ h2 {
   font-size: 30px;
   align-items: center;
   letter-spacing: 1.5px;
+  justify-content: center;
 }
 
 p {
