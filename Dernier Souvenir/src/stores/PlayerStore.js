@@ -11,6 +11,7 @@ export const usePlayerStore = defineStore("PlayerStore", {
 
   // Getters pour accéder aux données dérivées de l'état
   getters: {
+    // Vérifie si le joueur possède un objet spécifique dans son inventaire
     hasItem: (state) => (itemName) => {
       const saveStore = useSaveStore();
       const currentSaveSlot = saveStore.saveSlots.currentSaveSlot;
@@ -19,6 +20,8 @@ export const usePlayerStore = defineStore("PlayerStore", {
       }
       return saveStore.saveSlots[currentSaveSlot].playerState.inventory.includes(itemName);
     },
+
+    // Vérifie si un flag spécifique est défini pour le joueur
     hasFlag: (state) => (flagName) => {
       const saveStore = useSaveStore();
       const currentSaveSlot = saveStore.saveSlots.currentSaveSlot;
@@ -27,6 +30,8 @@ export const usePlayerStore = defineStore("PlayerStore", {
       }
       return saveStore.saveSlots[currentSaveSlot].playerState.flags[flagName] === true;
     },
+
+    // Vérifie si le joueur peut accéder à une fin spécifique
     canAccessEnding: (state) => (ending) => {
       return state.flags.includes(`has_${ending}_ending`);
     },
@@ -42,6 +47,7 @@ export const usePlayerStore = defineStore("PlayerStore", {
         saveStore.saveGame();
       }
     },
+    // Supprime un objet spécifique de l'inventaire
     removeFromInventory(item) {
       const saveStore = useSaveStore();
       const currentSaveSlot = saveStore.saveSlots.currentSaveSlot;
@@ -54,6 +60,8 @@ export const usePlayerStore = defineStore("PlayerStore", {
         }
       }
     },
+
+    // Supprime un nombre spécifique d'objets aléatoires de l'inventaire
     removeRandomItemsFromInventory(count) {
       const saveStore = useSaveStore();
       const currentSaveSlot = saveStore.saveSlots.currentSaveSlot;
@@ -69,6 +77,8 @@ export const usePlayerStore = defineStore("PlayerStore", {
         saveStore.saveGame();
       }
     },
+
+    // Définit un flag spécifique pour le joueur
     setFlag(flagName, value = true) {
       const saveStore = useSaveStore();
       const currentSaveSlot = saveStore.saveSlots.currentSaveSlot;
@@ -77,6 +87,8 @@ export const usePlayerStore = defineStore("PlayerStore", {
         saveStore.saveGame();
       }
     },
+
+    // Vide complètement l'inventaire du joueur
     clearInventory() {
       const saveStore = useSaveStore();
       const currentSaveSlot = saveStore.saveSlots.currentSaveSlot;

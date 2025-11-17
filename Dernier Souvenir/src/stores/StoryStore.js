@@ -23,38 +23,45 @@ export const useStoryStore = defineStore("StoryStore", {
 
   // Getters pour accéder aux données dérivées de l'état
   getters: {
+    // Récupère le chapitre actuel basé sur l'ID du chapitre
     currentChapter: (state) => {
       return state.storyData[state.currentChapterId];
     },
+    // Vérifie si le texte actuel est le dernier du chapitre
     isTextFinished: (state) => {
       const Texts = state.currentChapter?.texts;
       return state.currentTextIndex >= Texts?.length;
     },
+    // Vérifie si le choix multiple est actif
     isMultipleChoiceActive: (state) => {
       return state.availableChoices.length > 0 && state.availableChoices[0]?.buttonImage;
     },
+    // Vérifie s'il n'y a pas de choix disponibles
     hasNoChoices: (state) => {
       return state.availableChoices.length === 0;
     },
+    // Vérifie s'il n'y a pas de choix disponibles
     isChoiceSelected: (state) => (choiceName) => {
       return state.multipleChoiceSelection.includes(choiceName);
     },
+    // Vérifie si le nombre maximum de sélections pour les choix multiples est atteint
     isMaxSelectionsReached: (state) => {
       return state.multipleChoiceSelection.length >= state.multipleChoiceNeeded;
     },
+    // Vérifie si un choix spécifique est désactivé
     isChoiceDisabled: (state) => (choiceName) => {
       if (!state.multipleChoiceNeeded) return false;
       return state.multipleChoiceSelection.length >= state.multipleChoiceNeeded && !state.multipleChoiceSelection.includes(choiceName);
     },
-
+    // Détermine si le panneau de choix simple doit être affiché
     shouldShowSingleChoicePanel: (state) => {
       return state.showChoicePanel && !state.isMultipleChoiceActive && !state.hasNoChoices;
     },
-
+    // Détermine si le panneau de choix multiple doit être affiché
     shouldShowMultipleChoicePanel: (state) => {
       return state.showChoicePanel && state.isMultipleChoiceActive;
     },
-
+    // Détermine si le panneau de conséquences doit être affiché
     shouldShowConsequencePanel: (state) => {
       return state.showConsequencePanel;
     },
@@ -62,6 +69,7 @@ export const useStoryStore = defineStore("StoryStore", {
 
   // Actions pour modifier l'état
   actions: {
+    // Initialise l'état de l'histoire à partir de la dernière sauvegarde
     initialize() {
       const saveStore = useSaveStore();
 
