@@ -1,5 +1,7 @@
+// Importation des fonctions nécessaires depuis vue-router
 import { createRouter, createWebHistory } from "vue-router";
 
+// Importation des vues pour les différentes routes
 import HomeView from "@/views/HomeView.vue";
 import ChapterView from "@/views/ChapterView.vue";
 import EndingView from "@/views/EndingView.vue";
@@ -7,6 +9,7 @@ import SavesView from "@/views/SavesView.vue";
 import CreditsView from "@/views/CreditsView.vue";
 import OptionsView from "@/views/OptionsView.vue";
 
+// Définition des routes de l'application
 const routes = [
   { path: "/", name: "HomeView", component: HomeView },
   { path: "/chapitre/:id", name: "ChapterView", component: ChapterView },
@@ -16,6 +19,7 @@ const routes = [
   { path: "/options", name: "OptionsView", component: OptionsView },
 ];
 
+// Création du routeur avec l'historique web
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes,

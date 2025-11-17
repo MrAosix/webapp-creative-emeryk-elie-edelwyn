@@ -2,12 +2,14 @@ import { defineStore } from "pinia";
 
 import { useSaveStore } from "@/stores/SaveStore";
 
+// Store pour gérer l'état du joueur
 export const usePlayerStore = defineStore("PlayerStore", {
   state: () => ({
     inventory: [],
     flags: {},
   }),
 
+  // Getters pour accéder aux données dérivées de l'état
   getters: {
     hasItem: (state) => (itemName) => {
       const saveStore = useSaveStore();
@@ -30,6 +32,7 @@ export const usePlayerStore = defineStore("PlayerStore", {
     },
   },
 
+  // Actions pour modifier l'état du joueur, comme l'inventaire et les flags
   actions: {
     addToInventory(item) {
       const saveStore = useSaveStore();

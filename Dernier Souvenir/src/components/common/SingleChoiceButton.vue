@@ -1,4 +1,5 @@
 <template>
+  <!-- Composant de bouton pour gérer un choix unique dans une interface narrative -->
   <button
     v-if="isChoiceVisible"
     @click="storyStore.selectSingleChoice(choice)"
@@ -14,19 +15,23 @@
 </template>
 
 <script setup>
+// Script setup pour gérer l'affichage et la sélection d'un choix unique dans une interface narrative
 import { computed } from "vue";
 import { useStoryStore } from "@/stores/StoryStore";
 import { usePlayerStore } from "@/stores/PlayerStore";
 
+// Accès aux magasins d'histoire et de joueur
 const storyStore = useStoryStore();
 const playerStore = usePlayerStore();
 
+// Définition des props du composant
 const props = defineProps({
   choice: {
     type: Object,
   },
 });
 
+// Calculs pour déterminer la visibilité et l'état du choix
 const isChoiceVisible = computed(() => {
   if (!props.choice.condition) {
     return true;
@@ -39,6 +44,7 @@ const isChoiceVisible = computed(() => {
   return true;
 });
 
+// Vérification si la condition du choix n'est pas remplie
 const isConditionNotMet = computed(() => {
   if (!props.choice.condition) {
     return false;
@@ -51,10 +57,12 @@ const isConditionNotMet = computed(() => {
   return !playerStore.hasItem(props.choice.condition);
 });
 
+// Désactivation du bouton si la condition n'est pas remplie
 const isDisabled = computed(() => {
   return isConditionNotMet.value;
 });
 
+// Fonction pour obtenir le nom affichable d'une condition
 const getConditionDisplayName = (condition) => {
   const endingNames = {
     "end-1": "Fin 1",
@@ -68,6 +76,7 @@ const getConditionDisplayName = (condition) => {
   return endingNames[condition] || condition;
 };
 
+// Chargement des options de choix après le montage du composant
 storyStore.loadChoiceOptions();
 </script>
 

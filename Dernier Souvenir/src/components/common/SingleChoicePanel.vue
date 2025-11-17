@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- Panneau pour afficher une liste de choix uniques dans une interface narrative -->
     <p>{{ storyStore.currentChapter.choiceDescription }}</p>
     <SingleChoiceButton v-for="choice in storyStore.availableChoices" :choice="choice" />
   </div>
@@ -9,6 +10,7 @@
 import { useStoryStore } from "@/stores/StoryStore";
 import SingleChoiceButton from "@/components/common/SingleChoiceButton.vue";
 
+// Accès au magasin d'histoire
 const storyStore = useStoryStore();
 </script>
 
