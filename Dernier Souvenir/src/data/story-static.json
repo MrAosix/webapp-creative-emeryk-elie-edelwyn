@@ -1248,7 +1248,7 @@
         "talking": "David"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-8a.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/ch-8a.png",
     "music": "/src/assets/audio/musics/decision-low.mp3",
     "choiceDescription": "Grimpez-vous la montagne ?",
     "choices": [
