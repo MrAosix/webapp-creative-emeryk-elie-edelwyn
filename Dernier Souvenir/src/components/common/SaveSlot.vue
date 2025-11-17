@@ -1,5 +1,7 @@
 <template>
   <div class="save-slot">
+    <AlertConfirmation v-if="modalIsOpen" :modalIsOpen="modalIsOpen" :slotName="slotName" @close="modalIsOpen = false" />
+
     <div class="slotTitle-wrapper">
       <h2>{{ slotNumber }} .</h2>
       <p class="act-text" v-if="lastSaveTime">{{ act }} :</p>
@@ -12,7 +14,7 @@
 
     <div v-if="lastSaveTime" class="has-save-wrapper">
       <button @click="loadSaveSlot()">Charger</button>
-      <button @click="saveStore.deleteSave(slotName)">Réinitialiser</button>
+      <button @click="openModal()">Réinitialiser</button>
     </div>
 
     <div v-if="!lastSaveTime" class="empty-save-wrapper">
@@ -23,8 +25,10 @@
 </template>
 
 <script setup>
+import { ref } from "vue";
 import { useSaveStore } from "@/stores/SaveStore";
 import { useStoryStore } from "@/stores/StoryStore";
+import AlertConfirmation from "@/components/common/AlertConfirmation.vue";
 
 const saveStore = useSaveStore();
 const storyStore = useStoryStore();
@@ -49,6 +53,11 @@ const props = defineProps({
     type: String,
   },
 });
+
+const modalIsOpen = ref(false);
+const openModal = () => {
+  modalIsOpen.value = true;
+};
 
 const loadSaveSlot = () => {
   // Reset StoryStore state to prevent cross-contamination between save slots
