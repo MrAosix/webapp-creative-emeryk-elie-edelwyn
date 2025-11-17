@@ -31,7 +31,10 @@ body {
     text-shadow: 5px 5px 4px #000000, 0 0 10px rgba(255, 201, 115, 0.3);
   }
   50% {
-    text-shadow: 5px 5px 4px #000000, 0 0 20px rgba(255, 201, 115, 0.6),
-      0 0 30px rgba(255, 201, 115, 0.4);
+    text-shadow: 5px 5px 4px #000000, 0 0 20px rgba(255, 201, 115, 0.6), 0 0 30px rgba(255, 201, 115, 0.4);
   }
+}
+
+.typed-cursor {
+  display: none;
 }

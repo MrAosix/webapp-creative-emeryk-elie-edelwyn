@@ -56,12 +56,6 @@ watch(
   top: 0;
 }
 
-.typed-cursor {
-  display: block;
-  font-weight: bold;
-  color: inherit;
-}
-
 .narrative-text-box {
   position: relative;
   bottom: 20px;
