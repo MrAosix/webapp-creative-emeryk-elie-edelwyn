@@ -5,7 +5,7 @@
     "title": "En route",
     "texts": [
       {
-        "text": "Le Harvey roule depuis une vingtaine de minutes. Odeur de café et de tissu chaud. Dehors, l'automne colle des feuilles aux bas-côtés; le ciel est couvert, lourd sans être noir. La radio accroche un bout de chanson, puis du souffle.",
+        "text": "Le pick-up roule depuis une vingtaine de minutes. Odeur de café et de tissu chaud. Dehors, l'automne colle des feuilles aux bas-côtés; le ciel est couvert, lourd sans être noir. La radio accroche un bout de chanson, puis du souffle.",
         "talking": ""
       },
       {
@@ -85,7 +85,7 @@
         "talking": "David"
       },
       {
-        "text": "Le Harvey débouche sur une petite clairière. On devine la barrière du sentier. Le ciel est plus lourd au-dessus des cimes; l'air est frais et l'automne se fait sentir. David met le clignotant par réflexe, même s'il n'y a personne.",
+        "text": "Le pick-up débouche sur une petite clairière. On devine la barrière du sentier. Le ciel est plus lourd au-dessus des cimes; l'air est frais et l'automne se fait sentir. David met le clignotant par réflexe, même s'il n'y a personne.",
         "talking": ""
       },
       {
@@ -129,7 +129,7 @@
     "title": "Préparation",
     "texts": [
       {
-        "text": "Au pied de la barrière du sentier, ils posent leurs sacs. Le Harvey est garé juste derrière. David ouvre le coffre; l’équipement attend, rangé.",
+        "text": "Au pied de la barrière du sentier, ils posent leurs sacs. Le pick-up est garé juste derrière. David ouvre le coffre; l'équipement attend, rangé.",
         "talking": ""
       },
       {
@@ -157,7 +157,7 @@
         "talking": ""
       },
       {
-        "text": "Ils étalent l’équipement sur le coffre. Vos choix auront des conséquences...",
+        "text": "Ils étalent l'équipement sur le coffre. Vos choix auront des conséquences...",
         "talking": ""
       }
     ],
@@ -708,7 +708,7 @@
         "talking": "Gerald"
       },
       {
-        "text": "L’air est plus lourd ici. Très loin, trois coups espacés résonnent et s’éteignent net. Les arbres ne bougent presque pas.",
+        "text": "L'air est plus lourd ici. Très loin, trois coups espacés résonnent et s'éteignent net. Les arbres ne bougent presque pas.",
         "talking": ""
       },
       {
