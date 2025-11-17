@@ -8,7 +8,7 @@
       'condition-not-met': isConditionNotMet,
     }"
   >
-    {{ choice.text }}
+    → {{ choice.text }}
     <span v-if="choice.condition && isConditionNotMet" class="requirement"> (Nécessite: {{ getConditionDisplayName(choice.condition) }}) </span>
   </button>
 </template>
@@ -71,4 +71,18 @@ const getConditionDisplayName = (condition) => {
 storyStore.loadChoiceOptions();
 </script>
 
-<style scoped></style>
+<style scoped>
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+  font-family: "F25";
+  transition: color 0.5s ease;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  color: white;
+}
+</style>

@@ -36,12 +36,37 @@ const handleContinue = (nextChapter) => {
 <style scoped>
 div {
   position: relative;
-  display: inline;
   font-size: 25px;
   color: white;
-  letter-spacing: 1.5px;
-  bottom: 15px;
   font-family: "F25";
   font-size: clamp(15px, 25px, 30px);
+  margin: 5px;
+  height: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+.consequence-panel {
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #f3eadcc8;
+  border: 2px solid #503c20;
+  cursor: pointer;
+  font-family: "Sebastien";
+  transition: background-color 0.3s ease;
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+}
+
+button:hover {
+  background-color: #a78e6b;
 }
 </style>

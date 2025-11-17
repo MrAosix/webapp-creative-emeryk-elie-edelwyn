@@ -12,4 +12,20 @@ import SingleChoiceButton from "@/components/common/SingleChoiceButton.vue";
 const storyStore = useStoryStore();
 </script>
 
-<style scoped></style>
+<style scoped>
+div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 25px;
+  color: white;
+  font-family: "F25";
+  font-size: clamp(15px, 25px, 30px);
+  height: 100%;
+}
+p {
+  margin: 5px;
+}
+</style>

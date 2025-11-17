@@ -53,6 +53,7 @@ watch(
   color: white;
   letter-spacing: 1.5px;
   bottom: 15px;
+  top: 0;
 }
 
 .typed-cursor {

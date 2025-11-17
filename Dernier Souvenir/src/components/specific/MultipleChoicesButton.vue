@@ -24,18 +24,19 @@ button {
 }
 
 button.selected {
-  background-color: #4caf50;
-  border-color: #45a049;
+  background-color: #755140;
+}
+button:hover:not(.selected, :disabled) {
+  background-color: #c8a28e;
 }
 
 button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-    margin-top: 10px;
+  margin-top: 10px;
   padding: 5px 10px;
-  background-color: #89746A;
-  border: 2px solid #503c20;
-  cursor: pointer;
+  background-color: #89746a;
+  cursor: not-allowed;
   font-family: "Sebastien";
   transition: background-color 0.3s ease;
 }
