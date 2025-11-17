@@ -82,7 +82,11 @@ button {
   font-size: 1.2rem;
 }
 
-button:hover {
+button:hover:not(.disabled) {
   color: white;
+}
+
+button:disabled {
+  cursor: not-allowed;
 }
 </style>

@@ -168,35 +168,35 @@
     "choices": [
       {
         "name": "Carte",
-        "buttonImage": "/src/assets/images/items/map.png"
+        "buttonImage": "/src/assets/images/items/Carte.png"
       },
       {
         "name": "Lampe de poche",
-        "buttonImage": "/src/assets/images/items/flashlight.png"
+        "buttonImage": "/src/assets/images/items/Lampe de poche.png"
       },
       {
         "name": "Fusil de chasse",
-        "buttonImage": "/src/assets/images/items/rifle.png"
+        "buttonImage": "/src/assets/images/items/Fusil de chasse.png"
       },
       {
-        "name": "Trousse de premiers secours",
-        "buttonImage": "/src/assets/images/items/first-aid-kit.png"
+        "name": "Trousse",
+        "buttonImage": "/src/assets/images/items/Trousse.png"
       },
       {
         "name": "Boussole",
-        "buttonImage": "/src/assets/images/items/compass.png"
+        "buttonImage": "/src/assets/images/items/Boussole.png"
       },
       {
         "name": "Couteau",
-        "buttonImage": "/src/assets/images/items/knife.png"
+        "buttonImage": "/src/assets/images/items/Couteau.png"
       },
       {
         "name": "Corde",
-        "buttonImage": "/src/assets/images/items/rope.png"
+        "buttonImage": "/src/assets/images/items/Corde.png"
       },
       {
-        "name": "Bottes de randonnée",
-        "buttonImage": "/src/assets/images/items/hiking-boots.png"
+        "name": "Bottes",
+        "buttonImage": "/src/assets/images/items/Bottes.png"
       }
     ],
     "consequence": "Les quatre objets choisis prennent place dans les sacs et vous avancez vers la barrière du sentier, prêts à partir.",
