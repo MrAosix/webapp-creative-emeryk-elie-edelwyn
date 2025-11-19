@@ -37,7 +37,7 @@ storyStore.loadChapter(storyStore.currentChapterId);
   grid-template-columns: 0.1fr 1fr 0.2fr;
   grid-template-rows: 0.04fr minmax(300px, 1fr) 0.3fr;
   gap: 30px;
-  height: 100vh;
+  height: 100%;
   max-width: 2000px;
   margin: auto;
 }
@@ -56,6 +56,7 @@ storyStore.loadChapter(storyStore.currentChapterId);
   border: 5px solid #503c20;
   color: #503c20;
   font-size: 1.2vw;
+  letter-spacing: 2px;
 }
 
 .history {
@@ -94,5 +95,20 @@ storyStore.loadChapter(storyStore.currentChapterId);
   padding: 10px;
   background-color: #b68f50c8;
   border: 5px solid #503c20;
+}
+@media screen and (max-width: 850px) { 
+  a {
+    font-size: 25px;
+  }
+  .chapter-screen-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .history {
+    height: 20vh;
+  }
 }
 </style>

@@ -88,4 +88,28 @@ button:hover {
   letter-spacing: 2px;
   color: wheat;
 }
+@media screen and (max-width: 450px) { 
+ .narrative-text-box {
+  display: flex;
+  flex-direction: column;
+ }
+ p {
+  margin-bottom: 40px;
+ }
+ button {
+  font-size: 15px;
+ }
+}
+@media screen and (max-width: 850px) { 
+ button {
+  font-size: 25px;
+ }
+ .narrative-text-box {
+  display: flex;
+  flex-direction: column;
+ }
+ p {
+  margin-bottom: 40px;
+ }
+}
 </style>

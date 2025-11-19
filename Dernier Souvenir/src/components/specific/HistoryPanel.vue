@@ -89,4 +89,17 @@ const historyItems = computed(() => {
 .history-panel::-webkit-scrollbar-thumb:hover {
   background: #ffc973;
 }
+@media screen and (max-width: 450px) { 
+  .history-panel h2 {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 850px) { 
+  .history-panel h2 {
+    font-size: 40px;
+  }
+  .history-panel p {
+    font-size: 25px;
+  }
+}
 </style>

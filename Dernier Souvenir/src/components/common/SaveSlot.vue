@@ -180,4 +180,10 @@ h2 {
   display: flex;
   gap: 20px;
 }
+@media screen and (max-width: 450px) { 
+  .has-save-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
 </style>

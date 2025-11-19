@@ -41,18 +41,33 @@ h1 {
 }
 
 h3 {
-  font-size: 2vw;
+  font-size: 4.5vw;
   color: #ffc973;
   text-shadow: 2px 2px 4px #000000, 0 0 10px rgba(255, 201, 115, 0.3);
   margin-bottom: 0;
   margin-top: 1vw;
+  letter-spacing: 2px;
 }
 
 p {
-  font-size: 1.3vw;
+  font-size: 3vw;
   text-align: center;
   margin-top: 0.2vw;
   margin-bottom: 0.2vw;
   text-shadow: 2px 2px 4px #000000, 0 0 10px rgba(255, 201, 115, 0.3);
 }
+@media screen and (max-width: 850px) { 
+  h3, p {
+    letter-spacing: 2px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  h3 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 25px;
+  }
+ }
 </style>

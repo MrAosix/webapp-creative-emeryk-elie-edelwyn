@@ -60,4 +60,13 @@ a {
   text-align: center;
   margin-top: 2vw;
 }
+@media screen and (max-width: 600px) { 
+  .button-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 70px;
+  }
+ }
 </style>

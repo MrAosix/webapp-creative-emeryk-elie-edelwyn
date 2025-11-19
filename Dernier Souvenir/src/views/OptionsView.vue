@@ -40,10 +40,11 @@ h1 {
 }
 
 h3 {
-  font-size: 2vw;
+  font-size: 4vw;
   color: #ffc973;
   text-shadow: 2px 2px 4px #000000, 0 0 10px rgba(255, 201, 115, 0.3);
   margin-bottom: 0;
+  letter-spacing: 2px;
 }
 
 input[type="range"] {
@@ -56,4 +57,23 @@ input[type="range"] {
   cursor: pointer;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
 }
+@media screen and (max-width: 450px) { 
+  input[type="range"] {
+    width: 60vw;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+ }
+ @media screen and (min-width: 550px) and (max-width: 850px) { 
+  input[type="range"] {
+    width: 60vw;
+  }
+  h3 {
+    font-size: 40px;
+  }
+ }
 </style>

@@ -29,7 +29,7 @@ import MoveViewButton from "@/components/common/MoveViewButton.vue";
 }
 
 h1 {
-  font-size: 6vw;
+  font-size: 8vw;
   text-align: center;
   font-family: "Viper";
   font-weight: 550;
@@ -37,5 +37,33 @@ h1 {
   color: #ffc973;
   text-shadow: 5px 5px 4px #000000, 0 0 10px rgba(255, 201, 115, 0.3);
   animation: pulse 8s ease-in-out 1.5s infinite;
+}
+@media screen and (max-width: 450px) { 
+  div {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .move-view-button-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 1250px) { 
+  div {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+  }
+  h1 {
+    font-size: 8vw;
+  }
+  .move-view-button-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
 }
 </style>

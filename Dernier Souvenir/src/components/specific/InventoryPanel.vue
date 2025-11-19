@@ -37,11 +37,13 @@ h1 {
 .inventory-panel {
   display: flex;
   flex-direction: column;
+  height : 150px;
 }
 
 .inventory {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 img {
@@ -57,4 +59,20 @@ img {
   margin: 2px 5px;
   color: white;
 }
+@media screen and (max-width: 450px) { 
+  input[type="range"] {
+    width: 60vw;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+ }
+ @media screen and (max-width: 850px) { 
+ .inventory p, .inventory {
+  font-size: 25px;
+ }
+ }
 </style>
