@@ -96,7 +96,7 @@ storyStore.loadChapter(storyStore.currentChapterId);
   background-color: #b68f50c8;
   border: 5px solid #503c20;
 }
-@media screen and (max-width: 850px) { 
+@media screen and (max-width: 1050px) { 
   a {
     font-size: 25px;
   }
