@@ -181,9 +181,16 @@ h2 {
   gap: 20px;
 }
 @media screen and (max-width: 450px) { 
+  .save-slot {
+    height: 50vh;
+    margin: 20px;
+  }
   .has-save-wrapper {
     display: flex;
     flex-direction: column;
-  }
 }
+  button {
+    font-size: 25px;
+  }
+ }
 </style>
