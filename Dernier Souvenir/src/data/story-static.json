@@ -431,60 +431,55 @@
     "id": "ch-5ac",
     "act": "Acte 2",
     "title": "Le Brouillard",
-    "ch-5aa": {
-      "id": "ch-5aa",
-      "act": "Acte 2",
-      "title": "Le Pont de Bois",
-      "texts": [
-        {
-          "text": "Le sentier s'arrête net devant un ravin maigre. Un vieux pont de bois le traverse, cordes usées, planches marquées par le temps.",
-          "talking": ""
-        },
-        {
-          "text": "Tu crois qu'il tient encore?",
-          "talking": "Aurora"
-        },
-        {
-          "text": "Il devrait si on traverse doucement. Reste près de moi.",
-          "talking": "David"
-        },
-        {
-          "text": "Sur une poutre, des initiales gravées: D + A : les chasseurs de sentiers. Le trait est ancien, raclé par la pluie.",
-          "talking": ""
-        },
-        {
-          "text": "Si je stresse, dis juste que tu es là.",
-          "talking": "Aurora"
-        },
-        {
-          "text": "Je suis là. Ne regarde pas en bas et tout ira bien.",
-          "talking": "David"
-        },
-        {
-          "text": "Un souffle traverse le ravin. Quelque part dans la forêt, trois coups brefs, puis le silence retombe.",
-          "talking": ""
-        },
-        {
-          "text": "Aurora va lentement poser un pied sur la première planche mais elle semble hésiter.",
-          "talking": ""
-        }
-      ],
-      "backgroundImage": "/src/assets/images/backgrounds/ch-5ac.png",
-      "music": "/src/assets/audio/musics/suspense-quiet.mp3",
-      "choiceDescription": "Comment traverser le pont ?",
-      "choices": [
-        {
-          "text": "La rassurer et traverser calmement",
-          "consequence": "Les pas s'enchaînent lentement, le bois craque doucement sous le poids. Aurora respire profondément, les yeux fixés sur l'autre rive. Le pont tient bon et le duo rejoint la terre ferme.",
-          "nextChapter": "ch-6aaa"
-        },
-        {
-          "text": "La presser pour aller plus vite",
-          "consequence": "Aurora accélère le pas, le bois grince plus fort. Un craquement sec retentit: une planche cède sous son pied. Elle vacille, mais David la rattrape de justesse. Après un moment tendu, ils reprennent leur marche et quittent le pont.",
-          "nextChapter": "ch-6aab"
-        }
-      ]
-    }
+    "texts": [
+      {
+        "text": "Le sentier s'arrête net devant un ravin maigre. Un vieux pont de bois le traverse, cordes usées, planches marquées par le temps.",
+        "talking": ""
+      },
+      {
+        "text": "Tu crois qu'il tient encore?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Il devrait si on traverse doucement. Reste près de moi.",
+        "talking": "David"
+      },
+      {
+        "text": "Sur une poutre, des initiales gravées: D + A : les chasseurs de sentiers. Le trait est ancien, raclé par la pluie.",
+        "talking": ""
+      },
+      {
+        "text": "Si je stresse, dis juste que tu es là.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Je suis là. Ne regarde pas en bas et tout ira bien.",
+        "talking": "David"
+      },
+      {
+        "text": "Un souffle traverse le ravin. Quelque part dans la forêt, trois coups brefs, puis le silence retombe.",
+        "talking": ""
+      },
+      {
+        "text": "Aurora va lentement poser un pied sur la première planche mais elle semble hésiter.",
+        "talking": ""
+      }
+    ],
+    "backgroundImage": "/src/assets/images/backgrounds/ch-5ac.png",
+    "music": "/src/assets/audio/musics/suspense-quiet.mp3",
+    "choiceDescription": "Comment traverser le pont ?",
+    "choices": [
+      {
+        "text": "La rassurer et traverser calmement",
+        "consequence": "Les pas s'enchaînent lentement, le bois craque doucement sous le poids. Aurora respire profondément, les yeux fixés sur l'autre rive. Le pont tient bon et le duo rejoint la terre ferme.",
+        "nextChapter": "ch-6aaa"
+      },
+      {
+        "text": "La presser pour aller plus vite",
+        "consequence": "Aurora accélère le pas, le bois grince plus fort. Un craquement sec retentit: une planche cède sous son pied. Elle vacille, mais David la rattrape de justesse. Après un moment tendu, ils reprennent leur marche et quittent le pont.",
+        "nextChapter": "ch-6aab"
+      }
+    ]
   },
   "ch-6aaa": {
     "id": "ch-6aaa",
