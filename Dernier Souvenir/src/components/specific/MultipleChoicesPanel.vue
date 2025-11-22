@@ -22,6 +22,7 @@ p {
   color: white;
   font-family: "F25";
   margin: 0;
+  margin-bottom: 10px;
 }
 button {
   margin-top: 10px;
@@ -34,10 +35,15 @@ button {
 
 .multiple-choices-panel {
   position: relative;
+  top: -20px;
+  left: 5px;
   height: 100%;
+  padding-top: 30px;
+  box-sizing: border-box;
 }
 
 .confirm-button {
+  font-size: 30px;
   margin-top: 10px;
   padding: 5px 10px;
   background-color: #f3eadcc8;
@@ -47,7 +53,7 @@ button {
   transition: background-color 0.3s ease;
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: 10px;
 }
 
 .confirm-button:not(:disabled):hover {

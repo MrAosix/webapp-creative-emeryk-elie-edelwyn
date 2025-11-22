@@ -25,7 +25,6 @@ div {
   color: white;
   font-family: "F25";
   font-size: clamp(15px, 25px, 30px);
-  height: 100%;
 }
 p {
   margin: 5px;

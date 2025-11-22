@@ -54,6 +54,8 @@ const confirmReset = () => {
 button {
   margin-left: 10px;
   background-color: #503c20;
+  background-image: url("@/assets/images/backgrounds/button-texture.png");
+  background-blend-mode: soft-light;
   padding: 10px;
   border-radius: 5px;
   color: #ffc973;

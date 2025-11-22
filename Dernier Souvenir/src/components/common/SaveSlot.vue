@@ -115,6 +115,8 @@ img {
 
 button {
   background-color: #503c20;
+  background-image: url("@/assets/images/backgrounds/button-texture.png");
+  background-blend-mode: soft-light;
   padding: 10px;
   border-radius: 5px;
   color: #ffc973;
@@ -180,7 +182,7 @@ h2 {
   display: flex;
   gap: 20px;
 }
-@media screen and (max-width: 450px) { 
+@media screen and (max-width: 450px) {
   .save-slot {
     height: 50vh;
     margin: 20px;
@@ -188,9 +190,9 @@ h2 {
   .has-save-wrapper {
     display: flex;
     flex-direction: column;
-}
+  }
   button {
     font-size: 25px;
   }
- }
+}
 </style>

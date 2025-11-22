@@ -1,8 +1,6 @@
 <template>
   <!-- Composant de bouton pour naviguer entre les vues -->
-  <router-link class="move-view-button" :to="`/${page}`">{{
-    label
-  }}</router-link>
+  <router-link class="move-view-button" :to="`/${page}`">{{ label }}</router-link>
 </template>
 
 <script setup>
@@ -20,7 +18,7 @@ const props = defineProps({
 <style scoped>
 a {
   background-color: #503c20;
-  background-image: url("./src/assets/images/backgrounds/texture.png");
+  background-image: url("@/assets/images/backgrounds/button-texture.png");
   background-blend-mode: soft-light;
   padding: 15px;
   border-radius: 5px;

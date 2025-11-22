@@ -34,27 +34,28 @@ const handleContinue = (nextChapter) => {
 </script>
 
 <style scoped>
-div {
+.consequence-panel {
   position: relative;
-  font-size: 25px;
-  color: white;
-  font-family: "F25";
-  font-size: clamp(15px, 25px, 30px);
-  margin: 5px;
+  top: -20px;
+  left: 5px;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  box-sizing: border-box;
 }
 
 p {
+  font-family: "F25";
+  font-size: 25px;
+  color: white;
+  letter-spacing: 1.5px;
   margin: 0;
-}
-
-.consequence-panel {
-  height: 100%;
-  width: 100%;
+  line-height: 1.6;
 }
 
 button {
-  margin-top: 10px;
+  font-size: 30px;
   padding: 5px 10px;
   background-color: #f3eadcc8;
   border: 2px solid #503c20;
@@ -62,8 +63,8 @@ button {
   font-family: "Sebastien";
   transition: background-color 0.3s ease;
   position: absolute;
-  bottom: 10px;
-  right: 5px;
+  bottom: 0;
+  right: 10px;
 }
 
 button:hover {

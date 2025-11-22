@@ -58,15 +58,17 @@ watch(
 
 .narrative-text-box {
   position: relative;
-  bottom: 20px;
+  top: -20px;
   left: 5px;
-  height: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 p {
   font-family: "F25";
 }
 button {
-  margin-top: 10px;
+  font-size: 30px;
   padding: 5px 10px;
   background-color: #f3eadcc8;
   border: 2px solid #503c20;
@@ -88,28 +90,28 @@ button:hover {
   letter-spacing: 2px;
   color: wheat;
 }
-@media screen and (max-width: 450px) { 
- .narrative-text-box {
-  display: flex;
-  flex-direction: column;
- }
- p {
-  margin-bottom: 40px;
- }
- button {
-  font-size: 15px;
- }
+@media screen and (max-width: 450px) {
+  .narrative-text-box {
+    display: flex;
+    flex-direction: column;
+  }
+  p {
+    margin-bottom: 40px;
+  }
+  button {
+    font-size: 15px;
+  }
 }
-@media screen and (max-width: 850px) { 
- button {
-  font-size: 25px;
- }
- .narrative-text-box {
-  display: flex;
-  flex-direction: column;
- }
- p {
-  margin-bottom: 40px;
- }
+@media screen and (max-width: 850px) {
+  button {
+    font-size: 25px;
+  }
+  .narrative-text-box {
+    display: flex;
+    flex-direction: column;
+  }
+  p {
+    margin-bottom: 40px;
+  }
 }
 </style>
