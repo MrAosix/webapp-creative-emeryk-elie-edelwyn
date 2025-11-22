@@ -80,15 +80,15 @@ a {
     width: 50%;
   }
 
-  .button-wrapper:nth-child(2) {
+  .button-wrapper a:nth-child(2) {
     order: 1; /* Jouer */
   }
 
-  .button-wrapper:nth-child(1) {
+  .button-wrapper a:nth-child(1) {
     order: 2; /* Options */
   }
 
-  .button-wrapper:nth-child(3) {
+  .button-wrapper a:nth-child(3) {
     order: 3; /* Crédits */
   }
 }
@@ -103,15 +103,15 @@ a {
     font-size: 70px;
   }
 
-  .button-wrapper > :nth-child(2) {
+  .button-wrapper a:nth-child(2) {
     order: 1; /* Jouer */
   }
 
-  .button-wrapper > :nth-child(1) {
+  .button-wrapper a:nth-child(1) {
     order: 2; /* Options */
   }
 
-  .button-wrapper > :nth-child(3) {
+  .button-wrapper a:nth-child(3) {
     order: 3; /* Crédits */
   }
 }
