@@ -57,7 +57,7 @@ input[type="range"] {
   cursor: pointer;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
 }
-@media screen and (max-width: 450px) { 
+@media screen and (max-width: 450px) {
   input[type="range"] {
     width: 60vw;
   }
@@ -67,13 +67,13 @@ input[type="range"] {
   h3 {
     font-size: 25px;
   }
- }
- @media screen and (min-width: 550px) and (max-width: 850px) { 
+}
+@media screen and (min-width: 550px) and (max-width: 850px) {
   input[type="range"] {
     width: 60vw;
   }
   h3 {
     font-size: 40px;
   }
- }
+}
 </style>
