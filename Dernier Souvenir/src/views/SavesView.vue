@@ -47,8 +47,9 @@ h1 {
   }
 
   h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
+    font-size: 54px;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 }
 </style>

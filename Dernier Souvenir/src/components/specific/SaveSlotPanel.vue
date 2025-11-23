@@ -53,7 +53,7 @@ const saveSlot3Chapter = computed(() => storyStore.storyData[saveSlot3.value?.cu
   justify-content: center;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1490px) {
   .save-panel {
     flex-direction: column;
     gap: 20px;

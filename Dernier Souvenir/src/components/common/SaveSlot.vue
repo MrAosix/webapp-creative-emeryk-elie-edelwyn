@@ -98,7 +98,10 @@ const startNewGame = () => {
 .save-slot {
   display: flex;
   flex-direction: column;
-  background-color: #453c30d2;
+  background-color: #140e05d2;
+  background-image: url("@/assets/images/backgrounds/panel-texture.png");
+  border-radius: 10px;
+  background-blend-mode: soft-light;
   padding: 25px;
   gap: 20px;
 }
@@ -182,6 +185,8 @@ h2 {
   flex-direction: column;
   align-items: center;
   gap: 133px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .has-save-wrapper {
@@ -203,7 +208,7 @@ h2 {
   }
 
   button {
-    font-size: 24px;
+    font-size: 25px;
     padding: 8px;
   }
 
@@ -213,12 +218,12 @@ h2 {
 
   .act-text,
   .chapter-text {
-    font-size: 24px;
+    font-size: 30px;
     margin-left: 8px;
   }
 
   .last-save-text {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .empty-text {
