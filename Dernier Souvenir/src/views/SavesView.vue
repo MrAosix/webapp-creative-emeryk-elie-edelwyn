@@ -21,10 +21,11 @@ import MoveViewButton from "@/components/common/MoveViewButton.vue";
 .save-view-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 100vh;
-  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
   animation: fadeIn 1.5s ease-in-out forwards;
 }
 
@@ -37,33 +38,17 @@ h1 {
   color: #ffc973;
   text-shadow: 5px 5px 4px #000000, 0 0 10px rgba(255, 201, 115, 0.3);
   animation: pulse 8s ease-in-out 1.5s infinite;
+  user-select: none;
 }
-@media screen and (max-width: 450px) { 
-  div {
-    display: flex;
-    flex-direction: column;
-    height: 30vh;
+
+@media screen and (max-width: 768px) {
+  .save-view-wrapper {
+    padding: 10px;
   }
+
   h1 {
-    font-size: 40px;
-  }
-  .move-view-button-wrapper {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media screen and (min-width: 450px) and (max-width: 1250px) { 
-  div {
-    display: flex;
-    flex-direction: column;
-    height: 30vh;
-  }
-  h1 {
-    font-size: 8vw;
-  }
-  .move-view-button-wrapper {
-    display: flex;
-    flex-direction: column;
+    font-size: 36px;
+    margin-bottom: 10px;
   }
 }
 </style>

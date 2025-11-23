@@ -36,13 +36,17 @@ const handleContinue = (nextChapter) => {
 <style scoped>
 .consequence-panel {
   position: relative;
-  top: -20px;
   left: 5px;
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding-top: 30px;
-  box-sizing: border-box;
+}
+
+.consequence-panel div {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 p {
@@ -51,7 +55,6 @@ p {
   color: white;
   letter-spacing: 1.5px;
   margin: 0;
-  line-height: 1.6;
 }
 
 button {
@@ -63,11 +66,30 @@ button {
   font-family: "Sebastien";
   transition: background-color 0.3s ease;
   position: absolute;
-  bottom: 0;
-  right: 10px;
+  align-self: flex-end;
+  bottom: 10px;
 }
 
 button:hover {
   background-color: #a78e6b;
+}
+
+@media screen and (max-width: 768px) {
+  .consequence-panel {
+    top: 0;
+    left: 0;
+    padding: 5px;
+  }
+
+  p {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 22px;
+    right: 5px;
+    bottom: 5px;
+  }
 }
 </style>

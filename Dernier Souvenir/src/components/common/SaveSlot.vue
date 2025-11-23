@@ -128,6 +128,7 @@ button {
   box-shadow: 0px 0px 8px #000000;
   border: none;
   font-family: "Sebastien";
+  user-select: none;
 }
 
 button:hover {
@@ -140,6 +141,7 @@ button:hover {
   text-shadow: 5px 5px 4px #000000, 0 0 10px rgba(255, 201, 115, 0.3);
   font-size: 30px;
   margin-left: 15px;
+  user-select: none;
 }
 
 .chapter-text {
@@ -147,11 +149,14 @@ button:hover {
   text-shadow: 5px 5px 4px #000000, 0 0 10px rgba(255, 201, 115, 0.3);
   font-size: 30px;
   margin-left: 10px;
+  user-select: none;
 }
 
 .empty-text {
   color: #cccccc;
   font-size: 60px;
+  letter-spacing: 1px;
+  user-select: none;
 }
 
 h2 {
@@ -160,39 +165,68 @@ h2 {
   text-shadow: 5px 5px 4px #000000, 0 0 10px rgba(255, 201, 115, 0.3);
   font-size: 30px;
   align-items: center;
+  user-select: none;
 }
 
 .last-save-text {
   color: #cccccc;
-  font-size: 20px;
+  font-size: 26px;
   letter-spacing: 2px;
   margin: 0;
   align-self: center;
+  user-select: none;
 }
 
 .empty-save-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   gap: 133px;
 }
 
 .has-save-wrapper {
   display: flex;
   gap: 20px;
+  justify-content: center;
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (max-width: 768px) {
   .save-slot {
-    height: 50vh;
-    margin: 20px;
+    padding: 15px;
+    gap: 15px;
   }
-  .has-save-wrapper {
-    display: flex;
-    flex-direction: column;
+
+  img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
   }
+
   button {
-    font-size: 25px;
+    font-size: 24px;
+    padding: 8px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .act-text,
+  .chapter-text {
+    font-size: 24px;
+    margin-left: 8px;
+  }
+
+  .last-save-text {
+    font-size: 20px;
+  }
+
+  .empty-text {
+    font-size: 48px;
+  }
+
+  .empty-save-wrapper {
+    gap: 80px;
   }
 }
 </style>

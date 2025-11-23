@@ -26,18 +26,19 @@ h1 {
   text-align: center;
   color: #503c20;
   margin: 5px;
-  background-color: #503c20;
+  background-color: #2e200c;
+  background-image: url("@/assets/images/backgrounds/panel-texture.png");
+  background-blend-mode: overlay;
   color: white;
   letter-spacing: 2px;
   font-weight: 100;
   padding: 4px;
-  margin-bottom: 8px;
 }
 
 .inventory-panel {
   display: flex;
   flex-direction: column;
-  height : 150px;
+  height: 200px;
 }
 
 .inventory {
@@ -59,7 +60,7 @@ img {
   margin: 2px 5px;
   color: white;
 }
-@media screen and (max-width: 450px) { 
+@media screen and (max-width: 450px) {
   input[type="range"] {
     width: 60vw;
   }
@@ -69,10 +70,11 @@ img {
   h3 {
     font-size: 25px;
   }
- }
- @media screen and (max-width: 850px) { 
- .inventory p, .inventory {
-  font-size: 25px;
- }
- }
+}
+@media screen and (max-width: 850px) {
+  .inventory p,
+  .inventory {
+    font-size: 25px;
+  }
+}
 </style>

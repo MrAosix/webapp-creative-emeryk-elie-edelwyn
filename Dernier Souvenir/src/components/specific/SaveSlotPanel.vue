@@ -50,5 +50,15 @@ const saveSlot3Chapter = computed(() => storyStore.storyData[saveSlot3.value?.cu
   display: flex;
   gap: 50px;
   font-family: "Sebastien";
+  justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .save-panel {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 500px;
+  }
 }
 </style>

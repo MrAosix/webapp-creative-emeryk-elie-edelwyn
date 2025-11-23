@@ -31,6 +31,7 @@ a {
   transition: all 0.7s ease;
   text-shadow: 2px 2px 4px #000000;
   box-shadow: 0px 0px 8px #000000;
+  user-select: none;
 }
 a:hover {
   background-color: #382a17;

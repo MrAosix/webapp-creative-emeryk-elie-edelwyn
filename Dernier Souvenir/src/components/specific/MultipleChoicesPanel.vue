@@ -1,7 +1,9 @@
 <template>
   <div class="multiple-choices-panel">
     <p>{{ storyStore.currentChapter.choiceDescription }}</p>
-    <MultipleChoicesButton v-for="choice in storyStore.availableChoices" :choice="choice" />
+    <div class="choices-wrapper">
+      <MultipleChoicesButton v-for="choice in storyStore.availableChoices" :choice="choice" />
+    </div>
     <button class="confirm-button" :disabled="!storyStore.multipleChoiceButtonAvailable" @click="storyStore.confirmMultipleChoices()">Confirmer</button>
   </div>
 </template>
@@ -17,12 +19,11 @@ const storyStore = useStoryStore();
 <style scoped>
 p {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 28px;
   letter-spacing: 1.5px;
   color: white;
   font-family: "F25";
   margin: 0;
-  margin-bottom: 10px;
 }
 button {
   margin-top: 10px;
@@ -35,16 +36,17 @@ button {
 
 .multiple-choices-panel {
   position: relative;
-  top: -20px;
   left: 5px;
   height: 100%;
-  padding-top: 30px;
-  box-sizing: border-box;
+}
+
+.choices-wrapper {
+  position: relative;
+  top: -10px;
 }
 
 .confirm-button {
   font-size: 30px;
-  margin-top: 10px;
   padding: 5px 10px;
   background-color: #f3eadcc8;
   border: 2px solid #503c20;
@@ -52,8 +54,9 @@ button {
   font-family: "Sebastien";
   transition: background-color 0.3s ease;
   position: absolute;
-  bottom: 0;
-  right: 10px;
+  align-self: flex-end;
+  bottom: 10px;
+  right: 5px;
 }
 
 .confirm-button:not(:disabled):hover {

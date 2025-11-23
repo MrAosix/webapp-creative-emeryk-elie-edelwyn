@@ -38,3 +38,20 @@ body {
 .typed-cursor {
   display: none;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a140a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4d3717;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffc973;
+}

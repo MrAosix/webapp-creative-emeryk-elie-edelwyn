@@ -43,9 +43,7 @@ const historyItems = computed(() => {
 .history-panel {
   padding: 20px;
   background-color: #2c1f0e;
-  border-radius: 10px;
   color: #ffffff;
-  max-height: 600px;
   overflow-y: auto;
 }
 
@@ -71,30 +69,12 @@ const historyItems = computed(() => {
   gap: 10px;
 }
 
-/* Scrollbar styling */
-.history-panel::-webkit-scrollbar {
-  width: 10px;
-}
-
-.history-panel::-webkit-scrollbar-track {
-  background: #1a140a;
-  border-radius: 10px;
-}
-
-.history-panel::-webkit-scrollbar-thumb {
-  background: #503c20;
-  border-radius: 10px;
-}
-
-.history-panel::-webkit-scrollbar-thumb:hover {
-  background: #ffc973;
-}
-@media screen and (max-width: 450px) { 
+@media screen and (max-width: 450px) {
   .history-panel h2 {
     margin: 0;
   }
 }
-@media screen and (max-width: 850px) { 
+@media screen and (max-width: 850px) {
   .history-panel h2 {
     font-size: 40px;
   }

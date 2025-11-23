@@ -88,11 +88,12 @@ button {
   transition: color 0.5s ease;
   background: none;
   border: none;
-  font-size: 1.2rem;
+  font-size: 2rem;
+  color: white;
 }
 
 button:hover:not(.disabled) {
-  color: white;
+  color: #ffc973;
 }
 
 button:disabled {

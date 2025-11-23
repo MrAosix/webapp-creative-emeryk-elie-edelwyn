@@ -58,15 +58,16 @@ watch(
 
 .narrative-text-box {
   position: relative;
-  top: -20px;
   left: 5px;
   height: 100%;
   display: flex;
   flex-direction: column;
 }
+
 p {
   font-family: "F25";
 }
+
 button {
   font-size: 30px;
   padding: 5px 10px;
@@ -76,8 +77,8 @@ button {
   font-family: "Sebastien";
   transition: background-color 0.3s ease;
   position: absolute;
-  bottom: 0;
-  right: 10px;
+  align-self: flex-end;
+  bottom: 10px;
 }
 
 button:hover {
@@ -89,29 +90,32 @@ button:hover {
   font-size: 30px;
   letter-spacing: 2px;
   color: wheat;
+  margin: 0;
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (max-width: 768px) {
   .narrative-text-box {
-    display: flex;
-    flex-direction: column;
+    top: 0;
+    left: 0;
+    padding: 5px;
   }
+
   p {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
+
+  .speaker {
+    font-size: 24px;
+  }
+
+  #typed-element {
+    font-size: 20px;
+  }
+
   button {
-    font-size: 15px;
-  }
-}
-@media screen and (max-width: 850px) {
-  button {
-    font-size: 25px;
-  }
-  .narrative-text-box {
-    display: flex;
-    flex-direction: column;
-  }
-  p {
-    margin-bottom: 40px;
+    font-size: 22px;
+    right: 5px;
+    bottom: 5px;
   }
 }
 </style>

@@ -1,9 +1,5 @@
 <template>
-  <button
-    @click="storyStore.makeChoice(choice)"
-    :disabled="storyStore.isChoiceDisabled(choice.name)"
-    :class="{ selected: storyStore.isChoiceSelected(choice.name) }"
-  >
+  <button @click="storyStore.makeChoice(choice)" :disabled="storyStore.isChoiceDisabled(choice.name)" :class="{ selected: storyStore.isChoiceSelected(choice.name) }">
     <img :src="choice.buttonImage" :alt="'Image ' + choice.name" />
   </button>
 </template>
@@ -33,7 +29,6 @@ button:hover:not(.selected, :disabled) {
 button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-  margin-top: 10px;
   padding: 5px 10px;
   background-color: #89746a;
   cursor: not-allowed;

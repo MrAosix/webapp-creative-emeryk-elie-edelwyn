@@ -27,6 +27,7 @@ div {
   font-size: clamp(15px, 25px, 30px);
 }
 p {
+  font-size: 2rem;
   margin: 5px;
 }
 </style>

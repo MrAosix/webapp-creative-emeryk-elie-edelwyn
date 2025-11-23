@@ -1,6 +1,6 @@
 <template>
   <div class="chapter-screen-wrapper">
-    <move-view-button label="Retour" page="" />
+    <move-view-button label="↩" page="" />
     <chapter-title class="title" />
     <HistoryPanel class="history" />
     <chapter-images class="images" />
@@ -11,6 +11,11 @@
       <multiple-choices-panel v-if="storyStore.shouldShowMultipleChoicePanel" />
     </div>
     <InventoryPanel class="inventory" />
+    <div class="mobile-buttons">
+      <move-view-button label="↩" page="" class="mobile-back" />
+      <button class="mobile-history-btn">Historique</button>
+      <button class="mobile-inventory-btn">Inventaire</button>
+    </div>
   </div>
 </template>
 
@@ -46,9 +51,17 @@ storyStore.loadChapter(storyStore.currentChapterId);
 }
 
 .move-view-button {
-  position: relative;
-  margin-right: 0;
-  align-self: center;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 70px;
+}
+
+.move-view-button a {
+  width: 100%;
+  height: 100%;
+  display: flex;
 }
 
 .title {
@@ -64,6 +77,8 @@ storyStore.loadChapter(storyStore.currentChapterId);
   text-shadow: 5px 5px 4px #000000, 0 0 10px rgba(255, 201, 115, 0.3);
   font-size: 1.2vw;
   letter-spacing: 2px;
+  font-family: "Viper";
+  user-select: none;
 }
 
 .history {
@@ -73,12 +88,12 @@ storyStore.loadChapter(storyStore.currentChapterId);
   background-color: #4d3715c8;
   background-image: url("@/assets/images/backgrounds/panel-texture.png");
   background-blend-mode: color-burn;
-  margin: 0;
   margin-left: -12px;
-  min-height: 0;
   overflow-y: auto;
-  align-self: start;
-  height: 70%;
+  align-self: flex-start;
+  height: 805px;
+  user-select: none;
+  font-family: "Viper";
 }
 .inventory {
   grid-column-start: 3;
@@ -88,11 +103,12 @@ storyStore.loadChapter(storyStore.currentChapterId);
   background-image: url("@/assets/images/backgrounds/panel-texture.png");
   background-blend-mode: color-burn;
   align-self: end;
-  margin: 0;
   margin-left: -12px;
   min-height: 0;
   overflow-y: auto;
-  height: 30%;
+  height: 380px;
+  user-select: none;
+  font-family: "Viper";
 }
 
 .images {
@@ -107,6 +123,7 @@ storyStore.loadChapter(storyStore.currentChapterId);
   height: 100%;
   min-height: 0;
   overflow: hidden;
+  user-select: none;
 }
 
 .text-wrapper {
@@ -119,20 +136,93 @@ storyStore.loadChapter(storyStore.currentChapterId);
   border: 5px solid #503c20;
   overflow-y: auto;
   max-height: 100%;
+  user-select: none;
 }
-@media screen and (max-width: 1050px) {
-  a {
-    font-size: 25px;
-  }
+.mobile-buttons {
+  display: none;
+}
+
+/* Mobile + Tablet */
+@media screen and (max-width: 1400px) {
   .chapter-screen-wrapper {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr auto;
+    gap: 10px;
+    padding: 10px;
+    max-width: 100vw;
+    overflow-x: hidden;
   }
+
+  .move-view-button:not(.mobile-back) {
+    display: none;
+  }
+
   .title {
-    font-size: 25px;
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 28px;
   }
+
+  .images {
+    grid-column: 1;
+    grid-row: 2;
+    height: 45vh;
+    padding: 8px;
+  }
+
+  .images img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }
+
+  .text-wrapper {
+    grid-column: 1;
+    grid-row: 3;
+    min-height: 20vh;
+    padding: 8px;
+  }
+
   .history {
-    height: 20vh;
+    display: none;
+  }
+
+  .inventory {
+    display: none;
+  }
+
+  .mobile-buttons {
+    display: flex;
+    grid-column: 1;
+    grid-row: 4;
+    gap: 8px;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .mobile-history-btn,
+  .mobile-inventory-btn {
+    flex: 1;
+    padding: 12px 8px;
+    font-size: 18px;
+    background-color: #f3eadcc8;
+    border: 2px solid #503c20;
+    cursor: pointer;
+    font-family: "Sebastien";
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    box-sizing: border-box;
+  }
+
+  .mobile-history-btn:hover,
+  .mobile-inventory-btn:hover {
+    background-color: #a78e6b;
+  }
+
+  .mobile-back {
+    flex: 1;
   }
 }
 </style>
