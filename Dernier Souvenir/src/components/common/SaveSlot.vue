@@ -234,4 +234,24 @@ h2 {
     gap: 80px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .save-slot {
+    padding: 10px;
+    gap: 10px;
+  }
+
+  button {
+    font-size: 18px;
+  }
+
+  .act-text,
+  .chapter-text {
+    font-size: 24px;
+  }
+
+  .last-save-text {
+    font-size: 24px;
+  }
+}
 </style>

@@ -52,4 +52,10 @@ h1 {
     margin-top: 20px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 40px;
+  }
+}
 </style>
