@@ -49,11 +49,9 @@ watch(
 #typed-element {
   position: relative;
   display: inline;
-  font-size: 25px;
+  font-size: 35px;
   color: white;
   letter-spacing: 1.5px;
-  bottom: 15px;
-  top: 0;
 }
 
 .narrative-text-box {
@@ -87,7 +85,7 @@ button:hover {
 
 .speaker {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 45px;
   letter-spacing: 2px;
   color: wheat;
   margin: 0;
@@ -110,7 +108,7 @@ button:hover {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
 
   p {
@@ -120,27 +118,43 @@ button:hover {
   }
 
   .speaker {
-    font-size: 22px;
+    font-size: 35px;
     margin-top: 0;
     padding-top: 8px;
   }
 
   #typed-element {
-    font-size: 18px;
+    font-size: 35px;
     line-height: 1.5;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
     width: 100%;
-    flex-grow: 1;
+    margin-bottom: 10px;
   }
 
   button {
     font-size: 30px;
-    right: 8px;
-    bottom: 8px;
     padding: 8px 16px;
-    position: absolute;
-    margin-top: auto;
+    position: relative;
+    right: auto;
+    bottom: auto;
+    align-self: flex-end;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .narrative-text-box {
+    justify-content: flex-start;
+  }
+
+  #typed-element {
+    margin-bottom: 10px;
+  }
+
+  button {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    align-self: flex-end;
   }
 }
 </style>

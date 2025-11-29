@@ -51,7 +51,7 @@ const handleContinue = (nextChapter) => {
 
 p {
   font-family: "F25";
-  font-size: 25px;
+  font-size: 40px;
   color: white;
   letter-spacing: 1.5px;
   margin: 0;
@@ -74,25 +74,76 @@ button:hover {
   background-color: #a78e6b;
 }
 
+@media screen and (max-width: 1400px) and (min-width: 769px) {
+  button {
+    font-size: 40px;
+    padding: 8px 18px;
+    right: 10px;
+    bottom: 0;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .consequence-panel {
     top: 0;
     left: 0;
-    padding: 8px;
-    padding-bottom: 60px;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .consequence-panel div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
   }
 
   p {
+    margin: 0;
     margin-bottom: 10px;
-    font-size: 18px;
-    padding: 0 5px;
+    padding: 0 8px;
+    font-size: 25px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 100%;
+    padding-top: 8px;
   }
 
   button {
-    font-size: 20px;
-    right: 15px;
-    bottom: 15px;
-    padding: 10px 18px;
+    font-size: 30px;
+    padding: 8px 16px;
+    position: relative;
+    right: auto;
+    bottom: auto;
+    align-self: flex-end;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .consequence-panel {
+    justify-content: flex-start;
+  }
+
+  .consequence-panel div {
+    justify-content: flex-start;
+  }
+
+  p {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    align-self: flex-end;
+    margin-top: 10px;
   }
 }
 </style>
