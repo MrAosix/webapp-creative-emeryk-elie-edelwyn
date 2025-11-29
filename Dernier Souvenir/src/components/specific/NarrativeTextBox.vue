@@ -97,25 +97,30 @@ button:hover {
   .narrative-text-box {
     top: 0;
     left: 0;
-    padding: 5px;
+    padding: 0 5px 50px 5px;
   }
 
   p {
-    margin-bottom: 10px;
+    margin: 0;
+    margin-bottom: 8px;
   }
 
   .speaker {
     font-size: 24px;
+    margin-top: 0;
   }
 
   #typed-element {
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 1.4;
+    padding-bottom: 10px;
   }
 
   button {
-    font-size: 22px;
+    font-size: 20px;
     right: 5px;
     bottom: 5px;
+    padding: 8px 15px;
   }
 }
 </style>

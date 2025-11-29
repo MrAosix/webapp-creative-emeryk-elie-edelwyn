@@ -148,10 +148,11 @@ storyStore.loadChapter(storyStore.currentChapterId);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto 1fr auto;
-    gap: 10px;
-    padding: 10px;
+    gap: 8px;
+    padding: 10px 10px 5px 10px;
     max-width: 100vw;
     overflow-x: hidden;
+    height: 100vh;
   }
 
   .move-view-button:not(.mobile-back) {
@@ -167,7 +168,7 @@ storyStore.loadChapter(storyStore.currentChapterId);
   .images {
     grid-column: 1;
     grid-row: 2;
-    height: 45vh;
+    height: 38vh;
     padding: 8px;
   }
 
@@ -200,13 +201,15 @@ storyStore.loadChapter(storyStore.currentChapterId);
     justify-content: space-between;
     width: 100%;
     box-sizing: border-box;
+    align-self: end;
+    margin-bottom: 5px;
   }
 
   .mobile-history-btn,
   .mobile-inventory-btn {
     flex: 1;
-    padding: 12px 8px;
-    font-size: 18px;
+    padding: 10px 8px;
+    font-size: 16px;
     background-color: #f3eadcc8;
     border: 2px solid #503c20;
     cursor: pointer;
