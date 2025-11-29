@@ -79,17 +79,23 @@ const showInventoryModal = ref(false);
   background-image: url("@/assets/images/backgrounds/panel-texture.png");
   background-blend-mode: color-burn;
   margin: 0;
-  padding: 0 10px;
+  padding: 15px 10px;
   text-align: center;
   border: 5px solid #503c20;
   color: #ffc973bd;
   text-shadow: 5px 5px 4px #000000, 0 0 10px rgba(255, 201, 115, 0.3);
-  font-size: 1.2vw;
+  font-size: 32px;
   letter-spacing: 2px;
   font-family: "F25";
   text-transform: uppercase;
   user-select: none;
+<<<<<<< Updated upstream
   font-weight: bold;
+=======
+  display: flex;
+  align-items: center;
+  justify-content: center;
+>>>>>>> Stashed changes
 }
 
 .history {
@@ -163,8 +169,8 @@ const showInventoryModal = ref(false);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto 1fr auto;
-    gap: 8px;
-    padding: 8px;
+    gap: 5px;
+    padding: 5px;
     max-width: 100vw;
     width: 100vw;
     overflow-x: hidden;
@@ -179,16 +185,24 @@ const showInventoryModal = ref(false);
   .title {
     grid-column: 1;
     grid-row: 1;
-    font-size: 28px;
+    font-size: 24px;
     margin: 0;
+    padding: 5px 10px;
+    min-height: auto;
     box-sizing: border-box;
+  }
+
+  .title h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
   }
 
   .images {
     grid-column: 1;
     grid-row: 2;
-    height: 38vh;
-    padding: 8px;
+    height: 36vh;
+    padding: 5px;
     margin: 0;
     box-sizing: border-box;
   }
@@ -202,11 +216,14 @@ const showInventoryModal = ref(false);
   .text-wrapper {
     grid-column: 1;
     grid-row: 3;
-    min-height: 20vh;
-    max-height: 45vh;
-    padding: 8px;
+    min-height: 30vh;
+    max-height: 40vh;
+    padding: 5px;
+    padding-bottom: 5px;
     margin: 0;
     box-sizing: border-box;
+    overflow-y: auto;
+    position: relative;
   }
 
   .history {
