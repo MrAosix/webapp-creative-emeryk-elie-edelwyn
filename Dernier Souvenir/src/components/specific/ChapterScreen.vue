@@ -13,13 +13,17 @@
     <InventoryPanel class="inventory" />
     <div class="mobile-buttons">
       <move-view-button label="↩" page="" class="mobile-back" />
-      <button class="mobile-history-btn">Historique</button>
-      <button class="mobile-inventory-btn">Inventaire</button>
+      <button class="mobile-history-btn" @click="showHistoryModal = true">Historique</button>
+      <button class="mobile-inventory-btn" @click="showInventoryModal = true">Inventaire</button>
     </div>
+
+    <HistoryModal :isOpen="showHistoryModal" @close="showHistoryModal = false" />
+    <InventoryModal :isOpen="showInventoryModal" @close="showInventoryModal = false" />
   </div>
 </template>
 
 <script setup>
+import { ref } from "vue";
 import { useStoryStore } from "@/stores/StoryStore";
 
 import MoveViewButton from "@/components/common/MoveViewButton.vue";
@@ -31,9 +35,14 @@ import MultipleChoicesPanel from "@/components/specific/MultipleChoicesPanel.vue
 import ConsequencePanel from "@/components/specific/ConsequencePanel.vue";
 import InventoryPanel from "./InventoryPanel.vue";
 import HistoryPanel from "./HistoryPanel.vue";
+import HistoryModal from "./HistoryModal.vue";
+import InventoryModal from "./InventoryModal.vue";
 
 const storyStore = useStoryStore();
 storyStore.loadChapter(storyStore.currentChapterId);
+
+const showHistoryModal = ref(false);
+const showInventoryModal = ref(false);
 </script>
 
 <style scoped>
@@ -149,10 +158,12 @@ storyStore.loadChapter(storyStore.currentChapterId);
     grid-template-columns: 1fr;
     grid-template-rows: auto auto 1fr auto;
     gap: 8px;
-    padding: 10px 10px 5px 10px;
+    padding: 8px;
     max-width: 100vw;
+    width: 100vw;
     overflow-x: hidden;
     height: 100vh;
+    box-sizing: border-box;
   }
 
   .move-view-button:not(.mobile-back) {
@@ -163,6 +174,8 @@ storyStore.loadChapter(storyStore.currentChapterId);
     grid-column: 1;
     grid-row: 1;
     font-size: 28px;
+    margin: 0;
+    box-sizing: border-box;
   }
 
   .images {
@@ -170,6 +183,8 @@ storyStore.loadChapter(storyStore.currentChapterId);
     grid-row: 2;
     height: 38vh;
     padding: 8px;
+    margin: 0;
+    box-sizing: border-box;
   }
 
   .images img {
@@ -182,7 +197,10 @@ storyStore.loadChapter(storyStore.currentChapterId);
     grid-column: 1;
     grid-row: 3;
     min-height: 20vh;
+    max-height: 45vh;
     padding: 8px;
+    margin: 0;
+    box-sizing: border-box;
   }
 
   .history {
@@ -202,26 +220,31 @@ storyStore.loadChapter(storyStore.currentChapterId);
     width: 100%;
     box-sizing: border-box;
     align-self: end;
-    margin-bottom: 5px;
+    margin: 0 0 5px 0;
   }
 
   .mobile-history-btn,
   .mobile-inventory-btn {
     flex: 1;
     padding: 10px 8px;
-    font-size: 16px;
-    background-color: #f3eadcc8;
+    font-size: 24px;
+    background-color: #503c20;
+    background-image: url("@/assets/images/backgrounds/button-texture.png");
+    background-blend-mode: soft-light;
     border: 2px solid #503c20;
+    border-radius: 5px;
+    color: #ffc973;
     cursor: pointer;
     font-family: "Sebastien";
-    transition: background-color 0.3s ease;
-    text-transform: uppercase;
+    transition: all 0.7s ease;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 0px 0px 8px #000000;
     box-sizing: border-box;
   }
 
   .mobile-history-btn:hover,
   .mobile-inventory-btn:hover {
-    background-color: #a78e6b;
+    background-color: #382a17;
   }
 
   .mobile-back {
