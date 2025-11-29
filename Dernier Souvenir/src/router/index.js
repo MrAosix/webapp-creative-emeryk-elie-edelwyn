@@ -7,7 +7,6 @@ import ChapterView from "@/views/ChapterView.vue";
 import EndingView from "@/views/EndingView.vue";
 import SavesView from "@/views/SavesView.vue";
 import CreditsView from "@/views/CreditsView.vue";
-import OptionsView from "@/views/OptionsView.vue";
 
 // Définition des routes de l'application
 const routes = [
@@ -16,7 +15,6 @@ const routes = [
   { path: "/fin/:endingId", name: "EndingView", component: EndingView },
   { path: "/sauvegardes", name: "SavesView", component: SavesView },
   { path: "/credits", name: "CreditsView", component: CreditsView },
-  { path: "/options", name: "OptionsView", component: OptionsView },
 ];
 
 // Création du routeur avec l'historique web

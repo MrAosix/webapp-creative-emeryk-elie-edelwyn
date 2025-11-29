@@ -2,9 +2,8 @@
   <div class="home-view-wrapper">
     <h1>DERNIER SOUVENIR</h1>
     <div class="button-wrapper">
-      <MoveViewButton label="Options" page="options" class="fade-in delay-2" />
       <MoveViewButton label="Jouer" page="sauvegardes" class="fade-in delay-1" />
-      <MoveViewButton label="Crédits" page="credits" class="fade-in delay-3" />
+      <MoveViewButton label="Crédits" page="credits" class="fade-in delay-2" />
     </div>
   </div>
 </template>
@@ -53,11 +52,13 @@ h1 {
 
 .button-wrapper {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
 a {
-  min-width: 10vw;
+  min-width: 15vw;
   text-align: center;
   margin-top: 2vw;
 }
@@ -71,20 +72,7 @@ a {
   }
 
   .button-wrapper a {
-    max-width: 400px;
-    width: 50%;
-  }
-
-  .button-wrapper a:nth-child(2) {
-    order: 1; /* Jouer */
-  }
-
-  .button-wrapper a:nth-child(1) {
-    order: 2; /* Options */
-  }
-
-  .button-wrapper a:nth-child(3) {
-    order: 3; /* Crédits */
+    min-width: 40vw;
   }
 }
 
@@ -98,16 +86,8 @@ a {
     font-size: 70px;
   }
 
-  .button-wrapper a:nth-child(2) {
-    order: 1; /* Jouer */
-  }
-
-  .button-wrapper a:nth-child(1) {
-    order: 2; /* Options */
-  }
-
-  .button-wrapper a:nth-child(3) {
-    order: 3; /* Crédits */
+  .button-wrapper a {
+    min-width: 50vw;
   }
 }
 </style>
