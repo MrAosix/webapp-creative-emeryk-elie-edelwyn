@@ -41,7 +41,7 @@ h1 {
 }
 
 h3 {
-  font-size: 4.5vw;
+  font-size: 3vw;
   color: #ffc973;
   text-shadow: 2px 2px 4px #000000, 0 0 10px rgba(255, 201, 115, 0.3);
   margin-bottom: 0;
@@ -50,13 +50,13 @@ h3 {
 }
 
 p {
-  font-size: 3vw;
+  font-size: 1.5vw;
   text-align: center;
   margin-top: 0.2vw;
   margin-bottom: 0.2vw;
   text-shadow: 2px 2px 4px #000000, 0 0 10px rgba(255, 201, 115, 0.3);
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1200px) {
   h3,
   p {
     letter-spacing: 2px;
