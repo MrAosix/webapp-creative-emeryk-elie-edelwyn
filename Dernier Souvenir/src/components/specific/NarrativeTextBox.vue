@@ -97,12 +97,14 @@ button:hover {
   .narrative-text-box {
     top: 0;
     left: 0;
-    padding: 0 5px 50px 5px;
+    padding: 8px;
+    padding-bottom: 60px;
+    min-height: 100%;
   }
 
   p {
     margin: 0;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
   }
 
   .speaker {
@@ -111,16 +113,19 @@ button:hover {
   }
 
   #typed-element {
-    font-size: 18px;
-    line-height: 1.4;
-    padding-bottom: 10px;
+    font-size: 20px;
+    line-height: 1.6;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 100%;
   }
 
   button {
     font-size: 20px;
-    right: 5px;
-    bottom: 5px;
-    padding: 8px 15px;
+    right: 10px;
+    bottom: 10px;
+    padding: 10px 18px;
+    position: absolute;
   }
 }
 </style>

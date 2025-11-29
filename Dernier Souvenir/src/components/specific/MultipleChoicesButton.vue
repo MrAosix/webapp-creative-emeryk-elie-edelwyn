@@ -53,6 +53,17 @@ button img {
   }
 }
 
+@media screen and (max-width: 768px) {
+  button {
+    padding: 4px;
+  }
+
+  button img {
+    width: 70px;
+    height: 70px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   button {
     padding: 3px;

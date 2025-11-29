@@ -46,7 +46,6 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  max-width: calc(100% - 150px);
 }
 
 .confirm-button {
@@ -69,54 +68,30 @@ button {
 
 @media screen and (max-width: 768px) {
   .multiple-choices-panel {
-    padding-bottom: 10px;
+    padding: 5px;
+    padding-bottom: 60px;
     left: 0;
-    display: flex;
-    flex-direction: column;
   }
 
   .choices-wrapper {
-    justify-content: flex-start;
+    justify-content: center;
     gap: 6px;
     top: 0;
     max-width: 100%;
-    max-height: none;
   }
 
   p {
-    font-size: 20px;
-    margin-bottom: 8px;
-  }
-
-  .confirm-button {
-    font-size: 22px;
-    padding: 8px 15px;
-    position: absolute;
-    bottom: 15px;
-    right: 5px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .multiple-choices-panel {
-    padding: 0 0 10px 0;
-    left: 0;
-  }
-
-  .choices-wrapper {
-    gap: 4px;
-  }
-
-  p {
-    font-size: 16px;
-    padding: 0 5px;
-    margin-bottom: 5px;
-  }
-
-  .confirm-button {
     font-size: 18px;
-    padding: 6px 12px;
-    bottom: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .confirm-button {
+    font-size: 20px;
+    padding: 10px 18px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
   }
 }
 </style>
