@@ -97,35 +97,41 @@ button:hover {
   .narrative-text-box {
     top: 0;
     left: 0;
-    padding: 8px;
-    padding-bottom: 60px;
-    min-height: 100%;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   p {
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    padding: 0 8px;
   }
 
   .speaker {
-    font-size: 24px;
+    font-size: 22px;
     margin-top: 0;
+    padding-top: 8px;
   }
 
   #typed-element {
-    font-size: 20px;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.5;
     word-wrap: break-word;
     overflow-wrap: break-word;
     width: 100%;
+    flex-grow: 1;
   }
 
   button {
-    font-size: 20px;
-    right: 10px;
-    bottom: 10px;
-    padding: 10px 18px;
+    font-size: 18px;
+    right: 8px;
+    bottom: 8px;
+    padding: 8px 16px;
     position: absolute;
+    margin-top: auto;
   }
 }
 </style>
