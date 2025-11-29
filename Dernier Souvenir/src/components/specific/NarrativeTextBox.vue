@@ -93,6 +93,15 @@ button:hover {
   margin: 0;
 }
 
+@media screen and (max-width: 1400px) and (min-width: 769px) {
+  button {
+    font-size: 40px;
+    padding: 8px 18px;
+    right: 10px;
+    bottom: 0;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .narrative-text-box {
     top: 0;
@@ -126,7 +135,7 @@ button:hover {
   }
 
   button {
-    font-size: 18px;
+    font-size: 30px;
     right: 8px;
     bottom: 8px;
     padding: 8px 16px;

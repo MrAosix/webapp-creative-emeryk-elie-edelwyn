@@ -61,9 +61,9 @@ const filteredItems = computed(() => {
 
 .close-button {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  background-color: #503c20;
+  top: 0;
+  right: 0;
+  background-color: #30220e;
   color: #ffc973;
   border: 2px solid #503c20;
   border-radius: 50%;
@@ -78,11 +78,6 @@ const filteredItems = computed(() => {
   font-family: Arial, sans-serif;
   padding: 0;
   line-height: 1;
-}
-
-.close-button:hover {
-  background-color: #382a17;
-  transform: scale(1.1);
 }
 
 h1 {

@@ -78,18 +78,21 @@ button:hover {
   .consequence-panel {
     top: 0;
     left: 0;
-    padding: 5px;
+    padding: 8px;
+    padding-bottom: 60px;
   }
 
   p {
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 18px;
+    padding: 0 5px;
   }
 
   button {
-    font-size: 22px;
-    right: 5px;
-    bottom: 5px;
+    font-size: 20px;
+    right: 15px;
+    bottom: 15px;
+    padding: 10px 18px;
   }
 }
 </style>

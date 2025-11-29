@@ -56,6 +56,13 @@ h1 {
   position: relative;
   width: 100%;
   height: 100%;
+  border: 5px solid #503c20;
+  background-color: #4d3715c8;
+  background-image: url("@/assets/images/backgrounds/panel-texture.png");
+  background-blend-mode: color-burn;
+  overflow: hidden;
+  user-select: none;
+  font-family: "Viper";
 }
 
 .history-list {

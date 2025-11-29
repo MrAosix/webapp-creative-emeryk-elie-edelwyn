@@ -75,36 +75,14 @@ const showInventoryModal = ref(false);
 
 .title {
   grid-column: 2;
-  background-color: #4d3715c8;
-  background-image: url("@/assets/images/backgrounds/panel-texture.png");
-  background-blend-mode: color-burn;
-  margin: 0;
-  padding: 15px 10px;
-  text-align: center;
-  border: 5px solid #503c20;
-  color: #ffc973bd;
-  text-shadow: 5px 5px 4px #000000, 0 0 10px rgba(255, 201, 115, 0.3);
-  font-size: 32px;
-  letter-spacing: 2px;
-  font-family: "F25";
-  text-transform: uppercase;
-  user-select: none;
-  font-weight: bold;
 }
 
 .history {
   grid-column-start: 3;
   grid-row: 1 / span 3;
-  border: 5px solid #503c20;
-  background-color: #4d3715c8;
-  background-image: url("@/assets/images/backgrounds/panel-texture.png");
-  background-blend-mode: color-burn;
   margin-left: -12px;
-  overflow: hidden;
   align-self: flex-start;
   height: 50vh;
-  user-select: none;
-  font-family: "Viper";
   pointer-events: auto;
   z-index: 9;
   position: relative;
@@ -112,33 +90,18 @@ const showInventoryModal = ref(false);
 .inventory {
   grid-column-start: 3;
   grid-row: 1 / span 3;
-  border: 5px solid #503c20;
-  background-color: #4d3715c8;
-  background-image: url("@/assets/images/backgrounds/panel-texture.png");
-  background-blend-mode: color-burn;
   align-self: end;
   margin-left: -12px;
-  min-height: 0;
-  overflow-y: auto;
   height: 40vh;
-  user-select: none;
-  font-family: "Viper";
   z-index: 10;
 }
 
 .images {
   grid-column-start: 2;
   grid-row-start: 2;
-  padding: 10px;
-  background-color: #4d3715c8;
-  background-image: url("@/assets/images/backgrounds/panel-texture.png");
-  background-blend-mode: color-burn;
   align-self: center;
-  border: 5px solid #503c20;
   height: 100%;
   min-height: 0;
-  overflow: hidden;
-  user-select: none;
 }
 
 .text-wrapper {
@@ -157,7 +120,7 @@ const showInventoryModal = ref(false);
   display: none;
 }
 
-/* Mobile + Tablet */
+/* Tablet */
 @media screen and (max-width: 1400px) {
   .chapter-screen-wrapper {
     display: grid;
@@ -211,9 +174,9 @@ const showInventoryModal = ref(false);
     grid-column: 1;
     grid-row: 3;
     min-height: 25vh;
-    max-height: 35vh;
+    max-height: 45vh;
     padding: 8px;
-    padding-bottom: 55px;
+    padding-bottom: 8px;
     margin: 0;
     box-sizing: border-box;
     overflow: hidden;
@@ -235,6 +198,7 @@ const showInventoryModal = ref(false);
     gap: 8px;
     justify-content: space-between;
     width: 100%;
+    height: auto;
     box-sizing: border-box;
     align-self: end;
     margin: 0 0 5px 0;
@@ -266,6 +230,53 @@ const showInventoryModal = ref(false);
 
   .mobile-back {
     flex: 1;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .chapter-screen-wrapper {
+    max-width: 100%;
+    width: 100%;
+    gap: 3px;
+    padding: 3px;
+  }
+
+  .title {
+    font-size: 15px;
+    padding: 4px 8px;
+    max-height: 20vh;
+  }
+
+  .images {
+    max-height: 50vh;
+    padding: 3px;
+  }
+
+  .text-wrapper {
+    padding: 5px;
+    padding-bottom: 5px;
+    min-height: 22vh;
+    max-height: 45vh;
+    overflow-y: auto;
+  }
+
+  .mobile-buttons {
+    gap: 5px;
+    height: 80px;
+    min-height: 55px;
+    padding: 0 3px 3px 3px;
+    margin-top: auto;
+  }
+
+  .mobile-history-btn,
+  .mobile-inventory-btn {
+    font-size: 18px;
+    padding: 6px 4px;
+  }
+
+  .mobile-back {
+    font-size: 35px;
   }
 }
 </style>

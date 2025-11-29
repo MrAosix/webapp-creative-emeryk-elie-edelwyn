@@ -66,11 +66,46 @@ button {
   background-color: #a78e6b;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1400px) {
   .multiple-choices-panel {
-    padding: 5px;
-    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     left: 0;
+  }
+
+  p {
+    font-size: 32px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .choices-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    justify-items: center;
+    max-width: 550px;
+  }
+
+  .confirm-button {
+    font-size: 28px;
+    padding: 10px 20px;
+    position: relative;
+    bottom: auto;
+    right: auto;
+    align-self: center;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .multiple-choices-panel {
+    padding: 8px;
+    padding-bottom: 5px;
+    left: 0;
+    height: auto;
   }
 
   .choices-wrapper {
@@ -78,20 +113,24 @@ button {
     gap: 6px;
     top: 0;
     max-width: 100%;
+    margin-bottom: 20px;
   }
 
   p {
     font-size: 18px;
     margin-bottom: 10px;
     text-align: center;
+    padding-top: 5px;
   }
 
   .confirm-button {
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px 18px;
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
+    position: relative;
+    bottom: auto;
+    right: auto;
+    display: block;
+    margin: 10px auto 0 auto;
   }
 }
 </style>

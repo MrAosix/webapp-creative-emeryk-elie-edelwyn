@@ -41,6 +41,14 @@ h1 {
   display: flex;
   flex-direction: column;
   height: 100%;
+  border: 5px solid #503c20;
+  background-color: #4d3715c8;
+  background-image: url("@/assets/images/backgrounds/panel-texture.png");
+  background-blend-mode: color-burn;
+  min-height: 0;
+  overflow-y: auto;
+  user-select: none;
+  font-family: "Viper";
 }
 
 .inventory {

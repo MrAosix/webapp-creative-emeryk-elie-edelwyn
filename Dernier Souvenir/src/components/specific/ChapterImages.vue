@@ -18,6 +18,16 @@ const isTalking = computed(() => storyStore.currentText.talking);
 </script>
 
 <style scoped>
+.image-wrapper {
+  padding: 10px;
+  background-color: #4d3715c8;
+  background-image: url("@/assets/images/backgrounds/panel-texture.png");
+  background-blend-mode: color-burn;
+  border: 5px solid #503c20;
+  height: 100%;
+  user-select: none;
+}
+
 .background {
   width: 100%;
   height: 100%;
