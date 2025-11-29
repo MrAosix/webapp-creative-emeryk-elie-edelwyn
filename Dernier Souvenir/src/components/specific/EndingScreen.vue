@@ -2,7 +2,7 @@
   <div class="ending-wrapper">
     <h1>{{ endingTitle }}</h1>
     <p>{{ endingConsequence }}</p>
-    <img :src="`/src/assets/images/backgrounds/${endingImage}.png`" alt="ending" class="ending-image" />
+    <img :src="endingImage" alt="ending" class="ending-image" />
     <button @click="goToMainMenu">Retour au menu principal</button>
   </div>
 </template>
@@ -28,7 +28,7 @@ const endingConsequence = computed(() => {
 });
 
 const endingImage = computed(() => {
-  return storyStore.currentChapter.image || storyStore.currentChapterId;
+  return storyStore.currentChapter.backgroundImage;
 });
 
 const goToMainMenu = () => {
