@@ -163,10 +163,10 @@ const showInventoryModal = ref(false);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto 1fr auto;
-    gap: 5px;
-    padding: 5px;
+    gap: 4px;
+    padding: 4px;
     max-width: 100vw;
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden;
     height: 100vh;
     box-sizing: border-box;
@@ -210,13 +210,13 @@ const showInventoryModal = ref(false);
   .text-wrapper {
     grid-column: 1;
     grid-row: 3;
-    min-height: 30vh;
-    max-height: 40vh;
-    padding: 5px;
-    padding-bottom: 5px;
+    min-height: 25vh;
+    max-height: 35vh;
+    padding: 8px;
+    padding-bottom: 55px;
     margin: 0;
     box-sizing: border-box;
-    overflow-y: auto;
+    overflow: hidden;
     position: relative;
   }
 
