@@ -38,7 +38,7 @@ const isTalking = computed(() => storyStore.currentText.talking);
 }
 
 .character {
-  width: clamp(25%, 30%, 40%);
+  width: clamp(25%, 20%, 30%);
   height: auto;
   filter: grayscale(100%) brightness(50%);
   position: absolute;
@@ -50,7 +50,7 @@ const isTalking = computed(() => storyStore.currentText.talking);
 }
 .character:nth-child(2) {
   left: 0;
-  width: clamp(25%, 40%, 40%);
+  width: clamp(25%, 30%, 40%);
 }
 
 .character:last-child {

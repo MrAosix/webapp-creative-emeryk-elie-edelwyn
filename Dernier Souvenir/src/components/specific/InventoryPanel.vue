@@ -1,6 +1,6 @@
 <template>
   <div class="inventory-panel">
-    <h1>Inventaire</h1>
+    <h1>INVENTAIRE</h1>
     <div class="inventory">
       <div class="item" v-for="item in filteredItems" :key="item.id">
         <img :src="`/src/assets/images/items/${item}.png`" alt="" />
@@ -33,18 +33,22 @@ h1 {
   letter-spacing: 2px;
   font-weight: 100;
   padding: 4px;
+  font-family: "F25";
+  font-size: 1.6rem;
 }
 
 .inventory-panel {
   display: flex;
   flex-direction: column;
-  height: 200px;
+  height: 100%;
 }
 
 .inventory {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  overflow-y: auto;
+  flex: 1;
+  min-height: 0;
 }
 
 img {
@@ -59,6 +63,8 @@ img {
   background-color: #503c20;
   margin: 2px 5px;
   color: white;
+  font-family: "F25";
+  font-weight: bold;
 }
 @media screen and (max-width: 450px) {
   input[type="range"] {

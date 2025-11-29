@@ -1,11 +1,11 @@
 <template>
   <div class="history-panel">
-    <h2>Historique des Choix</h2>
-    <div v-if="historyItems.length === 0" class="empty-history">
-      <p>Aucun historique disponible pour cette partie.</p>
-    </div>
-    <div v-else class="history-list">
-      <HistoryItem v-for="(item, index) in historyItems" :key="index" :chapterName="item.chapterName" :choice="item.choice" />
+    <h1>HISTORIQUE</h1>
+    <div class="history-list">
+      <div class="history-item" v-for="(entry, index) in historyItems" :key="index">
+        <p class="chapter-name">{{ entry.chapterName }}</p>
+        <p class="choice-text">{{ entry.choice || "Aucun choix" }}</p>
+      </div>
     </div>
   </div>
 </template>
@@ -14,72 +14,99 @@
 import { computed } from "vue";
 import { useSaveStore } from "@/stores/SaveStore";
 import { useStoryStore } from "@/stores/StoryStore";
-import HistoryItem from "@/components/common/HistoryItem.vue";
 
 const saveStore = useSaveStore();
 const storyStore = useStoryStore();
 
-// Get the history from the current save slot
 const historyItems = computed(() => {
   const currentSlot = saveStore.saveSlots.currentSaveSlot;
   if (!currentSlot || !saveStore.saveSlots[currentSlot]) {
     return [];
   }
 
-  const choiceHistory = saveStore.saveSlots[currentSlot].choiceHistory || [];
+  const visitedChapters = saveStore.saveSlots[currentSlot].visitedChapters || [];
 
-  // Map the choice history to include chapter names from story data
-  return choiceHistory.map((entry) => {
+  return visitedChapters.map((entry) => {
     const chapter = storyStore.storyData[entry.chapterId];
     return {
-      chapterName: chapter?.name || "Chapitre inconnu",
-      choice: entry.choiceText || null,
+      chapterName: chapter?.title || "Chapitre inconnu",
+      choice: entry.choice,
     };
   });
 });
 </script>
 
 <style scoped>
+h1 {
+  text-align: center;
+  color: #503c20;
+  margin: 5px;
+  background-color: #2e200c;
+  background-image: url("@/assets/images/backgrounds/panel-texture.png");
+  background-blend-mode: overlay;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 100;
+  padding: 4px;
+  font-family: "F25";
+  font-size: 1.6rem;
+}
+
 .history-panel {
-  padding: 20px;
-  background-color: #2c1f0e;
-  color: #ffffff;
-  overflow-y: auto;
-}
-
-.history-panel h2 {
-  color: #ffc973;
-  text-shadow: 5px 5px 4px #000000, 0 0 10px rgba(255, 201, 115, 0.3);
-  font-size: 32px;
-  text-align: center;
-  margin-bottom: 20px;
-  letter-spacing: 1.5px;
-}
-
-.empty-history {
-  text-align: center;
-  color: #ffffff;
-  font-size: 18px;
-  padding: 40px;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .history-list {
+  position: absolute;
+  top: 46px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+}
+
+.history-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #503c20;
+  margin: 2px 5px;
+  padding: 5px 10px;
+  color: white;
+}
+
+.chapter-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 3px;
+  word-wrap: break-word;
+  font-family: "F25";
+}
+
+.choice-text {
+  font-size: 1rem;
+  margin: 0;
+  opacity: 0.9;
+  word-wrap: break-word;
+  font-family: "F25";
 }
 
 @media screen and (max-width: 450px) {
-  .history-panel h2 {
-    margin: 0;
+  h1 {
+    font-size: 30px;
   }
 }
+
 @media screen and (max-width: 850px) {
-  .history-panel h2 {
-    font-size: 40px;
-  }
-  .history-panel p {
+  .chapter-name {
     font-size: 25px;
+  }
+  .choice-text {
+    font-size: 20px;
   }
 }
 </style>

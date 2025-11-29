@@ -136,21 +136,35 @@ export const useStoryStore = defineStore("StoryStore", {
     // Navigue vers le chapitre suivant en enregistrant l'état actuel
     goToChapter(nextChapterId) {
       const saveStore = useSaveStore();
-      if (this.currentChapterId && !this.visitedChapters.includes(this.currentChapterId) && !this.currentChapterId.startsWith("end-")) {
-        this.visitedChapters.push(this.currentChapterId);
+      if (this.currentChapterId && !this.visitedChapters.some((v) => v.chapterId === this.currentChapterId) && !this.currentChapterId.startsWith("end-")) {
+        // Determine choice text based on choice type
+        let choiceText = null;
+        if (this.currentChoice && this.currentChoice.text) {
+          // Single choice
+          choiceText = this.currentChoice.text;
+        } else if (this.multipleChoiceSelection.length > 0) {
+          // Multiple choices
+          choiceText = this.multipleChoiceSelection.join(", ");
+        }
+
+        const chapterEntry = {
+          chapterId: this.currentChapterId,
+          choice: choiceText,
+        };
+        this.visitedChapters.push(chapterEntry);
 
         const currentSlot = saveStore.saveSlots.currentSaveSlot;
         if (currentSlot && saveStore.saveSlots[currentSlot]) {
-          if (!saveStore.saveSlots[currentSlot].visitedChapters.includes(this.currentChapterId)) {
-            saveStore.saveSlots[currentSlot].visitedChapters.push(this.currentChapterId);
+          if (!saveStore.saveSlots[currentSlot].visitedChapters.some((v) => v.chapterId === this.currentChapterId)) {
+            saveStore.saveSlots[currentSlot].visitedChapters.push(chapterEntry);
           }
         }
       }
 
       this.currentChapterId = nextChapterId;
       saveStore.latestSave.currentChapterId = this.currentChapterId;
-      saveStore.saveGame();
       this.loadChapter(nextChapterId);
+      saveStore.saveGame();
       if (this.currentChoice) {
         // vérifier si le type de choix à un image (donc choix multiple) sinon c'est un choix normal
         if (this.isMultipleChoiceActive) {
@@ -201,6 +215,7 @@ export const useStoryStore = defineStore("StoryStore", {
     // Gère la sélection d'un choix unique
     selectSingleChoice(choice) {
       const playerStore = usePlayerStore();
+      const saveStore = useSaveStore();
 
       if (this.currentChapterId === "ch-7a" && choice.text.includes("Aider Gerald (donner la corde)")) {
         playerStore.removeFromInventory("Corde");

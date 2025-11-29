@@ -86,8 +86,10 @@ const showInventoryModal = ref(false);
   text-shadow: 5px 5px 4px #000000, 0 0 10px rgba(255, 201, 115, 0.3);
   font-size: 1.2vw;
   letter-spacing: 2px;
-  font-family: "Viper";
+  font-family: "F25";
+  text-transform: uppercase;
   user-select: none;
+  font-weight: bold;
 }
 
 .history {
@@ -98,11 +100,14 @@ const showInventoryModal = ref(false);
   background-image: url("@/assets/images/backgrounds/panel-texture.png");
   background-blend-mode: color-burn;
   margin-left: -12px;
-  overflow-y: auto;
+  overflow: hidden;
   align-self: flex-start;
-  height: 805px;
+  height: 50vh;
   user-select: none;
   font-family: "Viper";
+  pointer-events: auto;
+  z-index: 9;
+  position: relative;
 }
 .inventory {
   grid-column-start: 3;
@@ -115,9 +120,10 @@ const showInventoryModal = ref(false);
   margin-left: -12px;
   min-height: 0;
   overflow-y: auto;
-  height: 380px;
+  height: 40vh;
   user-select: none;
   font-family: "Viper";
+  z-index: 10;
 }
 
 .images {
