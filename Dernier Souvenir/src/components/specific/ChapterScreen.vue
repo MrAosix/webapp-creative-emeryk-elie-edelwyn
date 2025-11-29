@@ -89,13 +89,7 @@ const showInventoryModal = ref(false);
   font-family: "F25";
   text-transform: uppercase;
   user-select: none;
-<<<<<<< Updated upstream
   font-weight: bold;
-=======
-  display: flex;
-  align-items: center;
-  justify-content: center;
->>>>>>> Stashed changes
 }
 
 .history {
