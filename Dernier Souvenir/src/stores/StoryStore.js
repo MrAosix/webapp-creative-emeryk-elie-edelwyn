@@ -86,6 +86,9 @@ export const useStoryStore = defineStore("StoryStore", {
       this.currentChoice = null;
       this.currentTextIndex = 0;
       this.currentText = this.currentChapter.texts[this.currentTextIndex];
+      this.multipleChoiceSelection = [];
+      this.multipleChoiceButtonAvailable = false;
+      this.multipleChoiceNeeded = null;
 
       // Always reset and reload visited chapters from the current save slot
       this.visitedChapters = [];
@@ -102,6 +105,8 @@ export const useStoryStore = defineStore("StoryStore", {
       this.currentChapterId = null;
       this.visitedChapters = [];
       this.multipleChoiceSelection = [];
+      this.multipleChoiceButtonAvailable = false;
+      this.multipleChoiceNeeded = null;
       this.currentChoice = null;
       this.showChoicePanel = false;
       this.showConsequencePanel = false;
