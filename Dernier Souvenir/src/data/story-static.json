@@ -1399,7 +1399,7 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/end-2.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/end-2.png",
     "music": "/src/assets/audio/musics/fall-reset.mp3",
     "choices": null,
     "consequence": "La boucle se referme sans explication et vous ramène au départ.",
@@ -1519,7 +1519,7 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/end-6.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/end-6.png",
     "music": "/src/assets/audio/musics/loop-closed-light.mp3",
     "choices": null,
     "consequence": "La boucle s'arrête. Ce n'est pas la paix parfaite, mais c'est la fin de votre souffrance.",
