@@ -49,7 +49,7 @@ watch(
 #typed-element {
   position: relative;
   display: inline;
-  font-size: 35px;
+  font-size: 1.5em;
   color: white;
   letter-spacing: 1.5px;
 }
@@ -60,6 +60,8 @@ watch(
   height: 100%;
   display: flex;
   flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 p {
@@ -77,6 +79,7 @@ button {
   position: absolute;
   align-self: flex-end;
   bottom: 10px;
+  right: 10px;
 }
 
 button:hover {

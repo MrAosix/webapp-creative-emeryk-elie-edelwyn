@@ -40,6 +40,8 @@ const handleContinue = (nextChapter) => {
   height: 100%;
   display: flex;
   flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .consequence-panel div {
@@ -51,10 +53,11 @@ const handleContinue = (nextChapter) => {
 
 p {
   font-family: "F25";
-  font-size: 40px;
+  font-size: 1.5em;
   color: white;
   letter-spacing: 1.5px;
   margin: 0;
+  margin-bottom: 10px;
 }
 
 button {
@@ -65,9 +68,9 @@ button {
   cursor: pointer;
   font-family: "Sebastien";
   transition: background-color 0.3s ease;
-  position: absolute;
+  position: relative;
   align-self: flex-end;
-  bottom: 10px;
+  margin-top: 10px;
 }
 
 button:hover {

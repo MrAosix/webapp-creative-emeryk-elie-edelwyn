@@ -70,15 +70,18 @@ button {
   .multiple-choices-panel {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     left: 0;
+    padding: 10px;
+    overflow-y: auto;
   }
 
   p {
-    font-size: 32px;
+    font-size: 28px;
     margin-bottom: 15px;
     text-align: center;
+    padding-top: 5px;
   }
 
   .choices-wrapper {
@@ -87,16 +90,18 @@ button {
     gap: 12px;
     justify-items: center;
     max-width: 550px;
+    margin-bottom: 10px;
   }
 
   .confirm-button {
-    font-size: 28px;
+    font-size: 24px;
     padding: 10px 20px;
     position: relative;
     bottom: auto;
     right: auto;
     align-self: center;
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 
