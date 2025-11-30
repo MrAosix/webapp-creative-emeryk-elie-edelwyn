@@ -1282,7 +1282,7 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-8b.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/ch-8b.png",
     "music": "/src/assets/audio/musics/exposed-slab.mp3",
     "choiceDescription": "Comment franchir la dalle ?",
     "choices": [
@@ -1330,7 +1330,7 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-8ba.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/ch-8ba.png",
     "music": "/src/assets/audio/musics/summit-dread.mp3",
     "choiceDescription": "Au bord de la vérité, que faites-vous ?",
     "choices": [
@@ -1378,7 +1378,7 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/end-1.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/end-1.png",
     "music": "/src/assets/audio/musics/soft-reset.mp3",
     "choices": null,
     "consequence": "La journée reprend du début comme une musique qu'on recommence",
@@ -1424,10 +1424,6 @@
         "talking": ""
       },
       {
-        "text": "Oui, oui, bien sûr... On continue, d'accord... On y est presque...",
-        "talking": "David"
-      },
-      {
         "text": "Wow on a eu de la chance d'arriver jusque-là! On aurait pu se faire emporter par une rafale...hahaa...",
         "talking": "David"
       },
@@ -1444,7 +1440,7 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/end-3.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/end-3.png",
     "music": "/src/assets/audio/musics/denial-reset.mp3",
     "choices": null,
     "consequence": "Une voie intérieure s'obstine à ne pas nommer ce qui s'est passé. La journée s'enroule et repart au début.",
@@ -1469,7 +1465,7 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/end-4.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/end-4.png",
     "music": "/src/assets/audio/musics/bargain-reset.mp3",
     "choices": null,
     "consequence": "Les hypothèses se dissipent au retour du 8:00 fixe. La boucle reprend.",
@@ -1498,7 +1494,7 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/end-5.jpg",
+    "backgroundImage": "/src/assets/images/backgrounds/end-5.png",
     "music": "/src/assets/audio/musics/loop-closed-dark.mp3",
     "choices": null,
     "consequence": "La boucle se termine ici, vide, sans début ni fin. Ce n'est pas une fin heureuse: la boucle se referme mais il n'y a ni paix ni résolution. David devait faire face à un évènement traumatique et accepter le destin de sa fille.",
