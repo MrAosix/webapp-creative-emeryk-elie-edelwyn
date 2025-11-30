@@ -12,8 +12,11 @@
 import { computed } from "vue";
 import { useStoryStore } from "@/stores/StoryStore";
 
+// Accès au magasin de l'histoire
 const storyStore = useStoryStore();
+// Calcul de l'image du chapitre actuel et de l'état de dialogue
 const chapterImage = computed(() => storyStore.currentChapter?.backgroundImage);
+// Détermination du personnage en train de parler
 const isTalking = computed(() => storyStore.currentText.talking);
 </script>
 

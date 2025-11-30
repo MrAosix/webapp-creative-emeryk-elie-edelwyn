@@ -1,5 +1,6 @@
 <template>
   <div class="multiple-choices-panel">
+    <!-- Affichage du panneau des choix multiples -->
     <p>{{ storyStore.currentChapter.choiceDescription }}</p>
     <div class="choices-wrapper">
       <MultipleChoicesButton v-for="choice in storyStore.availableChoices" :choice="choice" />
@@ -9,10 +10,13 @@
 </template>
 
 <script setup>
+// Accès au magasin de l'histoire
 import { useStoryStore } from "@/stores/StoryStore";
 
+// Importation du composant de bouton pour les choix multiples
 import MultipleChoicesButton from "@/components/specific/MultipleChoicesButton.vue";
 
+// Accès au magasin de l'histoire
 const storyStore = useStoryStore();
 </script>
 

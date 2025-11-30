@@ -6,7 +6,11 @@
 
 <script setup>
 import { useStoryStore } from "@/stores/StoryStore";
+
+// Accès au magasin de l'histoire
 const storyStore = useStoryStore();
+
+// Définition des props du composant
 const props = defineProps({
   choice: {
     type: Object,

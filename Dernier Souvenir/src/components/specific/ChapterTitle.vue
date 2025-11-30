@@ -8,7 +8,9 @@
 import { computed } from "vue";
 import { useStoryStore } from "@/stores/StoryStore";
 
+// Accès au magasin de l'histoire
 const storyStore = useStoryStore();
+// Calcul du titre du chapitre actuel
 const currentTitle = computed(() => storyStore.currentChapter?.title);
 </script>
 

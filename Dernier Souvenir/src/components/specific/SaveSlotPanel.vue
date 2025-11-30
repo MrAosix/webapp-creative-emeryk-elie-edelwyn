@@ -1,5 +1,6 @@
 <template>
   <div class="save-panel">
+    <!-- Affichage du panneau des emplacements de sauvegarde -->
     <save-slot
       slotNumber="1"
       :act="saveSlot1Chapter?.act"
@@ -33,13 +34,18 @@ import SaveSlot from "@/components/common/SaveSlot.vue";
 import { useSaveStore } from "@/stores/SaveStore";
 import { useStoryStore } from "@/stores/StoryStore";
 
+// Accès aux magasins de sauvegarde et d'histoire
 const saveStore = useSaveStore();
+
+// Accès au magasin de l'histoire
 const storyStore = useStoryStore();
 
+// Calculs pour obtenir les emplacements de sauvegarde
 const saveSlot1 = computed(() => saveStore.saveSlots.saveSlot1);
 const saveSlot2 = computed(() => saveStore.saveSlots.saveSlot2);
 const saveSlot3 = computed(() => saveStore.saveSlots.saveSlot3);
 
+// Calculs pour obtenir les chapitres actuels des emplacements de sauvegarde
 const saveSlot1Chapter = computed(() => storyStore.storyData[saveSlot1.value?.currentChapterId]);
 const saveSlot2Chapter = computed(() => storyStore.storyData[saveSlot2.value?.currentChapterId]);
 const saveSlot3Chapter = computed(() => storyStore.storyData[saveSlot3.value?.currentChapterId]);

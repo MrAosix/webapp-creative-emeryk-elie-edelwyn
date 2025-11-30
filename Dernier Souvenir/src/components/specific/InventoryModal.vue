@@ -1,5 +1,6 @@
 <template>
   <div v-if="isOpen" class="modal" @click.self="$emit('close')">
+    <!-- Affichage de la fenêtre modale de l'inventaire -->
     <div class="modal-content">
       <button class="close-button" @click="$emit('close')">✕</button>
       <h1>Inventaire</h1>
@@ -18,13 +19,17 @@
 import { computed } from "vue";
 import { useSaveStore } from "@/stores/SaveStore";
 
+// Définition des props du composant
 const props = defineProps({
   isOpen: Boolean,
 });
 
+// Définition des événements émis par le composant
 const emit = defineEmits(["close"]);
 
+// Accès au magasin de sauvegarde
 const saveStore = useSaveStore();
+// Calculs pour obtenir les éléments de l'inventaire
 const filteredItems = computed(() => {
   const currentSaveSlot = saveStore.latestSave;
   return currentSaveSlot.playerState.inventory;

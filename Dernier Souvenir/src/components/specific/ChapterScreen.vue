@@ -38,10 +38,13 @@ import HistoryPanel from "./HistoryPanel.vue";
 import HistoryModal from "./HistoryModal.vue";
 import InventoryModal from "./InventoryModal.vue";
 
+// Accès au magasin de l'histoire
 const storyStore = useStoryStore();
+// Chargement du chapitre actuel au montage du composant
 storyStore.loadChapter(storyStore.currentChapterId);
-
+// États pour afficher les modaux d'historique et d'inventaire
 const showHistoryModal = ref(false);
+// État pour afficher le modal d'inventaire
 const showInventoryModal = ref(false);
 </script>
 

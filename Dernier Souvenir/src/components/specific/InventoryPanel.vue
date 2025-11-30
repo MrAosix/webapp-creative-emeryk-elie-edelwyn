@@ -1,6 +1,7 @@
 <template>
   <div class="inventory-panel">
     <h1>INVENTAIRE</h1>
+    <!-- Affichage du panneau de l'inventaire -->
     <div class="inventory">
       <div class="item" v-for="item in filteredItems" :key="item.id">
         <img :src="`/src/assets/images/items/${item}.png`" alt="" />
@@ -14,7 +15,10 @@
 import { computed } from "vue";
 import { useSaveStore } from "@/stores/SaveStore";
 
+// Accès au magasin de sauvegarde
 const saveStore = useSaveStore();
+
+// Calculs pour obtenir les éléments de l'inventaire
 const filteredItems = computed(() => {
   const currentSaveSlot = saveStore.latestSave;
   return currentSaveSlot.playerState.inventory;

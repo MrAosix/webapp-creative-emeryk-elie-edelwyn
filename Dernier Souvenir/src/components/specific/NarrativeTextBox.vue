@@ -1,5 +1,6 @@
 <template>
   <div class="narrative-text-box">
+    <!-- Affichage de la boîte de texte narratif -->
     <p class="speaker">{{ storyStore.currentText.talking }}</p>
     <p id="typed-element" class="hidden"></p>
     <button @click="storyStore.goToNextText()" v-if="!storyStore.isTextFinished">Suivant</button>
@@ -11,13 +12,16 @@ import { onMounted, watch } from "vue";
 import { useStoryStore } from "@/stores/StoryStore";
 import Typed from "typed.js";
 
+// Accès au magasin de l'histoire
 const storyStore = useStoryStore();
 let typed = null;
 
+// Initialisation de l'effet de texte tapé
 const initializeTyped = () => {
   if (typed) {
     typed.destroy();
   }
+  // Options pour l'effet de texte tapé
   const options = {
     strings: [storyStore.currentText.text],
     typeSpeed: 10,
@@ -31,10 +35,12 @@ const initializeTyped = () => {
   typed = new Typed("#typed-element", options);
 };
 
+// Initialisation de l'effet de texte tapé
 onMounted(() => {
   initializeTyped();
 });
 
+// Surveillance des changements de texte pour réinitialiser l'effet tapé
 watch(
   () => storyStore.currentText.text,
   (newText) => {

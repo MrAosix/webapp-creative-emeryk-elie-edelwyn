@@ -1,5 +1,6 @@
 <template>
   <div v-if="isOpen" class="modal" @click.self="$emit('close')">
+    <!-- Affichage de la fenêtre modale de l'historique -->
     <div class="modal-content">
       <button class="close-button" @click="$emit('close')">✕</button>
       <h1>Historique</h1>

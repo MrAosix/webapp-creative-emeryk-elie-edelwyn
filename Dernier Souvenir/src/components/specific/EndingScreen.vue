@@ -1,5 +1,6 @@
 <template>
   <div class="ending-wrapper">
+    <!-- Affichage du titre, de la conséquence et de l'image de fin -->
     <h1>{{ endingTitle }}</h1>
     <p>{{ endingConsequence }}</p>
     <img :src="endingImage" alt="ending" class="ending-image" />
@@ -8,29 +9,35 @@
 </template>
 
 <script setup>
+// Importation des fonctions et magasins nécessaires
 import { computed } from "vue";
 import { useRouter } from "vue-router";
 import { useStoryStore } from "@/stores/StoryStore";
 import { usePlayerStore } from "@/stores/PlayerStore";
 import { useSaveStore } from "@/stores/SaveStore";
 
+// Accès aux magasins de l'histoire, du joueur et de la sauvegarde
 const router = useRouter();
 const storyStore = useStoryStore();
 const playerStore = usePlayerStore();
 const saveStore = useSaveStore();
 
+// Calculs pour obtenir les informations de fin
 const endingTitle = computed(() => {
   return storyStore.currentChapter.title;
 });
 
+// Calculs pour obtenir les informations de fin
 const endingConsequence = computed(() => {
   return storyStore.currentChapter.consequence;
 });
 
+// Calculs pour obtenir l'image de fin
 const endingImage = computed(() => {
   return storyStore.currentChapter.backgroundImage;
 });
 
+// Fonction pour gérer le retour au menu principal
 const goToMainMenu = () => {
   const endingId = storyStore.currentChapterId;
 

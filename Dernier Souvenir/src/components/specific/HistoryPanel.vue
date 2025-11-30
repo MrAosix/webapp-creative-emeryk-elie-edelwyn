@@ -15,17 +15,21 @@ import { computed } from "vue";
 import { useSaveStore } from "@/stores/SaveStore";
 import { useStoryStore } from "@/stores/StoryStore";
 
+// Accès aux magasins de la sauvegarde et de l'histoire
 const saveStore = useSaveStore();
 const storyStore = useStoryStore();
 
+// Calculs pour obtenir les éléments de l'historique
 const historyItems = computed(() => {
   const currentSlot = saveStore.saveSlots.currentSaveSlot;
   if (!currentSlot || !saveStore.saveSlots[currentSlot]) {
     return [];
   }
 
+  // Récupération des chapitres visités dans le slot de sauvegarde actuel
   const visitedChapters = saveStore.saveSlots[currentSlot].visitedChapters || [];
 
+  // Transformation des chapitres visités en éléments d'historique affichables
   return visitedChapters.map((entry) => {
     const chapter = storyStore.storyData[entry.chapterId];
     return {

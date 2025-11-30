@@ -12,15 +12,18 @@
 <script setup>
 import { useSaveStore } from "@/stores/SaveStore";
 
+// Accès au magasin de sauvegarde
 const saveStore = useSaveStore();
-
+// Définition des props du composant
 const props = defineProps({
   modalIsOpen: Boolean,
   slotName: String,
 });
 
+// Définition des événements émis par le composant
 const emit = defineEmits(["close"]);
 
+// Fonction pour confirmer la réinitialisation de la sauvegarde
 const confirmReset = () => {
   if (props.slotName) {
     saveStore.deleteSave(props.slotName);

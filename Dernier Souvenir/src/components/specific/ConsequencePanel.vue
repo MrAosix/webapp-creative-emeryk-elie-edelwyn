@@ -1,5 +1,6 @@
 <template>
   <div class="consequence-panel">
+    <!-- Affichage des conséquences en fonction de l'état du magasin de l'histoire -->
     <div v-if="storyStore.hasNoChoices">
       <p>{{ storyStore.currentChapter.consequence }}</p>
       <button @click="handleContinue(storyStore.currentChapter.nextChapter)">Continuer</button>
@@ -18,12 +19,13 @@
 <script setup>
 import { useRouter } from "vue-router";
 import { useStoryStore } from "@/stores/StoryStore";
-import { onMounted, watch } from "vue";
-import Typed from "typed.js";
 
+// Accès au magasin de l'histoire
 const router = useRouter();
+// Accès au magasin de l'histoire
 const storyStore = useStoryStore();
 
+// Gestion de la continuation vers le chapitre suivant ou la fin
 const handleContinue = (nextChapter) => {
   if (nextChapter === null) {
     router.push(`/fin/${storyStore.currentChapter.id}`);
