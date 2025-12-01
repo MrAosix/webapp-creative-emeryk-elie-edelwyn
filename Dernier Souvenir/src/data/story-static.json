@@ -45,7 +45,7 @@
         "talking": "Aurora"
       },
       {
-        "text": "Pour prendre l'air… et parce que ça fait longtemps. Je suis sur que tu as plein de choses à raconter.",
+        "text": "Pour prendre l'air… et parce que ça fait longtemps. Je suis sur que tu as plein de choses à raconter de ton camp",
         "talking": "David"
       },
       {
@@ -325,7 +325,7 @@
         "nextChapter": "ch-5aa"
       },
       {
-        "text": "Passer en-dessous du tronc",
+        "text": "Passer par-dessous le tronc",
         "consequence": "Les appuis se posent l'un après l'autre: paume, genou, transfert. Le bois gémit une seconde puis se tait. Vous basculez de l'autre côté et retrouvez le ruban du sentier.",
         "nextChapter": "ch-5ab"
       },
@@ -499,11 +499,11 @@
         "talking": "David"
       },
       {
-        "text": "Aurora sourit et semble prendre confiance. Les troncs s'écartent et laissent entrer une lumière douce. Une ficelle orange, coincée dans une branche, bouge sans bruit.",
+        "text": "Aurora sourit et semble prendre confiance. Les troncs s'écartent et laissent entrer une lumière laiteuse. Une ficelle orange, coincée dans une branche, bouge sans bruit.",
         "talking": ""
       },
       {
-        "text": "Ça m'a manqué, nos randonnées. On est loin du rythme qu'on avait avant mais ça me fait du bien.",
+        "text": "J'aime quand on marche comme ça, tranquille.",
         "talking": "Aurora"
       },
       {
@@ -515,14 +515,14 @@
         "talking": ""
       },
       {
-        "text": "(...j'aime pas ce que je ressens...j'ai l'impression que ça me suit...)",
+        "text": "(...j'aime pas ce que je ressens...j'ai l'impression que ça m'observe...)",
         "talking": "David"
       }
     ],
     "backgroundImage": "/src/assets/images/backgrounds/ch-6aaa.png",
     "music": "/src/assets/audio/musics/calm-walk.mp3",
     "choices": null,
-    "consequence": "Le sentier monte légèrement en pente. Une odeur fine de fumée arrive par rafales. Entre les arbres, on devine la silhouette d'une petite cabane au bord du chemin.",
+    "consequence": "Le sentier remonte en pente douce. Une odeur fine de fumée arrive par rafales. Entre les arbres, on devine la silhouette d'une petite cabane au bord du chemin.",
     "nextChapter": "ch-7a"
   },
   "ch-6aab": {
@@ -531,11 +531,11 @@
     "title": "Silence Tendu",
     "texts": [
       {
-        "text": "La traversée a laissé une poid dans l'air. Les pas repartent, un peu trop rapides, comme pour effacer le bruit du bois qui a cédé.",
+        "text": "La traversée a laissé une trace dans les épaules. Les pas repartent, un peu trop rapides, comme pour effacer le bruit du bois qui a cédé.",
         "talking": ""
       },
       {
-        "text": "Désolée. J'ai accéléré à cause de la peur.",
+        "text": "Désolée. J'ai accéléré a cause de la peur.",
         "talking": "Aurora"
       },
       {
@@ -562,7 +562,7 @@
     "backgroundImage": "/src/assets/images/backgrounds/ch-6aab.png",
     "music": "/src/assets/audio/musics/tension-walk.mp3",
     "choices": null,
-    "consequence": "En haut de la pente, un pan de fumée grise glisse entre les branches. Une cabane apparaît, basse et grise, posée juste au bord du sentier.",
+    "consequence": "La pente se relève et un pan de fumée grise glisse entre les branches. Une cabane apparaît, basse et grise, posée juste au bord du sentier.",
     "nextChapter": "ch-7a"
   },
   "ch-6aba": {
@@ -634,7 +634,7 @@
     "backgroundImage": "/src/assets/images/backgrounds/ch-6aca.png",
     "music": "/src/assets/audio/musics/stones-and-breath.mp3",
     "choices": null,
-    "consequence": "Le relief se calme et la forêt s'éclaircit. Une cabane apparaît près du sentier, avec une mince fumée qui sort du toit.",
+    "consequence": "Le relief se calme et la forêt s'éclaircit. Une cabane apparaît contre le sentier, avec une mince fumée qui sort du toit.",
     "nextChapter": "ch-7a"
   },
   "ch-6acb": {
@@ -643,7 +643,7 @@
     "title": "Remise en question",
     "texts": [
       {
-        "text": "La brume s'est déchirée, mais le pas est resté trop haut, trop nerveux. Le sentier, lui, exige de la patience.",
+        "text": "La brume s'est déchirée, mais le pas est resté trop haut, trop nerveux. Le sentier, lui, demande de la patience.",
         "talking": ""
       },
       {
@@ -651,11 +651,11 @@
         "talking": "Aurora"
       },
       {
-        "text": "Tu as raison. La prochaine fois, on pose, on respire et on prends le temps de réflechir.",
+        "text": "Tu as raison. La prochaine fois, on pose, on respire et on décide mieux.",
         "talking": "David"
       },
       {
-        "text": "Le bois sent l'humidité et la sève. Des gouttes pendent aux aiguilles et tombent sans bruit. La marche rempli le silence.",
+        "text": "Le bois sent l'humidité et la sève. Des gouttes pendent aux aiguilles et tombent sans bruit. La marche se met à parler à la place des gens.",
         "talking": ""
       },
       {
@@ -663,7 +663,7 @@
         "talking": "Aurora"
       },
       {
-        "text": "Trois coups reviennent quelque part derrière, comme un rappel où personne ne répond.",
+        "text": "Trois coups reviennent quelque part derrière, comme un rappel. Personne ne répond.",
         "talking": ""
       }
     ],
@@ -687,7 +687,7 @@
         "talking": "Gerald"
       },
       {
-        "text": "Bonjour. Vous avez besoin d'aide?",
+        "text": "Bonjour. On traverse le secteur vers la paroi.",
         "talking": "David"
       },
       {
@@ -718,12 +718,12 @@
       {
         "text": "Aider Gerald (donner la corde)",
         "condition": "Corde",
-        "consequence": "La corde est passée, nouée solidement. Gerald sourit et vous remercie chaleureusement. Il vous conseille de rester prudents sur le chemin puis vous souhaite bonne route. Vous reprenez le sentier et la cabane s'éloigne doucement derrière vous. ",
+        "consequence": "La corde est passée, nouée solidement. Gerald sourit et vous remercie chaleureusement. Il vous conseille de rester prudents sur le chemin puis vous souhaite bonne route. La cabane s'éloigne doucement derrière vous. ",
         "nextChapter": "ch-8a"
       },
       {
         "text": "Ignorer et continuer",
-        "consequence": "Gerald hoche la tête, compréhensif. Il vous dit de faire attention et vous souhaite bonne route. Vous continuez votre chemin et la cabane s'éloigne doucement derrière vous. ",
+        "consequence": "Gerald hoche la tête, compréhensif. Il vous dit de faire attention et vous souhaite bonne route. La cabane s'éloigne doucement derrière vous. ",
         "nextChapter": "ch-8a"
       }
     ]
@@ -735,7 +735,7 @@
     "title": "La bête",
     "texts": [
       {
-        "text": "Sur la branche droite, les troncs se rapprochent et la lumière baisse. Entre deux pins, un animal immobile vous observe avec des yeux glaçants, sans bruit.",
+        "text": "Sur la branche droite, les troncs se rapprochent et la lumière baisse. Entre deux pins, un animal immobile vous observe, sans bruit.",
         "talking": ""
       },
       {

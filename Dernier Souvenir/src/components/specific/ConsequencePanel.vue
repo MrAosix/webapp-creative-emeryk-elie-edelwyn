@@ -68,7 +68,6 @@ button {
   background-color: #f3eadcc8;
   border: 2px solid #503c20;
   cursor: pointer;
-  border-radius: 8px;
   font-family: "Sebastien";
   transition: background-color 0.3s ease;
   position: relative;

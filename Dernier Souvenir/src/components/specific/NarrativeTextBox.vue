@@ -79,7 +79,6 @@ button {
   padding: 5px 10px;
   background-color: #f3eadcc8;
   border: 2px solid #503c20;
-  border-radius: 8px;
   cursor: pointer;
   font-family: "Sebastien";
   transition: background-color 0.3s ease;
