@@ -69,4 +69,12 @@ const isTalking = computed(() => storyStore.currentText.talking);
 .character:last-child {
   right: 0;
 }
+@media screen and (max-width: 1050px) {
+  .character {
+    width: 35%;
+  }
+  .character:nth-child(2) {
+    width: clamp(25%, 40%, 50%);
+  }
+}
 </style>
