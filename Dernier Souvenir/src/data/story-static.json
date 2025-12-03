@@ -117,8 +117,8 @@
         "talking": "David"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-1.png",
-    "music": "/src/assets/audio/musics/intro-theme.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-1.png",
+    "music": "../assets/audio/musics/intro-theme.mp3",
     "choices": null,
     "consequence": "En ouvrant la porte, l'air du matin pique le nez. Des feuilles craquent sous leurs chaussures jusqu'à la barrière du sentier.",
     "nextChapter": "ch-2"
@@ -161,42 +161,42 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-2.png",
-    "music": "/src/assets/audio/musics/intro-theme.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-2.png",
+    "music": "../assets/audio/musics/intro-theme.mp3",
     "multipleChoiceNeeded": 4,
     "choiceDescription": "Qu'apportez-vous à la randonnée?:",
     "choices": [
       {
         "name": "Carte",
-        "buttonImage": "/src/assets/images/items/Carte.png"
+        "buttonImage": "../assets/images/items/Carte.png"
       },
       {
         "name": "Lampe de poche",
-        "buttonImage": "/src/assets/images/items/Lampe de poche.png"
+        "buttonImage": "../assets/images/items/Lampe de poche.png"
       },
       {
         "name": "Fusil de chasse",
-        "buttonImage": "/src/assets/images/items/Fusil de chasse.png"
+        "buttonImage": "../assets/images/items/Fusil de chasse.png"
       },
       {
         "name": "Trousse",
-        "buttonImage": "/src/assets/images/items/Trousse.png"
+        "buttonImage": "../assets/images/items/Trousse.png"
       },
       {
         "name": "Boussole",
-        "buttonImage": "/src/assets/images/items/Boussole.png"
+        "buttonImage": "../assets/images/items/Boussole.png"
       },
       {
         "name": "Couteau",
-        "buttonImage": "/src/assets/images/items/Couteau.png"
+        "buttonImage": "../assets/images/items/Couteau.png"
       },
       {
         "name": "Corde",
-        "buttonImage": "/src/assets/images/items/Corde.png"
+        "buttonImage": "../assets/images/items/Corde.png"
       },
       {
         "name": "Bottes",
-        "buttonImage": "/src/assets/images/items/Bottes.png"
+        "buttonImage": "../assets/images/items/Bottes.png"
       }
     ],
     "consequence": "Les quatre objets choisis prennent place dans les sacs et vous avancez vers la barrière du sentier, prêts à partir.",
@@ -252,8 +252,8 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-3.png",
-    "music": "/src/assets/audio/musics/adventure-theme.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-3.png",
+    "music": "../assets/audio/musics/adventure-theme.mp3",
     "choiceDescription": "Choisissez un chemin:",
     "choices": [
       {
@@ -315,8 +315,8 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-4a.png",
-    "music": "/src/assets/audio/musics/forest-tension.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-4a.png",
+    "music": "../assets/audio/musics/forest-tension.mp3",
     "choiceDescription": "Comment franchir l'obstacle ?",
     "choices": [
       {
@@ -375,8 +375,8 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-5aa.png",
-    "music": "/src/assets/audio/musics/suspense-quiet.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-5aa.png",
+    "music": "../assets/audio/musics/suspense-quiet.mp3",
     "choiceDescription": "Comment traverser le pont ?",
     "choices": [
       {
@@ -421,8 +421,8 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-5ab.png",
-    "music": "/src/assets/audio/musics/low-wind.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-5ab.png",
+    "music": "../assets/audio/musics/low-wind.mp3",
     "choices": null,
     "consequence": "La trace se graisse et devient moins lisible en bordure de clairière. Plus loin, le relief oblige à mieux choisir les appuis. Le sentier glisse doucement vers un terrain instable.",
     "nextChapter": "ch-6aba"
@@ -465,8 +465,8 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-5ac.png",
-    "music": "/src/assets/audio/musics/suspense-quiet.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-5ac.png",
+    "music": "../assets/audio/musics/suspense-quiet.mp3",
     "choiceDescription": "Comment traverser le pont ?",
     "choices": [
       {
@@ -519,8 +519,8 @@
         "talking": "David"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-6aaa.png",
-    "music": "/src/assets/audio/musics/calm-walk.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-6aaa.png",
+    "music": "../assets/audio/musics/calm-walk.mp3",
     "choices": null,
     "consequence": "Le sentier remonte en pente douce. Une odeur fine de fumée arrive par rafales. Entre les arbres, on devine la silhouette d'une petite cabane au bord du chemin.",
     "nextChapter": "ch-7a"
@@ -559,8 +559,8 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-6aab.png",
-    "music": "/src/assets/audio/musics/tension-walk.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-6aab.png",
+    "music": "../assets/audio/musics/tension-walk.mp3",
     "choices": null,
     "consequence": "La pente se relève et un pan de fumée grise glisse entre les branches. Une cabane apparaît, basse et grise, posée juste au bord du sentier.",
     "nextChapter": "ch-7a"
@@ -595,8 +595,8 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-6aba.png",
-    "music": "/src/assets/audio/musics/muddy-trail.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-6aba.png",
+    "music": "../assets/audio/musics/muddy-trail.mp3",
     "choices": null,
     "consequence": "Le sol se raffermit peu à peu et le sentier se hisse sur un replat. Une petite construction de bois, sombre et calme, se détache entre les troncs: une cabane, porte tournée vers la trace.",
     "nextChapter": "ch-7a"
@@ -631,8 +631,8 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-6aca.png",
-    "music": "/src/assets/audio/musics/stones-and-breath.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-6aca.png",
+    "music": "../assets/audio/musics/stones-and-breath.mp3",
     "choices": null,
     "consequence": "Le relief se calme et la forêt s'éclaircit. Une cabane apparaît contre le sentier, avec une mince fumée qui sort du toit.",
     "nextChapter": "ch-7a"
@@ -667,8 +667,8 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-6acb.png",
-    "music": "/src/assets/audio/musics/quiet-dispute.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-6acb.png",
+    "music": "../assets/audio/musics/quiet-dispute.mp3",
     "choices": null,
     "consequence": "Le sentier se redresse et rejoint une zone plus claire. Une cabane en bois gris se dessine à quelques mètres, posée contre la lisière.",
     "nextChapter": "ch-7a"
@@ -711,8 +711,8 @@
         "talking": "David"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-7a.png",
-    "music": "/src/assets/audio/musics/cabin-theme.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-7a.png",
+    "music": "../assets/audio/musics/cabin-theme.mp3",
     "choiceDescription": "Aidez-vous Gerald ?",
     "choices": [
       {
@@ -775,8 +775,8 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-4b.png",
-    "music": "/src/assets/audio/musics/adventure-theme.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-4b.png",
+    "music": "../assets/audio/musics/adventure-theme.mp3",
     "choiceDescription": "Comment réagissez-vous à la bête ?",
     "choices": [
       {
@@ -843,8 +843,8 @@
         "talking": "David"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-5ba.png",
-    "music": "/src/assets/audio/musics/forest-breath.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-5ba.png",
+    "music": "../assets/audio/musics/forest-breath.mp3",
     "choiceDescription": "Que lui répondez-vous ?",
     "choices": [
       {
@@ -893,8 +893,8 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-5bb.png",
-    "music": "/src/assets/audio/musics/rest-stop.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-5bb.png",
+    "music": "../assets/audio/musics/rest-stop.mp3",
     "choices": null,
     "consequence": "Les sacs remontent sur les épaules. Le sentier repart, un peu moins clair; la trace se brouille par endroits et demande plus d'attention.",
     "nextChapter": "ch-6bba"
@@ -929,8 +929,8 @@
         "talking": "Aurora"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-5bc.png",
-    "music": "/src/assets/audio/musics/after-shot.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-5bc.png",
+    "music": "../assets/audio/musics/after-shot.mp3",
     "choiceDescription": "Que faites-vous de la bête ?",
     "choices": [
       {
@@ -996,8 +996,8 @@
         "talking": "Aurora"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-6baa.png",
-    "music": "/src/assets/audio/musics/forest-breath.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-6baa.png",
+    "music": "../assets/audio/musics/forest-breath.mp3",
     "choices": null,
     "consequence": "La pente s'adoucit. Une odeur de fruits sauvages arrive par bouffées. Devant, un gros buisson couvert de baies sombres empiète sur la trace.",
     "nextChapter": "ch-7b"
@@ -1048,8 +1048,8 @@
         "talking": "Aurora"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-6bab.png",
-    "music": "/src/assets/audio/musics/tension-walk.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-6bab.png",
+    "music": "../assets/audio/musics/tension-walk.mp3",
     "choices": null,
     "consequence": "La trace vire à gauche et remonte vers une zone claire. À hauteur du sentier, un buisson hérissé, lourd de baies mûres, barre presque le passage.",
     "nextChapter": "ch-7b"
@@ -1072,8 +1072,8 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-6bba.png",
-    "music": "/src/assets/audio/musics/wayfinding.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-6bba.png",
+    "music": "../assets/audio/musics/wayfinding.mp3",
     "choiceDescription": "Comment retrouvez-vous la trace ?",
     "choices": [
       {
@@ -1119,8 +1119,8 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-6bca.png",
-    "music": "/src/assets/audio/musics/stream-quiet.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-6bca.png",
+    "music": "../assets/audio/musics/stream-quiet.mp3",
     "choices": null,
     "consequence": "Le sentier remonte en pente douce et l'air prend une odeur fruitée. À quelques mètres, un buisson plein de baies sombres accroche les vêtements qui passent trop près.",
     "nextChapter": "ch-7b"
@@ -1143,8 +1143,8 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-6bcb.png",
-    "music": "/src/assets/audio/musics/sprint-woods.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-6bcb.png",
+    "music": "../assets/audio/musics/sprint-woods.mp3",
     "choiceDescription": "Que faites-vous de l'équipement ?",
     "choices": [
       {
@@ -1201,8 +1201,8 @@
         "talking": "David"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-7b.png",
-    "music": "/src/assets/audio/musics/bush-choice.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-7b.png",
+    "music": "../assets/audio/musics/bush-choice.mp3",
     "choiceDescription": "Que faites-vous avec les baies ?",
     "choices": [
       {
@@ -1243,8 +1243,8 @@
         "talking": "David"
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-8a.png",
-    "music": "/src/assets/audio/musics/decision-low.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-8a.png",
+    "music": "../assets/audio/musics/decision-low.mp3",
     "choiceDescription": "Grimpez-vous la montagne ?",
     "choices": [
       {
@@ -1282,8 +1282,8 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-8b.png",
-    "music": "/src/assets/audio/musics/exposed-slab.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-8b.png",
+    "music": "../assets/audio/musics/exposed-slab.mp3",
     "choiceDescription": "Comment franchir la dalle ?",
     "choices": [
       {
@@ -1330,8 +1330,8 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/ch-8ba.png",
-    "music": "/src/assets/audio/musics/summit-dread.mp3",
+    "backgroundImage": "../assets/images/backgrounds/ch-8ba.png",
+    "music": "../assets/audio/musics/summit-dread.mp3",
     "choiceDescription": "Au bord de la vérité, que faites-vous ?",
     "choices": [
       {
@@ -1378,8 +1378,8 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/end-1.png",
-    "music": "/src/assets/audio/musics/soft-reset.mp3",
+    "backgroundImage": "../assets/images/backgrounds/end-1.png",
+    "music": "../assets/audio/musics/soft-reset.mp3",
     "choices": null,
     "consequence": "La journée reprend du début comme une musique qu'on recommence",
     "nextChapter": null
@@ -1399,8 +1399,8 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/end-2.png",
-    "music": "/src/assets/audio/musics/fall-reset.mp3",
+    "backgroundImage": "../assets/images/backgrounds/end-2.png",
+    "music": "../assets/audio/musics/fall-reset.mp3",
     "choices": null,
     "consequence": "La boucle se referme sans explication et vous ramène au départ.",
     "nextChapter": null
@@ -1440,8 +1440,8 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/end-3.png",
-    "music": "/src/assets/audio/musics/denial-reset.mp3",
+    "backgroundImage": "../assets/images/backgrounds/end-3.png",
+    "music": "../assets/audio/musics/denial-reset.mp3",
     "choices": null,
     "consequence": "Une voie intérieure s'obstine à ne pas nommer ce qui s'est passé. La journée s'enroule et repart au début.",
     "nextChapter": null
@@ -1465,8 +1465,8 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/end-4.png",
-    "music": "/src/assets/audio/musics/bargain-reset.mp3",
+    "backgroundImage": "../assets/images/backgrounds/end-4.png",
+    "music": "../assets/audio/musics/bargain-reset.mp3",
     "choices": null,
     "consequence": "Les hypothèses se dissipent au retour du 8:00 fixe. La boucle reprend.",
     "nextChapter": null
@@ -1494,8 +1494,8 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/end-5.png",
-    "music": "/src/assets/audio/musics/loop-closed-dark.mp3",
+    "backgroundImage": "../assets/images/backgrounds/end-5.png",
+    "music": "../assets/audio/musics/loop-closed-dark.mp3",
     "choices": null,
     "consequence": "La boucle se termine ici, vide, sans début ni fin. Ce n'est pas une fin heureuse: la boucle se referme mais il n'y a ni paix ni résolution. David devait faire face à un évènement traumatique et accepter le destin de sa fille.",
     "nextChapter": null
@@ -1519,8 +1519,8 @@
         "talking": ""
       }
     ],
-    "backgroundImage": "/src/assets/images/backgrounds/end-6.png",
-    "music": "/src/assets/audio/musics/loop-closed-light.mp3",
+    "backgroundImage": "../assets/images/backgrounds/end-6.png",
+    "music": "../assets/audio/musics/loop-closed-light.mp3",
     "choices": null,
     "consequence": "La boucle s'arrête. Ce n'est pas la paix parfaite, mais c'est la fin de votre souffrance.",
     "nextChapter": null
