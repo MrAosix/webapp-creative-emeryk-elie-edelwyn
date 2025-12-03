@@ -1,0 +1,102 @@
+import { defineStore } from "pinia";
+
+import { useSaveStore } from "@/stores/SaveStore";
+
+// Store pour gérer l'état du joueur
+export const usePlayerStore = defineStore("PlayerStore", {
+  state: () => ({
+    inventory: [],
+    flags: {},
+  }),
+
+  // Getters pour accéder aux données dérivées de l'état
+  getters: {
+    // Vérifie si le joueur possède un objet spécifique dans son inventaire
+    hasItem: (state) => (itemName) => {
+      const saveStore = useSaveStore();
+      const currentSaveSlot = saveStore.saveSlots.currentSaveSlot;
+      if (!currentSaveSlot || !saveStore.saveSlots[currentSaveSlot]) {
+        return false;
+      }
+      return saveStore.saveSlots[currentSaveSlot].playerState.inventory.includes(itemName);
+    },
+
+    // Vérifie si un flag spécifique est défini pour le joueur
+    hasFlag: (state) => (flagName) => {
+      const saveStore = useSaveStore();
+      const currentSaveSlot = saveStore.saveSlots.currentSaveSlot;
+      if (!currentSaveSlot || !saveStore.saveSlots[currentSaveSlot]) {
+        return false;
+      }
+      return saveStore.saveSlots[currentSaveSlot].playerState.flags[flagName] === true;
+    },
+
+    // Vérifie si le joueur peut accéder à une fin spécifique
+    canAccessEnding: (state) => (ending) => {
+      return state.flags.includes(`has_${ending}_ending`);
+    },
+  },
+
+  // Actions pour modifier l'état du joueur, comme l'inventaire et les flags
+  actions: {
+    addToInventory(item) {
+      const saveStore = useSaveStore();
+      const currentSaveSlot = saveStore.saveSlots.currentSaveSlot;
+      if (currentSaveSlot && saveStore.saveSlots[currentSaveSlot]) {
+        saveStore.saveSlots[currentSaveSlot].playerState.inventory.push(item);
+        saveStore.saveGame();
+      }
+    },
+    // Supprime un objet spécifique de l'inventaire
+    removeFromInventory(item) {
+      const saveStore = useSaveStore();
+      const currentSaveSlot = saveStore.saveSlots.currentSaveSlot;
+      if (currentSaveSlot && saveStore.saveSlots[currentSaveSlot]) {
+        const inventory = saveStore.saveSlots[currentSaveSlot].playerState.inventory;
+        const index = inventory.indexOf(item);
+        if (index > -1) {
+          inventory.splice(index, 1);
+          saveStore.saveGame();
+        }
+      }
+    },
+
+    // Supprime un nombre spécifique d'objets aléatoires de l'inventaire
+    removeRandomItemsFromInventory(count) {
+      const saveStore = useSaveStore();
+      const currentSaveSlot = saveStore.saveSlots.currentSaveSlot;
+      if (currentSaveSlot && saveStore.saveSlots[currentSaveSlot]) {
+        const inventory = saveStore.saveSlots[currentSaveSlot].playerState.inventory;
+        const itemsToRemove = Math.min(count, inventory.length);
+
+        for (let i = 0; i < itemsToRemove; i++) {
+          const randomIndex = Math.floor(Math.random() * inventory.length);
+          inventory.splice(randomIndex, 1);
+        }
+
+        saveStore.saveGame();
+      }
+    },
+
+    // Définit un flag spécifique pour le joueur
+    setFlag(flagName, value = true) {
+      const saveStore = useSaveStore();
+      const currentSaveSlot = saveStore.saveSlots.currentSaveSlot;
+      if (currentSaveSlot && saveStore.saveSlots[currentSaveSlot]) {
+        saveStore.saveSlots[currentSaveSlot].playerState.flags[flagName] = value;
+        saveStore.saveGame();
+      }
+    },
+
+    // Vide complètement l'inventaire du joueur
+    clearInventory() {
+      const saveStore = useSaveStore();
+      const currentSaveSlot = saveStore.saveSlots.currentSaveSlot;
+      if (currentSaveSlot && saveStore.saveSlots[currentSaveSlot]) {
+        this.inventory = [];
+        saveStore.saveSlots[currentSaveSlot].playerState.inventory = [];
+        saveStore.saveGame();
+      }
+    },
+  },
+});

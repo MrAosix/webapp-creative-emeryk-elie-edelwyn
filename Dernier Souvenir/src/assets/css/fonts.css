@@ -1,0 +1,12 @@
+@font-face {
+  src: url("@/assets/font/viper_nora.otf") format("opentype");
+  font-family: "Viper";
+}
+@font-face {
+  src: url("@/assets/font/sebastien_slab.ttf") format("truetype");
+  font-family: "Sebastien";
+}
+@font-face {
+  src: url("@/assets/font/F25_Executive.otf") format("opentype");
+  font-family: "F25";
+}

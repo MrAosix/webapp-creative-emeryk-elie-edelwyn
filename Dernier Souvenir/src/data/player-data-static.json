@@ -1,0 +1,33 @@
+{
+  "currentSaveSlot": null,
+  "saveSlot1": {
+    "savedAt": null,
+    "currentChapterId": null,
+    "playerState": {
+      "inventory": [],
+      "flags": {}
+    },
+    "visitedChapters": [],
+    "choiceHistory": []
+  },
+  "saveSlot2": {
+    "savedAt": null,
+    "currentChapterId": null,
+    "playerState": {
+      "inventory": [],
+      "flags": {}
+    },
+    "visitedChapters": [],
+    "choiceHistory": []
+  },
+  "saveSlot3": {
+    "savedAt": null,
+    "currentChapterId": null,
+    "playerState": {
+      "inventory": [],
+      "flags": {}
+    },
+    "visitedChapters": [],
+    "choiceHistory": []
+  }
+}

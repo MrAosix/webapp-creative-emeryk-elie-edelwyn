@@ -1,0 +1,1528 @@
+{
+  "ch-1": {
+    "id": "ch-1",
+    "act": "Acte 1",
+    "title": "En route",
+    "texts": [
+      {
+        "text": "Le pick-up roule depuis une vingtaine de minutes. Odeur de café et de tissu chaud. Dehors, l'automne colle des feuilles aux bas-côtés; le ciel est couvert, lourd sans être noir. La radio accroche un bout de chanson, puis du souffle.",
+        "talking": ""
+      },
+      {
+        "text": "(...)",
+        "talking": "David"
+      },
+      {
+        "text": "Papa?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "(....huh?..)",
+        "talking": "David"
+      },
+      {
+        "text": "Tu as vérifié la météo ce matin ?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Uh......oui...Ils annoncent des nuages, peut-être de la pluie en fin d'avant-midi. (C'est quoi ce mal de tête...)",
+        "talking": "David"
+      },
+      {
+        "text": "Et on y va quand même ?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Oui... On va juste faire une petite randonnée, rien de fou. Ça nous fera du bien de prendre l'air.",
+        "talking": "David"
+      },
+      {
+        "text": "Le ruban orange au crochet du coffre balance à chaque virage. David le remet droit d'un geste automatique. Le tableau de bord affiche 8:06, l'aiguille d'essence bouge d'un millimètre. La route commence à grimper.",
+        "talking": ""
+      },
+      {
+        "text": "On fait ça pour quoi, exactement ?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Pour prendre l'air… et parce que ça fait longtemps. Je suis sur que tu as plein de choses à raconter de ton camp",
+        "talking": "David"
+      },
+      {
+        "text": "AH c'est vrai ! Il faut que je te dise TOUT.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Hahaha, on est presque arrivé. On aura plein de temps pour ça.",
+        "talking": "David"
+      },
+      {
+        "text": "Le gravier vibre sous les pneus. Une pancarte en bois annonce l'aire de stationnement à deux kilomètres. La radio crache, se tait, puis revient. Dehors, trois coups secs résonnent — peut-être un pic bois — puis plus rien.",
+        "talking": ""
+      },
+      {
+        "text": "Tu as pris la carte papier ?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Oui. Elle est dans la pochette plastique.",
+        "talking": "David"
+      },
+      {
+        "text": "Et la trousse ?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Aussi. On choisira le reste quand on y arrive.",
+        "talking": "David"
+      },
+      {
+        "text": "D'accord… mais on fait attention, je veux pas que ça tombe comme la dernière fois, ok ?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Mais non! Je la garderais en lieu sûr.",
+        "talking": "David"
+      },
+      {
+        "text": "Le pick-up débouche sur une petite clairière. On devine la barrière du sentier. Le ciel est plus lourd au-dessus des cimes; l'air est frais et l'automne se fait sentir. David met le clignotant par réflexe, même s'il n'y a personne.",
+        "talking": ""
+      },
+      {
+        "text": "Tu stresses ?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Non, je peux escalader l'Everest si je pourrais !",
+        "talking": "David"
+      },
+      {
+        "text": "Ne t'en fait pas, ça va bien aller et je crois en toi.",
+        "talking": "David"
+      },
+      {
+        "text": "...",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Le pick-up se range sur la terre battue. Le moteur tourne encore deux secondes; le ventilateur souffle l'air tiède et humide. David coupe le contact. L'horloge reste sur 8:06, clignote, puis revient nette à 8:00.",
+        "talking": ""
+      },
+      {
+        "text": "On descend ici ?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Oui. Le début du sentier commence plus loin.",
+        "talking": "David"
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-1.png",
+    "music": "src/assets/audio/musics/intro-theme.mp3",
+    "choices": null,
+    "consequence": "En ouvrant la porte, l'air du matin pique le nez. Des feuilles craquent sous leurs chaussures jusqu'à la barrière du sentier.",
+    "nextChapter": "ch-2"
+  },
+  "ch-2": {
+    "id": "ch-2",
+    "act": "Acte 1",
+    "title": "Preparation",
+    "texts": [
+      {
+        "text": "Au pied de la barrière du sentier, ils posent leurs sacs. Le pick-up est garé juste derrière. David ouvre le coffre; l'équipement attend, rangé.",
+        "talking": ""
+      },
+      {
+        "text": "Si la météo tourne plus vite que prévu, on fait quoi? Je ne veux pas finir trempée et avoir froid.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "On s'arrête et on ajuste. Et si c'est aussi pire que ça, on rentre. Tu n'es pas faite en chocolat, quand même!",
+        "talking": "David"
+      },
+      {
+        "text": "Un souffle passe. Les feuilles glissent contre leurs chaussures. Au loin, trois coups espacés résonnent, puis plus rien.",
+        "talking": ""
+      },
+      {
+        "text": "Promets-moi un truc: si je dis stop, on s'arrête là?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Je te le promets, Aurora. Tu sais que je tiens toujours mes promesses. C'est toi qui décides.",
+        "talking": "David"
+      },
+      {
+        "text": "David lui sourit, puis ils posent les sacs au sol, ouvrent les poches et vérifient les sangles. Il faudra choisir quatres choses, pas une de plus. Le reste restera ici. ",
+        "talking": ""
+      },
+      {
+        "text": "Ils étalent l'équipement sur le coffre. Vos choix auront des conséquences...",
+        "talking": ""
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-2.png",
+    "music": "src/assets/audio/musics/intro-theme.mp3",
+    "multipleChoiceNeeded": 4,
+    "choiceDescription": "Qu'apportez-vous à la randonnée?:",
+    "choices": [
+      {
+        "name": "Carte",
+        "buttonImage": "./items/Carte.png"
+      },
+      {
+        "name": "Lampe de poche",
+        "buttonImage": "./items/Lampe de poche.png"
+      },
+      {
+        "name": "Fusil de Chasse",
+        "buttonImage": "./items/Fusil de Chasse.png"
+      },
+      {
+        "name": "Trousse",
+        "buttonImage": "./items/Trousse.png"
+      },
+      {
+        "name": "Boussole",
+        "buttonImage": "./items/Boussole.png"
+      },
+      {
+        "name": "Couteau",
+        "buttonImage": "./items/Couteau.png"
+      },
+      {
+        "name": "Corde",
+        "buttonImage": "./items/Corde.png"
+      },
+      {
+        "name": "Bottes",
+        "buttonImage": "./items/Bottes.png"
+      }
+    ],
+    "consequence": "Les quatre objets choisis prennent place dans les sacs et vous avancez vers la barrière du sentier, prêts à partir.",
+    "nextChapter": "ch-3"
+  },
+  "ch-3": {
+    "id": "ch-3",
+    "act": "Acte 2",
+    "title": "Le Chemin",
+    "texts": [
+      {
+        "text": "Le sentier part droit puis se divise en deux devant vous. La terre est froide, l'air est frais. Les marques de peinture sont rares, presque effacées.",
+        "talking": ""
+      },
+      {
+        "text": "On dirait que ça coupe ici. On dirait qu'ils entretiennent moins les sentiers...",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Oui. les gens doivent rester pas mal chez eux et la nature reprends ses droits.",
+        "talking": "David"
+      },
+      {
+        "text": "A gauche, la trace est plus brute: racines, pierres humides, peu de balises. A droite, le passage est plus net, mais les troncs se resserrent et la lumière baisse.",
+        "talking": ""
+      },
+      {
+        "text": "Voyons voir... Si on file à gauche, on gagne du temps, mais c'est plus technique.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "A droite, c'est plus long et plus calme. On peut tenir ce rythme si la météo tourne mal, il y aurait moins de risques.",
+        "talking": "David"
+      },
+      {
+        "text": "Une rafale passe. Trois coups espacés résonnent dans le bois, puis plus rien.",
+        "talking": ""
+      },
+      {
+        "text": "Dis moi que t'as entendu ça?!",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Oui. Restons concentrés, c'est surement un pic-bois. Rien de grave.",
+        "talking": "David"
+      },
+      {
+        "text": "La carte pèse dans le sac. Un bout de ruban orange dépasse d'une poche sans raison. La bifurcation attend.",
+        "talking": ""
+      },
+      {
+        "text": "A vous de trancher.",
+        "talking": ""
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-3.png",
+    "music": "src/assets/audio/musics/adventure-theme.mp3",
+    "choiceDescription": "Choisissez un chemin:",
+    "choices": [
+      {
+        "text": "Aller à gauche",
+        "consequence": "Vous vous engagez sur la branche gauche. Le sol devient irrégulier, les racines forcent à lever haut le pied. L'air est plus humide.",
+        "nextChapter": "ch-4a"
+      },
+
+      {
+        "text": "Aller à droite",
+        "consequence": "Vous prenez la branche droite. Le sentier est net, presque trop calme. Les arbres se resserrent, la lumière baisse d'un cran.",
+        "nextChapter": "ch-4b"
+      }
+    ]
+  },
+  "ch-4a": {
+    "id": "ch-4a",
+    "act": "Acte 2",
+    "title": "L'Arbre tombé",
+    "texts": [
+      {
+        "text": "Le sentier de gauche se serre, puis s'ouvre sur un tronc couché en travers. L'écorce est sombre, crevassée, encore humide.",
+        "talking": ""
+      },
+      {
+        "text": "On ne passera pas tout droit. La tempête a vraiment été intense...",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Oui, je vois des traces de pas encore récentes. On a plusieurs options.",
+        "talking": "David"
+      },
+      {
+        "text": "Des traces de pas s'arrêtent net devant le tronc et reprennent plus haut sur la pente. Un bout de ruban orange pend d'une branche cassée.",
+        "talking": ""
+      },
+      {
+        "text": "Je veux éviter un faux pas.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "On peut contourner par la pente, passer par-dessus doucement, ou revenir chercher une coupe en arrière.",
+        "talking": "David"
+      },
+      {
+        "text": "Aurora resserre une sangle. Sa main vérifie le laçage, son regard cherche des appuis stables. La forêt semble retenir son souffle.",
+        "talking": ""
+      },
+      {
+        "text": "Si on passe par-dessus, montre-moi les appuis.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "D'accord, je te guide. Gardes ton rythme et ça sera du gateau! ",
+        "talking": "David"
+      },
+      {
+        "text": "Le sol est ferme sous les feuilles. Une odeur de bois mouillé remonte. L'obstacle attend votre décision.",
+        "talking": ""
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-4a.png",
+    "music": "src/assets/audio/musics/forest-tension.mp3",
+    "choiceDescription": "Comment franchir l'obstacle ?",
+    "choices": [
+      {
+        "text": "Contourner par la pente abrupte",
+        "consequence": "Le duo part en biais sur la gauche. Les pas restent courts, les mains effleurent les branches basses pour garder l'équilibre. Un caillou roule puis s'immobilise vite. La trace réapparaît au-dessus du tronc.",
+        "nextChapter": "ch-5aa"
+      },
+      {
+        "text": "Passer par-dessous le tronc",
+        "consequence": "Les appuis se posent l'un après l'autre: paume, genou, transfert. Le bois gémit une seconde puis se tait. Vous basculez de l'autre côté et retrouvez le ruban du sentier.",
+        "nextChapter": "ch-5ab"
+      },
+      {
+        "text": "Revenir et chercher un autre passage",
+        "consequence": "Quelques mètres en arrière, une trouée dans les fougères s'ouvre sur une sente discrète. Elle coupe le sous-bois et rejoint le sentier après un coude serré.",
+        "nextChapter": "ch-5ac"
+      }
+    ]
+  },
+
+  "ch-5aa": {
+    "id": "ch-5aa",
+    "act": "Acte 2",
+    "title": "Le Pont de Bois",
+    "texts": [
+      {
+        "text": "Le sentier s'arrête net devant un ravin maigre. Un vieux pont de bois le traverse, cordes usées, planches abimées par le temps.",
+        "talking": ""
+      },
+      {
+        "text": "Tu crois qu'il tient encore?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Il devrait si on traverse doucement. Reste près de moi.",
+        "talking": "David"
+      },
+      {
+        "text": "Sur une poutre, des initiales gravées: D + A : les chasseurs de sentiers. Le trait est ancien, raclé par la pluie.",
+        "talking": ""
+      },
+      {
+        "text": "Si je stresse, dis juste que tu es là.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Je suis là. Ne regarde pas en bas et tout ira bien.",
+        "talking": "David"
+      },
+      {
+        "text": "Un souffle traverse le ravin. Quelque part dans la forêt, trois coups brefs, puis le silence retombe.",
+        "talking": ""
+      },
+      {
+        "text": "Aurora va doucement poser un pied sur la première planche mais elle semble hésiter.",
+        "talking": ""
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-5aa.png",
+    "music": "src/assets/audio/musics/suspense-quiet.mp3",
+    "choiceDescription": "Comment traverser le pont ?",
+    "choices": [
+      {
+        "text": "La rassurer et traverser calmement",
+        "consequence": "Les pas s'enchaînent lentement, le bois craque doucement sous le poids. Aurora respire profondément, les yeux fixés sur l'autre rive. Le pont tient bon et le duo rejoint la terre ferme.",
+        "nextChapter": "ch-6aaa"
+      },
+      {
+        "text": "La presser pour aller plus vite",
+        "consequence": "Aurora accélère le pas, le bois grince plus fort. Un craquement sec retentit: une planche cède sous son pied. Elle vacille, mais David la rattrape de justesse. Après un moment tendu, ils reprennent leur marche avec double précaution et quittent le pont.",
+        "nextChapter": "ch-6aab"
+      }
+    ]
+  },
+  "ch-5ab": {
+    "id": "ch-5ab",
+    "act": "Acte 2",
+    "title": "Clairière Étrange",
+    "texts": [
+      {
+        "text": "La forêt s'ouvre d'un seul coup pour faire place à une clairière ronde. L'air y semble plus épais, presque immobile.",
+        "talking": ""
+      },
+      {
+        "text": "C'est calme d'un coup.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Oui, on dirait que le temps s'arrête ici.",
+        "talking": "David"
+      },
+      {
+        "text": "Au centre de la clairière, un vieux chêne déploie ses branches noueuses. Des racines épaisses dépassent du sol, formant des creux et des bosses.",
+        "talking": ""
+      },
+      {
+        "text": "On dirait un arbre sacré...",
+        "talking": "Aurora"
+      },
+      {
+        "text": "À la sortie de la clairière, les bruits reviennent par couches fines: feuilles, pas, souffle. Rien d'hostile, mais rien de chaleureux non plus.",
+        "talking": ""
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-5ab.png",
+    "music": "src/assets/audio/musics/low-wind.mp3",
+    "choices": null,
+    "consequence": "La trace se graisse et devient moins lisible en bordure de clairière. Plus loin, le relief oblige à mieux choisir les appuis. Le sentier glisse doucement vers un terrain instable.",
+    "nextChapter": "ch-6aba"
+  },
+  "ch-5ac": {
+    "id": "ch-5ac",
+    "act": "Acte 2",
+    "title": "Le Brouillard",
+    "texts": [
+      {
+        "text": "Le sentier s'arrête net devant un ravin maigre. Un vieux pont de bois le traverse, cordes usées, planches marquées par le temps.",
+        "talking": ""
+      },
+      {
+        "text": "Tu crois qu'il tient encore?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Il devrait si on traverse doucement. Reste près de moi.",
+        "talking": "David"
+      },
+      {
+        "text": "Sur une poutre, des initiales gravées: D + A : les chasseurs de sentiers. Le trait est ancien, raclé par la pluie.",
+        "talking": ""
+      },
+      {
+        "text": "Si je stresse, dis juste que tu es là.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Je suis là. Ne regarde pas en bas et tout ira bien.",
+        "talking": "David"
+      },
+      {
+        "text": "Un souffle traverse le ravin. Quelque part dans la forêt, trois coups brefs, puis le silence retombe.",
+        "talking": ""
+      },
+      {
+        "text": "Aurora va lentement poser un pied sur la première planche mais elle semble hésiter.",
+        "talking": ""
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-5ac.png",
+    "music": "src/assets/audio/musics/suspense-quiet.mp3",
+    "choiceDescription": "Comment traverser le pont ?",
+    "choices": [
+      {
+        "text": "La rassurer et traverser calmement",
+        "consequence": "Les pas s'enchaînent lentement, le bois craque doucement sous le poids. Aurora respire profondément, les yeux fixés sur l'autre rive. Le pont tient bon et le duo rejoint la terre ferme.",
+        "nextChapter": "ch-6aaa"
+      },
+      {
+        "text": "La presser pour aller plus vite",
+        "consequence": "Aurora accélère le pas, le bois grince plus fort. Un craquement sec retentit: une planche cède sous son pied. Elle vacille, mais David la rattrape de justesse. Après un moment tendu, ils reprennent leur marche et quittent le pont.",
+        "nextChapter": "ch-6aab"
+      }
+    ]
+  },
+  "ch-6aaa": {
+    "id": "ch-6aaa",
+    "act": "Acte 2",
+    "title": "Pas Légers",
+    "texts": [
+      {
+        "text": "Le pont est derrière vous. Le sentier s'élargit un peu, l'air paraît plus clair. Les pas se calent naturellement, sans forcer.",
+        "talking": ""
+      },
+      {
+        "text": "Ça allait. Merci d'avoir gardé le rythme.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Tu l'as fait toute seule! J'ai juste suivi.",
+        "talking": "David"
+      },
+      {
+        "text": "Aurora sourit et semble prendre confiance. Les troncs s'écartent et laissent entrer une lumière laiteuse. Une ficelle orange, coincée dans une branche, bouge sans bruit.",
+        "talking": ""
+      },
+      {
+        "text": "J'aime quand on marche comme ça, tranquille.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Oui, c'est bien. On avance sans se presser. Les chasseurs de sentiers sont de retour !",
+        "talking": "David"
+      },
+      {
+        "text": "Très loin, trois coups maigres se noient dans la forêt. Ni menace, ni message. Juste quelque chose qui insiste.",
+        "talking": ""
+      },
+      {
+        "text": "(...j'aime pas ce que je ressens...j'ai l'impression que ça m'observe...)",
+        "talking": "David"
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-6aaa.png",
+    "music": "src/assets/audio/musics/calm-walk.mp3",
+    "choices": null,
+    "consequence": "Le sentier remonte en pente douce. Une odeur fine de fumée arrive par rafales. Entre les arbres, on devine la silhouette d'une petite cabane au bord du chemin.",
+    "nextChapter": "ch-7a"
+  },
+  "ch-6aab": {
+    "id": "ch-6aab",
+    "act": "Acte 2",
+    "title": "Silence Tendu",
+    "texts": [
+      {
+        "text": "La traversée a laissé une trace dans les épaules. Les pas repartent, un peu trop rapides, comme pour effacer le bruit du bois qui a cédé.",
+        "talking": ""
+      },
+      {
+        "text": "Désolée. J'ai accéléré a cause de la peur.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "C'est passé. On ralentit et on reprend proprement.",
+        "talking": "David"
+      },
+      {
+        "text": "Le vent soulève les feuilles. On marche côte à côte, sans chercher les mots. Les lacets crissent à chaque appui.",
+        "talking": ""
+      },
+      {
+        "text": "Tu me dis si je vais trop vite.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Je te le dirai. On reste à l'écoute.",
+        "talking": "David"
+      },
+      {
+        "text": "Au fond du bois, trois coups espacés, puis un blanc. Le chemin ne réagit pas, mais la peau du dos se tend un peu.",
+        "talking": ""
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-6aab.png",
+    "music": "src/assets/audio/musics/tension-walk.mp3",
+    "choices": null,
+    "consequence": "La pente se relève et un pan de fumée grise glisse entre les branches. Une cabane apparaît, basse et grise, posée juste au bord du sentier.",
+    "nextChapter": "ch-7a"
+  },
+  "ch-6aba": {
+    "id": "ch-6aba",
+    "act": "Acte 2",
+    "title": "Terrain Glissant",
+    "texts": [
+      {
+        "text": "Après la clairière, la terre devient grasse. Les feuilles collent aux semelles et forment un tapis sur les pierres plates.",
+        "talking": ""
+      },
+      {
+        "text": "On reste centrés. Pas courts.",
+        "talking": "David"
+      },
+      {
+        "text": "Si vous avez les bottes, l'appui tient et la marche garde son souffle. Sans elles, chaque pas demande un test, et la cadence se casse en petits morceaux.",
+        "talking": ""
+      },
+      {
+        "text": "Ça va, je gère. Dis-moi si tu veux passer devant.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Non, on alterne quand ça glisse trop. Ça ira.",
+        "talking": "David"
+      },
+      {
+        "text": "Un craquement sec se perd plus loin. Puis reviennent ces trois coups, étouffés, comme si la forêt répétait une phrase oubliée.",
+        "talking": ""
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-6aba.png",
+    "music": "src/assets/audio/musics/muddy-trail.mp3",
+    "choices": null,
+    "consequence": "Le sol se raffermit peu à peu et le sentier se hisse sur un replat. Une petite construction de bois, sombre et calme, se détache entre les troncs: une cabane, porte tournée vers la trace.",
+    "nextChapter": "ch-7a"
+  },
+  "ch-6aca": {
+    "id": "ch-6aca",
+    "act": "Acte 2",
+    "title": "Terrain Accidenté",
+    "texts": [
+      {
+        "text": "La brume s'effiloche par nappes. Les pierres affleurent, irrégulières, et guident les pieds comme un pas japonais mal rangé.",
+        "talking": ""
+      },
+      {
+        "text": "Pose bien le talon, puis roule le pied. Doucement. Il ne faudrait pas trop forcer ta jambe.",
+        "talking": "David"
+      },
+      {
+        "text": "Ça va. Je prends mon temps.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Le souffle s'installe plus bas, régulier. Les mains touchent parfois l'écorce pour garder l'axe. Un fil orange pend à une souche, sale et décoloré.",
+        "talking": ""
+      },
+      {
+        "text": "On avance propre. Pas besoin d'aller vite.",
+        "talking": "David"
+      },
+      {
+        "text": "Au loin, trois coups très faibles, presque avalés par la forêt. Rien ne bouge, mais ils gardent l'oreille tendue.",
+        "talking": ""
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-6aca.png",
+    "music": "src/assets/audio/musics/stones-and-breath.mp3",
+    "choices": null,
+    "consequence": "Le relief se calme et la forêt s'éclaircit. Une cabane apparaît contre le sentier, avec une mince fumée qui sort du toit.",
+    "nextChapter": "ch-7a"
+  },
+  "ch-6acb": {
+    "id": "ch-6acb",
+    "act": "Acte 2",
+    "title": "Remise en question",
+    "texts": [
+      {
+        "text": "La brume s'est déchirée, mais le pas est resté trop haut, trop nerveux. Le sentier, lui, demande de la patience.",
+        "talking": ""
+      },
+      {
+        "text": "Pourquoi on a forcé là-dedans? On aurait pu attendre dix minutes.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Tu as raison. La prochaine fois, on pose, on respire et on décide mieux.",
+        "talking": "David"
+      },
+      {
+        "text": "Le bois sent l'humidité et la sève. Des gouttes pendent aux aiguilles et tombent sans bruit. La marche se met à parler à la place des gens.",
+        "talking": ""
+      },
+      {
+        "text": "Ok. On repart propre. Je préfère ça.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Trois coups reviennent quelque part derrière, comme un rappel. Personne ne répond.",
+        "talking": ""
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-6acb.png",
+    "music": "src/assets/audio/musics/quiet-dispute.mp3",
+    "choices": null,
+    "consequence": "Le sentier se redresse et rejoint une zone plus claire. Une cabane en bois gris se dessine à quelques mètres, posée contre la lisière.",
+    "nextChapter": "ch-7a"
+  },
+  "ch-7a": {
+    "id": "ch-7a",
+    "act": "Acte 2",
+    "title": "La Cabane du vieil homme",
+    "texts": [
+      {
+        "text": "Au bord du sentier, une petite cabane grise. Une planche du toit claque par moments, puis se fige. Un filet de fumée sort lentement.",
+        "talking": ""
+      },
+      {
+        "text": "Bonjour vous deux.",
+        "talking": "Gerald"
+      },
+      {
+        "text": "Bonjour. On traverse le secteur vers la paroi.",
+        "talking": "David"
+      },
+      {
+        "text": "Le vent a soulevé ce toit pendant la tempête. Si vous avez une corde, je pourrais le sécuriser avant que ça reparte.",
+        "talking": "Gerald"
+      },
+      {
+        "text": "Ça vous prendrait longtemps?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Deux noeuds, pas plus. Faites comme vous le sentez. Je ne voudrais pas vous retenir mais j'aurais vraiment besoin de l'abris ce soir.",
+        "talking": "Gerald"
+      },
+      {
+        "text": "L'air est plus lourd ici. Très loin, trois coups espacés résonnent et s'éteignent net. Les arbres ne bougent presque pas.",
+        "talking": ""
+      },
+      {
+        "text": "...(On peut aider un peu… ou reprendre la trace tout de suite.)",
+        "talking": "David"
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-7a.png",
+    "music": "src/assets/audio/musics/cabin-theme.mp3",
+    "choiceDescription": "Aidez-vous Gerald ?",
+    "choices": [
+      {
+        "text": "Aider Gerald (donner la corde)",
+        "condition": "Corde",
+        "consequence": "La corde est passée, nouée solidement. Gerald sourit et vous remercie chaleureusement. Il vous conseille de rester prudents sur le chemin puis vous souhaite bonne route. La cabane s'éloigne doucement derrière vous. ",
+        "nextChapter": "ch-8a"
+      },
+      {
+        "text": "Ignorer et continuer",
+        "consequence": "Gerald hoche la tête, compréhensif. Il vous dit de faire attention et vous souhaite bonne route. La cabane s'éloigne doucement derrière vous. ",
+        "nextChapter": "ch-8a"
+      }
+    ]
+  },
+
+  "ch-4b": {
+    "id": "ch-4b",
+    "act": "Acte 2",
+    "title": "La bête",
+    "texts": [
+      {
+        "text": "Sur la branche droite, les troncs se rapprochent et la lumière baisse. Entre deux pins, un animal immobile vous observe, sans bruit.",
+        "talking": ""
+      },
+      {
+        "text": "Ne bouge surtout pas.",
+        "talking": "David"
+      },
+      {
+        "text": "...",
+        "talking": "Aurora"
+      },
+      {
+        "text": "La bête respire lentement. Le sol, couvert d'aiguilles, étouffe les sons. Aurora serre la sangle du sac, ses yeux mesurent la distance et les issues possibles.",
+        "talking": ""
+      },
+      {
+        "text": "Si on lui laisse de l'espace, elle va s'ecarter.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "On bouge lentement. Reste basse.",
+        "talking": "David"
+      },
+      {
+        "text": "Un claquement lointain traverse les arbres, comme trois coups etouffés, puis plus rien...",
+        "talking": ""
+      },
+      {
+        "text": "(Encore ce bruit... Cette forêt n'est plus autant calme qu'elle était...)",
+        "talking": "David"
+      },
+      {
+        "text": "Reste calme. Pas de gestes brusques.",
+        "talking": "David"
+      },
+      {
+        "text": "Le passage existe, mais il faut choisir comment l'ouvrir.",
+        "talking": ""
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-4b.png",
+    "music": "src/assets/audio/musics/adventure-theme.mp3",
+    "choiceDescription": "Comment réagissez-vous à la bête ?",
+    "choices": [
+      {
+        "text": "Approcher calmement",
+        "consequence": "Le duo se decale en biais, gestes lents et lisibles. L'animal cede un pas, puis un autre. Le corridor entre les troncs s'eclaircit et le sentier s'ouvre a nouveau.",
+        "nextChapter": "ch-5ba"
+      },
+      {
+        "text": "Ignorer et continuer",
+        "consequence": "Vous longez la zone en gardant une distance sure. Une branche accroche une manche puis glisse. La bête reste en retrait et disparaît dans les ombres. un soupir de soulagement se fait entendre et rythme de marche reprend.",
+        "nextChapter": "ch-5bb"
+      },
+      {
+        "text": "Chasser l'animal",
+        "condition": "Fusil de chasse",
+        "consequence": "Le fusil est epaulé et une detonation sèche fend le couvert. L'animal s'eloigne d'un bond et s'efface entre les troncs. L'air demeure tendu, mais la voie est libre.",
+        "nextChapter": "ch-5bc"
+      }
+    ]
+  },
+  "ch-5ba": {
+    "id": "ch-5ba",
+    "act": "Acte 2",
+    "title": "Conversation importante",
+    "texts": [
+      {
+        "text": "L'animal s'écarte et disparaît entre deux troncs. Le sentier reprend, plus étroit, comme si la forêt voulait refermer la scène.",
+        "talking": ""
+      },
+      {
+        "text": "J'ai cru qu'il allait nous charger.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "T'as bien réagi. On a gardé l'espace, c'est tout ce qu'il fallait.",
+        "talking": "David"
+      },
+      {
+        "text": "La marche se remet en place, pas trop vite. Entre les branches, une ficelle orange pend, usée, et balance doucement.",
+        "talking": ""
+      },
+      {
+        "text": "Dis… on monte quand même jusqu'à la paroi, avec ce temps-là?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "On décide ensemble. Mais dis-moi ce que tu ressens pour vrai.",
+        "talking": "David"
+      },
+      {
+        "text": "Je… Je ne sais pas. J'ai peur de ce qu'on va trouver là-haut. J'ai peur de me blesser... Et si on n'y arrivait pas?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "De loin, trois coups espacés résonnent, puis s'éteignent. Par contre, votre cœur battait plus fort pour les remarquer.",
+        "talking": ""
+      },
+      {
+        "text": "Je ne veux pas te ralentir. Si tu préfères y aller seul…",
+        "talking": "Aurora"
+      },
+      {
+        "text": "...",
+        "talking": "David"
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-5ba.png",
+    "music": "src/assets/audio/musics/forest-breath.mp3",
+    "choiceDescription": "Que lui répondez-vous ?",
+    "choices": [
+      {
+        "text": "L'écouter et la rassurer",
+        "consequence": "Vous ralentissez d'un demi-pas et laissez Aurora parler Elle vous avoue que depuis l'évènement, la randonnée la rend anxieuse. Les épaules se détendent, vous l'aider à lui faire comprendre que l'incident est seulement le résultat d'une erreur et qu'elle a appris. La cadence devient régulière et les décisions à venir se feront à deux, sans forcer.",
+        "nextChapter": "ch-6baa"
+      },
+      {
+        "text": "Éviter le sujet et avancer",
+        "consequence": "Vous changez de sujet et gardez le rythme. Un silence lourd s'installe; les pas frappent plus sec. La forêt semble plus étroite devant.",
+        "nextChapter": "ch-6bab"
+      }
+    ]
+  },
+  "ch-5bb": {
+    "id": "ch-5bb",
+    "act": "Acte 2",
+    "title": "Repos",
+    "texts": [
+      {
+        "text": "Vous passez au large et la bête s'efface dans l'ombre. Plus loin, un renflement de terrain offre un coin stable pour souffler.",
+        "talking": ""
+      },
+      {
+        "text": "On prend deux minutes. Eau, souffle, puis on repart.",
+        "talking": "David"
+      },
+      {
+        "text": "Ça fait du bien d'arrêter juste un peu.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Le vent glisse dans les pins. On entend les sangles craquer doucement quand les sacs se reposent au sol. Deux feuilles tournent puis se posent l'une sur l'autre.",
+        "talking": ""
+      },
+      {
+        "text": "Tu me dis si tu veux passer devant. Comme tu le sens.",
+        "talking": "David"
+      },
+      {
+        "text": "Je reste derrière pour l'instant. Je regarde tes appuis.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "David acquièse. Très loin, trois coups espacés. Pas d'écho. Le temps reste suspendu une seconde, puis reprend.",
+        "talking": ""
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-5bb.png",
+    "music": "src/assets/audio/musics/rest-stop.mp3",
+    "choices": null,
+    "consequence": "Les sacs remontent sur les épaules. Le sentier repart, un peu moins clair; la trace se brouille par endroits et demande plus d'attention.",
+    "nextChapter": "ch-6bba"
+  },
+  "ch-5bc": {
+    "id": "ch-5bc",
+    "act": "Acte 2",
+    "title": "Bête abattue",
+    "texts": [
+      {
+        "text": "La détonation claque et s'écrase contre les troncs. Les oiseaux s'envolent plus loin. L'animal gît sur le flanc, la forêt retient son souffle.",
+        "talking": ""
+      },
+      {
+        "text": "Ça va?",
+        "talking": "David"
+      },
+      {
+        "text": "Oui. Je tremble un peu à cause de l'adrénaline, c'est tout.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "L'air sent le bois et le fer. Le silence revient, plus dense que tout à l'heure.",
+        "talking": ""
+      },
+      {
+        "text": "On ne reste pas longtemps ici.",
+        "talking": "David"
+      },
+      {
+        "text": "D'accord. On fait quoi maintenant?",
+        "talking": "Aurora"
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-5bc.png",
+    "music": "src/assets/audio/musics/after-shot.mp3",
+    "choiceDescription": "Que faites-vous de la bête ?",
+    "choices": [
+      {
+        "text": "La laisser et partir",
+        "consequence": "Vous marquez le lieu d'un regard et reprenez le sentier sans vous retourner. La forêt avale vite la clairière et le rythme de marche revient, plus serré.",
+        "nextChapter": "ch-6bca"
+      },
+      {
+        "text": "La préparer et récupérer un peu de viande",
+        "condition": "Couteau",
+        "consequence": "Vous travaillez vite, proprement.Aurora tousse un peu à cause de l'odeur. Un petit sac gagne du poids; l'odeur reste sur les gants. Trois coups brefs, lointains, traversent les pins, puis la forêt se referme.",
+        "nextChapter": "ch-6bcb"
+      }
+    ]
+  },
+  "ch-6baa": {
+    "id": "ch-6baa",
+    "act": "Acte 2",
+    "title": "Paroles posées",
+    "texts": [
+      {
+        "text": "Non. On fait ça ensemble ou pas du tout. Je veux que tu sois là.",
+        "talking": "David"
+      },
+      {
+        "text": "J'ai encore ce truc au ventre. Pas la peur… juste… cette tension.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "C'est normal. Ton corps réagit. On va y aller doucement, d'accord ?",
+        "talking": "David"
+      },
+      {
+        "text": "Apres un moment de silence, la marche reprend, calme et posée.",
+        "talking": ""
+      },
+      {
+        "text": "...je sais pas si je peux faire ça.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Je veux pas me sentir forcée. Peut-on juste retourner?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "On n'a pas besoin d'y aller si tu ne te sens pas prête.",
+        "talking": "David"
+      },
+      {
+        "text": "Très loin, trois coups espacés se perdent et s'éteignent sans écho. Le chemin, lui, grimpe en douceur.",
+        "talking": ""
+      },
+      {
+        "text": "...",
+        "talking": "David"
+      },
+      {
+        "text": "Mais je pense qu'on devrait continuer un peu plus loin. Juste pour voir. Tu reprenais les bonne habitudes tout le long. Je sais que tu en ai capable.",
+        "talking": "David"
+      },
+      {
+        "text": "...juste un peu plus alors...",
+        "talking": "Aurora"
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-6baa.png",
+    "music": "src/assets/audio/musics/forest-breath.mp3",
+    "choices": null,
+    "consequence": "La pente s'adoucit. Une odeur de fruits sauvages arrive par bouffées. Devant, un gros buisson couvert de baies sombres empiète sur la trace.",
+    "nextChapter": "ch-7b"
+  },
+  "ch-6bab": {
+    "id": "ch-6bab",
+    "act": "Acte 2",
+    "title": "Sujet évité",
+    "texts": [
+      {
+        "text": "Vous avancez sans un mot pendant plusieurs minutes. Les pas frappent plus sec que d'habitude.",
+        "talking": ""
+      },
+      {
+        "text": "Laisse tomber, c'était rien.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "...",
+        "talking": "David"
+      },
+      {
+        "text": "Le vent passe dans les cimes. Un ruban orange accroché à un tronc se tord, puis retombe.",
+        "talking": ""
+      },
+      {
+        "text": "Je veux juste… ne pas me sentir forcée.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "(Je sens qu'elle n'est pas prête... Peut-être qu'on devrait faire demi-tour...?)",
+        "talking": "David"
+      },
+      {
+        "text": "Loin derrière, trois coups étouffés. Une seconde de blanc, puis la forêt reprend ses bruits habituels.",
+        "talking": ""
+      },
+      {
+        "text": "(n̷o̷NONn̷.̷.̷.̷ ̷i̷ILl̷ ̷f̷aFAUTu̷t̷ ̷c̷o̷n̷t̷i̷CONTINUERn̷u̷e̷r̷)",
+        "talking": "David"
+      },
+      {
+        "text": "Écoute, on ne devrait pas faire demi-tour maintenant. Peut-être qu'on peut juste avancer un peu plus loin, voir comment tu te sens ?",
+        "talking": "David"
+      },
+      {
+        "text": "...d'accord, juste pour quelques dizaines de mètres.",
+        "talking": "Aurora"
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-6bab.png",
+    "music": "src/assets/audio/musics/tension-walk.mp3",
+    "choices": null,
+    "consequence": "La trace vire à gauche et remonte vers une zone claire. À hauteur du sentier, un buisson hérissé, lourd de baies mûres, barre presque le passage.",
+    "nextChapter": "ch-7b"
+  },
+  "ch-6bba": {
+    "id": "ch-6bba",
+    "act": "Acte 2",
+    "title": "Perdu",
+    "texts": [
+      {
+        "text": "Après la pause, le sentier se brouille. Les marques de peinture sont rares et un tapis de feuilles masque les traces.",
+        "talking": ""
+      },
+      {
+        "text": "On ne force pas. On remet la ligne et on repart propre.",
+        "talking": "David"
+      },
+      {
+        "text": "Deux troncs couchés dessinent un faux passage vers la droite. L'odeur de sève fraîche flotte dans l'air.",
+        "talking": ""
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-6bba.png",
+    "music": "src/assets/audio/musics/wayfinding.mp3",
+    "choiceDescription": "Comment retrouvez-vous la trace ?",
+    "choices": [
+      {
+        "text": "Consulter la carte",
+        "condition": "Carte",
+        "consequence": "La carte se déplie. Un repère rocheux au nord vous recale. En quelques minutes, la ligne du sentier réapparaît et mène vers un gros buisson couvert de baies au bord de la trace.",
+        "nextChapter": "ch-7b"
+      },
+      {
+        "text": "Chercher des balises à vue",
+        "consequence": "Vous progressez lentement en peignant les troncs du regard. Un vieux ruban orange réapparaît, puis un second. La trace se reforme et débouche sur un buisson chargé de baies sombres.",
+        "nextChapter": "ch-7b"
+      }
+    ]
+  },
+  "ch-6bca": {
+    "id": "ch-6bca",
+    "act": "Acte 2",
+    "title": "Ruisseau",
+    "texts": [
+      {
+        "text": "Vous laissez la clairière derrière vous. Un filet d'eau traverse la trace et disparaît sous un amas de pierres plates.",
+        "talking": ""
+      },
+      {
+        "text": "On passe par les dalles, une à la fois.",
+        "talking": "David"
+      },
+      {
+        "text": "Le courant est faible, mais le bruit couvre tout le reste, comme un rideau. De l'autre côté, le sol redevient ferme.",
+        "talking": ""
+      },
+      {
+        "text": "Ça va. J'aime mieux quand on retrouve un sol dur.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "On garde la cadence et on respire.",
+        "talking": "David"
+      },
+      {
+        "text": "Très loin, trois coups brefs se mélangent au clapotis, puis s'effacent.",
+        "talking": ""
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-6bca.png",
+    "music": "src/assets/audio/musics/stream-quiet.mp3",
+    "choices": null,
+    "consequence": "Le sentier remonte en pente douce et l'air prend une odeur fruitée. À quelques mètres, un buisson plein de baies sombres accroche les vêtements qui passent trop près.",
+    "nextChapter": "ch-7b"
+  },
+  "ch-6bcb": {
+    "id": "ch-6bcb",
+    "act": "Acte 2",
+    "title": "Fuite",
+    "texts": [
+      {
+        "text": "Un craquement brutal derrière vous. Quelque chose démarre dans les broussailles. Vos sacs heurtent vos épaules quand vous vous mettez à courir.",
+        "talking": ""
+      },
+      {
+        "text": "Allège un peu si tu dois. Je t'ouvre le passage.",
+        "talking": "David"
+      },
+      {
+        "text": "Les branches fouettent les manches. Le sentier réapparaît par endroits, assez pour garder la direction.",
+        "talking": ""
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-6bcb.png",
+    "music": "src/assets/audio/musics/sprint-woods.mp3",
+    "choiceDescription": "Que faites-vous de l'équipement ?",
+    "choices": [
+      {
+        "text": "Alléger le sac (laisser deux objets aléatoires)",
+        "consequence": "Vous lâchez deux objets au sol pour gagner de la vitesse. La course se stabilise, puis ralentit. Au sortir d'un virage, un buisson couvert de baies occupe le bord du sentier.",
+        "nextChapter": "ch-7b"
+      },
+      {
+        "text": "Garder tout et tenir le rythme",
+        "consequence": "Vous gardez tout l'équipement. La foulée est lourde mais tient bon jusqu'à une zone plus claire où un buisson chargé de baies borde la trace.",
+        "nextChapter": "ch-7b"
+      }
+    ]
+  },
+  "ch-7b": {
+    "id": "ch-7b",
+    "act": "Acte 2",
+    "title": "Le Buisson",
+    "texts": [
+      {
+        "text": "Un buisson rempli de baies sombres déborde sur la trace. Odeur sucrée, feuilles luisantes, quelques grappes touchent presque les sacs.",
+        "talking": ""
+      },
+      {
+        "text": "Elles ont l'air bonnes.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "On ne cueille pas n'importe quoi. Beaucoup de baies se ressemblent.",
+        "talking": "David"
+      },
+      {
+        "text": "De près, les fruits sont ovales, la peau est mate. Des taches d'un mauve profond sont visibles sur certaines branches qui indique que certaines baie ont été mangées par des oiseaux.",
+        "talking": ""
+      },
+      {
+        "text": "On pourrait en prendre juste quelques-unes… pas pour manger maintenant. Pour au cas où.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Si on en prend, on les garde fermées au fond du sac. Pas de test, pas de risque.",
+        "talking": "David"
+      },
+      {
+        "text": "Très loin, trois coups espacés traversent les pins puis s'éteignent. Les arbres absorbent le son comme un coussin.",
+        "talking": ""
+      },
+      {
+        "text": "Tu l'as entendu?",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Oui, c'est rien. On choisit et on avance.",
+        "talking": "David"
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-7b.png",
+    "music": "src/assets/audio/musics/bush-choice.mp3",
+    "choiceDescription": "Que faites-vous avec les baies ?",
+    "choices": [
+      {
+        "text": "Prendre des baies",
+        "consequence": "Vous cueillez les grappes les plus saines. Les fruits glissent dans un sachet fermé, rangé profond dans le sac. Le feuillage se referme derrière vous et le sentier s'ouvre vers la montée.",
+        "nextChapter": "ch-8a"
+      },
+      {
+        "text": "Ignorer le buisson",
+        "consequence": "Vous passez en bordure, épaules serrées pour éviter les branches. Quelques baies tombent et s'écrasent sous les semelles. La trace redevient nette et file droit vers la montée.",
+        "nextChapter": "ch-8a"
+      }
+    ]
+  },
+  "ch-8a": {
+    "id": "ch-8a",
+    "act": "Acte 3",
+    "title": "Décision",
+    "texts": [
+      {
+        "text": "La base de la montagne coupe l'horizon. La paroi grise prend la lumière par plaques. Le vent annonce l'orage, sans se presser.",
+        "talking": ""
+      },
+      {
+        "text": "On est rendus. Si on grimpe, c'est maintenant ou jamais.",
+        "talking": "David"
+      },
+      {
+        "text": "Je… Je ne sais pas. Le vent a changé d'un cran. Ça ne me semble pas très sûr.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Un frottement métallique très loin. Puis ces trois coups espacés, comme un rappel que personne d'autre ne comprendra à part vous.",
+        "talking": ""
+      },
+      {
+        "text": "On décide maintenant.",
+        "talking": "David"
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-8a.png",
+    "music": "src/assets/audio/musics/decision-low.mp3",
+    "choiceDescription": "Grimpez-vous la montagne ?",
+    "choices": [
+      {
+        "text": "Ne pas grimper (faire demi-tour)",
+        "consequence": "Vous reculez du pied de la paroi. Le vent baisse d'un cran. La forêt reprend sa place autour de vous, comme si elle attendait ce choix depuis le début.",
+        "nextChapter": "end-1"
+      },
+      {
+        "text": "Grimper la montagne",
+        "consequence": "Vous équipez les sacs et entrez dans la première longueur. Les prises sont propres mais espacées. Le ciel se ferme un peu plus.",
+        "nextChapter": "ch-8ab"
+      }
+    ]
+  },
+
+  "ch-8ab": {
+    "id": "ch-8ab",
+    "act": "Acte 3",
+    "title": "La Montée Exposée",
+    "texts": [
+      {
+        "text": "Une dalle lisse barre le passage. Le vent arrive en rafales courtes. Des gouttes froides piquent la peau; plus haut, la paroi brille déjà.",
+        "talking": ""
+      },
+      {
+        "text": "On s'encorde ici. Sans corde, la pièrre est glissante.",
+        "talking": "David"
+      },
+      {
+        "text": "Je te suis.",
+        "talking": "Aurora"
+      },
+      {
+        "text": "Le ciel se ferme d'un cran. Le vent pousse par à-coups, comme s'il voulait creuser l'équilibre.",
+        "talking": ""
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-8b.png",
+    "music": "src/assets/audio/musics/exposed-slab.mp3",
+    "choiceDescription": "Comment franchir la dalle ?",
+    "choices": [
+      {
+        "text": "Utiliser la corde",
+        "condition": "Corde",
+        "consequence": "La corde file proprement. Les noeuds tiennent, la dalle se traverse en tension courte. Le relais s'attrape du bout des doigts, puis tout le corps suit.",
+        "nextChapter": "ch-8aba"
+      },
+      {
+        "text": "Ne pas utiliser la corde",
+        "consequence": "Vous tentez l'équilibre sans assurage. La dalle demande plus que ce que les pieds peuvent donner. Un appui glisse, le corps bascule en arrière. Le vide et la noirceur répond avant que votre voix ne puisse s'élever.",
+        "nextChapter": "end-2"
+      }
+    ]
+  },
+
+  "ch-8aba": {
+    "id": "ch-8aba",
+    "act": "Acte 3",
+    "title": "Le Replat",
+    "texts": [
+      {
+        "text": "Un replat étroit domine la vallée. L'air est plus frais. Le vent force et apporte des grains de grésil.",
+        "talking": ""
+      },
+      {
+        "text": "On y est presque. Après ce bombé, c'est la crête.",
+        "talking": "David"
+      },
+      {
+        "text": "Un clic sec, comme une boucle qui se ferme. David parle, n'attend pas la réponse et se retourne.",
+        "talking": ""
+      },
+      {
+        "text": "Le replat est vide. La corde file vers le bas; au piton suivant, une longe pend et tape contre la roche: toc... toc... toc. C'était ce bruit-là, partout, depuis le matin.",
+        "talking": ""
+      },
+      {
+        "text": "Je suis désolé...",
+        "talking": "David"
+      },
+      {
+        "text": "La montagne ne négocie pas. Le vent se souvient des mots et laisse les trois coups résonner comme un rappel du jour de l'accident.",
+        "talking": ""
+      }
+    ],
+    "backgroundImage": "./backgrounds/ch-8ba.png",
+    "music": "src/assets/audio/musics/summit-dread.mp3",
+    "choiceDescription": "Au bord de la vérité, que faites-vous ?",
+    "choices": [
+      {
+        "text": "Refuser de regarder (Déni)",
+        "consequence": "Vous restez face à la paroi, le regard suspendu aux prises. Le monde derrière n'existe plus. Les trois coups résonnent, mais vous les reniez et ne voulez pas les entendre.",
+        "nextChapter": "end-3"
+      },
+      {
+        "text": "Chercher une autre explication (Marchandage)",
+        "condition": "end-3",
+        "consequence": "Vous revisitez la scène cent fois dans votre tête: autre corde, autre heure, autre itinéraire. Et si? Les trois coups, eux, ne changent pas.",
+        "nextChapter": "end-4"
+      },
+      {
+        "text": "Laisser tomber (Résignation)",
+        "condition": "end-4",
+        "consequence": "Vous relâchez la tension. Le replat devient trop large d'un coup. Les mains quittent la roche avant la pensée.",
+        "nextChapter": "end-5"
+      },
+      {
+        "text": "Regarder en face (Acceptance)",
+        "condition": "end-4",
+        "consequence": "Vous laissez les trois coups finir leur cycle. Plus de mensonges possibles. Il ne reste qu'un pas: nommer ce que vous savez et y faire face. Elle est morte. Ici. Par votre faute.",
+        "nextChapter": "end-6"
+      }
+    ]
+  },
+
+  "end-1": {
+    "id": "end-1",
+    "act": "Acte 3",
+    "title": "Fin 1 — Prudence",
+    "texts": [
+      {
+        "text": "Vous choisissez de ne pas grimper. La montagne garde ses réponses. La forêt vous reprend sans insister.",
+        "talking": ""
+      },
+      {
+        "text": "On reviendra un autre jour. Il faudrait ne pas prendre trop de risques.",
+        "talking": "David"
+      },
+      {
+        "text": "Au parking, l'horloge du tableau de bord clignote 8:00. Trois coups ternes battent quelque part et s'arrêtent net comme une horloge qu'on remonte.",
+        "talking": ""
+      }
+    ],
+    "backgroundImage": "./backgrounds/end-1.png",
+    "music": "src/assets/audio/musics/soft-reset.mp3",
+    "choices": null,
+    "consequence": "La journée reprend du début comme une musique qu'on recommence",
+    "nextChapter": null
+  },
+
+  "end-2": {
+    "id": "end-2",
+    "act": "Acte 3",
+    "title": "Fin 2 — Chute Finale",
+    "texts": [
+      {
+        "text": "La dalle rejette votre appui. Le vide répond avant la voix. Les sons se brisent, coupés par des rafales. Il n'y a pas de rappel, seulement un silence lourd et moralisateur.",
+        "talking": ""
+      },
+      {
+        "text": "Quelque part, très loin, trois coups. Puis le calme d'une horloge qui revient au même endroit.",
+        "talking": ""
+      }
+    ],
+    "backgroundImage": "./backgrounds/end-2.png",
+    "music": "src/assets/audio/musics/fall-reset.mp3",
+    "choices": null,
+    "consequence": "La boucle se referme sans explication et vous ramène au départ.",
+    "nextChapter": null
+  },
+
+  "end-3": {
+    "id": "end-3",
+    "act": "Acte 3",
+    "title": "Fin 3 — Déni",
+    "texts": [
+      {
+        "text": "Vous refusez de voir ce qui est là. Le replat se resserre, devient plus haut. Le vent emporte les mots avant qu'ils ne puissent sortir.",
+        "talking": ""
+      },
+      {
+        "text": "Non... ce n'est pas possible... Je n'y crois pas... Elle ne serait pas...",
+        "talking": "David"
+      },
+      {
+        "text": "Vous touchez la crête sans vous retourner. Vous tentez de parler d'autre chose...",
+        "talking": ""
+      },
+      {
+        "text": "Wow on a eu de la chance d'arriver jusque-là! On aurait pu se faire emporter par une rafale...hahaa...",
+        "talking": "David"
+      },
+      {
+        "text": "...",
+        "talking": "David"
+      },
+      {
+        "text": "...Aurora?....Tu es là ?...... Aurora !",
+        "talking": "David"
+      },
+      {
+        "text": "Le vent garde les trois coups pour lui. La montagne ne dit rien, vous juge. Le replat s'efface derrière vous, comme un rêve qu'on oublie.",
+        "talking": ""
+      }
+    ],
+    "backgroundImage": "./backgrounds/end-3.png",
+    "music": "src/assets/audio/musics/denial-reset.mp3",
+    "choices": null,
+    "consequence": "Une voie intérieure s'obstine à ne pas nommer ce qui s'est passé. La journée s'enroule et repart au début.",
+    "nextChapter": null
+  },
+
+  "end-4": {
+    "id": "end-4",
+    "act": "Acte 3",
+    "title": "Fin 4 — Marchandage",
+    "texts": [
+      {
+        "text": "Vous passez le replat à chercher un arrangement: si on revient avec plus de matériel, si on change l'heure, si on prend par l'autre arête...",
+        "talking": ""
+      },
+      {
+        "text": "On aurait pu éviter le vent si on était partis plus tôt.",
+        "talking": "David"
+      },
+      {
+        "text": "La montagne ne signe aucun contrat. Trois coups secs répondent, comme un tampon sans encre. Puis tout recommence.",
+        "talking": ""
+      }
+    ],
+    "backgroundImage": "./backgrounds/end-4.png",
+    "music": "src/assets/audio/musics/bargain-reset.mp3",
+    "choices": null,
+    "consequence": "Les hypothèses se dissipent au retour du 8:00 fixe. La boucle reprend.",
+    "nextChapter": null
+  },
+
+  "end-5": {
+    "id": "end-5",
+    "act": "Acte 3",
+    "title": "Fin 5 — Résignation",
+    "texts": [
+      {
+        "text": "Rien ne change... je comprends pas...",
+        "talking": "David"
+      },
+      {
+        "text": "Vous relâchez la prise et acceptez l'idée que rien ne changera. Le mal est fait. Le replat devient très large, trop large. Les mots n'arrivent plus.",
+        "talking": ""
+      },
+      {
+        "text": "J'en peux plus...",
+        "talking": "David"
+      },
+      {
+        "text": "Le vent garde les trois coups pour lui. David tombe à genoux. Le vide avale le son et le temps.",
+        "talking": ""
+      }
+    ],
+    "backgroundImage": "./backgrounds/end-5.png",
+    "music": "src/assets/audio/musics/loop-closed-dark.mp3",
+    "choices": null,
+    "consequence": "La boucle se termine ici, vide, sans début ni fin. Ce n'est pas une fin heureuse: la boucle se referme mais il n'y a ni paix ni résolution. David devait faire face à un évènement traumatique et accepter le destin de sa fille.",
+    "nextChapter": null
+  },
+
+  "end-6": {
+    "id": "end-6",
+    "act": "Acte 3",
+    "title": "Fin 6 — Acceptance",
+    "texts": [
+      {
+        "text": "Les trois coups deviennent clairs: la longe qui frappait la roche, ce jour-là. Le bruit revient exactement, sans se déguiser.",
+        "talking": ""
+      },
+      {
+        "text": "Je… Je sais ce qui s'est passé. C'est moi qui ai mal. C'est de ma faute. Je n'aurais pas dû nous laisser grimper ce jour-là...",
+        "talking": "David"
+      },
+      {
+        "text": "Le vent baisse d'un cran. La montagne n'argumente plus, comme si Aurora était témoins. Elle garde ce qu'elle a pris et vous laisse redescendre sans presser le pas.",
+        "talking": ""
+      }
+    ],
+    "backgroundImage": "./backgrounds/end-6.png",
+    "music": "src/assets/audio/musics/loop-closed-light.mp3",
+    "choices": null,
+    "consequence": "La boucle s'arrête. Ce n'est pas la paix parfaite, mais c'est la fin de votre souffrance.",
+    "nextChapter": null
+  }
+}
