@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-// Importation des fonctions et magasins nécessaires
+// Importation des fonctions et magasins nécessaires!
 import { computed } from "vue";
 import { useRouter } from "vue-router";
 import { useStoryStore } from "@/stores/StoryStore";
