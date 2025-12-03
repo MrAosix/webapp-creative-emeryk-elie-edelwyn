@@ -57,7 +57,7 @@ const isConditionNotMet = computed(() => {
   return !playerStore.hasItem(props.choice.condition);
 });
 
-// Désactivation du bouton si la condition n'est pas remplie
+// Désactivation du bouton si la condition n'est pas remplie!
 const isDisabled = computed(() => {
   return isConditionNotMet.value;
 });
