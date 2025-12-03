@@ -6,7 +6,7 @@
       <h1>Inventaire</h1>
       <div class="inventory">
         <div class="item" v-for="item in filteredItems" :key="item">
-          <img :src="`/src/assets/images/items/${item}.png`" :alt="item" />
+          <img :src="`../items/${item}.png`" :alt="item" />
           <p>{{ item }}</p>
         </div>
         <p v-if="filteredItems.length === 0" class="empty-message">Aucun objet dans l'inventaire</p>

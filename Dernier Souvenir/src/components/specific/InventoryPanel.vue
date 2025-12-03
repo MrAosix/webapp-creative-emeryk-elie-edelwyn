@@ -4,7 +4,7 @@
     <!-- Affichage du panneau de l'inventaire -->
     <div class="inventory">
       <div class="item" v-for="item in filteredItems" :key="item.id">
-        <img :src="`/src/assets/images/items/${item}.png`" alt="" />
+        <img :src="`../items/${item}.png`" alt="" />
         <p>{{ item }}</p>
       </div>
     </div>

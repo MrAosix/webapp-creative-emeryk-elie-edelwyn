@@ -1,6 +1,10 @@
 <template>
-  <button @click="storyStore.makeChoice(choice)" :disabled="storyStore.isChoiceDisabled(choice.name)" :class="{ selected: storyStore.isChoiceSelected(choice.name) }">
-    <img :src="choice.buttonImage" :alt="'Image ' + choice.name" />
+  <button
+    @click="storyStore.makeChoice(choice)"
+    :disabled="storyStore.isChoiceDisabled(choice.name)"
+    :class="{ selected: storyStore.isChoiceSelected(choice.name) }"
+  >
+    <img :src="`.${choice.buttonImage}`" :alt="'Image ' + choice.name" />
   </button>
 </template>
 
