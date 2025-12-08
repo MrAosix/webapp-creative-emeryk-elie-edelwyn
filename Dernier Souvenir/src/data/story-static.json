@@ -791,7 +791,7 @@
       },
       {
         "text": "Chasser l'animal",
-        "condition": "Fusil de chasse",
+        "condition": "Fusil de Chasse",
         "consequence": "Le fusil est epaulé et une detonation sèche fend le couvert. L'animal s'eloigne d'un bond et s'efface entre les troncs. L'air demeure tendu, mais la voie est libre.",
         "nextChapter": "ch-5bc"
       }

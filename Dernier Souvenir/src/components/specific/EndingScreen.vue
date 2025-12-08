@@ -3,13 +3,13 @@
     <!-- Affichage du titre, de la conséquence et de l'image de fin -->
     <h1>{{ endingTitle }}</h1>
     <p>{{ endingConsequence }}</p>
-    <img :src="`.${endingImage}`" alt="ending" class="ending-image" />
+    <img :src="endingImage" alt="ending" class="ending-image" />
     <button @click="goToMainMenu">Retour au menu principal</button>
   </div>
 </template>
 
 <script setup>
-// Importation des fonctions et magasins nécessaires
+// Importation des fonctions et magasins nécessaires!
 import { computed } from "vue";
 import { useRouter } from "vue-router";
 import { useStoryStore } from "@/stores/StoryStore";

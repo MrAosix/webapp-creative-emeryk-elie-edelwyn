@@ -1,5 +1,5 @@
 // Importation des fonctions nécessaires depuis vue-router
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 
 // Importation des vues pour les différentes routes
 import HomeView from "@/views/HomeView.vue";
@@ -19,7 +19,7 @@ const routes = [
 
 // Création du routeur avec l'historique web
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(),
   routes,
 });
 
